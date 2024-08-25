@@ -421,7 +421,7 @@
                </noteGrp>
                <p/>
                <noteGrp type="mentions">
-                  <note type="mention">
+                  <note type="mentions">
                      <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
                      <p/>
                      <quote xml:lang="ara">Add quotation(s), if relevant</quote>
