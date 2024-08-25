@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- use this template in cases where the manuscript IS COMPOSED OF MULTIPLE CODICOLOGICAL UNITS. To avoid errors in the display of the record, be sure to delete elements that are not used. -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xml:id=""><!-- generate an xmlid in the form manuscript_12345 -->
+   <teiHeader>
+      <fileDesc>
+         
+         
+         <titleStmt>
+            <title>MIAS | </title>
+            <!-- *import and combine "Library" and "Library Code" fields from FM, e.g. Veliyuddin 1759 after the "MIAS |" which stays consistent -->
+            
+            <respStmt xml:id="AP">
+               <resp when="2024">Cataloguer</resp>
+               <resp when="2024">Markup and encoding</resp>
+               <persName>Ali Porteous</persName>
+            </respStmt>
+            
+            <!-- Subsequent respStmt is MIAS researchers' roles, and others who have contributed, imported from FM or elsewhere, e.g. scholars' comments or articles -->
+            
+            <respStmt xml:id=""><!-- Import "Inspected by" field from FM -->
+               <resp when=""> Cataloguer</resp><!-- Import only the year from "Inspec. Date" field in FM ignoring day and month, e.g. if it says 7/7/2003 or 27.11.2003, enter "2003". Cataloguer may be replaced with researcher for further details, e.g. from Claude Addas etc.-->
+               
+               <persName> </persName><!-- if "Inspected by" field from FM has "SH" insert "Stephen Hirtenstein", if "JEC" insert Jane Clark, if "JC" insert "Julian Cook", etc. -->
+            </respStmt>
+         </titleStmt>
+         
+         
+         <!-- <editionStmt> and <publicationStmt> remain static -->
+         <editionStmt>
+            <edition>TEI P5</edition>
+            <funder>
+               <orgName>
+                  <ref target="https://ibnarabisociety.org/">Muhyiddin Ibn Arabi Society (MIAS)</ref>
+               </orgName>
+            </funder>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <publisher>Muhyiddin Ibn Arabi Society</publisher>
+            <date calendar="#Gregorian">"2024-MM-DD"></date>
+            <address>
+               <orgName type="institution">Muhyiddin Ibn Arabi Society</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX2 7XL</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>mias.uk@ibnarabisociety.org</email>
+            </distributor>
+         </publicationStmt>
+         
+         
+         <sourceDesc>
+ 
+            <msDesc xml:lang="en" xml:id=""><!-- xmlid should be a normalized form of the shelfmark, combining "Library" and "Library Code" fields from FM with an underscore between any spaces, e.g. Evkaf_Muzesi_1933 -->
+               
+               <msIdentifier>
+                  <country> </country><!-- Enter at later date -->
+                  <settlement> </settlement><!-- Import "City" field from FM -->
+                  <institution> </institution><!-- Enter at later date. May overlap with Physical Library -->
+                  <repository> </repository><!-- Import "Physical Library" field from FM -->
+                  <collection> </collection><!-- Import "Library" field from FM. NB you can have mulriple collections, including @type such as "main". -->
+                  <idno type="shelfmark"><!-- insert --></idno>
+                  <altIdentifier type="">
+                     <idno> </idno><!-- Potential to insert alternative identifiers, e.g. if MS has moved library, or if it has been catalogued elsewhere. NB @type can be a custom value -->
+                  </altIdentifier>
+                  <msName> </msName><!-- Potential to insert alternative name if the manuscript is well-known by another name -->
+               </msIdentifier>
+               
+               <!-- the following elements should be used to record whatever features of the manuscript are COMMON TO ALL codicological units. This will typically include aspects of the physical description (e.g. extent, foliation, binding), aspects of history (notably provenance and acquisition), but possibly also some intellectual content (for example, if a table of contents for the whole volume was added by a later owner, or if the manuscript has replacement leaves). Conversely information relevant to each unit should be described in separate <msPart> elements. -->
+               
+               <!-- The following elements are, therefore, to be imported from Collections database  -->
+               
+               <head> </head> <!-- provide a a brief prose account of a manuscript's contents and significance if required; use the p element to divide if necessary; delete if not used. May be useful for brief description of MS as a whole, with <sumamry> element for more detailed discussion-->
+               
+               <msContents>
+                  <summary> </summary><!-- meant for only intellectual content of the ms as a whole, but could be placeholder for "Summary whole work" field in Collections FM database. -->
+                  <textLang mainLang="ar">Arabic</textLang> <!-- provide language information here if there is only one language in the manuscript - otherwise delete. See https://git.io/msdescdoc#textlanguage. Will need to change this for those later ms with Persian and Ottoman texts in them.  -->
+               </msContents>
+               
+               <physDesc>
+                  <p><!-- any introductory material may be inserted here, otherwise delete. May wish to move some material from <summary> at a later date --></p>
+                  
+                  <objectDesc form="codex">
+                     <supportDesc material=""><!-- use standard attribute values, e.g. perg, chart, mixed. We don't have much info on this; may wish to add at a later date. -->
+                        <support><!-- as above --></support>
+                        <extent><!--import "Page end" field from FM -->
+                           <dimensions unit="" type=""><!-- use standard attribute values, e.g. leaf, written https://git.io/msdescdoc#leafDimensions. We don't have much info on this; may wish to add at a later date. -->                          
+                           <height quantity=""><!-- insert --></height>
+                           <width quantity=""><!-- insert --></width>
+                        </dimensions> <!-- use additional dimensions elements if necessary, e.g. depth -->
+                        </extent>
+                        <foliation> <!-- used to provide information about the systems used to number the folios or pages in the manuscript. It should record where and in what medium the numbers are written, and when this was done, and the sequence of those numbers. May be useful in some cases --></foliation>
+                        <condition> <!-- could separate information from <summary> and include here at a later date, but perhaps unnecessary --></condition>
+                     </supportDesc>
+                     
+                     <layoutDesc>
+                        <layout columns="" writtenLines=""><!-- could add a later date, e.g. for number of lines --></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <handDesc hands=""> <!-- may wish to include number of hands (this does not include the hands for additions such as marginalia) -->
+                     <handNote scope="major/minor/sole" script="muhaqqaq/rayhani/naskh/maghribi/bihari/nasta_liq/thuluth/tawqi_/riqa_/ghubar/ta_liq/diwani/ruq_ah siyaqah/unknown"> Copied by <persName key="person_000" role="scr">Zayd b. ʿAmr </persName> <!-- insert further prose details if needed at a later date from <summary>, e.g. about use of colours, OR, importantly about scribe (nowhere more intuitive unfortunately)  --></handNote>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote type="diagram/rubrication/unspecified/etc"> <locus from="" to=""> </locus> <!-- insert details about diagrams etc. at later date if relevant --></decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p><!-- import Transcriptions of samāʾs etc., or place on individual msItem with <note> element --></p>
+                  </additions>
+               </physDesc>
+               
+               
+               <history>
+                  
+                  <origin>
+                     <p> </p>
+                     <origPlace evidence="internal/external">
+                        <country><!-- include later if desired, must include key --></country>,
+                        <region><!-- include later if desired, must include key --></region>,
+                        <settlement><!-- import Place Written (either from Collections or MS), and then add key at a later date --></settlement>,
+                     </origPlace>
+                     <origDate evidence="internal/external" calendar="#Hijri-qamari" when="YYYY-MM-DD"><!-- Import prose from Date written --> </origDate>
+                     <!-- OR if exact date is not known -->  
+                        <origDate calendar="#Hijri-qamari" notAfter="YYYY-MM-DD" notBefore="YYYY-MM-DD"><!-- Import prose from Date written --></origDate> <!-- use additional origPlace and origDate elements if necessary, including possibility of adding multiple options with different scholars responsible, e.g. by adding their name in brackets or using @resp attribute. NB @from and @to denote a known period of writing, presumed to be more or less continuous, beginning at one date and ending at another. @notBefore and @notAfter denote the terminus a quo and terminus ad quem within which the writing is believed to have occured. -->
+                  </origin>
+                  
+                  <provenance notBefore="" notAfter=""> <!-- insert, otherwise delete, see https://git.io/msdescdoc#provenance --></provenance>
+                  <!-- use additional provenance elements if necessary -->
+                  <acquisition><!-- insert --></acquisition> 
+               </history>
+               
+               
+               <additional>
+                  
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <!-- insert prose here; see https://git.io/msdescdoc#recordHist -->
+                           <bibl><!-- insert if necesary, otherwise delete --></bibl>
+                           <!-- links to digitized catalogues may also be provide here, e.g.: -->
+                           <!--<listBibl>
+                              <bibl type="SC" facs="aas0046.gif">Summary Catalogue, Vol. 3, p.  31</bibl>
+                           </listBibl>-->
+                        </source>
+                     </recordHist><availability status=""><p><!-- insert relevant information; see https://git.io/msdescdoc#availability --></p></availability> 
+                  </adminInfo>
+                  
+                  <surrogates>
+                  <!-- will need to be filled in if "Copy" field is Y --> 
+                     <bibl>
+                        <title type="digital">PDF/JPEG</title>
+                        <idno> </idno>
+                        <date> </date>
+                     </bibl>
+                     <bibl>
+                        <title type="gmd">microfilm/ b/w prints</title>
+                        <idno> </idno>
+                        <date> </date>
+                     </bibl>
+                  </surrogates>
+                  
+                  <listBibl>
+                     <!-- a number of listBibl elements can be nested inside an outer listBibl if required; perhaps best in msItem -->
+                     <head><!-- use to provide a heading if required, otherwise delete --></head>
+                     <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                     
+                  </listBibl>
+               </additional>
+               
+              
+           <!-- use one msPart element for each codicological unit; we may wish to adapt this for each item, given that our existing database is modelled in this way, esp for things like <additions> and <surrogates>; alternatively we could remodel our database to fit their schema -->
+               <msPart xml:id="">
+                  <msIdentifier>
+                     <altIdentifier>
+                        <idno><!-- insert --></idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <!-- add relevant elements for contents, physical description, history, as above -->
+                  <msContents>
+                     <!-- intellectual content of the ms as a whole . See https://git.io/msdescdoc#mscontents -->
+                     <summary><!--  --></summary>
+                     <textLang mainLang=""><!-- provide language information here if there is only one language in the manuscript - otherwise delete. See https://git.io/msdescdoc#textlanguage  --></textLang>
+                     
+                     <msItem xml:id="" n="">
+                        <!-- use as many of the following elements as are relevant, and delete those that are not used. See https://git.io/msdescdoc#msitem  -->
+                        <locus from="" to=""><!-- insert --></locus>
+                        <author key=""><!-- insert --></author>
+                        <title key=""><!-- insert --></title>
+                        <rubric><!-- insert --></rubric>
+                        <incipit><!-- insert --></incipit>
+                        <explicit><!-- insert --></explicit>
+                        <finalRubric><!-- insert --></finalRubric>
+                        <colophon><!-- insert --></colophon>
+                        <filiation><!-- insert --></filiation>
+                        <note><!-- insert --></note>
+                        <bibl><!-- insert --></bibl>
+                        <textLang mainLang="" otherLangs=""><!-- insert for each msItem if the manuscript contains multiple languages. See https://git.io/msdescdoc#textlanguage --></textLang>
+                     </msItem>
+                     <!-- insert further msItem elements as appropriate -->
+                  </msContents>
+                  <physDesc>
+                     <p><!-- any introductory material may be inserted here, otherwise delete. --></p>
+                     <p><secFol><!-- the secundo folio may be provided here, if used, otherwise delete. https://git.io/msdescdoc#secFol --></secFol></p>
+                     <objectDesc form=""><!-- use standard attribute values, e.g. codex, roll, sheet   https://git.io/msdescdoc#objectdescBook -->
+                        <supportDesc material=""><!-- use standard attribute values, e.g. perg, chart, mixed   https://git.io/msdescdoc#supportdesc -->
+                           <support><!-- insert prose details --></support>
+                           <extent><!--insert details, e.g 233 leaves (iv+229)
+                         https://git.io/msdescdoc#extent -->
+                              <dimensions unit="" type=""><!-- use standard attribute values, e.g. leaf, written  
+                        
+                        https://git.io/msdescdoc#leafDimensions
+                        -->                           <height quantity=""><!-- insert --></height>
+                                 <width quantity=""><!-- insert --></width>
+                              </dimensions>
+                              <!-- use additional dimensions elements if necessary -->
+                           </extent>
+                           <foliation> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#foliation --></foliation>
+                           <collation> <!-- insert if necessary, otherwise delete https://git.io/msdescdoc#collation --></collation>
+                           <condition> <!-- insert if necessary, otherwise delete  https://git.io/msdescdoc#condition --></condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="" writtenLines=""><!-- insert, otherwise delete --></layout>
+                           <!-- use additional layout elements if necessary 
+                        https://git.io/msdescdoc#layoutdesc-->
+                        </layoutDesc>
+                     </objectDesc>
+                     
+                     <handDesc hands="">
+                        <handNote><!-- insert, otherwise delete --></handNote>
+                        <!-- use additional handNote elements if necessary 
+                     https://git.io/msdescdoc#handdesc
+                     -->
+                     </handDesc>
+                     <musicNotation>
+                        <p><!-- insert if relevant, otherwise delete --></p>
+                        <!-- use additional p elements if necessary 
+                     https://git.io/msdescdoc#musicnotation
+                     -->
+                     </musicNotation>
+                     <decoDesc>
+                        <decoNote><!-- insert if relevant, otherwise delete --></decoNote>
+                        <!-- use additional decoNote elements if necessary 
+                     https://git.io/msdescdoc#decodesc
+                     -->
+                     </decoDesc>
+                     <additions>
+                        <p><!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#additions
+                     --></p>
+                     </additions>
+                     <bindingDesc>
+                        <binding notAfter="" notBefore="">
+                           <p> <!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#bindingdesc
+                        --></p>
+                           <decoNote><!-- insert relevant information, otherwise delete --></decoNote>
+                        </binding>
+                     </bindingDesc>
+                     <sealDesc>
+                        <seal> 
+                           <p><!-- insert relevant information, otherwise delete
+                        https://git.io/msdescdoc#seals --> </p>
+                        </seal>
+                     </sealDesc>
+                     <accMat>
+                        <!-- insert if relevant, otherwise delete 
+                     https://git.io/msdescdoc#additions
+                     -->
+                     </accMat>
+                  </physDesc>
+                  <history>
+                     <!-- see https://git.io/msdescdoc#history -->
+                     <origin>
+                        <!-- see https://git.io/msdescdoc#origin -->
+                        <origPlace>
+                           <country><!-- insert --></country>,
+                           <region><!-- insert --></region>,
+                           <settlement><!-- insert --></settlement>,
+                           <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate notAfter="" notBefore="" calendar="Gregorian"><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                     </origin>
+                     <provenance when="" OR notBefore="" notAfter=""><!-- insert relevant transcription or stamp with <persName>/<orgName> elements. potential also to include @type, e.g. riwaya.   --></provenance>
+                     <!-- use additional provenance elements if necessary -->
+                     <acquisition><!-- insert --></acquisition>
+                  </history>
+               </msPart>
+               <!-- add additional msPart elements as necessary -->
+              
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when=""><!-- insert relevant text, e.g. 'First online publication' --></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
