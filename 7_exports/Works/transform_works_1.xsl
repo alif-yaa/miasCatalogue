@@ -50,9 +50,9 @@
             <title xml:lang="ara-Latn-x-lc" type="uniform"><xsl:value-of select="normalize-space(fm:COL[4]/fm:DATA)"/></title>
             <title xml:lang="ara" type="uniform-ara"><xsl:value-of select="normalize-space(fm:COL[5]/fm:DATA)"/></title>
             <title xml:lang="ara-Latn-x-lc" type="abbreviated"><xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/></title>
-            <title xml:lang="ara-Latn-x-lc" type="full">Insert full title where relevant</title>
-            <title xml:lang="ara-Latn-x-lc" type="alternate">Insert Alternate Title(s)</title>
-            <title xml:lang="eng" type="translation">Insert translation of title where relevant</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"><xsl:value-of select="normalize-space(fm:COL[21]/fm:DATA)"/></title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
+            <title xml:lang="eng" type="translationEng"><xsl:value-of select="normalize-space(fm:COL[22]/fm:DATA)"/></title>
             
             
             <xsl:choose>
@@ -87,7 +87,19 @@
                 </xsl:when>
             </xsl:choose>
             
+            <xsl:choose>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'H')"> 
+                    <note type="authentification" subtype="H">Holograph</note>>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'A')"> 
+                    <note type="authentification" subtype="A">Autograph</note>>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'C')"> 
+                    <note type="authentification" subtype="C">Copy</note>>
+                </xsl:when>
+            </xsl:choose>    
             
+      
             <date type="fmEarliestMS" calendar="Hijri-qamari"><xsl:value-of select="normalize-space(fm:COL[19]/fm:DATA)"/></date>
             <date type="fmDate" calendar="Hijri-qamari"><xsl:value-of select="normalize-space(fm:COL[9]/fm:DATA)"/></date>
             <placeName type="fmPlace"><xsl:value-of select="normalize-space(fm:COL[11]/fm:DATA)"/></placeName>
