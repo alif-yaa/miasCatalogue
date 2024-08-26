@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="ikh_sir">
+            <idno type="RG">276</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">28</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</title>
+            <title xml:lang="ara" type="uniform-ara">إختصار السيرة النبوية المحمدية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">ikh_sir</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate">Ikhtißår al-siråh sayyidnå rasål Allåh</title>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">701</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh laqad jaʿat rusul rabbina bi-l-ḥaqq wa-l-ṣalāwāt ʿalā...</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Work ascribed to IA on the life and qualities of the Prophet, including the palm-tree miracle in Seville. The text has been analysed by Pablo Beneito (JMIAS 30, 2001).</note>
+               <note type="biblioComments">OY cites no surviving mss., but we have inspected an early mss. in Jerusalem (Khalidiyya 967, 701H, of which there is a microfilm copy in the Dār al-kutub, Cairo.) which carries a dedication to IA’s sons and his daughter Fāṭima. This makes it highly likely that it is an authentic work. The work is mentioned in both the lists which IA made of his own works, Fihris muʾallafāt al-shaykh al-akbar (RG142) and Ijāza li-l-malik al-Muẓaffar (RG 269) and internal evidence as presented by Pablo Beneito (see JMIAS 30, 2001) supports the verification. There is some confusion between this work and K. al-Shamāʾil al-nabī, for which OY lists three mss and assigned a separate RG number (669). But our research so far indicates that there is only one work with variant titles. We have therefore consolidated under RG 276 and categorised RG 669 as a duplicate.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="198">198</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="190">190</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

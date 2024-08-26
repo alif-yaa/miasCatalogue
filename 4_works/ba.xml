@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Bāʾ | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="ba">
+            <idno type="RG">71</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">6</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Bāʾ</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الباء</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">ba</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng">Book of the Ba</title>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="H">Holograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition">&gt;599H (date of vision in Bijaya), ca. 601-2H in Malatya or Damascus (holograph Yusuf Aga 4868)</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">saʾalanī man taʿizz ʿalayya masʾalatuhu wa-tanjah ladayya ṭilbatuhu… al-ḥamdu lillāh billāh fa-innahu athbata li-ʿaynī wa-abqā li-kawnī</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Treatise on the symbolism of the letter bāʾ, the first manifestation of being and the intermediary between the One and the many. Ibn ‘Arabi says in his preface that he wrote it at the request of one of his disciples, who had asked him to write a work on the Divine Realities, based on a spiritual address he had received regarding the bāʾ.</note>
+               <note type="biblioComments">A much copied work, verified by at least four historic mss. The best is the holograph Yusuf Aga 4868 (undated). The second is Veliyuddin 51, dated 762H, copied from an original in the hand of the author, possibly YA 4868? According to OY, the work was written in 602H in Jerusalem on the basis of a note on Veliyuddin 51, but our investigation shows that no place or date is given. (See Jane Clark and Denis McAuley Some Notes on the Manuscript Veliyyudin 51, JMIAS 40, 2006.)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="79">79</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

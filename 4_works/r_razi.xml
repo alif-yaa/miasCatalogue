@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R. al-Shaykh ilā al-imām al-Rāzī | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="r_razi">
+            <idno type="RG">612</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">62</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Shaykh ilā al-imām al-Rāzī</title>
+            <title xml:lang="ara" type="uniform-ara">رسالة الشيخ إلي الإمام الرازي</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">r_razi</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">690</date>
+            <date type="fmDate" calendar="Hijri-qamari">606H</date>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh wa-salām ʿalā ʿibādihi alladhīna aṣṭafā wa-ʿalā waliyyi fī Allāh taʿalā Fakhr al-Dīn al-Razī</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A letter written to IA’s philosopher contemporary, Fakhr al-Dīn al-Rāzī, calling him to return from the pursuit of intellectual knowledge to spiritual intuition.</note>
+               <note type="biblioComments">A much copied work, of which there are three early mss. though none are definitive. The best is probably Shehit Ali 1341 (c.725H, a good collection with several works taken from originals in the hand of IA). However, the note at the end of this work says “taken from an original” without specifying its nature, so it is not certain that it was in IA’s hand. The case for regarded this as a verified work rests on the internal evidence of the text. JC has identified other copies: Kastamonu 2183 fols 31a-31b (704H); Köprülü, Fazıl Ahmed Pş., ??, 87-92 s (739H?)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Tadbīrāt al-ilāhiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="tad_ilah">
+            <idno type="RG">716</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">67</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Tadbīrāt al-ilāhiyya</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب التدبيرات الإلهية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">tad_ilah</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">K. al-Tadbirat al-ilāhiya fī iṣlāḥ al-mamlaka al-insāniyya</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="H">Holograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
+            <date type="fmDate" calendar="Hijri-qamari">&gt;595H</date>
+            <placeName type="fmPlace">Mawrūr (Andalusia)</placeName>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī istakhraja al-insān min wujūd ʿilmihi</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">This is one of IA’s earliest works, written in four days during a visit to his friend al-Mawrūrī in the village of Moron in Andalusia. It was inspired by Sirr al-Asrār (The Secrets of Secrets) by pseudo-Aristotle concerning the nature of government, with IA adding a spiritual dimension to the discussion. In 21 chapters, it explains the correspondences between the external political hierarchy of princes and rulers, and the inner rulership of the spirit within the human being.</note>
+               <note type="biblioComments">A much copied work, verified by at least three historic mss. The best is probably Leiden Or 86, written possibly in 606H. Also Corum 756 (part 1) and Yusuf Ağa 4859 (part 2) from SQ’s library, which were originally the same document, undated. Yusuf Aga 4859 was stolen but a copy exists on digitised microfilm. Koprulu 713 seems to be a complete copy of this original dated 663H. OY also lists four commentaries, including one by al-Dāmūnī (d. 1199/1785).</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="34">34</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="33">33</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

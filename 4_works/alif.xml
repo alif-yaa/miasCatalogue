@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Alif wa-huwa kitāb al-aḥadiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="alif">
+            <idno type="RG">26</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">123</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Alif wa-huwa kitāb al-aḥadiyya</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الألف وهو كتاب الأحدية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">alif</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">K. al-Alif wa huwa kitāb al-aḥadiyya</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="A">Autograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
+            <date type="fmDate" calendar="Hijri-qamari">601</date>
+            <placeName type="fmPlace">Jerusalem</placeName>
+            <note type="fmComposition">‘I composed it in Jerusalem (Bayt al-Muqaddas) in an hour of the daytime.’” (Vel.51/19a)</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">aḥadiyya ḥamd al-wāhid fī al-waḥdāniyyatihi</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Treatise on the unity symbolically represented by the letter Alif. Alternative title is K. al-Aḥadiyya.</note>
+               <note type="biblioComments">Over 30 mss. are listed by OY, of which six can be considered to be historic. The best is Shehit Ali 2813, which was copied by Ayyūb b. Badr and read in front of IA in Damascus in 621H. According to OY, the work was written in 601H in Jerusalem on the basis of a note on Veliyuddin 51, but our investigation shows that no date is given. (See Jane Clark and Denis McAuley, Some Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp. 101-116.)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="79">79</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="74">74</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Dating: The title K. al-Alif wa huwa k. al-ahadiyya is written on 19a, and underneath there is a note, which we believe is in the same hand, that translates as: Composed by Muhyî al-dîn ibn al-‘Arabî, who said (may God have mercy on him) “I composed it in Jerusalem (bayt al-muqaddas) in an hour in the daytime.” On 26a, at the end, a further note repeats this information and adds that the original was in Ibn ‘Arabî’s handwriting. Osman Yahia again concludes, on the basis of this second note, that the text was written in Jerusalem in 601,[10] but we could not find a date. The year 601 would be a reasonable conjecture, however, given the other notes in the collection. Title: Can be seen as two alternate titles or one full title... Mentions: &lt;note type=“mention”&gt; &lt;ref target="#huruf"&gt;IA refers to Kitāb al-Ḥurūf, which may be different from Madkhal fī ʿilm al-ḥurūf in the final paragraph of Kitāb al-Alif&lt;/ref&gt; &lt;p/&gt; &lt;quote xml:lang="ara"&gt;وقد ذكرنا هذا كله في كتاب الحروف لنا مستوفى فلينطر هناك&lt;/quote&gt; &lt;/note&gt; &lt;note type=“mention”&gt; &lt;ref target="#jalala"&gt;Kitāb al-Jalāla, also mentioned in the final paragraph&lt;/ref&gt; &lt;p/&gt; &lt;quote xml:lang="ara"&gt;تم كتاب الأحدية وهو كتاب الألف ويتلوه إن شاء الله كتاب الجلالة&lt;/quote&gt; &lt;/note&gt; Could this be related to the Fihris’s alphanumerical sequence?</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

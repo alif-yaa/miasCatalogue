@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="kawk_dur">
+            <idno type="RG">347.1</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">543</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</title>
+            <title xml:lang="ara" type="uniform-ara">الكوكب الدري في مناقب ذي النون المصري</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">kawk_dur</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">712</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hayyama qulūb al-ʿārifīn fī awdiyat maḥabbatihi</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Stories of Dhū al-Nūn (d. 180/796), the famous early Egyptian Sufi master, recorded by IA from various companions. Written after the death of Yūnus b. Yaḥyā (d. 608H), who is referred to as no longer alive, and perhaps composed in Cairo where Dhū al-Nūn is buried.</note>
+               <note type="biblioComments">Not listed in OY, and only one ms. in the Topkapi library is extant. Its acceptance as a verified text by IA comes from the internal evidence of the people cited in the text (Stephen Hirtenstein). There are two printed Arabic editions; one by ʿAbd al-Fattāh in Rasāʾil (Vol 3) and one by Ibrahīm al-Kayyālī (Beirut 2005).</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

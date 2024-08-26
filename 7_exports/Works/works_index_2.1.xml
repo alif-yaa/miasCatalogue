@@ -1,0 +1,3158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Central Index of Works</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl xml:id="index_work_1">
+               <ref target="works_transformed_1.xml#work_1">Link to Work 1</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ajwiba al-lāʾiqa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأجوبة اللائقة</title>
+               <idno type="RG">10</idno>
+               <idno type="altId">ajw_laq</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">980</date>
+            </bibl>
+            <bibl xml:id="index_work_2">
+               <ref target="works_transformed_1.xml#work_2">Link to Work 2</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Awrād al-usbūʿ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأوراد الأسبوعية</title>
+               <idno type="RG">64</idno>
+               <idno type="altId">awr_usb</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">939</date>
+            </bibl>
+            <bibl xml:id="index_work_3">
+               <ref target="works_transformed_1.xml#work_3">Link to Work 3</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Azal</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأزل</title>
+               <idno type="RG">68</idno>
+               <idno type="altId">azal</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">615</date>
+            </bibl>
+            <bibl xml:id="index_work_4">
+               <ref target="works_transformed_1.xml#work_4">Link to Work 4</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿAẓama</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب العظمة</title>
+               <idno type="RG">70</idno>
+               <idno type="altId">azama</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617</date>
+            </bibl>
+            <bibl xml:id="index_work_5">
+               <ref target="works_transformed_1.xml#work_5">Link to Work 5</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Bāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الباء</title>
+               <idno type="RG">71</idno>
+               <idno type="altId">ba</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_6">
+               <ref target="works_transformed_1.xml#work_6">Link to Work 6</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Bulghat al-ghawwāṣ</title>
+               <title xml:lang="ara" type="uniform-ara">بلغة الغواص</title>
+               <idno type="RG">91</idno>
+               <idno type="altId">bul_ghaw</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_7">
+               <ref target="works_transformed_1.xml#work_7">Link to Work 7</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Daʿwat al-asmāʾ al-ḥusnā</title>
+               <title xml:lang="ara" type="uniform-ara">دعوة الأسماء الحسنى</title>
+               <idno type="RG">98</idno>
+               <idno type="altId">daw_asm_hus</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;1100</date>
+            </bibl>
+            <bibl xml:id="index_work_8">
+               <ref target="works_transformed_1.xml#work_8">Link to Work 8</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Dīwān ishrāq al-bahāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">ديوان إشراق البهاء</title>
+               <idno type="RG">103</idno>
+               <idno type="altId">diw_ishr_bah</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_9">
+               <ref target="works_transformed_1.xml#work_9">Link to Work 9</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Fanāʾ fī al-mushāhada</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الفناء في المشاهدة</title>
+               <idno type="RG">125</idno>
+               <idno type="altId">fan_mush</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;700</date>
+            </bibl>
+            <bibl xml:id="index_work_10">
+               <ref target="works_transformed_1.xml#work_10">Link to Work 10</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Futūḥāt al-Makkiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الفتوحات المكية</title>
+               <idno type="RG">135</idno>
+               <idno type="altId">fut_mak</idno>
+               <note type="classification">Extract</note>
+               <date type="earliestMS">636</date>
+            </bibl>
+            <bibl xml:id="index_work_11">
+               <ref target="works_transformed_1.xml#work_11">Link to Work 11</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fuṣūṣ al-ḥikam</title>
+               <title xml:lang="ara" type="uniform-ara">فصوص الحكم</title>
+               <idno type="RG">150</idno>
+               <idno type="altId">fus_hik</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">630</date>
+            </bibl>
+            <bibl xml:id="index_work_12">
+               <ref target="works_transformed_1.xml#work_12">Link to Work 12</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Hū</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الهو</title>
+               <idno type="RG">205</idno>
+               <idno type="altId">hu</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">761</date>
+            </bibl>
+            <bibl xml:id="index_work_13">
+               <ref target="works_transformed_1.xml#work_13">Link to Work 13</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ḥaqq</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الحق</title>
+               <idno type="RG">219</idno>
+               <idno type="altId">haqq</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_14">
+               <ref target="works_transformed_1.xml#work_14">Link to Work 14</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥilyat al-abdāl</title>
+               <title xml:lang="ara" type="uniform-ara">حلية الأبدال</title>
+               <idno type="RG">237</idno>
+               <idno type="altId">hil_abd</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">602</date>
+            </bibl>
+            <bibl xml:id="index_work_15">
+               <ref target="works_transformed_1.xml#work_15">Link to Work 15</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥizb al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">حزب الشيخ الأكبر</title>
+               <idno type="RG">242</idno>
+               <idno type="altId">hiz_shay_akb</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_16">
+               <ref target="works_transformed_1.xml#work_16">Link to Work 16</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥizb al-wiqāya</title>
+               <title xml:lang="ara" type="uniform-ara">حزب الوقاية</title>
+               <idno type="RG">244</idno>
+               <idno type="altId">hiz_wiq</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">994</date>
+            </bibl>
+            <bibl xml:id="index_work_17">
+               <ref target="works_transformed_1.xml#work_17">Link to Work 17</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Khalwa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الخلوة</title>
+               <idno type="RG">255</idno>
+               <idno type="altId">khalwa</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;668</date>
+            </bibl>
+            <bibl xml:id="index_work_18">
+               <ref target="works_transformed_1.xml#work_18">Link to Work 18</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ifāda li-man arāda al-istifāda</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإفادة لمن أراد الإستفادة</title>
+               <idno type="RG">266</idno>
+               <idno type="altId">ifad_arad_ist</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">664</date>
+            </bibl>
+            <bibl xml:id="index_work_19">
+               <ref target="works_transformed_1.xml#work_19">Link to Work 19</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ijāza li-l-malik al-Muẓaffar</title>
+               <title xml:lang="ara" type="uniform-ara">إجازة للملك المظفر</title>
+               <idno type="altId">ijaz_mal_muz</idno>
+               <idno type="RG">269</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">&lt;800</date>
+            </bibl>
+            <bibl xml:id="index_work_20">
+               <ref target="works_transformed_1.xml#work_20">Link to Work 20</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">إختصار السيرة النبوية المحمدية</title>
+               <idno type="RG">276</idno>
+               <idno type="altId">ikh_sir_nab</idno>
+               <note type="classification">Verified B</note>
+               <date type="earliestMS">701</date>
+            </bibl>
+            <bibl xml:id="index_work_21">
+               <ref target="works_transformed_1.xml#work_21">Link to Work 21</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Insān al-kullī</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإنسان الكلي</title>
+               <idno type="RG">293</idno>
+               <idno type="altId">ins_kul</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1057</date>
+            </bibl>
+            <bibl xml:id="index_work_22">
+               <ref target="works_transformed_1.xml#work_22">Link to Work 22</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ishārāt al-Qurʾān fī ʿālam al-insān</title>
+               <title xml:lang="ara" type="uniform-ara">إشارات القرآن في عالم الإنسان</title>
+               <idno type="RG">303</idno>
+               <idno type="altId">ish_qur</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">762</date>
+            </bibl>
+            <bibl xml:id="index_work_23">
+               <ref target="works_transformed_1.xml#work_23">Link to Work 23</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Ittiḥād al-kawnī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الإتحاد الكوني</title>
+               <idno type="RG">317</idno>
+               <idno type="altId">itt_kaw</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_24">
+               <ref target="works_transformed_1.xml#work_24">Link to Work 24</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿAbādilah</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب العبادله</title>
+               <idno type="RG">2</idno>
+               <idno type="altId">abadilah</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_25">
+               <ref target="works_transformed_1.xml#work_25">Link to Work 25</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Kalām ʿalā ḥurūf al-muʿjam wa-maʿānīhā</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الكلام علي حروف المعجم ومعانيها</title>
+               <idno type="RG">323</idno>
+               <idno type="altId">kal_hur_muj</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">789</date>
+            </bibl>
+            <bibl xml:id="index_work_26">
+               <ref target="works_transformed_1.xml#work_26">Link to Work 26</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Kashf al-maʿnā</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب كشف المعنى</title>
+               <idno type="RG">338</idno>
+               <idno type="altId">kash_man</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">783</date>
+            </bibl>
+            <bibl xml:id="index_work_27">
+               <ref target="works_transformed_1.xml#work_27">Link to Work 27</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Kashf al-rān ʿan wajh al-bayān</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب كشف الران عن وجه البيان</title>
+               <idno type="RG">339</idno>
+               <idno type="altId">kashf_ran</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_28">
+               <ref target="works_transformed_1.xml#work_28">Link to Work 28</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Kunh mā lā budda lil-murīd minhu</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب كنه ما لا بد للمريد منه</title>
+               <idno type="RG">352</idno>
+               <idno type="altId">kun_bud_mur</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">724</date>
+            </bibl>
+            <bibl xml:id="index_work_29">
+               <ref target="works_transformed_1.xml#work_29">Link to Work 29</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jawāb suʾāl Ibn Sawdakīn</title>
+               <title xml:lang="ara" type="uniform-ara">جواب سؤال ابن سودكين</title>
+               <idno type="RG">182</idno>
+               <idno type="altId">jaw_sual_saw</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_30">
+               <ref target="works_transformed_1.xml#work_30">Link to Work 30</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Maʿārij</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المعارج</title>
+               <idno type="RG">378</idno>
+               <idno type="altId">maarij</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_31">
+               <ref target="works_transformed_1.xml#work_31">Link to Work 31</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Majmūʿat al-awrād (Wird al-kibrīt al-aḥmar)</title>
+               <title xml:lang="ara" type="uniform-ara">مجموعة الأوراد (ورد الكبريت الأحمر)</title>
+               <idno type="RG">388.1</idno>
+               <idno type="altId">wir_kib_ahm</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_32">
+               <ref target="works_transformed_1.xml#work_32">Link to Work 32</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Maḥajja al-bayḍāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المحجة البيضاء</title>
+               <idno type="RG">392</idno>
+               <idno type="altId">mah_bay</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">600</date>
+            </bibl>
+            <bibl xml:id="index_work_33">
+               <ref target="works_transformed_1.xml#work_33">Link to Work 33</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Manzil al-manāzil</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب منزل المنازل</title>
+               <idno type="RG">412</idno>
+               <idno type="altId">man_man</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">618</date>
+            </bibl>
+            <bibl xml:id="index_work_34">
+               <ref target="works_transformed_1.xml#work_34">Link to Work 34</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Maqām al-qurba</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مقام القربة</title>
+               <idno type="RG">414</idno>
+               <idno type="altId">maq_qur</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617</date>
+            </bibl>
+            <bibl xml:id="index_work_35">
+               <ref target="works_transformed_1.xml#work_35">Link to Work 35</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Marātib al-taqwā</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مراتب التقوى</title>
+               <idno type="RG">421</idno>
+               <idno type="altId">mar_taq</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_36">
+               <ref target="works_transformed_1.xml#work_36">Link to Work 36</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Maʿrifat al-kanz al-ʿaẓīm</title>
+               <title xml:lang="ara" type="uniform-ara">معرفة الكنز العظيم</title>
+               <idno type="RG">426</idno>
+               <idno type="altId">mar_kan_azim</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_37">
+               <ref target="works_transformed_1.xml#work_37">Link to Work 37</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Mashāhid al-asrār al-qudsiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مشاهد الأسرار القدسية</title>
+               <idno type="RG">432</idno>
+               <idno type="altId">mash_asr_qud</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">651</date>
+            </bibl>
+            <bibl xml:id="index_work_38">
+               <ref target="works_transformed_1.xml#work_38">Link to Work 38</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mīm</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الميم</title>
+               <idno type="RG">462</idno>
+               <idno type="altId">mim</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617</date>
+            </bibl>
+            <bibl xml:id="index_work_39">
+               <ref target="works_transformed_1.xml#work_39">Link to Work 39</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mirʾāt al-ʿārifīn</title>
+               <title xml:lang="ara" type="uniform-ara">مرآة العارفين</title>
+               <idno type="RG">475</idno>
+               <idno type="altId">mir_arif</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_40">
+               <ref target="works_transformed_1.xml#work_40">Link to Work 40</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Muʿashsharāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المعشرات</title>
+               <idno type="RG">484</idno>
+               <idno type="altId">muashsharat</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">808</date>
+            </bibl>
+            <bibl xml:id="index_work_41">
+               <ref target="works_transformed_1.xml#work_41">Link to Work 41</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Muḍāda fī ʿilm al-ẓāhir wa-l-bāṭin</title>
+               <title xml:lang="ara" type="uniform-ara">المضادة في العلم الظاهر والباطن</title>
+               <idno type="RG">489</idno>
+               <idno type="altId">mud_zah_bat</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1117</date>
+            </bibl>
+            <bibl xml:id="index_work_42">
+               <ref target="works_transformed_1.xml#work_42">Link to Work 42</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Muḥāḍarat al-abrār</title>
+               <title xml:lang="ara" type="uniform-ara">محاضرة الأبرار</title>
+               <idno type="RG">493</idno>
+               <idno type="altId">muh_abr</idno>
+               <note type="classification">Verified B</note>
+               <date type="earliestMS">933</date>
+            </bibl>
+            <bibl xml:id="index_work_43">
+               <ref target="works_transformed_1.xml#work_43">Link to Work 43</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Muqniʿ fī īḍāḥ al-sahl al-mumtaniʿ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المقنع في إيضاح السهل الممتنع</title>
+               <idno type="RG">511</idno>
+               <idno type="altId">muq_idah_sah</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_44">
+               <ref target="works_transformed_1.xml#work_44">Link to Work 44</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Khirqa</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الخرقة</title>
+               <idno type="RG">530</idno>
+               <idno type="altId">khirqa</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">999</date>
+            </bibl>
+            <bibl xml:id="index_work_45">
+               <ref target="works_transformed_1.xml#work_45">Link to Work 45</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Naṣāʾiḥ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب النصائح</title>
+               <idno type="RG">532</idno>
+               <idno type="altId">nasaih</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">650</date>
+            </bibl>
+            <bibl xml:id="index_work_46">
+               <ref target="works_transformed_1.xml#work_46">Link to Work 46</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Nuqabāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب النقباء</title>
+               <idno type="RG">548</idno>
+               <idno type="altId">nuqaba</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">761</date>
+            </bibl>
+            <bibl xml:id="index_work_47">
+               <ref target="works_transformed_1.xml#work_47">Link to Work 47</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Shaykh ilā al-imām al-Rāzī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الشيخ إلي الإمام الرازي</title>
+               <idno type="RG">612</idno>
+               <idno type="altId">ris_shay_raz</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">690</date>
+            </bibl>
+            <bibl xml:id="index_work_48">
+               <ref target="works_transformed_1.xml#work_48">Link to Work 48</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Rūḥ al-quds fī munāṣaḥat al-nafs</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة روح القدس في مناصحة النفس</title>
+               <idno type="RG">639</idno>
+               <idno type="altId">ruh_qud</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">600</date>
+            </bibl>
+            <bibl xml:id="index_work_49">
+               <ref target="works_transformed_1.xml#work_49">Link to Work 49</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Shajara al-nuʿmāniyya</title>
+               <title xml:lang="ara" type="uniform-ara">الشجرة النعمانية</title>
+               <idno type="RG">665</idno>
+               <idno type="altId">shaj_num</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_50">
+               <ref target="works_transformed_1.xml#work_50">Link to Work 50</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Tadbīrāt al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب التدبيرات الإلهية</title>
+               <idno type="RG">716</idno>
+               <idno type="altId">tad_ilah</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_51">
+               <ref target="works_transformed_1.xml#work_51">Link to Work 51</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Tāj al-rasāʾil</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب تاج الرسائل</title>
+               <idno type="RG">736</idno>
+               <idno type="altId">taj_ras</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">600</date>
+            </bibl>
+            <bibl xml:id="index_work_52">
+               <ref target="works_transformed_1.xml#work_52">Link to Work 52</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Tāj al-tarājim</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب تاج التراجم</title>
+               <idno type="RG">737</idno>
+               <idno type="altId">taj_tar</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617</date>
+            </bibl>
+            <bibl xml:id="index_work_53">
+               <ref target="works_transformed_1.xml#work_53">Link to Work 53</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Tajalliyāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب التجليات</title>
+               <idno type="RG">738</idno>
+               <idno type="altId">tajalliyat</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">620</date>
+            </bibl>
+            <bibl xml:id="index_work_54">
+               <ref target="works_transformed_1.xml#work_54">Link to Work 54</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Takhmīs qaṣīdat Abī Madyan</title>
+               <title xml:lang="ara" type="uniform-ara">تخميس قصيدة أبي مدين</title>
+               <idno type="RG">748</idno>
+               <idno type="altId">takh_qas_mad</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">&gt;1000</date>
+            </bibl>
+            <bibl xml:id="index_work_55">
+               <ref target="works_transformed_1.xml#work_55">Link to Work 55</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Taḥrīr al-bayān</title>
+               <title xml:lang="ara" type="uniform-ara">تحرير البيان</title>
+               <idno type="RG">755</idno>
+               <idno type="altId">tah_bay</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_56">
+               <ref target="works_transformed_1.xml#work_56">Link to Work 56</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Talqīḥ al-adhhān wa-miftāḥ maʿrifat al-insān</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب تلقيح الأذهان ومفتاح معرفة الإنسان</title>
+               <idno type="RG">758</idno>
+               <idno type="altId">tak_adhh</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_57">
+               <ref target="works_transformed_1.xml#work_57">Link to Work 57</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Tanazzulāt al-Mawṣiliyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب التنزلات الموصلية</title>
+               <idno type="RG">762</idno>
+               <idno type="altId">tan_maw</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">620</date>
+            </bibl>
+            <bibl xml:id="index_work_58">
+               <ref target="works_transformed_1.xml#work_58">Link to Work 58</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tarjumān al-ashwāq</title>
+               <title xml:lang="ara" type="uniform-ara">ترجمان الأشواق</title>
+               <idno type="RG">767</idno>
+               <idno type="altId">tar_ashw</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;800</date>
+            </bibl>
+            <bibl xml:id="index_work_59">
+               <ref target="works_transformed_1.xml#work_59">Link to Work 59</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Yaqīn</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب اليقين</title>
+               <idno type="RG">834</idno>
+               <idno type="altId">yaqin</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">825</date>
+            </bibl>
+            <bibl xml:id="index_work_60">
+               <ref target="works_transformed_1.xml#work_60">Link to Work 60</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. ʿAnqāʾ mughrib</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب عنقاء مغرب</title>
+               <idno type="RG">30</idno>
+               <idno type="altId">anq_muugh</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">597</date>
+            </bibl>
+            <bibl xml:id="index_work_61">
+               <ref target="works_transformed_1.xml#work_61">Link to Work 61</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Isrā ilā al-maqām al-asrā</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإسرا إلي المقام الأسرى</title>
+               <idno type="RG">313</idno>
+               <idno type="altId">isr_maq_asr</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">633</date>
+            </bibl>
+            <bibl xml:id="index_work_62">
+               <ref target="works_transformed_1.xml#work_62">Link to Work 62</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tuḥfat al-safara ilā ḥaḍrat al-barara</title>
+               <title xml:lang="ara" type="uniform-ara">تحفة السفرة إلي حضرة البررة</title>
+               <idno type="RG">782</idno>
+               <idno type="altId">tuf_saf</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_63">
+               <ref target="works_transformed_1.xml#work_63">Link to Work 63</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf al-asrār wa hatk al-astār</title>
+               <title xml:lang="ara" type="uniform-ara">كشف الأسرار وهتك الأستار</title>
+               <idno type="RG">332</idno>
+               <idno type="altId">kash_asr_hatk</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_64">
+               <ref target="works_transformed_1.xml#work_64">Link to Work 64</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Kutub</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الكتب</title>
+               <idno type="RG">354</idno>
+               <idno type="altId">kutub</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">&lt;700</date>
+            </bibl>
+            <bibl xml:id="index_work_65">
+               <ref target="works_transformed_1.xml#work_65">Link to Work 65</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Tawajjuh al-atamm</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة التوجه الأتم</title>
+               <idno type="RG">772</idno>
+               <idno type="altId">taw_atam</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_66">
+               <ref target="works_transformed_1.xml#work_66">Link to Work 66</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Ṣalāt al-fayḍiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الصلاة الفيضية</title>
+               <idno type="RG">702</idno>
+               <idno type="altId">sal_fay</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1141</date>
+            </bibl>
+            <bibl xml:id="index_work_67">
+               <ref target="works_transformed_1.xml#work_67">Link to Work 67</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mawāqiʿ al-nujūm</title>
+               <title xml:lang="ara" type="uniform-ara">مواقع النجوم</title>
+               <idno type="RG">443</idno>
+               <idno type="altId">maw_nuj</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_68">
+               <ref target="works_transformed_1.xml#work_68">Link to Work 68</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Māhiyyat al-qalb (K. al-Ḥulal)</title>
+               <title xml:lang="ara" type="uniform-ara">ماهية القلب (كتاب الحلل)</title>
+               <idno type="RG">249</idno>
+               <idno type="altId">mah_qal</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">837</date>
+            </bibl>
+            <bibl xml:id="index_work_69">
+               <ref target="works_transformed_1.xml#work_69">Link to Work 69</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Anwār (K. Asrār al-khalwa)</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الأنوار (كتاب أسرار الخلوة)</title>
+               <idno type="RG">33</idno>
+               <idno type="altId">asr_khal</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">651</date>
+            </bibl>
+            <bibl xml:id="index_work_70">
+               <ref target="works_transformed_1.xml#work_70">Link to Work 70</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Ayyām al-shaʾn</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب أيام الشأن</title>
+               <idno type="RG">67</idno>
+               <idno type="altId">ayy_shan</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">603</date>
+            </bibl>
+            <bibl xml:id="index_work_71">
+               <ref target="works_transformed_1.xml#work_71">Link to Work 71</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fihris muʾallafāt al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">فهرس مؤلفات الشيخ الأكبر</title>
+               <idno type="RG">142</idno>
+               <idno type="altId">fih_mual</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_72">
+               <ref target="works_transformed_1.xml#work_72">Link to Work 72</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Iṣṭilāḥāt al-Ṣūfiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الإصطلاحات الصوفية</title>
+               <idno type="RG">315</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">637</date>
+            </bibl>
+            <bibl xml:id="index_work_73">
+               <ref target="works_transformed_1.xml#work_73">Link to Work 73</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tahdhīb al-akhlāq</title>
+               <title xml:lang="ara" type="uniform-ara">تهذيب الأخلاق</title>
+               <idno type="RG">745</idno>
+               <idno type="altId">tah_akhl</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_74">
+               <ref target="works_transformed_1.xml#work_74">Link to Work 74</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Aḥadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الأحدية</title>
+               <idno type="RG">13</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_75">
+               <ref target="works_transformed_1.xml#work_75">Link to Work 75</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ḥujub</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الحجب</title>
+               <idno type="RG">247</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">668</date>
+            </bibl>
+            <bibl xml:id="index_work_76">
+               <ref target="works_transformed_1.xml#work_76">Link to Work 76</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Qasam al-ilāhī bi al-ism al-rabbānī</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب القسم الإلهي بالإسم الرباني</title>
+               <idno type="RG">565</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">761</date>
+            </bibl>
+            <bibl xml:id="index_work_77">
+               <ref target="works_transformed_1.xml#work_77">Link to Work 77</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Isfār ʿan natāʾij al-asfār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإسفار عن نتائج الأسفار</title>
+               <idno type="RG">307</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_78">
+               <ref target="works_transformed_1.xml#work_78">Link to Work 78</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Alif wa-huwa kitāb al-aḥadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الألف وهو كتاب الأحدية</title>
+               <idno type="RG">26</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_79">
+               <ref target="works_transformed_1.xml#work_79">Link to Work 79</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Jalāl wa-l-jamāl</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الجلال والجمال</title>
+               <idno type="RG">168</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;615</date>
+            </bibl>
+            <bibl xml:id="index_work_80">
+               <ref target="works_transformed_1.xml#work_80">Link to Work 80</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Iʿlām bi-ishārāt ahl al-ilhām</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإعلام بإشارات أهل الإلهام</title>
+               <idno type="RG">281</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">782</date>
+            </bibl>
+            <bibl xml:id="index_work_81">
+               <ref target="works_transformed_1.xml#work_81">Link to Work 81</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Intiṣār</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الإنتصار</title>
+               <idno type="RG">294</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">703</date>
+            </bibl>
+            <bibl xml:id="index_work_82">
+               <ref target="works_transformed_1.xml#work_82">Link to Work 82</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Maʿrifa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المسائل</title>
+               <idno type="RG">433</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;658</date>
+            </bibl>
+            <bibl xml:id="index_work_83">
+               <ref target="works_transformed_1.xml#work_83">Link to Work 83</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Naqsh al-Fuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">نقش الفصوص</title>
+               <idno type="RG">528</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">650</date>
+            </bibl>
+            <bibl xml:id="index_work_84">
+               <ref target="works_transformed_1.xml#work_84">Link to Work 84</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Quṭb wa-l-imāmayn</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب القطب والإمامين</title>
+               <idno type="RG">585</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">825</date>
+            </bibl>
+            <bibl xml:id="index_work_85">
+               <ref target="works_transformed_1.xml#work_85">Link to Work 85</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Waṣāyā</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوصايا</title>
+               <idno type="RG">817</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS">1002</date>
+            </bibl>
+            <bibl xml:id="index_work_86">
+               <ref target="works_transformed_1.xml#work_86">Link to Work 86</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Waṣiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوصية</title>
+               <idno type="RG">820</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_87">
+               <ref target="works_transformed_1.xml#work_87">Link to Work 87</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Al-Bulgha fī al-ḥikma</title>
+               <title xml:lang="ara" type="uniform-ara">البلغة في الحكمة</title>
+               <idno type="RG">91.1*</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_88">
+               <ref target="works_transformed_1.xml#work_88">Link to Work 88</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">ʿUqlat al-mustawfiz</title>
+               <title xml:lang="ara" type="uniform-ara">عقلة المستوفز</title>
+               <idno type="RG">802</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;638</date>
+            </bibl>
+            <bibl xml:id="index_work_89">
+               <ref target="works_transformed_1.xml#work_89">Link to Work 89</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jawāb ʿan masʾalat al-durra al-bayḍāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">جواب عن مسألة الدرة البيضاء</title>
+               <idno type="RG">178</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_90">
+               <ref target="works_transformed_1.xml#work_90">Link to Work 90</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ghāyāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الغايات</title>
+               <idno type="RG">195</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1004</date>
+            </bibl>
+            <bibl xml:id="index_work_91">
+               <ref target="works_transformed_1.xml#work_91">Link to Work 91</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Amr al-muḥkam</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأمر المحكم</title>
+               <idno type="RG">28</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">724</date>
+            </bibl>
+            <bibl xml:id="index_work_92">
+               <ref target="works_transformed_1.xml#work_92">Link to Work 92</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الجواب المستقيم عما سأل عنه الترمذي الحكيم</title>
+               <idno type="RG">177</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617?</date>
+            </bibl>
+            <bibl xml:id="index_work_93">
+               <ref target="works_transformed_1.xml#work_93">Link to Work 93</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Ḥawd al-ḥayāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب حوض الحياة</title>
+               <idno type="RG">230</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_94">
+               <ref target="works_transformed_1.xml#work_94">Link to Work 94</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ḥikam</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الحكم</title>
+               <idno type="RG">233</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1030</date>
+            </bibl>
+            <bibl xml:id="index_work_95">
+               <ref target="works_transformed_1.xml#work_95">Link to Work 95</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Sāʿat al-khabar</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب ساعة الخبر</title>
+               <idno type="RG">642.2</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_96">
+               <ref target="works_transformed_1.xml#work_96">Link to Work 96</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Shajarat al-kawn</title>
+               <title xml:lang="ara" type="uniform-ara">شجرة الكون</title>
+               <idno type="RG">666</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_97">
+               <ref target="works_transformed_1.xml#work_97">Link to Work 97</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Al-Arbaʿūna ṣaḥīfa</title>
+               <title xml:lang="ara" type="uniform-ara">الأربعونة صحيفة</title>
+               <idno type="RG">39</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_98">
+               <ref target="works_transformed_1.xml#work_98">Link to Work 98</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Uṣūl al-fiqh</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في أصول الفقه</title>
+               <idno type="RG">806</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_99">
+               <ref target="works_transformed_1.xml#work_99">Link to Work 99</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Radd maʿāni al-āyāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب رد معاني الأيات</title>
+               <idno type="RG">588</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_100">
+               <ref target="works_transformed_1.xml#work_100">Link to Work 100</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mawlid al-Nabī</title>
+               <title xml:lang="ara" type="uniform-ara">مولد النبي</title>
+               <idno type="RG">451</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_101">
+               <ref target="works_transformed_1.xml#work_101">Link to Work 101</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Marātib ʿulūm al-wahb</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مراتب علوم الوهب</title>
+               <idno type="RG">423</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">823</date>
+            </bibl>
+            <bibl xml:id="index_work_102">
+               <ref target="works_transformed_1.xml#work_102">Link to Work 102</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Wasāʾil</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوسائل</title>
+               <idno type="RG">816</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_103">
+               <ref target="works_transformed_1.xml#work_103">Link to Work 103</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Faḍl shahādat al-tawḥīd</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب فضل شهادة التوحيد</title>
+               <idno type="RG">120</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_104">
+               <ref target="works_transformed_1.xml#work_104">Link to Work 104</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Dīwān al-kabīr</title>
+               <title xml:lang="ara" type="uniform-ara">الديوان الكبير</title>
+               <idno type="RG">102</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">634</date>
+            </bibl>
+            <bibl xml:id="index_work_105">
+               <ref target="works_transformed_1.xml#work_105">Link to Work 105</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Shaqq al-jayb</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب شق الجيب</title>
+               <idno type="RG">671</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_106">
+               <ref target="works_transformed_1.xml#work_106">Link to Work 106</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ijāzat al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">إجازة الشيخ الأكبر</title>
+               <idno type="RG">271</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">629</date>
+            </bibl>
+            <bibl xml:id="index_work_107">
+               <ref target="works_transformed_1.xml#work_107">Link to Work 107</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Dhakhāʾir wa-l-aʿlāq</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الذخائر والأعلاق</title>
+               <idno type="RG">116</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">640</date>
+            </bibl>
+            <bibl xml:id="index_work_108">
+               <ref target="works_transformed_1.xml#work_108">Link to Work 108</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Wujūd</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوجود</title>
+               <idno type="RG">833</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_109">
+               <ref target="works_transformed_1.xml#work_109">Link to Work 109</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Uṣūl al-ʿuqūl</title>
+               <title xml:lang="ara" type="uniform-ara">أصول العقول</title>
+               <idno type="RG">808</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_110">
+               <ref target="works_transformed_1.xml#work_110">Link to Work 110</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مشكاة الأنوار فيما روي عن الله</title>
+               <idno type="RG">480</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">678</date>
+            </bibl>
+            <bibl xml:id="index_work_111">
+               <ref target="works_transformed_1.xml#work_111">Link to Work 111</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ khuṭbat kitāb Mashāhid al-asrār</title>
+               <title xml:lang="ara" type="uniform-ara">شرح خطبة كتاب مشاهد الأسرار</title>
+               <idno type="RG">684</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_112">
+               <ref target="works_transformed_1.xml#work_112">Link to Work 112</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Qurāḍat al-ʿasjad fī maʿrifat al-ḥajar al-mufrad</title>
+               <title xml:lang="ara" type="uniform-ara">قراضة العسجد في معرفة الحجر المفرد</title>
+               <idno type="RG">582.1</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_113">
+               <ref target="works_transformed_1.xml#work_113">Link to Work 113</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">ʿAqīdat ahl al-Islām</title>
+               <title xml:lang="ara" type="uniform-ara">عقيدة أهل الإسلام</title>
+               <idno type="RG">34</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_114">
+               <ref target="works_transformed_1.xml#work_114">Link to Work 114</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Tadhkirat al-khawāṣṣ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب تذكرة الخواص</title>
+               <idno type="RG">718</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_115">
+               <ref target="works_transformed_1.xml#work_115">Link to Work 115</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Kamālāt al-ilāhiyya fi-l-ṣifāt al-Muḥammadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الكمالات الإلهية في الصفات المحمدية</title>
+               <idno type="RG">1001</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_116">
+               <ref target="works_transformed_1.xml#work_116">Link to Work 116</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Maʿrifat al-nafs wa-l-rūḥ</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في معرفة النفس والروح</title>
+               <idno type="RG">427</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_117">
+               <ref target="works_transformed_1.xml#work_117">Link to Work 117</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mūqiẓa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الموقظة</title>
+               <idno type="RG">510</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS">777</date>
+            </bibl>
+            <bibl xml:id="index_work_118">
+               <ref target="works_transformed_1.xml#work_118">Link to Work 118</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Miṣbāḥ al-iṣbāḥ</title>
+               <title xml:lang="ara" type="uniform-ara">مصباح الإصباح</title>
+               <idno type="RG">477.1</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_119">
+               <ref target="works_transformed_1.xml#work_119">Link to Work 119</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Lubb al-lubb</title>
+               <title xml:lang="ara" type="uniform-ara">لب اللب</title>
+               <idno type="RG">371.1</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_120">
+               <ref target="works_transformed_1.xml#work_120">Link to Work 120</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Risāla ilā aṣḥāb al-Shaykh al-Mahdawī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة إلي أصحاب الشيخ المهدوي</title>
+               <idno type="RG">626</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_121">
+               <ref target="works_transformed_1.xml#work_121">Link to Work 121</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Juzʾ yashtamilu ʿalā al-nawādir al-mulṭaqatah min lafẓ al-Shaykh</title>
+               <title xml:lang="ara" type="uniform-ara">جزئ يشتمل علي النوادر الملطقتة من لفظ الشيخ</title>
+               <idno type="RG">847</idno>
+               <note type="classification">Verified B. .</note>
+               <date type="earliestMS">672</date>
+            </bibl>
+            <bibl xml:id="index_work_122">
+               <ref target="works_transformed_1.xml#work_122">Link to Work 122</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Awjuh al-qalb</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في أوجه القلب</title>
+               <idno type="RG">62</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_123">
+               <ref target="works_transformed_1.xml#work_123">Link to Work 123</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Tāʾiyya</title>
+               <title xml:lang="ara" type="uniform-ara">التائية</title>
+               <idno type="RG">757</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">876</date>
+            </bibl>
+            <bibl xml:id="index_work_124">
+               <ref target="works_transformed_1.xml#work_124">Link to Work 124</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Tanazzulāt al-layliyya fī al-aḥkām al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">التنزلات الليلية في الأحكام الإلهية</title>
+               <idno type="RG">761</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_125">
+               <ref target="works_transformed_1.xml#work_125">Link to Work 125</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Asrār al-ḥaḍra al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في أسرار الحضرة الإلهية</title>
+               <idno type="RG">46</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_126">
+               <ref target="works_transformed_1.xml#work_126">Link to Work 126</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Qawl al-nafīs fī taflīs Iblīs</title>
+               <title xml:lang="ara" type="uniform-ara">القول النفيس في تفليس إبليس</title>
+               <idno type="RG">571</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_127">
+               <ref target="works_transformed_1.xml#work_127">Link to Work 127</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Tartīb al-taṣawwuf wa-aṭwārihi</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في ترتيب التصوف وأطواره</title>
+               <idno type="RG">769</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_128">
+               <ref target="works_transformed_1.xml#work_128">Link to Work 128</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Waṣāyā al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">وصايا الشيخ الأكبر</title>
+               <idno type="RG">818</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_129">
+               <ref target="works_transformed_1.xml#work_129">Link to Work 129</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tafsīr al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">تفسير القرآن</title>
+               <idno type="RG">732</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_130">
+               <ref target="works_transformed_1.xml#work_130">Link to Work 130</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-sifr al-sādis min Ṣaḥīḥ al-Bukhārī</title>
+               <title xml:lang="ara" type="uniform-ara">السفر السادس من صحيح البخاري</title>
+               <idno type="RG">274</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_131">
+               <ref target="works_transformed_1.xml#work_131">Link to Work 131</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī Maʿrifat laylat al-qadr</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في معرفة ليلة القدر</title>
+               <idno type="RG">428</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">673?</date>
+            </bibl>
+            <bibl xml:id="index_work_132">
+               <ref target="works_transformed_1.xml#work_132">Link to Work 132</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Munājāt al-Raḥmān bi-āyāt al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">مناجات الرحمان بآيات القرآن</title>
+               <idno type="RG">502</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_133">
+               <ref target="works_transformed_1.xml#work_133">Link to Work 133</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Ghawthiyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الغوثية</title>
+               <idno type="RG">194</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_134">
+               <ref target="works_transformed_1.xml#work_134">Link to Work 134</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥaqīqat al-ḥaqāʾiq</title>
+               <title xml:lang="ara" type="uniform-ara">حقيقة الحقائق</title>
+               <idno type="RG">217</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_135">
+               <ref target="works_transformed_1.xml#work_135">Link to Work 135</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Rijāl al-ghayb</title>
+               <title xml:lang="ara" type="uniform-ara">رجال الغيب</title>
+               <idno type="RG">602</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_136">
+               <ref target="works_transformed_1.xml#work_136">Link to Work 136</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Shāhid wa-l-mashāhid</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الشاهد والمشاهد</title>
+               <idno type="RG">668</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_137">
+               <ref target="works_transformed_1.xml#work_137">Link to Work 137</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Mawʿiẓa al-ḥasana</title>
+               <title xml:lang="ara" type="uniform-ara">الموعظة الحسنة</title>
+               <idno type="RG">448</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">962</date>
+            </bibl>
+            <bibl xml:id="index_work_138">
+               <ref target="works_transformed_1.xml#work_138">Link to Work 138</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Dīwān al-maʿārif al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">ديوان المعارف الإلهية</title>
+               <idno type="RG">101</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS">700?</date>
+            </bibl>
+            <bibl xml:id="index_work_139">
+               <ref target="works_transformed_1.xml#work_139">Link to Work 139</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Mubashshirāt</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة المبشرات</title>
+               <idno type="RG">485</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">&lt;673</date>
+            </bibl>
+            <bibl xml:id="index_work_140">
+               <ref target="works_transformed_1.xml#work_140">Link to Work 140</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Mafātiḥ al-ghuyūb</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مفاتح الغيوب</title>
+               <idno type="RG">386</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_141">
+               <ref target="works_transformed_1.xml#work_141">Link to Work 141</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Khalʿ al-naʿlayn fī al-uṣūl ilā ḥaḍrat al-jamʿayn</title>
+               <title xml:lang="ara" type="uniform-ara">خلع النعلين في الأصول الي حضرة الجمعين</title>
+               <idno type="RG">253.1</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_142">
+               <ref target="works_transformed_1.xml#work_142">Link to Work 142</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-faṣṣ al-Idrīsī by Ibn Sawdakīn</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الفص الإدريسي</title>
+               <idno type="RG">150.9002</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_143">
+               <ref target="works_transformed_1.xml#work_143">Link to Work 143</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mabādī wa-l-ghayāt (1)</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المبادئ والغيات</title>
+               <idno type="RG">380</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS">600</date>
+            </bibl>
+            <bibl xml:id="index_work_144">
+               <ref target="works_transformed_1.xml#work_144">Link to Work 144</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأجوبة العربية في شرح النصائح الوسفية</title>
+               <idno type="RG">9</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">&lt;700</date>
+            </bibl>
+            <bibl xml:id="index_work_145">
+               <ref target="works_transformed_1.xml#work_145">Link to Work 145</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Asrār al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">أسرار القرآن</title>
+               <idno type="RG">56</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_146">
+               <ref target="works_transformed_1.xml#work_146">Link to Work 146</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Baḥr al-shukr fī nahr al-fikr</title>
+               <title xml:lang="ara" type="uniform-ara">بحر الشكر في نهر الفكر</title>
+               <idno type="RG">77</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_147">
+               <ref target="works_transformed_1.xml#work_147">Link to Work 147</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥaḍrat al-ḥaḍarāt</title>
+               <title xml:lang="ara" type="uniform-ara">حضرة الحضرات</title>
+               <idno type="RG">209</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_148">
+               <ref target="works_transformed_1.xml#work_148">Link to Work 148</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Khātimat risālat al-radd ʿalā al-yahūd</title>
+               <title xml:lang="ara" type="uniform-ara">خاتمة رسالة الرد علي اليهود</title>
+               <idno type="RG">256</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_149">
+               <ref target="works_transformed_1.xml#work_149">Link to Work 149</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf sirr al-waʿd wa-bayān ʿalāmat al-wajd</title>
+               <title xml:lang="ara" type="uniform-ara">كشف سر الوعد وبيان علامة الوجد</title>
+               <idno type="RG">342</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_150">
+               <ref target="works_transformed_1.xml#work_150">Link to Work 150</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Majmaʿ khuṭab Ibn ʿArabī</title>
+               <title xml:lang="ara" type="uniform-ara">مجمع خطب ابن عربي</title>
+               <idno type="RG">387</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS">&lt;700</date>
+            </bibl>
+            <bibl xml:id="index_work_151">
+               <ref target="works_transformed_1.xml#work_151">Link to Work 151</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī maʿrifat al-asmāʾ al-ḥusnā</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في معرفة الأسماء الحسنى</title>
+               <idno type="RG">425</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_152">
+               <ref target="works_transformed_1.xml#work_152">Link to Work 152</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Miqdar fī nuzūl al-jabbār</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة المقدر في نزول الجبار</title>
+               <idno type="RG">472</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_153">
+               <ref target="works_transformed_1.xml#work_153">Link to Work 153</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nathīr al-bayāḍ fī rawḍat al-riyāḍ</title>
+               <title xml:lang="ara" type="uniform-ara">نثير البياض في روضة الرياض</title>
+               <idno type="RG">539</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_154">
+               <ref target="works_transformed_1.xml#work_154">Link to Work 154</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Naẓm al-futūḥ al-Makkī</title>
+               <title xml:lang="ara" type="uniform-ara">نظم الفتوح المكي</title>
+               <idno type="RG">542</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_155">
+               <ref target="works_transformed_1.xml#work_155">Link to Work 155</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nuskhat al-ḥaqq</title>
+               <title xml:lang="ara" type="uniform-ara">نسخة الحق</title>
+               <idno type="RG">551</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_156">
+               <ref target="works_transformed_1.xml#work_156">Link to Work 156</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Khalʿ al-naʿlayn</title>
+               <title xml:lang="ara" type="uniform-ara">شرح خلع النعلين</title>
+               <idno type="RG">681</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">640</date>
+            </bibl>
+            <bibl xml:id="index_work_157">
+               <ref target="works_transformed_1.xml#work_157">Link to Work 157</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Shawāhid al-ḥaqq fī al-qalb</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب شواهد الحق في القلب</title>
+               <idno type="RG">689</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">617</date>
+            </bibl>
+            <bibl xml:id="index_work_158">
+               <ref target="works_transformed_1.xml#work_158">Link to Work 158</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Jalāla</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الجلالة</title>
+               <idno type="RG">169</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">615</date>
+            </bibl>
+            <bibl xml:id="index_work_159">
+               <ref target="works_transformed_1.xml#work_159">Link to Work 159</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Inkhirāq al-junūd ilā al-julūd wa-inghilāq al-shuhūd ilā al-sujūd</title>
+               <title xml:lang="ara" type="uniform-ara">إنخراق الجنود إلي الجلود وإنفلاق الشجود إلي السجود</title>
+               <idno type="RG">288</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_160">
+               <ref target="works_transformed_1.xml#work_160">Link to Work 160</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Khurūj al-shukhūṣ min burūj al-khuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">خروج الشخوص من بروج الخصوص</title>
+               <idno type="RG">262</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_161">
+               <ref target="works_transformed_1.xml#work_161">Link to Work 161</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ādāb al-sulūk fī al-khalwa</title>
+               <title xml:lang="ara" type="uniform-ara">آداب السلوك في الخلوة</title>
+               <idno type="RG">5</idno>
+               <note type="classification">OY duplicate</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_162">
+               <ref target="works_transformed_1.xml#work_162">Link to Work 162</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Adhkār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأذكار</title>
+               <idno type="RG">6</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1011</date>
+            </bibl>
+            <bibl xml:id="index_work_163">
+               <ref target="works_transformed_1.xml#work_163">Link to Work 163</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">ʿAyn al-aʿyān</title>
+               <title xml:lang="ara" type="uniform-ara">عين الأعيان</title>
+               <idno type="RG">18</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_164">
+               <ref target="works_transformed_1.xml#work_164">Link to Work 164</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Ṣuḥuf al-nāmūsiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الصحف الناموسية</title>
+               <idno type="RG">710</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_165">
+               <ref target="works_transformed_1.xml#work_165">Link to Work 165</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿIqd al-manẓūm</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب العقد المنظوم</title>
+               <idno type="RG">297</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_166">
+               <ref target="works_transformed_1.xml#work_166">Link to Work 166</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fuṣūl min kitāb al-masāʾil</title>
+               <title xml:lang="ara" type="uniform-ara">فصول من كتاب المسائل</title>
+               <idno type="RG">149</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_167">
+               <ref target="works_transformed_1.xml#work_167">Link to Work 167</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Madkhal fī ʿilm al-ḥurūf</title>
+               <title xml:lang="ara" type="uniform-ara">مدخل في علم الحروف</title>
+               <idno type="RG">384</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">725</date>
+            </bibl>
+            <bibl xml:id="index_work_168">
+               <ref target="works_transformed_1.xml#work_168">Link to Work 168</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة المعلوم من عقائد علماء الرسوم</title>
+               <idno type="RG">402</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">762</date>
+            </bibl>
+            <bibl xml:id="index_work_169">
+               <ref target="works_transformed_1.xml#work_169">Link to Work 169</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Manzil al-ʿārif al-Jibrāʾīlī</title>
+               <title xml:lang="ara" type="uniform-ara">منزل العارف الجبرائلي</title>
+               <idno type="RG">411</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_170">
+               <ref target="works_transformed_1.xml#work_170">Link to Work 170</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Maqām al-maʿrifa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مقام المعرفة</title>
+               <idno type="RG">413</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_171">
+               <ref target="works_transformed_1.xml#work_171">Link to Work 171</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Min khuṭab al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">من خطب الشيخ الأكبر</title>
+               <idno type="RG">470</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">724</date>
+            </bibl>
+            <bibl xml:id="index_work_172">
+               <ref target="works_transformed_1.xml#work_172">Link to Work 172</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Al-Muwashshaḥāt al-ilāhiyya wa-l-azjāl</title>
+               <title xml:lang="ara" type="uniform-ara">الموشحات الإلهية والأزجال</title>
+               <idno type="RG">517</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">777</date>
+            </bibl>
+            <bibl xml:id="index_work_173">
+               <ref target="works_transformed_1.xml#work_173">Link to Work 173</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Risāla mutaʿalliqa bi-l-qalb</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة متعلقة بالقلب</title>
+               <idno type="RG">631</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS">791</date>
+            </bibl>
+            <bibl xml:id="index_work_174">
+               <ref target="works_transformed_1.xml#work_174">Link to Work 174</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fi al-Ṣalāt</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في الصلاة</title>
+               <idno type="RG">701</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_175">
+               <ref target="works_transformed_1.xml#work_175">Link to Work 175</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Thawāb qaḍāʿ ḥawāʾij al-ikhwān</title>
+               <title xml:lang="ara" type="uniform-ara">ثواب قضاء حوائج الإخوان</title>
+               <idno type="RG">786</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_176">
+               <ref target="works_transformed_1.xml#work_176">Link to Work 176</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿUrūsh</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب العروش</title>
+               <idno type="RG">803</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_177">
+               <ref target="works_transformed_1.xml#work_177">Link to Work 177</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Waṣiyya fī kayfiyyat ḥuṣūl al-maʿrifa al-quṣwā</title>
+               <title xml:lang="ara" type="uniform-ara">وصية في كيفية حصول المعرفة القصوى</title>
+               <idno type="RG">821</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">777</date>
+            </bibl>
+            <bibl xml:id="index_work_178">
+               <ref target="works_transformed_1.xml#work_178">Link to Work 178</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-Waʿẓ li-baʿḍ aḥbābihi</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في الوعظ لبعض أحبابه</title>
+               <idno type="RG">826</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">1005</date>
+            </bibl>
+            <bibl xml:id="index_work_179">
+               <ref target="works_transformed_1.xml#work_179">Link to Work 179</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Durra al-fākhira</title>
+               <title xml:lang="ara" type="uniform-ara">الدرة الفاخرة</title>
+               <idno type="RG">105</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS">715</date>
+            </bibl>
+            <bibl xml:id="index_work_180">
+               <ref target="works_transformed_1.xml#work_180">Link to Work 180</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Durra al-bāḍiʿa fī kashf ʿulūm al-jafr al-jāmiʿa</title>
+               <title xml:lang="ara" type="uniform-ara">الدرة الباضعة في كشف علوم الجفر الجامعة</title>
+               <idno type="RG">104.1</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_181">
+               <ref target="works_transformed_1.xml#work_181">Link to Work 181</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Maqṣid al-asmāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">مقصد الأسماء</title>
+               <idno type="RG">418</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">621</date>
+            </bibl>
+            <bibl xml:id="index_work_182">
+               <ref target="works_transformed_1.xml#work_182">Link to Work 182</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Risālat Ibn ʿArabī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة ابن عربي</title>
+               <idno type="RG">623</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">724</date>
+            </bibl>
+            <bibl xml:id="index_work_183">
+               <ref target="works_transformed_1.xml#work_183">Link to Work 183</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Arḍ al-ḥaqīqa</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة أرض الحقيقة</title>
+               <idno type="RG">40</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_184">
+               <ref target="works_transformed_1.xml#work_184">Link to Work 184</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kīmiyāʾ al-saʿāda li-ahl al-irāda</title>
+               <title xml:lang="ara" type="uniform-ara">كيمياء السعادة لأهل الإرادة</title>
+               <idno type="RG">349</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">953</date>
+            </bibl>
+            <bibl xml:id="index_work_185">
+               <ref target="works_transformed_1.xml#work_185">Link to Work 185</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥizb al-aḥadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">حزب الأحدية</title>
+               <idno type="RG">238</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">1010</date>
+            </bibl>
+            <bibl xml:id="index_work_186">
+               <ref target="works_transformed_1.xml#work_186">Link to Work 186</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tawajjuh waqt al-saḥar</title>
+               <title xml:lang="ara" type="uniform-ara">توجه وقت السهر</title>
+               <idno type="RG">773</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1164</date>
+            </bibl>
+            <bibl xml:id="index_work_187">
+               <ref target="works_transformed_1.xml#work_187">Link to Work 187</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ikhtiṣār al-Muḥallā</title>
+               <title xml:lang="ara" type="uniform-ara">إختصار المحلى</title>
+               <idno type="RG">275</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_188">
+               <ref target="works_transformed_1.xml#work_188">Link to Work 188</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Aḥādīth al-qudsiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأحاديث القدسية</title>
+               <idno type="RG">11</idno>
+               <note type="classification">OY duplicate</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_189">
+               <ref target="works_transformed_1.xml#work_189">Link to Work 189</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Aḥkām siniyy al-ʿālam</title>
+               <title xml:lang="ara" type="uniform-ara">أحكام سني العالم</title>
+               <idno type="RG">15</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_190">
+               <ref target="works_transformed_1.xml#work_190">Link to Work 190</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Aḥwāl al-anbiyāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">أحوال الأنبياء</title>
+               <idno type="RG">16</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_191">
+               <ref target="works_transformed_1.xml#work_191">Link to Work 191</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Aḥzab wa-awrād</title>
+               <title xml:lang="ara" type="uniform-ara">أحزاب وأوراد</title>
+               <idno type="RG">16.1</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_192">
+               <ref target="works_transformed_1.xml#work_192">Link to Work 192</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">ʿAyn al-ḥayāt</title>
+               <title xml:lang="ara" type="uniform-ara">عين الحياة</title>
+               <idno type="RG">19</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_193">
+               <ref target="works_transformed_1.xml#work_193">Link to Work 193</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Alf maqām</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب ألف مقام</title>
+               <idno type="RG">24</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_194">
+               <ref target="works_transformed_1.xml#work_194">Link to Work 194</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Alfiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الألفية</title>
+               <idno type="RG">25</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_195">
+               <ref target="works_transformed_1.xml#work_195">Link to Work 195</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Al-Anwār al-qudsiyya fī bayān qawāʿid al-Ṣufiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الأنوار القدسية في بيان قواعد الصوفية</title>
+               <idno type="RG">32</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_196">
+               <ref target="works_transformed_1.xml#work_196">Link to Work 196</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Aqṭāb</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأقطاب</title>
+               <idno type="RG">35</idno>
+               <note type="classification">Verified B</note>
+               <date type="earliestMS">&lt;638?</date>
+            </bibl>
+            <bibl xml:id="index_work_197">
+               <ref target="works_transformed_1.xml#work_197">Link to Work 197</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Arbaʿīn ḥadīthan</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأربعين حديثا</title>
+               <idno type="RG">38</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_198">
+               <ref target="works_transformed_1.xml#work_198">Link to Work 198</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-Arwāḥ</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في الأرواح</title>
+               <idno type="RG">41.1</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_199">
+               <ref target="works_transformed_1.xml#work_199">Link to Work 199</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Asmāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأسماء</title>
+               <idno type="RG">43</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_200">
+               <ref target="works_transformed_1.xml#work_200">Link to Work 200</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Asrār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الأسرار</title>
+               <idno type="RG">45</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_201">
+               <ref target="works_transformed_1.xml#work_201">Link to Work 201</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Asrār ḥurūf al-muʿjam</title>
+               <title xml:lang="ara" type="uniform-ara">أسرار الحروف</title>
+               <idno type="RG">47</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_202">
+               <ref target="works_transformed_1.xml#work_202">Link to Work 202</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Juzʾ al-Awwaliyyāt</title>
+               <title xml:lang="ara" type="uniform-ara">جزئ الأوليات</title>
+               <idno type="RG">66</idno>
+               <note type="classification"/>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_203">
+               <ref target="works_transformed_1.xml#work_203">Link to Work 203</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Bāb fī al-tawḥīd</title>
+               <title xml:lang="ara" type="uniform-ara">باب في التوحيد</title>
+               <idno type="RG">72</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_204">
+               <ref target="works_transformed_1.xml#work_204">Link to Work 204</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Baqiyyāt risālat al-radd ʿalā al-yahūd</title>
+               <title xml:lang="ara" type="uniform-ara">بقيات رسالات الرد علي اليهود</title>
+               <idno type="RG">80</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_205">
+               <ref target="works_transformed_1.xml#work_205">Link to Work 205</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-Barzakh</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في البرزخ</title>
+               <idno type="RG">81</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_206">
+               <ref target="works_transformed_1.xml#work_206">Link to Work 206</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Bughya fī ikhtiṣār al-Ḥilya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب البغية في إختصار الحلية</title>
+               <idno type="RG">90</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_207">
+               <ref target="works_transformed_1.xml#work_207">Link to Work 207</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Dhikr</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الذكر</title>
+               <idno type="RG">116.2</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_208">
+               <ref target="works_transformed_1.xml#work_208">Link to Work 208</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl fī bayān al-ashkāl al-sabʿa</title>
+               <title xml:lang="ara" type="uniform-ara">فصل في بيان الأشكال السبعة</title>
+               <idno type="RG">131</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_209">
+               <ref target="works_transformed_1.xml#work_209">Link to Work 209</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl min kalām al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">فصل من كلام الشيخ الأكبر</title>
+               <idno type="RG">131.1</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_210">
+               <ref target="works_transformed_1.xml#work_210">Link to Work 210</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</title>
+               <title xml:lang="ara" type="uniform-ara">فصل مفيد في تفسير فاتحة الكتاب</title>
+               <idno type="RG">132</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">630</date>
+            </bibl>
+            <bibl xml:id="index_work_211">
+               <ref target="works_transformed_1.xml#work_211">Link to Work 211</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Fuṣūl wa-l-fawāʾid</title>
+               <title xml:lang="ara" type="uniform-ara">الفصول والفوائد</title>
+               <idno type="RG">150.1</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_212">
+               <ref target="works_transformed_1.xml#work_212">Link to Work 212</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jadwal al-ḥaḍarāt al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">جدول الحضرات الإلهية</title>
+               <idno type="RG">156</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_213">
+               <ref target="works_transformed_1.xml#work_213">Link to Work 213</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Juzʾ al-awwal min tafsīr kalām Allāh taʿālā</title>
+               <title xml:lang="ara" type="uniform-ara">الجزء الأول من تفسير كلام الله تعالى</title>
+               <idno type="RG">188.1</idno>
+               <note type="classification">Probable IA.</note>
+               <date type="earliestMS">977</date>
+            </bibl>
+            <bibl xml:id="index_work_214">
+               <ref target="works_transformed_1.xml#work_214">Link to Work 214</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Asmāʾ al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الأسماء الإلهية</title>
+               <idno type="RG">43.1</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_215">
+               <ref target="works_transformed_1.xml#work_215">Link to Work 215</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Futūḥāt al-Madaniyya</title>
+               <title xml:lang="ara" type="uniform-ara">الفتوحات المدنية</title>
+               <idno type="RG">152</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">975</date>
+            </bibl>
+            <bibl xml:id="index_work_216">
+               <ref target="works_transformed_1.xml#work_216">Link to Work 216</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Maḥabba</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة المحبة</title>
+               <idno type="RG">390</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_217">
+               <ref target="works_transformed_1.xml#work_217">Link to Work 217</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Irshād al-ṭālibīn wa-tanbīh al-murīdīn</title>
+               <title xml:lang="ara" type="uniform-ara">إرشاد الطالبين وتنبيه المريدين</title>
+               <idno type="RG">302.1</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_218">
+               <ref target="works_transformed_1.xml#work_218">Link to Work 218</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tafsīr baʿḍ ayāt al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">تفسير بعض آيات القرآن</title>
+               <idno type="RG">730</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_219">
+               <ref target="works_transformed_1.xml#work_219">Link to Work 219</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Taqsīm al-nuʿūt al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">تقسيم النعوت الإلهية</title>
+               <idno type="RG">766</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">875</date>
+            </bibl>
+            <bibl xml:id="index_work_220">
+               <ref target="works_transformed_1.xml#work_220">Link to Work 220</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf al-kunūz by Sitt al-ʿAjam</title>
+               <title xml:lang="ara" type="uniform-ara">كشف الكنوز</title>
+               <idno type="RG">337</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_221">
+               <ref target="works_transformed_1.xml#work_221">Link to Work 221</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Natāʾij al-adhkār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب نتائج الأذكار</title>
+               <idno type="RG">536</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">667</date>
+            </bibl>
+            <bibl xml:id="index_work_222">
+               <ref target="works_transformed_1.xml#work_222">Link to Work 222</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ikhtiṣār al-Tirmidhī</title>
+               <title xml:lang="ara" type="uniform-ara">إختصار الترمذي</title>
+               <idno type="RG">277</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_223">
+               <ref target="works_transformed_1.xml#work_223">Link to Work 223</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Miṣbāh fī al-jamʿ bayna al-ṣiḥāḥ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المصباح في الجمع بين الصحاح</title>
+               <idno type="RG">478</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_224">
+               <ref target="works_transformed_1.xml#work_224">Link to Work 224</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-iḥtifāl fī mā kāna ʿalayhi rasūl Allāh min sanī al-aḥwal</title>
+               <title xml:lang="ara" type="uniform-ara">الإحتفال في ما كان عليه رسول الله من سني الأحوال</title>
+               <idno type="RG">273</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_225">
+               <ref target="works_transformed_1.xml#work_225">Link to Work 225</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Jadhwa al-muqtabasa wa-l-khaṭra al-mukhtalasa</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الجذوة المقتبسة والخطرة المختلسة</title>
+               <idno type="RG">158</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_226">
+               <ref target="works_transformed_1.xml#work_226">Link to Work 226</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Muthallathāt al-wārida fī al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المثلثات الوريدة في القرآن</title>
+               <idno type="RG">515</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_227">
+               <ref target="works_transformed_1.xml#work_227">Link to Work 227</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Miftaḥ al-saʿada fi maʿrifat al-madkhil ilā ṭarīq al-irāda</title>
+               <title xml:lang="ara" type="uniform-ara">مفتح السعدة في معرفة المدخل إلي طريق الإرادة</title>
+               <idno type="RG">460</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_228">
+               <ref target="works_transformed_1.xml#work_228">Link to Work 228</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Murāsalāt al-Shaykh ilā baʿḍ al-nās</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المراسلات الشيخ إلي بعض الناس</title>
+               <idno type="RG">511.1</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_229">
+               <ref target="works_transformed_1.xml#work_229">Link to Work 229</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-Maḥabba</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في المحبة</title>
+               <idno type="RG">391</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">705</date>
+            </bibl>
+            <bibl xml:id="index_work_230">
+               <ref target="works_transformed_1.xml#work_230">Link to Work 230</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Miftaḥ al-Fuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">مفتح الفصوص</title>
+               <idno type="RG">454</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_231">
+               <ref target="works_transformed_1.xml#work_231">Link to Work 231</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nuskhat al-akwān</title>
+               <title xml:lang="ara" type="uniform-ara">نسخة الأكوان</title>
+               <idno type="RG">550</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1004</date>
+            </bibl>
+            <bibl xml:id="index_work_232">
+               <ref target="works_transformed_1.xml#work_232">Link to Work 232</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Shaykh al-ʿArabī ilā Abī ʿAlī al-Ghazzāl</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الشيخ العربي إلي أبي علي الغزال</title>
+               <idno type="RG">611</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">667</date>
+            </bibl>
+            <bibl xml:id="index_work_233">
+               <ref target="works_transformed_1.xml#work_233">Link to Work 233</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ alfāẓ al-Ṣūfiyya</title>
+               <title xml:lang="ara" type="uniform-ara">شرح ألفاظ الصوفية</title>
+               <idno type="RG">677</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_234">
+               <ref target="works_transformed_1.xml#work_234">Link to Work 234</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Barq al-lāmiʿ al-mughrib by al-Saʿdī</title>
+               <title xml:lang="ara" type="uniform-ara">البرق اللامع المغرب</title>
+               <idno type="RG">30.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_235">
+               <ref target="works_transformed_1.xml#work_235">Link to Work 235</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Bayʿa al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">البيعة الإلهية</title>
+               <idno type="RG">78</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_236">
+               <ref target="works_transformed_1.xml#work_236">Link to Work 236</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Anfās al-wāridāt by al-Busnawī.</title>
+               <title xml:lang="ara" type="uniform-ara">أنفاس الواردات</title>
+               <idno type="RG">135.905</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_237">
+               <ref target="works_transformed_1.xml#work_237">Link to Work 237</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Ḥall al-maḥall al-muqfal by al-Busnawī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة حل المحل المقفل</title>
+               <idno type="RG">135.909</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_238">
+               <ref target="works_transformed_1.xml#work_238">Link to Work 238</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ mushkilāt al-Futūḥāt</title>
+               <title xml:lang="ara" type="uniform-ara">شرح مشكلات الفتوحات</title>
+               <idno type="RG">135.914</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_239">
+               <ref target="works_transformed_1.xml#work_239">Link to Work 239</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-aṭwār al-sabʿa</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في الأطوار السبعة</title>
+               <idno type="RG">135.915</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_240">
+               <ref target="works_transformed_1.xml#work_240">Link to Work 240</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by al-Tilimsānī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9004</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_241">
+               <ref target="works_transformed_1.xml#work_241">Link to Work 241</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by al-Jandī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9005</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_242">
+               <ref target="works_transformed_1.xml#work_242">Link to Work 242</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by Kāshānī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9009</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_243">
+               <ref target="works_transformed_1.xml#work_243">Link to Work 243</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by al-Wirādī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9011</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_244">
+               <ref target="works_transformed_1.xml#work_244">Link to Work 244</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by Dāʾūd al-Qayṣarī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9013</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_245">
+               <ref target="works_transformed_1.xml#work_245">Link to Work 245</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by al-Turka</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9021</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_246">
+               <ref target="works_transformed_1.xml#work_246">Link to Work 246</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tajalliyāt ʿarāʾis al-nuṣūṣ by al-Busnawī</title>
+               <title xml:lang="ara" type="uniform-ara">تجلية عرائس النصوص</title>
+               <idno type="RG">150.9044</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_247">
+               <ref target="works_transformed_1.xml#work_247">Link to Work 247</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jawāhir al-nuṣūṣ fī ḥall kalimāt al-fuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">جواهر النصوص في حل كلمات الفصوص</title>
+               <idno type="RG">150.9054</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_248">
+               <ref target="works_transformed_1.xml#work_248">Link to Work 248</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-Fuṣūṣ by Jāmī</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الفصوص</title>
+               <idno type="RG">150.9024</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_249">
+               <ref target="works_transformed_1.xml#work_249">Link to Work 249</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥall al-rumūz wa-mafātiḥ al-kunūz</title>
+               <title xml:lang="ara" type="uniform-ara">حل الرموز ومفاتح الكنوز</title>
+               <idno type="RG">214</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_250">
+               <ref target="works_transformed_1.xml#work_250">Link to Work 250</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥarf al-miʿrāj</title>
+               <title xml:lang="ara" type="uniform-ara">حرف المعراج</title>
+               <idno type="RG">226</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_251">
+               <ref target="works_transformed_1.xml#work_251">Link to Work 251</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ijāz al-bayān fī tarjama ʿan al-Qurʾān</title>
+               <title xml:lang="ara" type="uniform-ara">إجاز البيان في ترجمة عن القرآن</title>
+               <idno type="RG">268</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">622</date>
+            </bibl>
+            <bibl xml:id="index_work_252">
+               <ref target="works_transformed_1.xml#work_252">Link to Work 252</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Iʿlām fī mā buniya ʿalayhi al-Islām</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإعلام في ما بني عليه الإسلام</title>
+               <idno type="RG">282</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1004</date>
+            </bibl>
+            <bibl xml:id="index_work_253">
+               <ref target="works_transformed_1.xml#work_253">Link to Work 253</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Inbāh ʿalā ṭarīq Allāh</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الإنباه علي طريق الله</title>
+               <idno type="RG">287</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS">715</date>
+            </bibl>
+            <bibl xml:id="index_work_254">
+               <ref target="works_transformed_1.xml#work_254">Link to Work 254</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Najāh min ḥujub al-ishtibāh</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب النجاة من حجب الإشتباه</title>
+               <idno type="RG">313.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_255">
+               <ref target="works_transformed_1.xml#work_255">Link to Work 255</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Waʿẓ bi-l-aḥādīth al-nabawiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوعظ بالأحاديث النبوية</title>
+               <idno type="RG">825</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS">1152</date>
+            </bibl>
+            <bibl xml:id="index_work_256">
+               <ref target="works_transformed_1.xml#work_256">Link to Work 256</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. li-l-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة للشيخ الإكبر</title>
+               <idno type="RG">628</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1000?</date>
+            </bibl>
+            <bibl xml:id="index_work_257">
+               <ref target="works_transformed_1.xml#work_257">Link to Work 257</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-Jaljalūtiyya</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الجلجلوتية</title>
+               <idno type="RG">676</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_258">
+               <ref target="works_transformed_1.xml#work_258">Link to Work 258</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Ibn ʿArabī</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة ابن عربي</title>
+               <idno type="RG">622</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;950</date>
+            </bibl>
+            <bibl xml:id="index_work_259">
+               <ref target="works_transformed_1.xml#work_259">Link to Work 259</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-Iṣṭilāḥāt al-Ṣūfiyya</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الإصطلاحات الصوفية</title>
+               <idno type="RG">315.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_260">
+               <ref target="works_transformed_1.xml#work_260">Link to Work 260</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Zād al-muqillīn wa-sirāj al-ẓāliyyīn</title>
+               <title xml:lang="ara" type="uniform-ara">زاد المقلين وسراج الظاليين</title>
+               <idno type="RG">835</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_261">
+               <ref target="works_transformed_1.xml#work_261">Link to Work 261</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Wasāʾil al-sāʿil by Ibn Sawdakīn</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب وسائل السائل</title>
+               <idno type="RG">436</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_262">
+               <ref target="works_transformed_1.xml#work_262">Link to Work 262</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf al-sitr li-ahl al-sirr</title>
+               <title xml:lang="ara" type="uniform-ara">كشف الستر لأهل السر</title>
+               <idno type="RG">340</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_263">
+               <ref target="works_transformed_1.xml#work_263">Link to Work 263</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mishkāt al-maʿqūl</title>
+               <title xml:lang="ara" type="uniform-ara">مشكاة المعقول</title>
+               <idno type="RG">481</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1098</date>
+            </bibl>
+            <bibl xml:id="index_work_264">
+               <ref target="works_transformed_1.xml#work_264">Link to Work 264</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Tawḥīd</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة التوحيد</title>
+               <idno type="RG">775</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_265">
+               <ref target="works_transformed_1.xml#work_265">Link to Work 265</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-nuʿūt al-ilāhiyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في النعوت الإلهية</title>
+               <idno type="RG">553</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_266">
+               <ref target="works_transformed_1.xml#work_266">Link to Work 266</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Manqubat mawlid al-Nabī</title>
+               <title xml:lang="ara" type="uniform-ara">منقبة مولد النبي</title>
+               <idno type="RG">410</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1100</date>
+            </bibl>
+            <bibl xml:id="index_work_267">
+               <ref target="works_transformed_1.xml#work_267">Link to Work 267</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl fī bayān aqsām maʿānī al-asmāʾ al-ḥusnā</title>
+               <title xml:lang="ara" type="uniform-ara">فصل في بيان أقسام معاني الأسماء الحسنى</title>
+               <idno type="RG">87</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">881</date>
+            </bibl>
+            <bibl xml:id="index_work_268">
+               <ref target="works_transformed_1.xml#work_268">Link to Work 268</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Safīr al-ilhām</title>
+               <title xml:lang="ara" type="uniform-ara">سفير الإلهم</title>
+               <idno type="RG">644</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1099</date>
+            </bibl>
+            <bibl xml:id="index_work_269">
+               <ref target="works_transformed_1.xml#work_269">Link to Work 269</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Manāhij al-irtiqāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مناهج الإرتقاء</title>
+               <idno type="RG">405</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_270">
+               <ref target="works_transformed_1.xml#work_270">Link to Work 270</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Astār wa-l-kibrīt al-aḥmar</title>
+               <title xml:lang="ara" type="uniform-ara">الأستار والكبريت الأحمر</title>
+               <idno type="RG">59</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_271">
+               <ref target="works_transformed_1.xml#work_271">Link to Work 271</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Marātib al-wujūd</title>
+               <title xml:lang="ara" type="uniform-ara">مراتب الوجود</title>
+               <idno type="RG">422</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_272">
+               <ref target="works_transformed_1.xml#work_272">Link to Work 272</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Shujūn al-masjūn wa-futūn al-maftūn</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب شجون المسجون وفتون المفتون</title>
+               <idno type="RG">692</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">959</date>
+            </bibl>
+            <bibl xml:id="index_work_273">
+               <ref target="works_transformed_1.xml#work_273">Link to Work 273</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-asmāʾ al-ḥusnā wa-taḥqīqātihā bi-l-basmala al-sharīfa wa-l-fātiḥa li-l-Shaykh al-Akbar</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الاسماء الحسنى وتحقيقاتها بالبسملة الشريفة والفاتحة للشيخ الإكبر</title>
+               <idno type="RG">675</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;950</date>
+            </bibl>
+            <bibl xml:id="index_work_274">
+               <ref target="works_transformed_1.xml#work_274">Link to Work 274</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Asrār al-thalātha</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب أسرار الثلاثة</title>
+               <idno type="RG">51</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1004</date>
+            </bibl>
+            <bibl xml:id="index_work_275">
+               <ref target="works_transformed_1.xml#work_275">Link to Work 275</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ḥaqq al-waqt</title>
+               <title xml:lang="ara" type="uniform-ara">حق الوقت</title>
+               <idno type="RG">221</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_276">
+               <ref target="works_transformed_1.xml#work_276">Link to Work 276</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Lawāmiʿ al-anwār</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة لوامع الأنوار</title>
+               <idno type="RG">366</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_277">
+               <ref target="works_transformed_1.xml#work_277">Link to Work 277</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Dawḥa al-rabbāniyya al-qudsiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الدوحة الربانية القدسية</title>
+               <idno type="RG">99</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_278">
+               <ref target="works_transformed_1.xml#work_278">Link to Work 278</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mawʿiẓat al-albāb</title>
+               <title xml:lang="ara" type="uniform-ara">موعظة الألباب</title>
+               <idno type="RG">447</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">977</date>
+            </bibl>
+            <bibl xml:id="index_work_279">
+               <ref target="works_transformed_1.xml#work_279">Link to Work 279</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</title>
+               <title xml:lang="ara" type="uniform-ara">الكوكب الدري في مناقب ذي النون المصري</title>
+               <idno type="RG">347.1</idno>
+               <note type="classification">Verified B.</note>
+               <date type="earliestMS">712</date>
+            </bibl>
+            <bibl xml:id="index_work_280">
+               <ref target="works_transformed_1.xml#work_280">Link to Work 280</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī ayy al-dhikr afḍal</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في أي الذكر أفضل</title>
+               <idno type="RG">615</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_281">
+               <ref target="works_transformed_1.xml#work_281">Link to Work 281</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tamhīd al-tawḥīd</title>
+               <title xml:lang="ara" type="uniform-ara">تمهيد التوحيد</title>
+               <idno type="RG">760</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_282">
+               <ref target="works_transformed_1.xml#work_282">Link to Work 282</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Zahr al-fāʾiḥ fī sitr al-ʿuyūb wa-l-qabāʾiḥ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الزهر الفائح في ستر العيوب والقبائح</title>
+               <idno type="RG">836</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_283">
+               <ref target="works_transformed_1.xml#work_283">Link to Work 283</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Falak wa-l-samāʿ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الفلك والسماء</title>
+               <idno type="RG">123</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS">&gt;700</date>
+            </bibl>
+            <bibl xml:id="index_work_284">
+               <ref target="works_transformed_1.xml#work_284">Link to Work 284</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Ishārāt ilā sharḥ al-asmāʾ wa-l-ṣifāt</title>
+               <title xml:lang="ara" type="uniform-ara">الإشارات إلي شرح الأسماء والصفات</title>
+               <idno type="RG">305</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_285">
+               <ref target="works_transformed_1.xml#work_285">Link to Work 285</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ ḥizb al-wiqāya</title>
+               <title xml:lang="ara" type="uniform-ara">شرح حزب الوقاية</title>
+               <idno type="RG">244.9</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_286">
+               <ref target="works_transformed_1.xml#work_286">Link to Work 286</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Commentary upon Naqsh al-Fuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">شرح نقش الفصوص</title>
+               <idno type="RG">528.9</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_287">
+               <ref target="works_transformed_1.xml#work_287">Link to Work 287</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Sulūk fī ṭarīq al-qawm</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب السلوك في طريق القوم</title>
+               <idno type="RG">661</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_288">
+               <ref target="works_transformed_1.xml#work_288">Link to Work 288</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Taḥdhīr dhawī al-taskhīr</title>
+               <title xml:lang="ara" type="uniform-ara">تحذير ذوي التسخير</title>
+               <idno type="RG">746</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">nd</date>
+            </bibl>
+            <bibl xml:id="index_work_289">
+               <ref target="works_transformed_1.xml#work_289">Link to Work 289</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Tanbīhāt</title>
+               <title xml:lang="ara" type="uniform-ara">التنبيهات</title>
+               <idno type="RG">763</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">826</date>
+            </bibl>
+            <bibl xml:id="index_work_290">
+               <ref target="works_transformed_1.xml#work_290">Link to Work 290</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿālam</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب العالم</title>
+               <idno type="RG">23</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_291">
+               <ref target="works_transformed_1.xml#work_291">Link to Work 291</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fī maʿrifa asrār takbīrāt al-ṣalāt</title>
+               <title xml:lang="ara" type="uniform-ara">في معرفة أسرار تكبيرات الصلاة</title>
+               <idno type="RG">58</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_292">
+               <ref target="works_transformed_1.xml#work_292">Link to Work 292</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Hayākil al-anwār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب هياكل الأنوار</title>
+               <idno type="RG">204</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS">nd</date>
+            </bibl>
+            <bibl xml:id="index_work_293">
+               <ref target="works_transformed_1.xml#work_293">Link to Work 293</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Lawāqiḥ al-asrār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب لواقح الأسرار</title>
+               <idno type="RG">368.1</idno>
+               <note type="classification">Verified B</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_294">
+               <ref target="works_transformed_1.xml#work_294">Link to Work 294</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī maʿrifat Allāh</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في معرفة الله</title>
+               <idno type="RG">424</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_295">
+               <ref target="works_transformed_1.xml#work_295">Link to Work 295</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nafāʾis al-ʿirfān</title>
+               <title xml:lang="ara" type="uniform-ara">نفائس العرفان</title>
+               <idno type="RG">519</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_296">
+               <ref target="works_transformed_1.xml#work_296">Link to Work 296</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Uns al-munqaṭʿīn</title>
+               <title xml:lang="ara" type="uniform-ara">أنس المنقطعين</title>
+               <idno type="RG">801</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_297">
+               <ref target="works_transformed_1.xml#work_297">Link to Work 297</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Zaynabiyyāt</title>
+               <title xml:lang="ara" type="uniform-ara">زينبيات</title>
+               <idno type="RG">837</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_298">
+               <ref target="works_transformed_1.xml#work_298">Link to Work 298</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Fatq wa-l-ratq</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الفتق والرتق</title>
+               <idno type="RG">815</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_299">
+               <ref target="works_transformed_1.xml#work_299">Link to Work 299</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Lumʿa al-mawsūma bi-kashf al-ghiṭāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">اللمعة الموسومة بكشف الغطاء</title>
+               <idno type="RG">372</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_300">
+               <ref target="works_transformed_1.xml#work_300">Link to Work 300</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Shaʿāʾir</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الشعائر</title>
+               <idno type="RG">663</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_301">
+               <ref target="works_transformed_1.xml#work_301">Link to Work 301</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Jamʿ wa-l-tafṣīl fī asrār maʿānī al-ṭanzīl</title>
+               <title xml:lang="ara" type="uniform-ara">الجمع والتفصيل في أسرار معاني التنزيل</title>
+               <idno type="RG">172</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_302">
+               <ref target="works_transformed_1.xml#work_302">Link to Work 302</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ikhtiṣār Muslim</title>
+               <title xml:lang="ara" type="uniform-ara">إختصار مسلم</title>
+               <idno type="RG">278</idno>
+               <note type="classification">No mss.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_303">
+               <ref target="works_transformed_1.xml#work_303">Link to Work 303</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Sharḥ tajalliyāt al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة شرح تجليات الشيخ الأكبر</title>
+               <idno type="RG">738.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_304">
+               <ref target="works_transformed_1.xml#work_304">Link to Work 304</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Shamāʾil al-Nabī</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الشمائل النبي</title>
+               <idno type="RG">669</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_305">
+               <ref target="works_transformed_1.xml#work_305">Link to Work 305</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Ṣalāt ʿalā al-Nabī</title>
+               <title xml:lang="ara" type="uniform-ara">الصلات علي النبي</title>
+               <idno type="RG">704</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;1100</date>
+            </bibl>
+            <bibl xml:id="index_work_306">
+               <ref target="works_transformed_1.xml#work_306">Link to Work 306</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Muwāzanāt</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الموازنات</title>
+               <idno type="RG">518</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1043</date>
+            </bibl>
+            <bibl xml:id="index_work_307">
+               <ref target="works_transformed_1.xml#work_307">Link to Work 307</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jawāb ʿan masʾalat al-sabḥa al-sawdāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">جواب عن مسألة السبحة السوداء</title>
+               <idno type="RG">179</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;950</date>
+            </bibl>
+            <bibl xml:id="index_work_308">
+               <ref target="works_transformed_1.xml#work_308">Link to Work 308</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Nashʾatayn</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة النشأتين</title>
+               <idno type="RG">533</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS">896</date>
+            </bibl>
+            <bibl xml:id="index_work_309">
+               <ref target="works_transformed_1.xml#work_309">Link to Work 309</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Masāʾil al-thalāth</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المسائل الثلاث</title>
+               <idno type="RG">434</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_310">
+               <ref target="works_transformed_1.xml#work_310">Link to Work 310</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ṣalawāt sharīfa</title>
+               <title xml:lang="ara" type="uniform-ara">صلوات شريفة</title>
+               <idno type="RG">707</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">994</date>
+            </bibl>
+            <bibl xml:id="index_work_311">
+               <ref target="works_transformed_1.xml#work_311">Link to Work 311</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tafsīr sūrat Yusūf</title>
+               <title xml:lang="ara" type="uniform-ara">تفسير سورة وسف</title>
+               <idno type="RG">734.1</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_312">
+               <ref target="works_transformed_1.xml#work_312">Link to Work 312</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Adʿiyat al-shaykh al-akbar</title>
+               <title xml:lang="ara" type="uniform-ara">أدعية الشيخ الأكبر</title>
+               <idno type="RG">5.1</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_313">
+               <ref target="works_transformed_1.xml#work_313">Link to Work 313</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kanz al-jawāhir fī maẓāhir al-awākhir</title>
+               <title xml:lang="ara" type="uniform-ara">كنز الجواهر في مظاهر الأواخر</title>
+               <idno type="RG">328</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;950</date>
+            </bibl>
+            <bibl xml:id="index_work_314">
+               <ref target="works_transformed_1.xml#work_314">Link to Work 314</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī maʿrifat sayr rijāl al-ghayb</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في معرفة سير رجال الغيب</title>
+               <idno type="RG">430</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_315">
+               <ref target="works_transformed_1.xml#work_315">Link to Work 315</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kalimāt fī faḍāʾil al-futuwwa</title>
+               <title xml:lang="ara" type="uniform-ara">كلمات في فضائل الفتوة</title>
+               <idno type="RG">325</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1084</date>
+            </bibl>
+            <bibl xml:id="index_work_316">
+               <ref target="works_transformed_1.xml#work_316">Link to Work 316</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. Rūḥ al-quds al-wārida min sidrat al-muntahā</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة روح القدس الواردة من سدرة المنتهى</title>
+               <idno type="RG">638</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;1100</date>
+            </bibl>
+            <bibl xml:id="index_work_317">
+               <ref target="works_transformed_1.xml#work_317">Link to Work 317</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Extracts from al-Futuḥāṭ al-Makkiyya</title>
+               <title xml:lang="ara" type="uniform-ara"/>
+               <idno type="RG">135.1</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_318">
+               <ref target="works_transformed_1.xml#work_318">Link to Work 318</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">ʿAqīda</title>
+               <title xml:lang="ara" type="uniform-ara">عقيدة</title>
+               <idno type="RG">135.2</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_319">
+               <ref target="works_transformed_1.xml#work_319">Link to Work 319</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Chapter 558 of Futūḥāt</title>
+               <title xml:lang="ara" type="uniform-ara">الباب الثامن والخمسون وخمسمائة من الفتوحات</title>
+               <idno type="RG">135.4</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_320">
+               <ref target="works_transformed_1.xml#work_320">Link to Work 320</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī qawlihi (SA) al-nās niyām fa-idhā mātū antabahū</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في قوله صلى الله عليه وسلم الناس نيام فإذا ماتوا انتبهوا</title>
+               <idno type="RG">900</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1002</date>
+            </bibl>
+            <bibl xml:id="index_work_321">
+               <ref target="works_transformed_1.xml#work_321">Link to Work 321</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Fukūk by SQ</title>
+               <title xml:lang="ara" type="uniform-ara">الفكوك</title>
+               <idno type="RG">150.9003</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_322">
+               <ref target="works_transformed_1.xml#work_322">Link to Work 322</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kitāb Naṣṣ al-nuṣūṣ fī sharḥ Fuṣūṣ al-ḥikam by ʿĀmulī</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب نص النصوص في شرح فصوص الحكم</title>
+               <idno type="RG">150.9018</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_323">
+               <ref target="works_transformed_1.xml#work_323">Link to Work 323</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mabāḥith al-mutaʿalliqa bi-l-asmāʾ al-ḥusnā</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المباحث المتعلقة بالأسماء الحسنى</title>
+               <idno type="RG">382</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_324">
+               <ref target="works_transformed_1.xml#work_324">Link to Work 324</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Thalātha masāʾil li-l-Shaykh al-Arabī</title>
+               <title xml:lang="ara" type="uniform-ara">ثلاثة مسائل للشيخ العربي</title>
+               <idno type="RG">785</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_325">
+               <ref target="works_transformed_1.xml#work_325">Link to Work 325</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Mukhtaṣar al-Durra al-fākhira</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب مختصر الدرة الفاخرة</title>
+               <idno type="RG">496</idno>
+               <note type="classification">Verified B</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_326">
+               <ref target="works_transformed_1.xml#work_326">Link to Work 326</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī al-taṣawwuf</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في التصوف</title>
+               <idno type="RG">621.1</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_327">
+               <ref target="works_transformed_1.xml#work_327">Link to Work 327</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Wird al-aḥadiyya</title>
+               <title xml:lang="ara" type="uniform-ara">ورد الأحدية</title>
+               <idno type="RG">827</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_328">
+               <ref target="works_transformed_1.xml#work_328">Link to Work 328</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tafsīr al-Fātiḥa</title>
+               <title xml:lang="ara" type="uniform-ara">تفسير الفاتحة</title>
+               <idno type="RG">731</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">886</date>
+            </bibl>
+            <bibl xml:id="index_work_329">
+               <ref target="works_transformed_1.xml#work_329">Link to Work 329</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Chapter 560 of Futūḥāt</title>
+               <title xml:lang="ara" type="uniform-ara">الباب الستون وخمسمائة من الفتوحات</title>
+               <idno type="RG">135.3</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_330">
+               <ref target="works_transformed_1.xml#work_330">Link to Work 330</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī kayfiyyat aḥwāl rijāl Allāh</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في كيفية أحوال رجال الله</title>
+               <idno type="RG">348</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_331">
+               <ref target="works_transformed_1.xml#work_331">Link to Work 331</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Qaṣīda al-tāʾiyya</title>
+               <title xml:lang="ara" type="uniform-ara">القصيدة التائية</title>
+               <idno type="RG">566</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS">915</date>
+            </bibl>
+            <bibl xml:id="index_work_332">
+               <ref target="works_transformed_1.xml#work_332">Link to Work 332</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Muhayminiyyāt Ibn ʿArabī</title>
+               <title xml:lang="ara" type="uniform-ara">مهيمنيات ابن عربي</title>
+               <idno type="RG">494</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1021</date>
+            </bibl>
+            <bibl xml:id="index_work_333">
+               <ref target="works_transformed_1.xml#work_333">Link to Work 333</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf tāj al-tarājim wa-īḍāḥ maʿnāhi min dāʾirat al-jūd wa-l-marāḥim</title>
+               <title xml:lang="ara" type="uniform-ara">كشف تاج التراجم وإيضاح معناه من دائرة الجود والمراحم</title>
+               <idno type="RG">737.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_334">
+               <ref target="works_transformed_1.xml#work_334">Link to Work 334</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Qaṣāʾid</title>
+               <title xml:lang="ara" type="uniform-ara">قصائد</title>
+               <idno type="RG">564.1</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">nd</date>
+            </bibl>
+            <bibl xml:id="index_work_335">
+               <ref target="works_transformed_1.xml#work_335">Link to Work 335</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Duʿāʾ al-ism al-aʿẓam</title>
+               <title xml:lang="ara" type="uniform-ara">دعاء الإسم الأعظم</title>
+               <idno type="RG">109</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;1100</date>
+            </bibl>
+            <bibl xml:id="index_work_336">
+               <ref target="works_transformed_1.xml#work_336">Link to Work 336</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Duʿāʾ sūrat al-Ikhlāṣ</title>
+               <title xml:lang="ara" type="uniform-ara">دعاء سورة الإخلاص</title>
+               <idno type="RG">113</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;1100</date>
+            </bibl>
+            <bibl xml:id="index_work_337">
+               <ref target="works_transformed_1.xml#work_337">Link to Work 337</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fragments of poetry</title>
+               <title xml:lang="ara" type="uniform-ara"/>
+               <idno type="RG">102.1</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_338">
+               <ref target="works_transformed_1.xml#work_338">Link to Work 338</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Jawāb ʿan masʾalat al-zumurruda al-khaḍrāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">جواب عن مسألة الزمردة الخضراء</title>
+               <idno type="RG">180</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1202</date>
+            </bibl>
+            <bibl xml:id="index_work_339">
+               <ref target="works_transformed_1.xml#work_339">Link to Work 339</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mawāqiʿ al-ilhām min nafaḥāt al-faḍl wa-l-ilhām</title>
+               <title xml:lang="ara" type="uniform-ara">مواقع الإلهام من نفحات الفضل والإلهام</title>
+               <idno type="RG">442</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_340">
+               <ref target="works_transformed_1.xml#work_340">Link to Work 340</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Miʿrāj</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة المعراج</title>
+               <idno type="RG">473</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_341">
+               <ref target="works_transformed_1.xml#work_341">Link to Work 341</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Hatk al-astār fī ʿilm kashf al-asrār</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب هتك الأستار في علم كشف الأسرار</title>
+               <idno type="RG">203</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_342">
+               <ref target="works_transformed_1.xml#work_342">Link to Work 342</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Minhāj al-ʿārif al-muttaqī wa-miʿrāj al-sālik al-murtaqī</title>
+               <title xml:lang="ara" type="uniform-ara">منهاج العارف المتقي ومعراج السالك المرتقي</title>
+               <idno type="RG">463</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS">959</date>
+            </bibl>
+            <bibl xml:id="index_work_343">
+               <ref target="works_transformed_1.xml#work_343">Link to Work 343</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Rashḥ al-zulāl fī sharḥ al-alfāẓ al-mutadāwala bayna arbāb al-adhwāq wa-l-aḥwāl</title>
+               <title xml:lang="ara" type="uniform-ara">رشح الزلال في شرح الألفاظ المتداولة بين أرباب الأذواق والأحوال</title>
+               <idno type="RG">599</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_344">
+               <ref target="works_transformed_1.xml#work_344">Link to Work 344</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Takhmīs al-abyāt</title>
+               <title xml:lang="ara" type="uniform-ara">تخميس الأبيات</title>
+               <idno type="RG">749</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_345">
+               <ref target="works_transformed_1.xml#work_345">Link to Work 345</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Tartīb al-sulūk ilā malik al-mulūk</title>
+               <title xml:lang="ara" type="uniform-ara">ترتيب السلوك إلي ملك الملوك</title>
+               <idno type="RG">768</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">1238</date>
+            </bibl>
+            <bibl xml:id="index_work_346">
+               <ref target="works_transformed_1.xml#work_346">Link to Work 346</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Extracts</title>
+               <title xml:lang="ara" type="uniform-ara"/>
+               <idno type="RG">844</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_347">
+               <ref target="works_transformed_1.xml#work_347">Link to Work 347</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Sharḥ Mashāhid al-asrār by Sitt al-ʿAjam</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب شرح مشاهد الأسرار</title>
+               <idno type="RG">432.91</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_348">
+               <ref target="works_transformed_1.xml#work_348">Link to Work 348</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf al-ḍamīr min aḥruf al-taksīr</title>
+               <title xml:lang="ara" type="uniform-ara">كشف الضمير من أحرف التكسير</title>
+               <idno type="RG">333</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;950</date>
+            </bibl>
+            <bibl xml:id="index_work_349">
+               <ref target="works_transformed_1.xml#work_349">Link to Work 349</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sayr al-hilāl</title>
+               <title xml:lang="ara" type="uniform-ara">سير الهلال</title>
+               <idno type="RG">647</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;900</date>
+            </bibl>
+            <bibl xml:id="index_work_350">
+               <ref target="works_transformed_1.xml#work_350">Link to Work 350</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Nuzhat al-naẓar fī al-mawāʿiẓ wa-l-ʿibar</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب نزهة النظر في المواعظ والعبر</title>
+               <idno type="RG">554</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;900</date>
+            </bibl>
+            <bibl xml:id="index_work_351">
+               <ref target="works_transformed_1.xml#work_351">Link to Work 351</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. Inshāʾ al-dawāʾir</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب إنشاء الدوائر</title>
+               <idno type="RG">289</idno>
+               <note type="classification">Verified A.</note>
+               <date type="earliestMS">655</date>
+            </bibl>
+            <bibl xml:id="index_work_352">
+               <ref target="works_transformed_1.xml#work_352">Link to Work 352</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Nuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">النصوص</title>
+               <idno type="RG">552</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_353">
+               <ref target="works_transformed_1.xml#work_353">Link to Work 353</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Qaṣīda fī al-kīmiyāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">قصيدة في الكيمياء</title>
+               <idno type="RG">568</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_354">
+               <ref target="works_transformed_1.xml#work_354">Link to Work 354</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Fragments of poetry from the Dīwān</title>
+               <title xml:lang="ara" type="uniform-ara"/>
+               <idno type="RG">102.2</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_355">
+               <ref target="works_transformed_1.xml#work_355">Link to Work 355</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Commentaries on ʿAnqā Mughrib</title>
+               <title xml:lang="ara" type="uniform-ara"/>
+               <idno type="RG">30.9</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_356">
+               <ref target="works_transformed_1.xml#work_356">Link to Work 356</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Al-Risāla al-qudsiyya fī asrār al-nuqṭa al-ḥissiyya</title>
+               <title xml:lang="ara" type="uniform-ara">الرسالة القدسية في أسرار النقطة الحسية</title>
+               <idno type="RG">610</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_357">
+               <ref target="works_transformed_1.xml#work_357">Link to Work 357</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Raḥīq al-makhtūm</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الرحيق المختوم</title>
+               <idno type="RG">591</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_358">
+               <ref target="works_transformed_1.xml#work_358">Link to Work 358</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf ilāhī ilā qalb al-shaykh Muḥyī al-Dīn</title>
+               <title xml:lang="ara" type="uniform-ara">كشف إلهي ألي قلب الشيخ محي الدين</title>
+               <idno type="RG">341</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_359">
+               <ref target="works_transformed_1.xml#work_359">Link to Work 359</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Kashf al-astār ʿan khawāṣṣ al-asrār</title>
+               <title xml:lang="ara" type="uniform-ara">كشف الأستار عن خواص الأسرار</title>
+               <idno type="RG">332.1</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_360">
+               <ref target="works_transformed_1.xml#work_360">Link to Work 360</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Manāzil al-Sāʾirīn</title>
+               <title xml:lang="ara" type="uniform-ara">منازل السائرين</title>
+               <idno type="RG">406.2</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_361">
+               <ref target="works_transformed_1.xml#work_361">Link to Work 361</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mawāqif al-ghāyāt fī asrār al-riyāḍāt</title>
+               <title xml:lang="ara" type="uniform-ara">مواقف الغايات في أسرار الرياضات</title>
+               <idno type="RG">444</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_362">
+               <ref target="works_transformed_1.xml#work_362">Link to Work 362</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. fī tafṣīl al-qaḍāʿ wa-l-qadar</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة في تفصيل القضاء والقدر</title>
+               <idno type="RG">723</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_363">
+               <ref target="works_transformed_1.xml#work_363">Link to Work 363</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Duʿāʾ al-tawassul</title>
+               <title xml:lang="ara" type="uniform-ara">دعاء التوسل</title>
+               <idno type="RG">110</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_364">
+               <ref target="works_transformed_1.xml#work_364">Link to Work 364</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nazm al-laʾāl fī ikhrāj jawāb kulli suʾāl</title>
+               <title xml:lang="ara" type="uniform-ara">نظم اللئال في إخراج جواب كل سؤال</title>
+               <idno type="RG">543</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS">&gt;900</date>
+            </bibl>
+            <bibl xml:id="index_work_365">
+               <ref target="works_transformed_1.xml#work_365">Link to Work 365</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Ṣalawāt al-akbariyya</title>
+               <title xml:lang="ara" type="uniform-ara">صلوات الأكبرية</title>
+               <idno type="RG">705</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_366">
+               <ref target="works_transformed_1.xml#work_366">Link to Work 366</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Sayr wa-l-sulūk ilā malik al-mulūk</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب السير والسلوك إلي ملك الملوك</title>
+               <idno type="RG">648</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_367">
+               <ref target="works_transformed_1.xml#work_367">Link to Work 367</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ al-ṣalat al-fayḍiyya</title>
+               <title xml:lang="ara" type="uniform-ara">شرح الصلاة الفيضية</title>
+               <idno type="RG">702.9</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_368">
+               <ref target="works_transformed_1.xml#work_368">Link to Work 368</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Khuṭba fī naḍad al-ʿālam</title>
+               <title xml:lang="ara" type="uniform-ara">الخطبة في نضد العالم</title>
+               <idno type="RG">263.1</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_369">
+               <ref target="works_transformed_1.xml#work_369">Link to Work 369</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl fī bayān aqsām maʿānī al-asmāʾ al-ḥusnā ilā ʿasharat al-aqsām</title>
+               <title xml:lang="ara" type="uniform-ara">فصل في بيان أقسام معاني الأسماء الحسنى إلي عشرة أقسام</title>
+               <idno type="RG">614.3</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_370">
+               <ref target="works_transformed_1.xml#work_370">Link to Work 370</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Maʿārij al-quds</title>
+               <title xml:lang="ara" type="uniform-ara">معارج القدس</title>
+               <idno type="RG">379</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_371">
+               <ref target="works_transformed_1.xml#work_371">Link to Work 371</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Khawf wa-l-rajāʾ</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة الخوف والرجاء</title>
+               <idno type="RG">259</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_372">
+               <ref target="works_transformed_1.xml#work_372">Link to Work 372</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">al-Qaṣīda al-ʿishqiyya</title>
+               <title xml:lang="ara" type="uniform-ara">القصيدة العشقية</title>
+               <idno type="RG">565.2</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_373">
+               <ref target="works_transformed_1.xml#work_373">Link to Work 373</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Risāla min uṣūl al-ẓāhiriyya</title>
+               <title xml:lang="ara" type="uniform-ara">رسالة من أصول الظاهرية</title>
+               <idno type="RG">808.1</idno>
+               <note type="classification">Additional category</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_374">
+               <ref target="works_transformed_1.xml#work_374">Link to Work 374</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Mimmā wujida</title>
+               <title xml:lang="ara" type="uniform-ara">مما وجد</title>
+               <idno type="RG">471</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_375">
+               <ref target="works_transformed_1.xml#work_375">Link to Work 375</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Lawḥ</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب اللوح</title>
+               <idno type="RG">370</idno>
+               <note type="classification">Spurious</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_376">
+               <ref target="works_transformed_1.xml#work_376">Link to Work 376</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Waʿẓ bi-l-aḥādīth al-nabawiyya</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الوعظ بالأحاديث النبوية</title>
+               <idno type="RG">633</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_377">
+               <ref target="works_transformed_1.xml#work_377">Link to Work 377</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Sharḥ Fuṣūṣ al-ḥikam by al-Hamadānī (d. 786)</title>
+               <title xml:lang="ara" type="uniform-ara">شرح فصوص الحكم</title>
+               <idno type="RG">150.9015</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_378">
+               <ref target="works_transformed_1.xml#work_378">Link to Work 378</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Malḥama</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب الملحمة</title>
+               <idno type="RG">400</idno>
+               <note type="classification">Unverified.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_379">
+               <ref target="works_transformed_1.xml#work_379">Link to Work 379</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Duʿāʾ yawm ʿArafa</title>
+               <title xml:lang="ara" type="uniform-ara">دعاء يوم عرفة</title>
+               <idno type="RG">115</idno>
+               <note type="classification">Extract.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_380">
+               <ref target="works_transformed_1.xml#work_380">Link to Work 380</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ</title>
+               <title xml:lang="ara" type="uniform-ara">نصوص الخصوص في ترجمة الفصوص</title>
+               <idno type="RG">150.9072</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_381">
+               <ref target="works_transformed_1.xml#work_381">Link to Work 381</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">Commentary on Ḥilyāt al-abdal</title>
+               <title xml:lang="ara" type="uniform-ara">شرح حلية الأبدال</title>
+               <idno type="RG">237.9</idno>
+               <note type="classification">Commentary</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_382">
+               <ref target="works_transformed_1.xml#work_382">Link to Work 382</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mabādī wa-l-ghayāt (2)</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المبادئ والغيات (2)</title>
+               <idno type="RG">380.1</idno>
+               <note type="classification">Not IA.</note>
+               <date type="earliestMS"/>
+            </bibl>
+            <bibl xml:id="index_work_383">
+               <ref target="works_transformed_1.xml#work_383">Link to Work 383</ref>
+               <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Mizān fī ḥaqīqat al-insān</title>
+               <title xml:lang="ara" type="uniform-ara">كتاب المزان في حقيقة الإنسان</title>
+               <idno type="RG">482</idno>
+               <note type="classification">OY duplicate.</note>
+               <date type="earliestMS"/>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

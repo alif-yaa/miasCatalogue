@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ishārāt al-Qurʾān fī ʿālam al-insān | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="ish_qur">
+            <idno type="RG">303</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">30</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">Ishārāt al-Qurʾān fī ʿālam al-insān</title>
+            <title xml:lang="ara" type="uniform-ara">إشارات القرآن في عالم الإنسان</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">ish_qur</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="C">Copy</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">762</date>
+            <date type="fmDate" calendar="Hijri-qamari">601</date>
+            <placeName type="fmPlace">Malatya</placeName>
+            <note type="fmComposition">In 601H for his friend al-Ḥabashī (see Vel.51/18b).</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh mursil al-ʿawārif wa-munzil al-laṭāʾif</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Commentary upon the verses of the Qurʾān, conceived as a companion volume to al-Tanazzulāt al-Mawṣiliyya (RG 762). Written for IA’s companion, Badr al-Ḥabashī.</note>
+               <note type="biblioComments">OY cites 10 mss., verified by two historic mss., Veliyuddin 51 (c.762H, taken from original in the hand of IA dated 601H) and Yusuf Ağa 7838. According to OY, written 602H in Jerusalem on the basis of a note on Veliyuddin 51, but our investigation shows that he has confused the place of copying with the place of writing and in fact, no place is given. The date given is Ramadan 601H, when it is known that IA was in Malatya. (See Jane Clark and Denis McAuley Some Notes on the Manuscript Veliyyudin 51, JMIAS 40, 2006.)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="56">56</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="54">54</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Related work: tan_maw (762) - nature of relation? Jane anc McAuley’s article: “The Ishârât al-Qur’ân were completed at noon on Wednesday the 13th day of glorious Ramadân in 601. I wrote it out (nasakhtuhu) for my friend al-Mas’ûd ‘Abd Allâh Badr b. ‘Abd Allâh al-Habashî, the freed slave of Abû al-Ghanâîim b. Abî al-Futûh al-Harrân’…”</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

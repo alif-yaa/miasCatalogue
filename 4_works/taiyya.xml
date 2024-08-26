@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>al-Tāʾiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="taiyya">
+            <idno type="RG">757</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">312</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">al-Tāʾiyya</title>
+            <title xml:lang="ara" type="uniform-ara">التائية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">taiyya</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="low" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">876</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">tanazzahta lammā an ḥallalta bi-ḥaḍratī / wa-waḥḥadta fī dhāka l-maqāmi bi-nāẓrati</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Long poem with the end rhyme in tāʾ, with commentary by Bosnevi.</note>
+               <note type="biblioComments">OY lists four mss., of which none are historic. All texts are relatively late and without special provenance, so it must be considered unverified. Ryad Atlagh is convinced that it is authentic and has presented his arguments in a paper The Phenomenology of the Perfect Man in The Tāʾiyya of Ibn ʿArabī (unpublished, MIAS Symposium, Oxford 1998). All copies we have seen are attributed to IA (varying in length but at least 400 verses). A line-by-line commentary by Abdullah Bosnevi entitled Qurrat ʿayn al-shuhūd also testifies to its authorship by IA. In light of the importance given by Bosnevi to this poem, it is most likely that the original Tāʾiyya should be considered as an authentic work. Critical edition by Yusuf ‘Awda (Cairo, 2015)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

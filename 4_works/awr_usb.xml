@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. Awrād al-usbūʿ | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="awr_usb">
+            <idno type="RG">64</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">3</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. Awrād al-usbūʿ</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الأوراد الأسبوعية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">awr_usb</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate">Kitab al-awrâd al-yawmiyya: Al-awr^rad al-akbariyya: Awrâd al-ayyâm wa-l-layâli: Magmu ‘at al-ahyâli: Al- Awrad wa-l-ahzâb: Awrad; Awrâd ubsû ‘iyya.</title>
+            <title xml:lang="eng" type="translationEng">Weekly prayers</title>
+            <author cert="low" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">939</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">bismillāh fātiḥi l-wujūd</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A collection of fourteen prayers, one for each night and day of the week. For a detailed structure and analysis of the prayers, see Pablo Beneito and Stephen Hirtenstein Seven Days of the Heart (Oxford, 2000), with critical edition as Prayers for the Week (Oxford, 2021).</note>
+               <note type="biblioComments">There are no historic mss. and all the surviving texts are late, though always attributed to IA. The earliest dated copy is Carullah 1094 (939H), but Veliyuddin 1833 may be older. According to Stephen Hirtenstein and Pablo Beneito it is authentic on textual grounds, and the lack of early copies is attributed to the work being only copied for close disciples, not open diffusion. There is another relatively early manuscript of Evradü’l-Eyyami’s-Seb’a (dated 949H or 950H) in Topkapi E.H. 1072 with 42 folios according to the online catalogue at https://topkapisarayi.gov.tr/en/manuscripts</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY">Ch 416 &amp; 440</note>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

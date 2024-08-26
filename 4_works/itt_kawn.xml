@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R. al-Ittiḥād al-kawnī | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="itt_kawn">
+            <idno type="RG">317</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">31</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Ittiḥād al-kawnī</title>
+            <title xml:lang="ara" type="uniform-ara">رسالة الإتحاد الكوني</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">itt_kawn</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng">Epistle in which is shown how the creature rediscovers the mnunity to which his essential being bears witness, and how he is brought into the presence of the human tree and the four spiritual birds.</title>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="C">Copy</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
+            <date type="fmDate" calendar="Hijri-qamari">&gt;598H</date>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition">A letter was written by IA for Abū l-Fawāris Ṣakhr b. Sinān (Vel.51/48a)</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">hādhā kitāb karīm wa-khiṭāb jasīm...</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A poetical work on the perfect human being (al-insān al-kāmil), the supreme intellect, the guarded tablet, the materia prima, and the universal body. One of IA’s earlier Maghribi works. See Angela Jaffray’s introduction and translation, The Universal Tree and the Four Birds (Oxford, 2005).</note>
+               <note type="biblioComments">OY cites 21 mss., of which three are historic mss. The best are Shehit Ali 2813 (621H, written by Ayyūb b. Badr in the presence of IA) and Veliyuddin 51 (c. 762H, copied from al-Ḥabashī’s original).</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="67">67</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="63">63</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Vel 50: Ibn ‘Arabî… wrote it to Abû l-Fawâris Sakhr b. Sinân (owner of the reins of generosity and eloquence) may God grant both of them success. [It is] the transmission of the Sufi … Badr … al-Habashî, freed slave of Abû l-Ghanâ’im Ibn Abî l-Futûh al-Harrânî …</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

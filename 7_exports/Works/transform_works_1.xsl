@@ -163,6 +163,13 @@
                     
                     <quote xml:lang="ara">Add quotation(s), if relevant</quote></note>
             </noteGrp>
+            
+            <noteGrp type="scholarComments">
+                <note resp="JC"> </note>
+                <note resp=""> </note>
+            </noteGrp>
+            
+            <note type="migrationNotes"><xsl:value-of select="normalize-space(fm:COL[24]/fm:DATA)"/></note> 
         </bibl>
     </xsl:template>
 </xsl:stylesheet>

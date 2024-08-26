@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>al-Futūḥāt al-Makkiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="fut_mak">
+            <idno type="RG">135</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">11</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">al-Futūḥāt al-Makkiyya</title>
+            <title xml:lang="ara" type="uniform-ara">الفتوحات المكية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">fut_mak</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">Al-Futūḥāt al- Makkiya fī maʿrifat al-asrār al-mālikiyya wa-l-mulkiyya</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng">Revelations of Mecca</title>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="H">Holograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">636</date>
+            <date type="fmDate" calendar="Hijri-qamari">629/636</date>
+            <placeName type="fmPlace">Damascus</placeName>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lilāh alladhī awjad al-ashiyāʾ ʿan ʿadam wa-ʿadamahu wa-awqaf wajūdahā ʿalā tuwajjah kalimihi li-nataḥaqqaq bidhālik sir ḥudūthhā wa-qidamahā min qidamahi</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Ibn ʿArabī’s great summary of esoteric knowledge, consisting of 560 chapters and extending to nearly 10,000 pages in the holograph. It totalises all aspects of his work and all the esoteric knowledge of his era. The first recension, completed in Ṣafar 629H, exists only in copies, while the second, written between 632H and 636H, survives in IA’s own hand (see Evkaf Muzesi 1845+). There is still work to be done in distinguishing between the two recensions in the mss base, but considerable progress has been made by Julian Cook and Claude Addas in identifying “markers” which indicate the recension of any given ms. Their research indicates that many later mss. may be hybrids of the two recensions. For details of their work on the two recensions, see ancillary documents.</note>
+               <note type="biblioComments">Verified by many mss. in both recensions. The best of the second recension is Evkaf Muzesi 1845+ in 37 volumes, which is the original in IA’s hand, written in 636H and carrying over 71 samāʿ.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="50">50</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="50">50</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Dates Give two composition dates. Mention date of the vision as well in composition. Chapters/asfār At some stage we may wish to encode some of the chapters that correspond to earlier or other works...</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

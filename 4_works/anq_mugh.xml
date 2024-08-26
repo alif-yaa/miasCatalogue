@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. ʿAnqāʾ mughrib | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="anq_mugh">
+            <idno type="RG">30</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">88</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. ʿAnqāʾ mughrib</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب عنقاء مغرب</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">anq_mugh</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">K. ʿAnqāʾ mughrib fī maʿrifa khatm al-awliyāʾ wa shams al-maghrib</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng">The Fabulous Gryphon</title>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="A">Autograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">597</date>
+            <date type="fmDate" calendar="Hijri-qamari">595</date>
+            <placeName type="fmPlace">Almeria</placeName>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">ḥamidtu ilāhī wa-l-maqāmu ʿaẓīmu</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Written after a vision in 595H, this work is devoted to bringing out the role of the mahdī – the “rightly guided leader” – and the Seal of the Saints (whom he identifies with Jesus), discussing both a prophetic aspect which looks to the unfolding of their functions in time, and a mystical aspect which understands them as realities which can be realised in the heart of the complete human being.</note>
+               <note type="biblioComments">Verified by at least four historic mss. The best is Berlin Oct. 3266 (described by Gerald Elmore in Islamic Sainthood in the Fullness of Time (Leiden, 1999) pp. 197-199), which was written in 597H, and is the oldest known ms. of IA’s. Also excellent is Private 1, written in 637H by a well-known disciple, Muḥammad b. ʿAbd al-Qādir al-Anṣāri, in Damascus and checked against the original in IA’s hand; however, according to Abrar Ahmed Shahi, who has prepared a critical edition of the text, this mss contains only about 50% of the work. Another early copy, dated 707H in the Turkish catalogue (http://ktp.isam.org.tr/), is Veliyuddin 1743 ff.1-79. Another copy, dated 834H, in Milli Hk 15 ff.12b-43b, is available in digital reproduction here: https://www.yazmalar.gov.tr/detay_goster.php?k=77129 JC notes that most of the poems from ʿAnqāʾ mughrib are also found as a block – and as complete poems – in the Dīwān, p. 26-33.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="65">65</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="61">61</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Amr al-muḥkam | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="amr_muh">
+            <idno type="RG">28</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">266</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Amr al-muḥkam</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الأمر المحكم</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">amr_muh</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">K. al-Amr al-muḥkam al-marbūt fī mā yalzam ahl ṭarīq Allāh min al-shurūṭ.</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="C">Copy</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">724</date>
+            <date type="fmDate" calendar="Hijri-qamari">602</date>
+            <placeName type="fmPlace">Damascus</placeName>
+            <note type="fmComposition">In Damascus in Jumada al-ūla 602H (see Vel.51/110b)</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā li-nabihi...</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">The title translates as “The Firm Rule regarding the conditions necessary for people on God’s Path”. The aim of the work is to give advice to spiritual guides on the kind of language and teaching which should be offered to different types of students.</note>
+               <note type="biblioComments">A much copied work, verified by at least six historic mss, three of them definitely copied from originals. The best are Shehit Ali 1341, written around 724H in Damascus, copied from an original by IA and certified by him, and Ayasofya 4875 (probably dated 705H). OY believed the work was written in Konya in 602H on basis of a note in Veliyuddin 51 (110b), but further inspection of the note shows that the place of writing is Damascus. (See Jane Clark and Denis McAuley, Some Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp. 101-116.)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="62">62</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="51">51</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY">Ch. 53</note>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Clark and McAuley, 2006: At the end, on 110b, there is a note saying that the book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its author […] Osman Yahia asserts that the text was completed in Konya in 602, based (he says) on evidence within the text.[21] We can only assume that this refers to three lines from the bottom on 95b: wa-laqad haddathanî Awhad al-dîn Hâmid ibn Abî l-Fakhr al-Kirmânî bi-manzilî fî madînat Qûniya fî shahr Safar sanat 602 (“Awhad al-dîn Kirmânî related to me in my home in the city of Konya in Safar 602 …”). [nb this note may refer to the date the work was copied, rather than composed]</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

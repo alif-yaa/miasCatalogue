@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-ʿAẓama | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="azama">
+            <idno type="RG">70</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">5</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿAẓama</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب العظمة</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">azama</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate">K. al-Ajwiba al-lâ’iqa ‘an al-as’ila al-fâ’iqa</title>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="H">Holograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">617</date>
+            <date type="fmDate" calendar="Hijri-qamari">602</date>
+            <placeName type="fmPlace">Konya</placeName>
+            <note type="fmComposition">Holograph copy, with samāʿ 617H in Aleppo (Veliyuddin 1759)</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh mubdiʿu al-thānī fi-l-mathānī</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">According to Michel Chodkiewicz, this is an esoteric commentary upon the Fātiḥa which completes Chapter 383 of FM which, in the series of ‘waystations’ (manāzil), corresponds to the waystation of the Fātiha.</note>
+               <note type="biblioComments">A much copied work, verified by at least five historic mss. The best is Veliyuddin 1759, which is a holograph with two samāʿs in the presence of IA, one dated 617H in Aleppo, the other dated 627H (Damascus). The title on Beyazit 3750 (253b) says that the work is one of the manāzil in FM; we have checked against the holograph and it is identical. Perhaps needs some further checking (see OY’s comment on p.179).</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="88">88</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="78">78</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY">III, 519-523</note>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes"/>
+         </bibl>
+      </body>
+   </text>
+</TEI>

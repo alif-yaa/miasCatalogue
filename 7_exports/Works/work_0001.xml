@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title of Work 1</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <bibl xml:id="work_0001">
+                    <idno type="RG">1</idno>
+                    <idno type="Alt. RG">1</idno>
+                    <idno type="Ijaza">1</idno>
+                    <idno type="Fihris">1</idno>
+                    <idno type="RECORDID">1</idno>
+                    <author cert="cert" key="person_0001">Author Name</author>
+                    <author cert="medium" key="person_0002">Co-Author Name OR Alternate Author Name</author>
+                    <persName role="att" key="person_0003">Attributed Author Name</persName>
+                    <persName role="dub" key="person_0004">Dubious Author Name</persName>
+                    <persName role="ant" key="person_0005">Bibliographic Antecedent Name</persName>
+                    <persName role="dte" key="person_0006">Dedicatee Name</persName>
+                    <title xml:lang="ara-Latn-x-lc" type="uniform">Uniform Title</title>
+                    <title xml:lang="ara" type="uniform-ara">عنوان موحد</title>
+                    <title xml:lang="ara-Latn-x-lc" type="abbreviated">Abbreviated/Keyword Title</title>
+                    <title type="variant">Variant Title</title>
+                    <title type="variant-ara">عنوان بديل</title>
+                    <date when="YYYY" cert="high" calendar="Hijri-qamari">Date</date>
+                    <date from="YYYY" to="YYYY" cert="med" calendar="Hijri-qamari">Period</date>
+                    <date notBefore="YYYY" notAfter="YYYY" cert="low" calendar="Hijri-qamari">Date Range</date>
+                    <date><note type="composition">Composition Note</note></date>
+                    <placeName>Place</placeName>
+                    <incipit type="uniform" xml:lang="ara-Latn-x-lc">Incipit</incipit>
+                    <incipit type="uniform-ara" xml:lang="ara">فاتحة</incipit>
+                    <textLang mainLang="ara"/>
+                    <note type="contents">Contents</note>
+                    <note type="comments">Comments</note>
+                    <noteGrp type="refs">
+                        <note type="fut">1</note>
+                        <note type="ijz">1</note>
+                        <note type="fst">1</note>
+                        <note type="other"><ref target="works.xml#work_00002">Reference</ref></note>
+                        <note type="other"><ref target="works.xml#work_00003">Reference</ref>: <quote xml:lang="ara">Quote</quote></note>
+                    </noteGrp>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

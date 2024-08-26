@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="taf_fat">
+            <idno type="RG">132</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">453</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</title>
+            <title xml:lang="ara" type="uniform-ara">فصل مفيد في تفسير فاتحة الكتاب</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">taf_fat</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="C">Copy</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">630</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">summayt fātiḥat al-kitāb…</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">Extract from an exegesis on the Fātiḥa, why it is called the opening, etc. The original source is not known, but our researches show that it is a precious copy of a text also found on 1a of Evkaf Muzesi 1933, the copy of Fuṣūṣ al-ḥikam in SQ’s handwriting, which is now not fully readable.</note>
+               <note type="biblioComments">There is only one ms. listed in OY (he also erroneously classifies it under RG 684). We have found another ms., Halet 809, which is identical (NB: OY also lists this as RG 731). The Shehit Ali text mentions “our shaykh Abū Madyan saying that he never saw a thing except that there was the letter bāʾ over it”, which makes this a bona fide ms.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">same as RG 731 and 132 “he also erroneously classifies it under RG 684”?</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

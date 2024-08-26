@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. Lawāqiḥ al-asrār | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="law_asr">
+            <idno type="RG">368.1</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">561</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. Lawāqiḥ al-asrār</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب لواقح الأسرار</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">law_asr</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari"/>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">samʿatu sayyidī Muhyī al-Dīn yaqūl wa-kunā fī khalwa</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A record of the discussions on various topics which Ibn Sawdakīn (d. 646) had with his master Ibn ʿArabī. The content includes that of K. al-Wasāʾil by Ibn Sawdakīn (RG 436), which is really an extract of this longer work.</note>
+               <note type="biblioComments">OY states that there are no extant mss of this work, but three copies have now been found: the earliest is Zahiriyya 16632, which is in the hand of al-Farghānī, probably dateable to 660s. There are also much later less reliable copies in the Budeiri library, 142, and in the Dar al-Kutub, Cairo, Taymur 147. Further mss identified by JC: Damascus al-Assad (http://www.alassad-library.gov.sy/Search_makhtotat2013.php): 16627/2 which follows IA’s ʿAqīda, dated 955.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">People: Ibn Sawdakīn - compiler and author (?) &lt;persName role="com" key="person_0000"&gt;Ibn Sawdakīn&lt;/persName&gt; &lt;author cert="high" key="person_0000"&gt;Ibn Sawdakīn&lt;/author&gt; Related item: K. al-Wasāʾil by Ibn Sawdakīn (RG 436) is an extract of K. Lawāqiḥ al-asrār (368.1)</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

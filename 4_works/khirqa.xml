@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R. al-Khirqa | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="khirqa">
+            <idno type="RG">530</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">59</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">R. al-Khirqa</title>
+            <title xml:lang="ara" type="uniform-ara">رسالة الخرقة</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">khirqa</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="C">Copy</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">999</date>
+            <date type="fmDate" calendar="Hijri-qamari">633</date>
+            <placeName type="fmPlace">Damascus</placeName>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī khalaʿa ʿalā ʿibādihi ahli al-ʿināyatihi asmāʾahu al-husnā</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A late work, it gives a detailed list of ‘investitures’ through which the Shaykh received initiation into the Path, including one by the hidden guide, al-Khiḍr.</note>
+               <note type="biblioComments">OY lists 19 mss., of which one can be considered historic: Esad Ef. 1507 (999H, copied from an original dated 633H in IA’s handwriting and corrected by him). Many mss. are incomplete. Veliyuddin 51 contains only the 599H khirqa, but it is also copied from an original in the hand of IA. Further mss: Bankipore ms 955/2 (778H?)</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n=""/>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"/>
+               <note resp="MC"/>
+            </noteGrp>
+            <note type="migrationNotes">Alternate title: Nasab al-Khirqa Dating: 599H khirqa seems to already have been written in 601/602H (see Veliyuddin 51), though not as a complete work... written over a period?</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

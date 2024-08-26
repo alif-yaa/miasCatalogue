@@ -18,13 +18,13 @@
                     border: 2px solid #d8dfb0;
                     padding: 10px;
                     margin-bottom: 20px;
-                    min-width: 800px;
+                    min-width: 760px;
                     }
                     .info-row {
                     display: flex;
                     align-items: center;
                     margin-bottom: 10px;
-                    min-width: 800px; /* Adjust this value based on your content */
+                    min-width: 760px; /* Adjust this value based on your content */
                     }
                     .subheading {
                     font-weight: bold;
@@ -65,6 +65,32 @@
                     text-align: center;
                     font-family: 'Amiri', serif;
                     }
+                    .scholar-comments-header {
+                    font-weight: bold;
+                    font-size: 1.1em;
+                    color: #0052a4;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    }
+                    .scholar-comment-box {
+                    background-color: #f1f3eb; /* Different background color for scholar comments */
+                    border: 2px solid #e1dbe8; /* Different border color for scholar comments */
+                    padding: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    min-width: 760px;
+                    }
+                    .subheading-scholar {
+                    font-weight: normal;
+                    font-size: 0.8em;
+                    padding-right: 10px;
+                    min-width: 150px;
+                    text-align: right;
+                    vertical-align: middle;
+                    }
+                    .scholar-comment {
+                    font-size: 0.8em; /* Smaller text for scholar comments */
+                    }
                 </style>
             </head>
             <body>
@@ -102,6 +128,7 @@
                     <xsl:value-of select="tei:note[@type='authentification']"/>
                 </div>
             </div>
+            
             
             <!-- Second Row: Composition -->
             <div class="info-row">
@@ -161,6 +188,29 @@
                 <div class="info-box">
                     <xsl:value-of select="tei:noteGrp[@type='references']/tei:note[@type='fihris_2']"/>
                 </div>
+            </div>
+            
+            <!-- New Rows for Scholar Comments -->
+            <xsl:if test="tei:noteGrp[@type='scholarComments']">
+                <!-- Scholar comments container -->
+                <div class="scholar-comment-box">
+                <!-- Scholars' Comments Header -->
+                <div class="scholar-comments-header">Scholars' Comments</div>
+                    <!-- Apply templates to notes within scholarComments -->
+                    <xsl:apply-templates select="tei:noteGrp[@type='scholarComments']/tei:note"/>
+                </div>
+            </xsl:if>
+        </div>
+    </xsl:template>
+    
+    <!-- Template to match each <note> within <noteGrp type="scholarComments"> -->
+    <xsl:template match="tei:note">
+        <div class="info-row">
+            <div class="subheading-scholar">
+                <xsl:value-of select="@resp"/>
+            </div>
+            <div class="info-box scholar-comment">
+                <xsl:value-of select="."/>
             </div>
         </div>
     </xsl:template>
