@@ -28,7 +28,7 @@
                <title xml:lang="eng" type="translationEng">Book of the Servants of God</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari">&lt;626</date>
                <placeName type="fmPlace">Probably Damascus</placeName>
@@ -106,7 +106,7 @@
                <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
                <persName role="cwt" key="person_0001">Ibn al-ʿArabī</persName>
-               <persName role="ant" key="person_0000">; Yūsuf b. Ibrāhīm al-Shāfiʾī</persName>
+               <persName role="ant" key="person_0000">Yūsuf b. Ibrāhīm al-Shāfiʾī</persName>
                <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;700</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -171,7 +171,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari">601</date>
                <placeName type="fmPlace">Jerusalem</placeName>
@@ -236,7 +236,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">724</date>
                <date type="fmDate" calendar="Hijri-qamari">602</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -301,7 +301,7 @@
                <title xml:lang="eng" type="translationEng">The Fabulous Gryphon</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">597</date>
                <date type="fmDate" calendar="Hijri-qamari">595</date>
                <placeName type="fmPlace">Almeria</placeName>
@@ -366,7 +366,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">651</date>
                <date type="fmDate" calendar="Hijri-qamari">602</date>
                <placeName type="fmPlace">Konya</placeName>
@@ -687,7 +687,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">603</date>
                <date type="fmDate" calendar="Hijri-qamari">&lt;603</date>
                <placeName type="fmPlace"/>
@@ -752,7 +752,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">615</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -817,7 +817,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">617</date>
                <date type="fmDate" calendar="Hijri-qamari">602</date>
                <placeName type="fmPlace">Konya</placeName>
@@ -882,7 +882,7 @@
                <title xml:lang="eng" type="translationEng">Book of the Ba</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -947,7 +947,7 @@
                <title xml:lang="eng" type="translationEng">The Book of Treaures and Precious Things</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">640</date>
                <date type="fmDate" calendar="Hijri-qamari">611H</date>
                <placeName type="fmPlace">Aleppo</placeName>
@@ -1012,7 +1012,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">634</date>
                <date type="fmDate" calendar="Hijri-qamari">634H</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -1077,7 +1077,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;700</date>
                <date type="fmDate" calendar="Hijri-qamari">?</date>
                <placeName type="fmPlace">Baghdad</placeName>
@@ -1142,7 +1142,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari">627H</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -1207,7 +1207,7 @@
                <title xml:lang="eng" type="translationEng">The Bezels of Wisdom, the Wisdom of the Prophets</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">630</date>
                <date type="fmDate" calendar="Hijri-qamari">627H</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -1272,7 +1272,7 @@
                <title xml:lang="eng" type="translationEng">Revelations of Mecca</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">636</date>
                <date type="fmDate" calendar="Hijri-qamari">629/636</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -1337,7 +1337,7 @@
                <title xml:lang="eng" type="translationEng">Book of the Truth</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -1402,7 +1402,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">602</date>
                <date type="fmDate" calendar="Hijri-qamari">599</date>
                <placeName type="fmPlace">Ṭāʾif</placeName>
@@ -1595,7 +1595,7 @@
                <title xml:lang="eng" type="translationEng">Book of the Hû</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">761</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -1660,7 +1660,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">668</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -1789,7 +1789,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">664</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -1854,7 +1854,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">622</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -1919,7 +1919,7 @@
                <title xml:lang="eng" type="translationEng">The Spitting of the Heart/Breast (J)</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">629</date>
                <date type="fmDate" calendar="Hijri-qamari">627-629H</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -2112,7 +2112,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">782</date>
                <date type="fmDate" calendar="Hijri-qamari">606 or 613H</date>
                <placeName type="fmPlace">Baghdad (?)</placeName>
@@ -2241,7 +2241,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">655</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -2370,7 +2370,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -2435,7 +2435,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">762</date>
                <date type="fmDate" calendar="Hijri-qamari">601</date>
                <placeName type="fmPlace">Malatya</placeName>
@@ -2500,7 +2500,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">633</date>
                <date type="fmDate" calendar="Hijri-qamari">594H</date>
                <placeName type="fmPlace">Fez</placeName>
@@ -2565,7 +2565,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">637</date>
                <date type="fmDate" calendar="Hijri-qamari">615H</date>
                <placeName type="fmPlace">Malatya</placeName>
@@ -2630,7 +2630,7 @@
                <title xml:lang="eng" type="translationEng">Epistle in which is shown how the creature rediscovers the mnunity to which his essential being bears witness, and how he is brought into the presence of the human tree and the four spiritual birds.</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari">&gt;598H</date>
                <placeName type="fmPlace"/>
@@ -2759,7 +2759,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">617?</date>
                <date type="fmDate" calendar="Hijri-qamari">603</date>
                <placeName type="fmPlace"/>
@@ -2888,7 +2888,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace">Aleppo?</placeName>
@@ -3017,7 +3017,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;615</date>
                <date type="fmDate" calendar="Hijri-qamari">601</date>
                <placeName type="fmPlace">Mosul</placeName>
@@ -3082,7 +3082,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">615</date>
                <date type="fmDate" calendar="Hijri-qamari">601</date>
                <placeName type="fmPlace">Jerusalem</placeName>
@@ -3275,7 +3275,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;668</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -3340,7 +3340,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">999</date>
                <date type="fmDate" calendar="Hijri-qamari">633</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -3405,7 +3405,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">724</date>
                <date type="fmDate" calendar="Hijri-qamari">601H</date>
                <placeName type="fmPlace">Mosul</placeName>
@@ -3598,7 +3598,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -3663,7 +3663,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace">Mecca</placeName>
@@ -3728,7 +3728,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">762</date>
                <date type="fmDate" calendar="Hijri-qamari">602</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -3793,7 +3793,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">618</date>
                <date type="fmDate" calendar="Hijri-qamari">603H</date>
                <placeName type="fmPlace"/>
@@ -3858,7 +3858,7 @@
                <title xml:lang="eng" type="translationEng">The highest calling through the allusion of names and pronouns manifested by the Qur⁄ån in the language of the essential Reality and the law.</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -3923,7 +3923,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">617</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4052,7 +4052,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">823</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4117,7 +4117,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;658</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4182,7 +4182,7 @@
                <title xml:lang="eng" type="translationEng">Contemplations of the Holy Mysteries</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">651</date>
                <date type="fmDate" calendar="Hijri-qamari">590H</date>
                <placeName type="fmPlace">Seville?</placeName>
@@ -4311,7 +4311,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari">595</date>
                <placeName type="fmPlace">Alméria</placeName>
@@ -4376,7 +4376,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">617</date>
                <date type="fmDate" calendar="Hijri-qamari">617H</date>
                <placeName type="fmPlace">Aleppo</placeName>
@@ -4441,7 +4441,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">678</date>
                <date type="fmDate" calendar="Hijri-qamari">599H</date>
                <placeName type="fmPlace">Mecca</placeName>
@@ -4506,7 +4506,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">808</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4571,7 +4571,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;673</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4764,7 +4764,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari">602H</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -4829,7 +4829,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">777</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4894,7 +4894,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">650</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -4959,7 +4959,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">650</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -5024,7 +5024,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">667</date>
                <date type="fmDate" calendar="Hijri-qamari">&lt;631H</date>
                <placeName type="fmPlace"/>
@@ -5153,7 +5153,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">761</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -5218,7 +5218,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">621</date>
                <date type="fmDate" calendar="Hijri-qamari">621</date>
                <placeName type="fmPlace"/>
@@ -5283,7 +5283,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">761</date>
                <date type="fmDate" calendar="Hijri-qamari">601</date>
                <placeName type="fmPlace">Mosul</placeName>
@@ -5348,7 +5348,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">825</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -5541,7 +5541,7 @@
                <title xml:lang="eng" type="translationEng">The Holy Spirit in the Counselling of the Soul</title>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
                <date type="fmDate" calendar="Hijri-qamari">600H</date>
                <placeName type="fmPlace">Mecca</placeName>
@@ -5606,7 +5606,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">640</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -5671,7 +5671,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">617</date>
                <date type="fmDate" calendar="Hijri-qamari">621</date>
                <placeName type="fmPlace">Damascus</placeName>
@@ -5736,7 +5736,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari">&gt;595H</date>
                <placeName type="fmPlace">Mawrūr (Andalusia)</placeName>
@@ -5801,7 +5801,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">630</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -5994,7 +5994,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="A">Autograph</note>&gt;
+               <note type="authentification" subtype="A">Autograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
                <date type="fmDate" calendar="Hijri-qamari">600</date>
                <placeName type="fmPlace">Mecca</placeName>
@@ -6123,7 +6123,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">620</date>
                <date type="fmDate" calendar="Hijri-qamari">606</date>
                <placeName type="fmPlace">Aleppo</placeName>
@@ -6252,7 +6252,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">620</date>
                <date type="fmDate" calendar="Hijri-qamari">601H</date>
                <placeName type="fmPlace">Mosul</placeName>
@@ -6381,7 +6381,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;800</date>
                <date type="fmDate" calendar="Hijri-qamari">611</date>
                <placeName type="fmPlace">Mecca</placeName>
@@ -6446,7 +6446,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="H">Holograph</note>&gt;
+               <note type="authentification" subtype="H">Holograph</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
                <date type="fmDate" calendar="Hijri-qamari"/>
                <placeName type="fmPlace"/>
@@ -6639,7 +6639,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">1005</date>
                <date type="fmDate" calendar="Hijri-qamari">624H</date>
                <placeName type="fmPlace"/>
@@ -6704,7 +6704,7 @@
                <title xml:lang="eng" type="translationEng"/>
                <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
                <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-               <note type="authentification" subtype="C">Copy</note>&gt;
+               <note type="authentification" subtype="C">Copy</note>
                 <date type="fmEarliestMS" calendar="Hijri-qamari">825</date>
                <date type="fmDate" calendar="Hijri-qamari">602H</date>
                <placeName type="fmPlace">Hebron</placeName>

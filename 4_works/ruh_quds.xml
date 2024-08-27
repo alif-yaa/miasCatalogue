@@ -19,66 +19,107 @@
             <idno type="RG">639</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">65</idno>
+            <idno type="Normalized">ruh_quds</idno>
+            <!-- Titles -->
             <title xml:lang="ara-Latn-x-lc" type="uniform">R. Rūḥ al-quds fī munāṣaḥat al-nafs</title>
             <title xml:lang="ara" type="uniform-ara">رسالة روح القدس في مناصحة النفس</title>
-            <title xml:lang="ara-Latn-x-lc" type="abbreviated">ruh_quds</title>
             <title xml:lang="ara-Latn-x-lc" type="full"/>
-            <title xml:lang="ara-Latn-x-lc" type="alternate">The Holy Spirit in the Counselling of the Soul</title>
+            <title xml:lang="ara-Latn-x-lc" type="variant">The Holy Spirit in the Counselling of the Soul</title>
             <title xml:lang="eng" type="translationEng">The Holy Spirit in the Counselling of the Soul</title>
-            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
-            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
-            <note type="authentification" subtype="A">Autograph</note>
-            <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">min al-ʿabd al-ḍaʿīf al-nāṣiḥ al-shafīq al-maʾmūr bi-l-naṣḥ</incipit>
+            <incipit type="hamdala-ara" xml:lang="ara">Arabic Script Incipit</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">First Line of Intro (after ḥamdala )</incipit>
+            <incipit type="muqadimma" xml:lang="ara">First Line of Intro (Arabic script)</incipit>
+            <incipit type="khutba" xml:lang="ara">Complete Khuṭba</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Closing Words of Text (exclusive of any rubric or colophon which might follow it).</explicit>
+            <explicit type="muqadimma" xml:lang="ara">Closing Words of Text (Arabic script)</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="authenticationType" subtype="A">Autograph</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
             <date type="fmDate" calendar="Hijri-qamari">600H</date>
-            <placeName type="fmPlace">Mecca</placeName>
-            <note type="fmComposition"/>
-            <date when="1111"
-                  cert="high"
-                  calendar="Hijri-qamari"
-                  evidence="internal">Insert Exact Date of Composition</date>
-            <date from="1111"
-                  to="1111"
-                  cert="medium"
-                  calendar="Hijri-qamari"
-                  evidence="external">Insert Known Period of Composition</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
             <date notBefore="1111"
                   notAfter="1111"
                   cert="low"
                   calendar="Hijri-qamari"
-                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
-            <incipit type="uniform" xml:lang="ara-Latn-x-lc">min al-ʿabd al-ḍaʿīf al-nāṣiḥ al-shafīq al-maʾmūr bi-l-naṣḥ</incipit>
-            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
-            <textLang mainLang="ara">Arabic</textLang>
+                  evidence="conjecture">Terminus post quem and terminus ante quem</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Mecca</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
             <noteGrp type="workDesc">
                <note type="description">Treatise originally addressed to Ibn ʿArabī’s friend in Tunis, al-Mahdawī, describing the way in which the soul is educated and advised by the Holy Spirit through the example of previous generations, present-day masters and by direct inspiration. The middle section, describing his early education with over 70 teachers in Spain and North Africa, was translated by R W J Austin in the 1970s and published as Sufis of Andalusia (London, 1971); it has subsequently become one of the best known texts by IA in modern times.</note>
-               <note type="biblioComments">A much copied work, verified by three historic mss. The best is undoubtedly University A79 which is in the hand of SQ’s father and is the riwāya (transmission) of al-Ḥabashī, dated 600H, with at least nine samāʿs in IA’s lifetime.</note>
-               <note type="compHist">Insert Revised Composition History</note>
-               <note type="structure">Insert Revised Work Structure</note>
-               <note type="discussion">Insert Revised Discussion</note>
-               <note type="reception">Insert Revised Reception</note>
-               <note type="stemmatics">Insert Revised Stemmatics</note>
-               <note type="khutba">Insert Transcribed Khutba</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
             </noteGrp>
-            <noteGrp type="references">
-               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
-               <note type="ijaza_2" resp="Badawī" n=""/>
-               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
-               <note type="fihris_2" resp="Awwād" n="52">52</note>
-               <note type="fut_mak">Insert mentions of work in fut_mak</note>
-               <note type="fut_mak" resp="OY"/>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A much copied work, verified by three historic mss. The best is undoubtedly University A79 which is in the hand of SQ’s father and is the riwāya (transmission) of al-Ḥabashī, dated 600H, with at least nine samāʿs in IA’s lifetime.</note>
+            <!-- Related Works -->
+            <relatedItem type="type" target="#work_id"/>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references2ThisWork">
+               <note type="ijazaBadawi" resp="Badawī" n=""/>
+               <note type="fihrisAwwad" resp="Awwād" n="52">52</note>
+               <note type="futuhatOY" resp="OY"/>
                <note type="other"/>
+               <note target="#ijaza">Reference to work in the Ijāza</note>
+               <note target="#fihris">Reference to work in the Fihris</note>
+               <note target="#fut_mak">References to work in Futūḥāt</note>
+               <note target="#work">Referenes to work in other works</note>
             </noteGrp>
-            <noteGrp type="mentions">
-               <note type="mention">
-                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
-                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="references2OtherWorks">
+               <note target="#work">
+                  <quote xml:lang="ara">Quotation</quote>
                </note>
             </noteGrp>
+            <!-- Comments and Corrections -->
             <noteGrp type="scholarComments">
-               <note resp="JC"/>
-               <note resp="MC"/>
+               <note resp="corr."/>
+               <note resp="additions_0"/>
+               <note resp="msAdd.">Universite 79a, 1-103, autograph, sema</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
             </noteGrp>
-            <note type="migrationNotes"/>
+            <!-- Migration Notes -->
+            <note type="migrationNote"/>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical Edition, alongside an Urdu translation, published by The Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2012). Ed. Abrār Aḥmad Shāhī.</note>
+               <note type="translations">There is no complete translation of this work. The following cover only four of its five parts. Partial English translation (middle section) by R W J Austin: Sufis of Andalusia, London, 1971; reprinted Hawick, 2001. Partial English translation (first and last sections) by Roger Boase and Farid Sahnoun: ‘Excerpts from the Epistle on the Spirit of Holiness’ in Muhyiddin Ibn ʿArabī (1165-1240), Ed. Stephen Hirtenstein and Michael Tiernan, Oxford, 1993. Partial French translation by R W J Austin; Gérard Lecomte: Les Soufis d'Andalousie : (Rûh al-quds et ad-Durrat al-fâkhirah), Paris 1979; 1988.</note>
+               <note type="translationsEur">Partial Spanish translations by Miguel Asín Palacios: Vidas de Santones Andaluces, Madrid, 1935. Partial Spanish translation of Part 3 by Miguel Asín Palacios: Risalat al-Quds, Madrid 1939. Partial Spanish translation by R W J Austin, David García Valverde: Los Sufis de Andalucia, Malaga, 1990. Partial German translation by Alma Geise: Ibn ʿArabī: Urwolke und Welt, Munich 2002.</note>
+               <note type="additions_1"/>
+               <note type="additions_2">The stories are translated by R W J Austin as Sufis of Andalusia. The Ghurab edition is not a critical edition.</note>
+               <note type="additions_3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
          </bibl>
       </body>
    </text>

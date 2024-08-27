@@ -14,7 +14,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Works</title>
+                        <title>Works by Ibn al-ʿArabī (Verified and Probable)</title>
                     </titleStmt>
                     <publicationStmt>
                         <p>Publication Information</p>
@@ -38,22 +38,25 @@
     <!-- Template for each ROW -->
     <xsl:template match="fm:ROW">
         <bibl xmlns="http://www.tei-c.org/ns/1.0">
-            <!-- Auto-generate xml:id -->
+            <!-- xml:id -->
             <xsl:attribute name="xml:id">
                 <xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/>
             </xsl:attribute>
+            
+            <!-- identifiers -->
+            
             <idno type="RG"><xsl:value-of select="normalize-space(fm:COL[1]/fm:DATA)"/></idno>
             <idno type="Alt_RG"><xsl:value-of select="normalize-space(fm:COL[2]/fm:DATA)"/></idno>
             <idno type="RECORDID"><xsl:value-of select="normalize-space(fm:COL[3]/fm:DATA)"/></idno>
+            <idno type="Normalized"><xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/></idno>
             
+            <!-- titles -->
             
             <title xml:lang="ara-Latn-x-lc" type="uniform"><xsl:value-of select="normalize-space(fm:COL[4]/fm:DATA)"/></title>
             <title xml:lang="ara" type="uniform-ara"><xsl:value-of select="normalize-space(fm:COL[5]/fm:DATA)"/></title>
-            <title xml:lang="ara-Latn-x-lc" type="abbreviated"><xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/></title>
             <title xml:lang="ara-Latn-x-lc" type="full"><xsl:value-of select="normalize-space(fm:COL[21]/fm:DATA)"/></title>
-            <title xml:lang="ara-Latn-x-lc" type="alternate"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
+            <title xml:lang="ara-Latn-x-lc" type="variant"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
             <title xml:lang="eng" type="translationEng"><xsl:value-of select="normalize-space(fm:COL[22]/fm:DATA)"/></title>
-            
             
             <xsl:choose>
                 <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified A')">
@@ -89,13 +92,13 @@
             
             <xsl:choose>
                 <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'H')"> 
-                    <note type="authentification" subtype="H">Holograph</note>>
+                    <note type="authentification" subtype="H">Holograph</note>
                 </xsl:when>
                 <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'A')"> 
-                    <note type="authentification" subtype="A">Autograph</note>>
+                    <note type="authentification" subtype="A">Autograph</note>
                 </xsl:when>
                 <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'C')"> 
-                    <note type="authentification" subtype="C">Copy</note>>
+                    <note type="authentification" subtype="C">Copy</note>
                 </xsl:when>
             </xsl:choose>    
             

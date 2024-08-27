@@ -80,6 +80,13 @@
                     margin-bottom: 10px;
                     min-width: 760px;
                     }
+                    .info-box-scholar {
+                    background-color: white;
+                    border: 1px solid #e1dbe8;
+                    padding: 5px;
+                    margin-left: 10px;
+                    flex: 1;
+                    }
                     .subheading-scholar {
                     font-weight: normal;
                     font-size: 0.8em;
@@ -98,6 +105,7 @@
                 <xsl:apply-templates select="//tei:bibl"/>
             </body>
         </html>
+        
     </xsl:template>
     
     <!-- Template to match each <bibl> element -->
@@ -144,7 +152,7 @@
                 <div class="info-box-italics">
                     <xsl:value-of select="tei:title[@type='full'][@xml:lang='ara-Latn-x-lc']"/>
                 </div>
-                <div class="subheading">Alternate Titles</div>
+                <div class="subheading">Alt. Titles</div>
                 <div class="info-box-italics">
                     <xsl:value-of select="tei:title[@type='alternate'][@xml:lang='ara-Latn-x-lc']"/>
                 </div>
@@ -190,16 +198,25 @@
                 </div>
             </div>
             
-            <!-- New Rows for Scholar Comments -->
-            <xsl:if test="tei:noteGrp[@type='scholarComments']">
-                <!-- Scholar comments container -->
-                <div class="scholar-comment-box">
+            <!-- Scholar and Migration comments container -->
+            <div class="scholar-comment-box">
                 <!-- Scholars' Comments Header -->
                 <div class="scholar-comments-header">Scholars' Comments</div>
-                    <!-- Apply templates to notes within scholarComments -->
-                    <xsl:apply-templates select="tei:noteGrp[@type='scholarComments']/tei:note"/>
+                    <!-- New Rows for Scholar Comments -->
+                    <xsl:if test="tei:noteGrp[@type='scholarComments']">
+                            <!-- Apply templates to notes within scholarComments -->
+                            <xsl:apply-templates select="tei:noteGrp[@type='scholarComments']/tei:note"/>
+                    </xsl:if>
+                <!--  Migration Note Header -->
+                <div class="scholar-comments-header">Migration Note</div>
+                    <!-- New Row for migration note-->
+                <div class="info-row">
+                    <div class="info-box-scholar scholar-comment">
+                        <xsl:value-of select="tei:note[@type='migrationNotes']"/>
+                    </div>
                 </div>
-            </xsl:if>
+            </div>
+            
         </div>
     </xsl:template>
     
@@ -209,7 +226,7 @@
             <div class="subheading-scholar">
                 <xsl:value-of select="@resp"/>
             </div>
-            <div class="info-box scholar-comment">
+            <div class="info-box-scholar scholar-comment">
                 <xsl:value-of select="."/>
             </div>
         </div>

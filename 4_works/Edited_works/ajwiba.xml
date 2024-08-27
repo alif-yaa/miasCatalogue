@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="ajwiba">
+            <idno type="RG">9</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">339</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">al-Ajwiba al-ʿarabiyya</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الأجوبة العربية</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">ajwiba</title>
+            <title xml:lang="ara-Latn-x-lc" type="full">al-Ajwiba al-ʿarabiyya ʿan al-masāʾil al-Yūsufiyya</title>
+            <title xml:lang="ara-Latn-x-lc" type="alternate"> K. al-Ajwiba al-ʿarabiyya fī sharḥ al-naṣāiḥ al-Yūsufiyya; Sharḥ al-Risāla al-Yūsufiyya; Sharḥ rūḥāniyyat al-shaykh ʿAlī al-Kurdī; Sharḥ rūḥiyyat al-shaykh ʿAlī al-Kurdī; Sharḥ Risāla awwal mā yajib ʿalā al-murīd   </title>
+            <title xml:lang="eng" type="translationEng"/>
+            <author cert="medium" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <persName role="cwt" key="person_0001">Ibn al-ʿArabī</persName>
+            <persName role="ant" key="person_0000">Yūsuf b. Ibrāhīm al-Shāfiʾī</persName>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;700</date>
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <placeName type="fmPlace"/>
+            <note type="fmComposition"/>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh laqad jaʿat rusul rabbina bi-l-ḥaqq</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description"> <p> Wise sayings, accompanied by explanatory notes. IA says in the introduction that it is a collection of sayings by a certain mystic called ʿAlī al-Kurdī who was ‘smitten with divine love’, and he has appended a commentary on these sayings.</p> 
+                  <p>Claude Addas adds: “Al-Ajwiba al-‘Arabiyya fî sharh al-nasâ’ih al-Yûsufiyya est une commentaire par Ibn ‘Arabî d’une risâla concernant les devoirs du murîd à l’égard de son shaykh rédigée par Yûsuf b. Ibrâhîm al-Shâfi’î sous l’inspiration de la rûhâniya de ‘Alî al-Kurdî, un “fou” (muwallah ) notoire de Damas (I.A. l’a rencontré, cf.,Fut., II, 522, ed. Bûlaq).”</p></note>
+               <note type="biblioComments"><p>OY lists five mss. of which two, Husein Celebi 447 and Yusuf Aga 4860, although undated, are very early, whilst Yusuf Aga 4860 is from SQ’s library, and is possibly 7th or 8th century. The internal evidence of the text – for example, the language and the mention of his wife – is strong evidence that it is by IA. In addition, the title is listed in one of the lists which IA made of his own works, Fihris muʾallafāt al-shaykh al-akbar (RG142), and it does not seem to be attributed to anyone else. Claude Addas confirms this stating that:: “L’attribution de ce texte à Ibn ‘Arabî ne fait aucun doute ; on y trouve de nombreuses références autobiographiques, par ex, l’investiture de la khirqa par ‘Abd Allâh b. Jâmī”.A number of the poems in this work appear clustered in the Paris Diwan (B.N. 2348) and seemingly nowhere else.</p> <p> Further information on the fully digitized text of RG 9 found in Word format at cb.rayaheen.net/userfiles/download.php?id=1395‎, which extracts as a Word document with name شرح روحانية الشيخ الكردي.doc. The text itself carries a title not listed by Osman Yahia under RG 9, namely: شرح ما نطقت به روحانية سيدي علي الكردي .</p> <p> JC has compared that text to Yusuf Aga 4860 and Husein Celebi 447. The 202 page text in the Word document closely matches the complete text found in Husein Celebi 447 ff.1a-149b. Decapitated Yusuf Aga 4860 p.207 – which we estimate is missing the first 14 pages (7 folios) – starts with the text found at the end of page 11 of the Word document (cf. Husein Celebi f.9a line 2). PDF versions are also available via Google (شرح روحانية الشيخ الكردي لسيدي ابن عربي.pdf).</p>  </note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n=""/>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="191">191</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#fut_mak"></ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC"><p>There is an edition of the text available online under the title شرح ما نطقت به روحانية سيدي علي الكردي. See for example cb.rayaheen.net/userfiles/download.php?id=1395 (compressed Word document). We find that the text in Yusuf Aga 4860 begins abruptly on manuscript p. 207 – this is equivalent to the bottom line of page 11 in the Word document. I.e. the text in Yusuf Aga 4860 is missing the first 11 pages of the online edition (which contains a total of 203 pages).</p>
+                  
+                  <p>A number of the poems in this work appear clustered in the Paris Diwan (B.N. 2348) and seemingly nowhere else. A group of those poems even appear more than once in B.N. 2348. All in all this would seem to be further evidence that the work is authentic</p></note>
+               <note resp="JC"><p>Furher information on the fully digitized text of RG 9 found in Word format at cb.rayaheen.net/userfiles/download.php?id=1395‎.</p>
+                  
+                  <p>That download file extracts as a Word document with name شرح روحانية الشيخ الكردي.doc. The text itself carries a title not listed by Osman Yahia under RG 9, namely: شرح ما نطقت به روحانية سيدي علي الكردي .</p>
+                  
+                  <p> We have compared that text to manuscripts Yusuf Aga 4860 and Husein Celebi 447. The 202 page text in the Word document closely matches the complete text found in Husein Celebi 447 ff.1a-149b. Decapitated Yusuf Aga 4860 p.207 – which we estimate is missing the first 14 pages (7 folios) – starts with the text found at the end of page 11 of the Word document (and found in Husein Celebi f.9a line 2).</p>
+                  
+                  <p>PDF versions are also available via Google (شرح روحانية الشيخ الكردي لسيدي ابن عربي.pdf).</p></note>
+               <note resp="CA">Le k. al-ajwiba a été édité à Beyrouth, 2010 par A. al- Miziyadi, conjointement avec le k. al-amr …RG. 28 et le Mishkât al-‘uqûl RG. 481. L’attribution de cet écrit à I.A; ne fait aucun doute, il contient de nombreuses références autobiographiques (par ex l’investiture de la khirqa par ‘Abd Allâh b. Jâmi’ p. 137. )
+               </note>
+               <note resp="AAS">Accurate title of the work is:
+                  كتاب الأجوبة العربية عن المسائل اليوسفية
+                  We should search for the Qunawi’s manuscript of this work which is somewhere in Quniya. That manuscript bears Ijaza of Shaykh al Akbar.
+                  Upon getting that manuscript the status should be Verified A, because this is indeed work of Ibn al-Arabi.</note>
+               <note resp="AP"> <p>Just to agree with AAS, the title he gives is as it appears in the Fihris. Any update on the Qunawī ms? </p></note>
+            </noteGrp>
+            <note type="migrationNotes">Related item (non-IA): commentary on risala by ʿAlī al-Kurdī. is it known or unknown? Alternate title: Sharḥ rūḥāniyya al-shaykh al-Kurdī. See also relation to Diwan (JC's comment)</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>

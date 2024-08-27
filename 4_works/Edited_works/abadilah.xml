@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-ʿAbādilah | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="abadilah">
+            <idno type="RG">2</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">33</idno>
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-ʿAbādilah</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب العبادله</title>
+            <title xml:lang="ara-Latn-x-lc" type="abbreviated">abadilah</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="variant">K. Kalām al-ʿabādilah fī haqāʾiq al-asmā; K. Jam‘ kalām al-ʿabādila; Sarḥ al-ʿabādila; K. Alsinat al-ʿadādila; K. al-ʿIbād</title>
+            <title xml:lang="eng" type="translationEng">Book of the Servants of God</title>
+            <author cert="high" key="person_0001">Ibn al-ʿArabī</author>
+            <persName role="att" key="person_0001">Ibn al-ʿArabī</persName>
+            <note type="authentification" subtype="H">Holograph</note>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
+            <date type="fmDate" calendar="Hijri-qamari">&lt;626</date>
+            <placeName type="fmPlace">Probably Damascus</placeName>
+            <note type="fmComposition">Date or place of composition is not known. But it must be before 626H, as there is a samāʿ on Shehit Ali 2826 dated 22nd of Dhū al-Ḥijja 626H.</note>
+            <date when="1111"
+                  cert="high"
+                  calendar="Hijri-qamari"
+                  evidence="internal">Insert Exact Date of Composition</date>
+            <date from="1111"
+                  to="1111"
+                  cert="medium"
+                  calendar="Hijri-qamari"
+                  evidence="external">Insert Known Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Insert Conceivable Date Range of Composition</date>
+            <incipit type="uniform" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh ḥamd al-ḥamd</incipit>
+            <incipit type="uniform-ara" xml:lang="ara">Insert Arabic Incipit</incipit>
+            <textLang mainLang="ara">Arabic</textLang>
+            <noteGrp type="workDesc">
+               <note type="description">A treatise on the servants of God according to the different character traits (akhlāq) of the perfect human being (al-insān al-kāmil). Each servant (ʿabd Allāh) represents a spiritual modality symbolised by the association of a Divine Name and the name of a particular prophet or saint. The work is in two parts; the first consisting of 50 ʿabādila divided into five sections, the second of 67. Pablo Beneito supports Michel Chodkiewicz in relating the first 114 to the 114 suras of the Qurʾān.</note>
+               <note type="biblioComments">OY lists 16 mss., at least seven of which can be considered historic. The best is Yusuf Aga 4859, a partial holograph with a samāʿ dated 641H. Different copies have different numbers of chapters: Ayasofia 4817 and Yusuf Aga 4859 have 117, Shehit Ali 2826 114, the Cairo printed edition (1969) 96. According to Pablo Beneito, who has made a detailed study of the text, 117 is the correct number.</note>
+               <note type="compHist">Insert Revised Composition History</note>
+               <note type="structure">Insert Revised Work Structure</note>
+               <note type="discussion">Insert Revised Discussion</note>
+               <note type="reception">Insert Revised Reception</note>
+               <note type="stemmatics">Insert Revised Stemmatics</note>
+               <note type="khutba">Insert Transcribed Khutba</note>
+            </noteGrp>
+            <noteGrp type="references">
+               <note type="ijaza">Insert Title of Work as given in Ijāza plus any of IA's comments</note>
+               <note type="ijaza_2" resp="Badawī" n="188">188</note>
+               <note type="fihris">Insert Title of Work as given in Fihris plus any of IA's comments</note>
+               <note type="fihris_2" resp="Awwād" n="177">177</note>
+               <note type="fut_mak">Insert mentions of work in fut_mak</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other"/>
+            </noteGrp>
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Insert target to work(s) mentioned, and can give more detail about precise location as plain text here</ref>
+                  <quote xml:lang="ara">Add quotation(s), if relevant</quote>
+               </note>
+            </noteGrp>
+            <noteGrp type="scholarComments">
+               <note resp="JC">There is a ms from 649H in the Zahiriyya according to the al-Assad online catalogue (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms num 601 [م ف/م/601] Title: العبادلة. This manuscript also contains RG 689 (الشواهد) and RG 737 (تاج التراجم في إشارات العلم ولطائف الفهم) both dated to the same year 649H. Compare this with Ayasofia 4817 which is from the same year and contains the exact same three works in the same order.</note>
+               <note resp="JC">See our comment against RG 536 (Natāʾij al-adhkār) – http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments  – for details of Palestine, Khalidiyya 892 (old numbering) – an Akbarian collection with copies dated 656H-667H in which there is a copy of RG 2 (undated).
+                     Online catalogue entry: http://data.manumed.org/eng/ref/142791/Khalidiya_n°1047_-_old_ref:_5__892/ </note>
+               <note resp="MC">Add Edition fautive et lacunaire par ‘Abd al-Qâdir ‘Atâ’, Le Caire, 1969, établie à partir d’un ms. du Dâr al-kutub et d’un ms. de la bibliothèque d’al-Azhar dont les cotes ne sont pas précisées par l’éditeur.
+                     
+                     Les “serviteurs de Dieu” dont Ibn Arabî se présente dans l’introduction comme l’ “interprète” ne correspondent pas à une série de personnages historiques identifiables : chacun d’eux représente un aspect de la walâya, défini par sa double relation avec un Nom divin et avec le nom d’un prophète et c’est toujours le sceau de la sainteté (c’est-à-dire Ibn Arabî lui-même) qui, parce qu’il totalise en sa personne tous ces aspects successifs, s’exprime par la bouche de ces ‘Abâdila.
+                     
+                     Le ms. Aya Sofia 4817 et le ms. Shehit Alî Pasha 2826 comportent 117 chapitres correspondant à autant de ‘Abâdila. Shehit Alî Pasha est divisé en 6 parties, les 5 premières comportant chacune 10 ‘Abâdila et la 6ème 67 ‘Abâdila.
+                     
+                     L’Edition du Caire, dont la table des matières en fin de volume énumère 96 chapitres, en comporte en réalité 103. Les 14 chapitres manquants se situent à la fin de la 6ème partie du ms. Shehit ‘Alî Pasha.
+                     
+                     Le nombre 117 correspond à celui des akhlâq divins dont la saveur (dhawq) est réservée aux anbiyâ’ (Fut.,II, p.72-73, question 46). Ibn Arabî précise toutefois que les awliyâ’ y participent dans une certaine mesure grâce à des “notifications divines” (ta’rîfât) qui leur octroient “des saveurs et des breuvages” (adhwâq wa mashârib).</note>
+               <note resp="SH">Critical edition in progress by PB and Souad Hakim</note>
+            </noteGrp>
+            <note type="migrationNotes">Date: Not after 22nd of Dhū al-Ḥijja 626H (evidence = external)</note>
+         </bibl>
+      </body>
+   </text>
+</TEI>
