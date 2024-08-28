@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Isfār ʿan natāʾij al-asfār | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="isfar">
+            <idno type="RG">307</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">122</idno>
+            <idno type="Normalized">isfar</idno>
+            <!-- Titles -->
+            <title xml:lang="ara-Latn-x-lc" type="uniform">K. al-Isfār ʿan natāʾij al-asfār</title>
+            <title xml:lang="ara" type="uniform-ara">كتاب الإسفار عن نتائج الأسفار</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="variant"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh al-kāʾin fi-l-ʿamā al-mawṣūf bi-l-istiwāʾ jalāl dhātihi</incipit>
+            <incipit type="hamdala-ara" xml:lang="ara">Arabic Script Incipit</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">First Line of Intro (after ḥamdala )</incipit>
+            <incipit type="muqadimma" xml:lang="ara">First Line of Intro (Arabic script)</incipit>
+            <incipit type="khutba" xml:lang="ara">Complete Khuṭba</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Closing Words of Text (exclusive of any rubric or colophon which might follow it).</explicit>
+            <explicit type="muqadimma" xml:lang="ara">Closing Words of Text (Arabic script)</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="authenticationType" subtype="H">Holograph</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;638</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Terminus post quem and terminus ante quem</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace"/>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Treatise explaining the principles of spiritual journeying (to, from and in God), and the inner meanings of various divine and prophetic journeys, such as the descent of the Qurʿān, the ascension of Muhammad, the fall of Adam, and the journeys of Idris/Enoch, Noah, Abraham, Lot, Jacob, Joseph and Moses.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">OY cites 19 mss., verified by three historic mss. The best is Yusuf Ağa 4859 which is an IA holograph, with a samāʿ, but the ms. has been stolen so only a digitised microfilm is now available (first pages missing). Koprulu 713 contains a copy of this ms., dated 663H in Konya. Critical edition by D. Gril, and new critical edition with translation by Angela Jaffray.</note>
+            <!-- Related Works -->
+            <relatedItem type="type" target="#work_id"/>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references2ThisWork">
+               <note type="ijazaBadawi" resp="Badawī" n="154">154</note>
+               <note type="fihrisAwwad" resp="Awwād" n="139">139</note>
+               <note type="futuhatOY" resp="OY"/>
+               <note type="other"/>
+               <note target="#ijaza">Reference to work in the Ijāza</note>
+               <note target="#fihris">Reference to work in the Fihris</note>
+               <note target="#fut_mak">References to work in Futūḥāt</note>
+               <note target="#work">Referenes to work in other works</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="references2OtherWorks">
+               <note target="#work">
+                  <quote xml:lang="ara">Quotation</quote>
+               </note>
+            </noteGrp>
+            <!-- Comments and Corrections -->
+            <noteGrp type="scholarComments">
+               <note resp="corr."/>
+               <note resp="additions_0">Add Edition critique du texte arabe et traduction française par D. Gril sous le titre Le Dévoilement des effets du voyage, Editions de l'Eclat, Combas, 1994.</note>
+               <note resp="msAdd.">Yusuf Aga 4859(new) pp1-76. The first copy, autograph, with a sema, from Q. library</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Migration Notes -->
+            <note type="migrationNote"/>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">A critical edition by Denis Gril was printed alongside his French translation in Le Dévoilement des Effets du Voyage (Paris, 1994). This did not have access to the holograph (Yusuf Ağa 4859). An amended edition, based on the Gril’s work but including Yusuf Ağa 4859, plus a translation into Urdu, has been published by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan. 2013). Ed. Abrār Aḥmad Shāhī Critical edition by ʿAbd al-ʿAzīz al-Manṣūb, based on mss. from the MIAS archive. Published by al-Qudus, Cairo, 2018.</note>
+               <note type="translations">English translation by Angla Jaffray: The Secrets of Journeying, Anqa Publishing, Oxford, 2015. French translation by Denis Gril: Le Dévoilement des Effets du Voyage, Paris 1994</note>
+               <note type="translationsEur"/>
+               <note type="additions_1"/>
+               <note type="additions_2">Critical edition by Souad Hakim. Edition (DG) and trans in progress (AJ)</note>
+               <note type="additions_3">Editions de l’éclat, 1994, into French by Denis Gril. See P/438</note>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

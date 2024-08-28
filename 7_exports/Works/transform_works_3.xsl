@@ -40,8 +40,6 @@
                 <xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/>
             </xsl:attribute>
             
-            
-            
             <idno type="RG"><xsl:value-of select="normalize-space(fm:COL[1]/fm:DATA)"/></idno>
             <idno type="Alt_RG"><xsl:value-of select="normalize-space(fm:COL[2]/fm:DATA)"/></idno>
             <idno type="RECORDID"><xsl:value-of select="normalize-space(fm:COL[3]/fm:DATA)"/></idno>
@@ -49,22 +47,22 @@
             
             <xsl:comment> Titles </xsl:comment>
             
-            <title xml:lang="ara-Latn-x-lc" type="uniform"><xsl:value-of select="normalize-space(fm:COL[4]/fm:DATA)"/></title>
-            <title xml:lang="ara" type="uniform-ara"><xsl:value-of select="normalize-space(fm:COL[5]/fm:DATA)"/></title>
-            <title xml:lang="ara-Latn-x-lc" type="full"><xsl:value-of select="normalize-space(fm:COL[21]/fm:DATA)"/></title>
-            <title xml:lang="ara-Latn-x-lc" type="variant"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
-            <title xml:lang="eng" type="translationEng"><xsl:value-of select="normalize-space(fm:COL[22]/fm:DATA)"/></title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[4]/fm:DATA)"/></title>
+            <title type="uniform" xml:lang="ara"><xsl:value-of select="normalize-space(fm:COL[5]/fm:DATA)"/></title>
+            <title type="full" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[21]/fm:DATA)"/></title>
+            <title type="variant" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
+            <title type="translation" xml:lang="eng"><xsl:value-of select="normalize-space(fm:COL[22]/fm:DATA)"/></title>
             <note type="titleNote">Note on Title</note>
             
             <xsl:comment> Textual Identifiers </xsl:comment>
             
             <incipit type="hamdala" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[12]/fm:DATA)"/></incipit>
-            <incipit type="hamdala-ara" xml:lang="ara">Arabic Script Incipit</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
             <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">First Line of Intro (after ḥamdala )</incipit>
-            <incipit type="muqadimma" xml:lang="ara">First Line of Intro (Arabic script)</incipit>
-            <incipit type="khutba" xml:lang="ara">Complete Khuṭba</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
             <explicit xml:lang="ara-Latn-x-lc">Closing Words of Text (exclusive of any rubric or colophon which might follow it).</explicit>
-            <explicit type="muqadimma" xml:lang="ara">Closing Words of Text (Arabic script)</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
             <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
             
             
@@ -85,6 +83,18 @@
                     <author cert="low" key="IA">Ibn al-ʿArabī</author>
                     <editor role="role" key="key">Other Roles</editor>
                     <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+                </xsl:when>
+            </xsl:choose>
+            
+            <xsl:choose>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified A')">
+                    <note type="verification" subtype="A">Verified A</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified B')">
+                    <note type="verification" subtype="B">Verified B</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Probable IA')">
+                    <note type="verification" subtype="C">Probable IA</note>
                 </xsl:when>
             </xsl:choose>
             
@@ -157,7 +167,8 @@
             
             <noteGrp type="references2OtherWorks">
                 <note target="#work">
-                <quote xml:lang="ara">Quotation</quote>
+                <quote xml:lang="ara">استشهاد</quote>
+                <quote xml:lang="ara-Latn-x-lc">Quotation</quote>
                 </note>
             </noteGrp>
                                     
@@ -194,7 +205,6 @@
                 <note type="additions_2"><xsl:value-of select="normalize-space(fm:COL[39]/fm:DATA)"/></note>
                 <note type="additions_3"><xsl:value-of select="normalize-space(fm:COL[59]/fm:DATA)"/></note>                
             </noteGrp>
-            
             
             <xsl:comment> Administrative Notes </xsl:comment>
             <noteGrp type="admin">

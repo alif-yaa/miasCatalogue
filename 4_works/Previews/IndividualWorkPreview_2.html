@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+                    body {
+                    font-family: Verdana, sans-serif; 
+                    }
+                    /* green background */ 
+                    .background-1 {
+                    background-color: #e8efc0;
+                    border-top: 2px solid #d8dfb0;
+                    border-left: 2px solid #d8dfb0;
+                    border-right: 2px solid #d8dfb0;
+                    padding: 10px;
+                    min-width: 760px;
+                    }
+                    /* purple background */
+                    .background-2 {
+                    background-color: #f1f3eb; 
+                    border-bottom: 2px solid #e1dbe8; 
+                    border-left: 2px solid #e1dbe8;
+                    border-right: 2px solid #e1dbe8;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    min-width: 760px;
+                    }
+                    /* white box with green border */
+                    .box-1 {
+                    background-color: white;
+                    border: 1px solid #d8dfb0;
+                    padding: 5px;
+                    margin-left: 10px;
+                    flex: 1;
+                    }
+                    .box-1-italics {
+                    font-style: italic;
+                    background-color: white;
+                    border: 1px solid #d8dfb0;
+                    padding: 5px;
+                    margin-left: 10px;
+                    flex: 1;
+                    }
+                    .box-1-arabic {
+                    background-color: white;
+                    direction: rtl;
+                    border: 1px solid #d8dfb0;
+                    padding: 4px;
+                    margin-left: 10px;
+                    flex: 1;
+                    font-family: 'Amiri', serif;
+                    }
+                    /* white box with purple border */
+                    .box-2 {
+                    background-color: white;
+                    border: 1px solid #e1dbe8;
+                    padding: 5px;
+                    margin-left: 10px;
+                    flex: 1;
+                    }
+                    /* define row */
+                    .row-1 {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    min-width: 760px; /* Adjust this value as necessary */
+                    }
+                    /* main title-Latin */
+                    .h1-italic {
+                    font-size: 1.8em;
+                    color: #0052a4;
+                    font-style: italic;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    font-family: 'Comorant Garamond', serif;
+                    }
+                    /* main title-Arabic */
+                    .h1-arabic {
+                    font-size: 1.8em;
+                    color: #0052a4;
+                    direction: rtl;
+                    margin-bottom: 15px;
+                    text-align: center;
+                    font-family: 'Amiri', serif;
+                    }
+                    /* headings */ 
+                    .h2 {
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    }
+                    /* subheadings */ 
+                    .h3 {
+                    font-weight: bold;
+                    font-size: 1em;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    }
+                    /* subsubheadings to side of info-box */
+                    .h4 {
+                    font-weight: bold;
+                    padding-right: 10px;
+                    min-width: 150px;
+                    text-align: right;
+                    vertical-align: middle;
+                    }
+                    /* non-bold subheadings to side of info-box */
+                    .h4-small {
+                    font-weight: normal;
+                    font-size: 0.8em;
+                    padding-right: 10px;
+                    min-width: 150px;
+                    text-align: right;
+                    vertical-align: middle;
+                    }
+                    /* Smaller text */
+                    .text-smaller {
+                    font-size: 0.8em;
+                    }
+                </style>
+   </head>
+   <body>
+      <div class="background-1">
+         <div class="h1-italic">K. al-ʿAbādilah</div>
+         <div class="h1-arabic">كتاب العبادله</div>
+         <div class="row-1">
+            <div class="h4">RG №</div>
+            <div class="box-1">2</div>
+            <div class="h4">Alt. RG</div>
+            <div class="box-1"></div>
+            <div class="h4">xml:id</div>
+            <div class="box-1">abadilah</div>
+         </div>
+         <div class="h2">Titles</div>
+         <div class="row-1">
+            <div class="h4">Uniform Title</div>
+            <div class="box-1-italics">K. al-ʿAbādilah</div>
+            <div class="box-1-arabic">كتاب العبادله</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Full Title</div>
+            <div class="box-1-italics">Kitab Kalām al ʿAbādilah fi-l haqāʾiq al-Asmā: Kitab Jam‘ kalām al-ʿAbādila: Sarḥ
+               al-ʿAbādila: Kitab alsinat al-ʿAdādila: Kitab al-ʿIbad</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Variant Title</div>
+            <div class="box-1-italics">Variant Title</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">English Title</div>
+            <div class="box-1-italics">Book of the Servants of God</div>
+         </div>
+         <div class="h2">Textual Identifiers</div>
+         <div class="row-1">
+            <div class="h4">Incipit</div>
+            <div class="box-1-italics">al-ḥamdu lillāh ḥamd al-ḥamd</div>
+            <div class="box-1-arabic">Arabic Script Incipit</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Introduction</div>
+            <div class="box-1-italics">First Line of Intro (after ḥamdala )</div>
+            <div class="box-1-arabic">First Line of Intro (Arabic script)</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Explicit</div>
+            <div class="box-1-italics"></div>
+            <div class="box-1-italics"></div>
+         </div>
+         <div class="h2">Authorship</div>
+         <div class="row-1">
+            <div class="h4">Author</div>
+            <div class="box-1">Ibn al-ʿArabī</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Authenticity</div>
+            <div class="box-1">Ibn al-ʿArabī</div>
+         </div>
+         <div class="h2">Composition</div>
+         <div class="h2">Contents</div>
+         <div class="h2">Stemmatics</div>
+         <div class="h2">Related Works</div>
+         <div class="h2">Cross-references</div>
+         <div class="h3">To this work</div>
+         <div class="h3">To other works</div>
+         <div class="h2">Comments and Corrections</div>
+         <div class="h2">Publications</div>
+         <div class="h3">Editions</div>
+         <div class="h3">Translations</div>
+         <div class="h3">Other Publications</div>
+         <div class="h3">Additions</div>
+         <div class="h2">MIAS Records</div>
+      </div>
+   </body>
+</html>

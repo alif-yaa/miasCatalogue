@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Naqsh al-Fuṣūṣ | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="naqsh_fus">
+            <idno type="RG">528</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">256</idno>
+            <idno type="Normalized">naqsh_fus</idno>
+            <!-- Titles -->
+            <title xml:lang="ara-Latn-x-lc" type="uniform">Naqsh al-Fuṣūṣ</title>
+            <title xml:lang="ara" type="uniform-ara">نقش الفصوص</title>
+            <title xml:lang="ara-Latn-x-lc" type="full"/>
+            <title xml:lang="ara-Latn-x-lc" type="variant"/>
+            <title xml:lang="eng" type="translationEng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">iʿlam an al-asmāʾ al-ilāhiyya al-ḥusnā yaṭlaba bi-dhawātihā wujūd al-ʿālam</incipit>
+            <incipit type="hamdala-ara" xml:lang="ara">Arabic Script Incipit</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">First Line of Intro (after ḥamdala )</incipit>
+            <incipit type="muqadimma" xml:lang="ara">First Line of Intro (Arabic script)</incipit>
+            <incipit type="khutba" xml:lang="ara">Complete Khuṭba</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Closing Words of Text (exclusive of any rubric or colophon which might follow it).</explicit>
+            <explicit type="muqadimma" xml:lang="ara">Closing Words of Text (Arabic script)</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">650</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date notBefore="1111"
+                  notAfter="1111"
+                  cert="low"
+                  calendar="Hijri-qamari"
+                  evidence="conjecture">Terminus post quem and terminus ante quem</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace"/>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Commentary on the Fuṣūṣ al-ḥikam (RG 150) by IA himself.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">OY lists nine mss., verified by one definitive historic ms. and one other: Manisa 1183 (c.650H, from an original in the hand of IA) and the undated Husein Celebi 477. There is some confusion in OY between this and RG 454, Miftaḥ al-Fuṣūṣ. Some have thought that the commentary is actually by Ibn Sawdakīn (see OY p. 407), but the Husein Celebi ms states that it is by the author of the Fuṣūṣ, i.e. IA.</note>
+            <!-- Related Works -->
+            <relatedItem type="type" target="#work_id"/>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references2ThisWork">
+               <note type="ijazaBadawi" resp="Badawī" n=""/>
+               <note type="fihrisAwwad" resp="Awwād" n=""/>
+               <note type="futuhatOY" resp="OY"/>
+               <note type="other"/>
+               <note target="#ijaza">Reference to work in the Ijāza</note>
+               <note target="#fihris">Reference to work in the Fihris</note>
+               <note target="#fut_mak">References to work in Futūḥāt</note>
+               <note target="#work">Referenes to work in other works</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="references2OtherWorks">
+               <note target="#work">
+                  <quote xml:lang="ara">Quotation</quote>
+               </note>
+            </noteGrp>
+            <!-- Comments and Corrections -->
+            <noteGrp type="scholarComments">
+               <note resp="corr."/>
+               <note resp="additions_0"/>
+               <note resp="msAdd."/>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Migration Notes -->
+            <note type="migrationNote"/>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical edition, plus a translation into Urdu, by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan), ed. Abrār Aḥmad Shāhī, in Rasāʾil Ibn al-Arabi (Volume 1). A critical edition alongside Fuṣūṣ al-Hikam with complete references to Qurʾān and ḥadith by Dr Saiyad Nizamuddin al-Husayni (Cairo, date unknown).</note>
+               <note type="translations">English translation by William Chittick: ‘Ibn ʿArabī’s own summary of the Fuṣūṣ ‘The Imprint of the Bezels of Wisdom’, JMIAS 1, 1982.</note>
+               <note type="translationsEur"/>
+               <note type="additions_1"/>
+               <note type="additions_2"/>
+               <note type="additions_3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>
