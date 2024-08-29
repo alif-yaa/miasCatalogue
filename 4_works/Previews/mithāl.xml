@@ -1,0 +1,567 @@
+<!DOCTYPE HTML>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+                    body {
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    /* green background */
+                    .background-1 {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        min-width: 600px;
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #F6F8E7;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        min-width: 600px;
+                    }
+                    /* white background */
+                    .background-3 {
+                        background-color: white;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        min-width: 600px;
+                    }
+                    /* define row for boxes */
+                    .row-1 {
+                        display: flex;
+                        align-items: center;
+                        align-items: stretch;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
+                        flex: 1;
+                    }
+                    
+                    /* define row for headings */
+                    .row-2 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    /* First column (aligned left) */
+                    .column-left {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-start; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    
+                    /* second column (aligned right) */
+                    .column-right {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-end; /* Align items to the right horizontally */
+                        margin-left: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* white box with green border */
+                    .box-1,
+                    .box-1-italics,
+                    .box-1-arabic {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                    }
+                    .box-1-italics {
+                        font-style: italic;
+                    }
+                    .box-1-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /*  box with green background */
+                    .box-note {
+                        background-color: #f6f6f6;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5
+                    }
+                    /* white box with purple border */
+                    .box-2 {
+                        background-color: white;
+                        border: 1px solid #C3AED1;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                    }
+                    /* main title-Latin */
+                    .h1-italic {
+                        font-size: 1.8em;
+                        color: #0052a4;
+                        font-style: italic;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 20px;
+                        margin-bottom: 5px;
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    /* main title-Arabic */
+                    .h1-arabic {
+                        font-size: 1.8em;
+                        color: #0052a4;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* headings */
+                    .h2,
+                    .h2-arabic {
+                        font-weight: bold;
+                        color: #0052a4;
+                        font-size: 1.2em;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        text-align: center;
+                    }
+                    .h2-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* subheadings */
+                    .h3,
+                    .h3-arabic {
+                        font-weight: bold;
+                        font-size: 1em;
+                        color: #0052a4;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    
+                    }
+                    .h3-arabic {
+                        text-align: right;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* subsubheadings to side of info-box */
+                    .h4,
+                    .h4-small {
+                        padding-right: 10px;
+                        min-width: 80px;
+                        text-align: right;
+                        vertical-align: middle;
+                        align-self: center;
+                    
+                    }
+                    .h4-arabic {
+                        padding-left: 8px;
+                        min-width: 65px;
+                        text-align: left;
+                        vertical-align: middle;
+                        align-self: center;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* smaller subheadings to side of info-box */
+                    .h4-small {
+                        font-size: 0.8em;
+                    }
+                    /* Smaller text */
+                    .text-smaller {
+                        font-size: 0.8em;
+                    }</style>
+   </head>
+   <body>
+      <div class="h1-italic">K. al-Mithāl</div>
+      <div class="h1-arabic">كتاب المثال</div>
+      <div class="background-1">
+         <div class="row-2">
+            <div class="h4">RG №</div>
+            <div class="box-1">571</div>
+            <div class="h4">Alt. RG №</div>
+            <div class="box-1">1025</div>
+            <div class="h4">xml:id</div>
+            <div class="box-1">mithal</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Title</div>
+            <div class="h2-arabic">عنوان</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Uniform</div>
+            <div class="box-1-italics">K. al-Mithāl</div>
+            <div class="box-1-arabic">كتاب المثال</div>
+            <div class="h4-arabic">موحد</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Full</div>
+            <div class="box-1-italics">K. al-Mithāl al-raqamī li-fihris al-aʿmāl al-akbarī</div>
+            <div class="h4-arabic">كامل</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Variant</div>
+            <div class="box-1-italics">K. al-Mathal li-man saʾal</div>
+            <div class="h4-arabic">بديل</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Variant</div>
+            <div class="box-1-italics">K. al-Mithāl li-fihris al-aʿmāl</div>
+            <div class="h4-arabic">بديل</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">English</div>
+            <div class="box-1">The Book of Example</div>
+            <div class="h4-arabic">إنجليزي</div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">This title is completely made up for the sake of demonstration</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Textual Identifiers</div>
+            <div class="h2-arabic">معرفات نصية</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Incipit</div>
+            <div class="box-1-italics">Al-ḥamdu lillāh al-ladhī ḍaraba al-amthāl</div>
+            <div class="box-1-arabic">الحمد لله الذي ضرب الأمثال</div>
+            <div class="h4-arabic">حمدله</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Intro</div>
+            <div class="box-1-italics">Amma baʿd allaftu hādhā al-kitāb li-yakūna mithālan jāmiʿan li-fihris al-aʿmāl </div>
+            <div class="box-1-arabic">أمّا بعد ألّفتُ هذا الكتاب ليكون مثالًا جامعًا لفهرس الأعمال</div>
+            <div class="h4-arabic">مقدمة</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Khuṭba</div>
+            <div class="box-1-italics">Khuṭba</div>
+            <div class="box-1-arabic">الحمد لله الذي ضرب لنا الأمثال في عالم الحس والمثال ليهتدي بها العقل والخيال وصلى
+               الله على معلم النية وراء الأفعال ومبلغ العبرة في الأقوال محمد وعلى آله وسلم ما دامت
+               أيام  وليال  
+               </div>
+            <div class="h4-arabic">خطبة</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Explicit</div>
+            <div class="box-1-italics">Wa-bi-hādhā yantahī Kitāb al-Mithāl bi-ḥamdi-llāh wa-tawfīqihi</div>
+            <div class="box-1-arabic">وبهذا ينتهي كتاب المثال بحمد الله وتوفيقه</div>
+            <div class="h4-arabic">ختام</div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">These textual identifiers are completely made up for the sake of demonstration</div>
+            <div class="h4-arabic"></div>
+         </div>
+      </div>
+      <div class="background-3"></div>
+      <div class="background-1">
+         <div class="row-2">
+            <div class="h2">Authorship</div>
+            <div class="h2-arabic">صحة النسبة</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Author</div>
+            <div class="box-1">Abū Zayd al-Uksfūrdī</div>
+            <div class="h4-arabic">مؤلف</div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Verification</div>
+               <div class="box-1">Spurious</div>
+               <div class="h4-arabic">درجة الصحة</div>
+            </div>
+            <div class="column-right">
+               <div class="h4">Authentication</div>
+               <div class="box-1">NA</div>
+               <div class="h4-arabic">توثيق</div>
+            </div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">This is not an authentic work.</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h3">Other roles</div>
+            <div class="h3-arabic">أدوار أخرى</div>
+         </div>
+         <div class="row-2">
+            <div class="h4">Falsifier</div>
+            <div class="box-1">Ali Porteous</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h4">Dedicatee</div>
+            <div class="box-1">Stephen Hirtenstein</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Composition</div>
+            <div class="h2-arabic">تأليف</div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Place</div>
+               <div class="box-1">Oxford</div>
+               <div class="h4-arabic">مكان</div>
+            </div>
+            <div class="column-right">
+               <div class="h4">Date</div>
+               <div class="box-1">1440</div>
+               <div class="h4-arabic">تاريخ</div>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Earliest MS</div>
+               <div class="box-1">1446</div>
+               <div class="h4-arabic">أقدم شاهد</div>
+            </div>
+            <div class="column-right">
+               <div class="h4">TPQ-TAQ</div>
+               <div class="box-1">1440–1446</div>
+               <div class="h4-arabic">نطاق زمني</div>
+            </div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">Composed in a fit of whimsy to demonstrate the potential of the new extensible markup
+               language.</div>
+            <div class="h4-arabic"></div>
+         </div>
+      </div>
+      <div class="background-3"></div>
+      <div class="background-1">
+         <div class="row-2">
+            <div class="h2">Contents</div>
+            <div class="h2-arabic">مضمون</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Description</div>
+            <div class="box-1">An XML file created solely for the sake of demonstration.</div>
+            <div class="h4-arabic">وصف</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Structure</div>
+            <div class="box-1">Written in such a way to ensure every field contains a value.</div>
+            <div class="h4-arabic">تقسيم</div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">Could've been better.</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Stemmatics</div>
+            <div class="h2-arabic">تحقيق المخطوطات</div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">No extant manuscripts - a purely digital creation.</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Related Works</div>
+            <div class="h2-arabic">مصنفات ذات الصلة</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">adaptation</div>
+            <div class="box-1-italics">Work</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">Note on Related Works</div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-2">
+            <div class="h2">Cross-references</div>
+            <div class="h2-arabic">إحالات مزدوجة</div>
+         </div>
+         <div class="row-2">
+            <div class="h3">To this work</div>
+            <div class="h3-arabic">إلى هذا المصنف</div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Ijāza</div>
+               <div class="box-1">188</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="column-right">
+               <div class="box-1">
+                  Reference to work in the Ijāza </div>
+               <div class="h4-arabic">الإجازة</div>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Fihrist</div>
+               <div class="box-1">177</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="column-right">
+               <div class="box-1">
+                  Reference to work in the Fihrist</div>
+               <div class="h4-arabic">الفهرست</div>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Futūḥāt</div>
+               <div class="box-1"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="column-right">
+               <div class="box-1">
+                  References to work in Futūḥāt</div>
+               <div class="h4-arabic">الفتوحات</div>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4">Other</div>
+               <div class="box-1-italics"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="column-right">
+               <div class="box-1"></div>
+               <div class="h4-arabic"></div>
+            </div>
+         </div>
+         <div class="row-2">
+            <div class="h3">To other works</div>
+            <div class="h3-arabic">إلى مصنفات أخرى</div>
+         </div>
+         <div class="row-2">
+            <div class="h4">Work</div>
+            <div class="box-1">
+                Reference to other work </div>
+            <div class="h4-arabic"></div>
+         </div>
+         <div class="row-1">
+            <div class="h4"></div>
+            <div class="box-note">Note on Cross-references</div>
+            <div class="h4-arabic"></div>
+         </div>
+      </div>
+      <div class="background-3"></div>
+      <div class="background-1">
+         <div class="row-2">
+            <div class="h2">Publications</div>
+            <div class="h2-arabic">منشورات</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Editions</div>
+            <div class="box-1">A critical edition is in progress by Pablo Beneito and Souad
+               Hakim. A translation into Spanish is also in progress. Critical edition by ʿAbd
+               al-ʿAzīz al-Manṣūb, based on mss. from the MIAS archive. Published by al-Qudus,
+               Cairo, 2018.</div>
+            <div class="h4-arabic">طبعات</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Translations</div>
+            <div class="box-1"><br></div>
+            <div class="h4-arabic">تراجم</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Studies</div>
+            <div class="box-1"></div>
+            <div class="h4-arabic">أبحاث</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">Additions</div>
+            <div class="box-1"><br>Beneito and Suad Hakim working on a critical
+               edition.<br><br></div>
+            <div class="h4-arabic">إضافات</div>
+         </div>
+      </div>
+      <div class="background-3"></div>
+      <div class="background-1">
+         <div class="row-2">
+            <div class="h2">Comments and Corrections</div>
+            <div class="h2-arabic">تعليق وتدقيق</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">corrections</div>
+            <div class="box-note"></div>
+         </div>
+         <div class="row-1">
+            <div class="h4">additions</div>
+            <div class="box-note">Yusuf Aga 4859 Work stolen. Photocopy in MIAS Library (Ms/158)
+               (S.H.) Mss. (SH) Koprulu 713, 45a-80b Dated 663H Ayasofya 4817 Dated 649H,
+               possibly read before SQ - see Elmore, JMIAS XXIII for details Sheiht Ali 2826,
+               6b-61b Dated 721H in Cairo, copy of 2 original sama' - The listeners were: al-Qutb
+               al-din M, son of …Shams al-din Isma'il Ibn Sawdakin, Sadr al-din Qunawi , al-Maqri
+               and Abu Bakr b.M. b. Abu Bakr al-Balkhi. Dated 22 Dhu'l-Hijja 621H. We can assume
+               that the reader was Ayyub b. Badr al-Maqri, who copied many works in 621H in
+               Damascus. Chester Beatty 3643 Written in Malatya c.700H Yusuf Aga 4892 Dated 716H
+               according to catalogue. Poor copy.</div>
+         </div>
+         <div class="row-1">
+            <div class="h4">msAdditions</div>
+            <div class="box-note"></div>
+         </div>
+         <div class="row-1">
+            <div class="h4">JC</div>
+            <div class="box-note">
+               
+               
+               </div>
+         </div>
+         <div class="row-1">
+            <div class="h4">SH</div>
+            <div class="box-note">
+               
+               
+               </div>
+         </div>
+         <div class="row-1">
+            <div class="h4">AP</div>
+            <div class="box-note">
+               Date: Not after 22nd of Dhū al-Ḥijja 626H (evidence = external)
+               
+               </div>
+         </div>
+         <div class="row-2">
+            <div class="h2">MIAS Records</div>
+            <div class="h2-arabic">سجلات مكتبية</div>
+         </div>
+         <div class="row-2">
+            <div class="column-left">
+               <div class="h4-small">In Archive</div>
+               <div class="box-1 text-smaller">y</div>
+               <div class="h4-small"></div>
+            </div>
+            <div class="column-right">
+               <div class="h4-small">In Library</div>
+               <div class="box-1 text-smaller">Y</div>
+               <div class="h4-arabic"></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

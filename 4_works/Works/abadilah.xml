@@ -17,7 +17,7 @@
       <body>
          <bibl xml:id="abadilah">
             <idno type="RG">2</idno>
-            <idno type="Alt_RG"/>
+            <idno type="Alt_RG"></idno>
             <idno type="RECORDID">33</idno>
             <idno type="Normalized">abadilah</idno>
             <!-- Titles -->
@@ -70,14 +70,14 @@
             <note type="relationsNote">Note on Related Works</note>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
-               <note type="ijaza" resp="Badawi" n="188">188</note>
+               <note type="ijaza" resp="Badawi" n="188">188 (Badawi)</note>
                <note type="fihrist" resp="Awwad" n="177">177</note>
                <note type="fut_mak" resp="OY"/>
                <note type="other">
                   <ref target="#work"/>Reference in other work(s)
                 </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                  <ref target="#ijaza"/>"I composed this in a an hour in Ṭāʾif"
                 </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>

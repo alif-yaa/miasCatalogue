@@ -274,6 +274,7 @@
                 </div>
                 <div class="h4-arabic">إنجليزي</div>
             </div>
+            
             <div class="row-1">
                 <div class="h4"/>
                 <div class="box-note">

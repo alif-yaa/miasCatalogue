@@ -21,9 +21,9 @@
             <idno type="RECORDID">339</idno>
             <idno type="Normalized">ajwiba</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya</title>
-            <title type="uniform" xml:lang="ara">كتاب الأجوبة العربية في شرح النصائح الوسفية</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Ajwiba al-ʿarabiyya fi sharḥ al-naṣāiḥ al-yūsufiyya</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">al-Ajwiba al-ʿArabiyya</title>
+            <title type="uniform" xml:lang="ara">كتاب الأجوبة العربية</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">al-Ajwiba al-ʿArabiyya fi sharḥ al-naṣāiḥ al-Yūsufiyya</title>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
             <note type="titleNote">Note on Title</note>
@@ -39,7 +39,8 @@
             <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
             <!-- Authorship and Editorial Roles -->
             <author cert="medium" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="Commentator" key="IA">Ibn al-ʿArabī</editor>
+            <editor role="Antecedent" key="Ali Kurdi">Ali al-Kurdi</editor>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="B">Verified B</note>
             <note type="authenticityNote">Note on Authenticity</note>

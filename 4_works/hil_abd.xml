@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ḥilyat al-abdāl | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="hil_abd">
+            <idno type="RG">237</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">19</idno>
+            <idno type="Normalized">hil_abd</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">Ḥilyat al-abdāl</title>
+            <title type="uniform" xml:lang="ara">حلية الأبدال</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh ʿalā mā alḥama wa-in ʿallamanā mā lam nakun naʿlam</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">599</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">602</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Ṭāʾif</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote">Holograph copy 7th Rabiʿ al-awwal 602H in Malatya (Yusuf Ağa 4868)</note>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Treatise on the four essentials of the Way – silence, seclusion, hunger and wakefulness – as the means to the attainment of the spiritual station of the Substitutes (al-abdāl).</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A much copied work originally written in Tāʾif in 599H, verified by seven historic mss. The best is the holograph Yusuf Ağa 4868, written in Malatya in 602H. See S. Hirtenstein ed. and trans., Four Pillars of Spiritual Transformation (Anqa, 2008). Other mss to check (JC): KÖPRÜLÜ Fazıl Ahmed Pş 53, ff. 176-180 (602H?); Murad Buhari 324 (f.96-103 (681H?); Ayasofya 2910 (706H?)</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="48">48</note>
+               <note type="fihrist" resp="Awwad" n="48">48</note>
+               <note type="fut_mak" resp="OY">II, 182</note>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions"/>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p>Dating: note exact date in composition See Jane and Denis (vel.51): The title is given on 132a and the text itself starts on 132b. At the end, on 136a, there is a note saying that it was copied in 762 in the hand of Ahmad b. M. b. Muthabbit, who took it from the handwriting of the author, who said at the end of the book that he had composed it in Malatya, in Anatolia, on the 9th of Rabî’ al-awwal 602 [AP: Yusuf Agha has 9]. Osman Yahia does not mention this note, although he correctly lists the text as having been copied from an original. The date exactly agrees with that on Yusuf Aga 4868, which is the best copy of the text.[24] But it is not the actual date of composition of the work, which is given in the preface as 599 in Mecca.[25] This opens up the intriguing possibility that Yusuf Aga 4868 was the original from which Ahmad copied this version of Hilyat, although a comparison of the two collections as a whole does not throw up any further obvious correlations. AP: this also raises the possibility that Ibn Muthabbit is given the dates these works were originally copied NOT originally composed... raises an issue.</p>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical Edition published by S. Hirtenstein alongside the English translation in Four Pillars of Spiritual Transformation (Anqa, 2008). Critical edition, plus a translation into Urdu by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2008). Ed. Abrār Aḥmad Shāhī. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb, based on mss. from the MIAS archive. Published by al-Qudus, Cairo, 2018.</note>
+               <note type="translations">English translation by Stephen Hirtenstein: Four Pillars of Spiritual Transformation, Oxford, 2008. French translation by Michel Valsan: La Parure des Abdāl, Paris, 1992.</note>
+               <note type="translationsEur">Spanish translation in Textos epirituales [i.e. espirituales], Madrid 2004.</note>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2">Translated into French by Valsan and into English by SH. Edition in progress (SH)</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>
