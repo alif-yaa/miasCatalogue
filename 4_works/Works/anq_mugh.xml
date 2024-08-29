@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. ʿAnqāʾ mughrib | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="anq_mugh">
+            <idno type="RG">30</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">88</idno>
+            <idno type="Normalized">anq_mugh</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. ʿAnqāʾ mughrib</title>
+            <title type="uniform" xml:lang="ara">كتاب عنقاء مغرب</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. ʿAnqāʾ mughrib fī maʿrifa khatm al-awliyāʾ wa shams al-maghrib</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng">The Fabulous Gryphon</title>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">ḥamidtu ilāhī wa-l-maqāmu ʿaẓīmu</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authenticationType" subtype="A">Autograph</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">595</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">597</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Almeria</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Written after a vision in 595H, this work is devoted to bringing out the role of the mahdī – the “rightly guided leader” – and the Seal of the Saints (whom he identifies with Jesus), discussing both a prophetic aspect which looks to the unfolding of their functions in time, and a mystical aspect which understands them as realities which can be realised in the heart of the complete human being.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">Verified by at least four historic mss. The best is Berlin Oct. 3266 (described by Gerald Elmore in Islamic Sainthood in the Fullness of Time (Leiden, 1999) pp. 197-199), which was written in 597H, and is the oldest known ms. of IA’s. Also excellent is Private 1, written in 637H by a well-known disciple, Muḥammad b. ʿAbd al-Qādir al-Anṣāri, in Damascus and checked against the original in IA’s hand; however, according to Abrar Ahmed Shahi, who has prepared a critical edition of the text, this mss contains only about 50% of the work. Another early copy, dated 707H in the Turkish catalogue (http://ktp.isam.org.tr/), is Veliyuddin 1743 ff.1-79. Another copy, dated 834H, in Milli Hk 15 ff.12b-43b, is available in digital reproduction here: https://www.yazmalar.gov.tr/detay_goster.php?k=77129 JC notes that most of the poems from ʿAnqāʾ mughrib are also found as a block – and as complete poems – in the Dīwān, p. 26-33.</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="65">65</note>
+               <note type="fihrist" resp="Awwad" n="61">61</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections">Mss. Esad Ef, 1413. 1a-47a (not 37). An excellent vowelled copy, written by a disiple of SQ’s, Qasam [b.] MuΩaffar [b. ¡Asåkir], and probably copied from SQ’s copy. No date, but it must be pre-673/1274. (JC/SH) Shehit Ali 1340. 110a-150a is in fact an extract from Tadiråt al-ilåhiya (RG 716). Only 150a-153a is an extract from ¡Anqa⁄. This whole collection is dated 789H and was written by Abd al-Kar∆m b. Ab¬ Bakr al-Jabarti, who was the teacher of ¡Abd al-Karim al-J∆l∆. (JC/SH). Carullah 986 , 51b-60. Like GE (see Islamic Sainthood…, pp.199-200) we could find nothing which supports OY’s claim that it was copied by a disciple in the lifetime of IA. But GE ‘s assessment is that this is nevertheless an important copy, probably taken from the original. (JC/SH).</note>
+               <note resp="additions">Mss. Berlin 3266 (probably the oldest surviving ms. of a work by Ibn ‘Arab∆). Commentary on the Dibâja by Hasan b. Muhammad al- Hanafî al- Halabî, ms. BN. 2669, ff. 156-166. Publications Cairo editions, 1373H (1954), 1997 and 1998. A commentary by M. Ibrah∆m M. Sålim, Kashf al-Gha†å⁄ ¡an Asrår al-¡Anqå¡, Cairo, 1999. Translations Into English by G. Elmore as Islamic Sainthood in the Fullness of Time, Leiden, 1998. (MC)</note>
+               <note resp="msAdditions">Carullah 986, 12e, 51b-60, written by a disciple in lifetime of author.</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical edition, plus a translation into Urdu, by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2019). Ed. Abrār Aḥmad Shāhī. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb, (Cairo 2016) based on mss. from the MIAS archive.</note>
+               <note type="translations">English translation by Gerald Elmore: Islamic Sainthood in the Fullness of Time, Leiden, 1999.</note>
+               <note type="translationsEur"/>
+               <note type="studies"/>
+               <note type="additions" n="1">Publications Cairo editions, 1373H (1954), 1997 and 1998. A commentary by M. Ibrah∆m M. Sålim, Kashf al-Gha†å⁄ ¡an Asrår al-¡Anqå¡, Cairo, 1999. (JC)</note>
+               <note type="additions" n="2">Trans GE as Islamic Sainthood and forthcoming edition.</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

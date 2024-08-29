@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. Mashāhid al-asrār al-qudsiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="mash_asr">
+            <idno type="RG">432</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">50</idno>
+            <idno type="Normalized">mash_asr</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mashāhid al-asrār al-qudsiyya</title>
+            <title type="uniform" xml:lang="ara">كتاب مشاهد الأسرار القدسية</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng">Contemplations of the Holy Mysteries</title>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">katabtu hādhihi al-risāla ilā aṣhāb al-shaykh al-fāḍil al-ʿārif ʿAbd al-ʿAzīz b. Abū Bakr al-Qurashī al-Mahdawī... al-ḥamdu lillāh rabb al-ʿālamīn ḥamdan aniyyatan lā ḥamdan huwiyyatan</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">590H</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">651</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Seville?</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">An early work, written in the Maghreb, but we do not know whether the version we have is the same as the first recension. It consists of 14 contemplations in the style of Niffarī’s Mawāqif. There are two commentaries, one by Ibn Sawdakīn and one by Sitt al-ʿAjam, which have been used in a critical Spanish edition and an English translation of Mashāhid. There are two associated works; a prologue which is classifed by OY as RG 626, and a commentary by Ibn Sawdakīn classified as RG 684.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A much copied work, verified by three historic mss. The best is probably Manisa 1183 (651H, copied by a direct disciple of IA’s) and Veliyuddin 1782 (929H, copied from an original dated 596H). Some texts include the prologue (RG 626) and an epilogue. We have classified all these under RG 432 as it is too complex to make distinctions. Michel Chodkiewicz has examined both the Manisa ms, and the Paris National ms (B. N. 6104). He finds a slight difference between them in Ibn ʿArabi’s commentary.</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="38">38</note>
+               <note type="fihrist" resp="Awwad" n="37">37</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions">Manissa 1183</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical Edition established by Pablo Beneito and Souad Hakim and printed alongside their Spanish translation Las Contemplaciones de los Misterios (Murcia, 1994) Critical edition, plus a translation into Urdu by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2008). Ed. Abrār Aḥmad Shāhī.</note>
+               <note type="translations">English translation by Cecilia Twinch: Contemplation of the Holy Mysteries and the Rising of the Divine Lights, Oxford, 2001. French translation by Stéphane Ruspoli: Le Livre des Contemplation divines, Paris, 1999. French translation: Le Livre des contemplations divines : Kitâb Mashâhid l'asrar al-qudsiyya wa matâli' al-anwâr al-ilâhiyya. Edition bilingue, Paris, 1999. Spanish translation by Pablo Beneito and Suad Hakim: Las Contemplaciones de los Misterios, Murcia, 1994. Italian translation by Pablo Beneito and Suad Hakim, Le contemplazioni di Dio, Milano, 2012</note>
+               <note type="translationsEur"/>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2">Critical edition of this work by Souad Hakim and Bakr Aladdin (Damascus 2004), see P/</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fuṣūṣ al-ḥikam | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="fus_hik">
+            <idno type="RG">150</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">13</idno>
+            <idno type="Normalized">fus_hik</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">Fuṣūṣ al-ḥikam</title>
+            <title type="uniform" xml:lang="ara">فصوص الحكم</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng">The Bezels of Wisdom, the Wisdom of the Prophets</title>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh munzil al-ḥikam ʿalā qulūb al-kilam</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authenticationType" subtype="A">Autograph</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">627H</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">630</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Damascus</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">The most famous and widely read of all Ibn ʿArabī’s works, containing the epitome of his teachings on the meaning of the perfect human being (al-insān al-kāmil). It takes the form of 27 chapters on the prophets from Adam to Muhammad, each associated with a knowledge; for example; the wisdom on divinity in the word of Adam: the wisdom of light in the word of Joseph. Ibn ʿArabī’s intention in the Fuṣūṣ is to draw out the interior, saintly wisdom of each prophet rather than the religious law which they brought.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A much copied and commented on work, verified by at least seven historic mss. The best is Evkaf Muzesi 1933, which is SQ’s riwāya. written in his hand in 630H, with two samāʿ in IA’s hand. Other early mss: Kastamonu Hk 2024 (710H), Paris 1340 (726H), Corum Hk 3909 (728H), Konya Ak 308 (757H)</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="194">194</note>
+               <note type="fihrist" resp="Awwad" n="187">187</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions">Add. Cette rubrique, comme celle de RG. 135 (= Futûhât makkiyya) est l'une des plus importantes du Répertoire Général et sa mise à jour requiert la collaboration de tous les scholars travaillant sur Ibn Arabî. Je me borne pour l'instant à noter quelques addenda correspondant aux informations que j'ai sous la main. Traductions -Espagne : Los engarces de la sabiduria, par Abderramàn Mohamed Maanàn, Madrid, 1991. -Allemagne : Das Buch der Siegelringsteine der Weisheitssprüche par Hans Kofler, Graz, 1970. -Angleterre :The Seals of Wisdom par 'A'isha 'Abd al-Rahmân al-Tarjumana, Norwich, 1980. The Bezels of Wisdom, par R.W. J. Austin, London, 1980. -France : Les Chatons de la Sagesse, par Ch. A. Gilis, Beyrouth, 1997 Commentaires : plusieurs de ceux que mentionne O.Y. ont été depuis publiés. Une première investigation rapide me fournit la liste suivante : n°3 Qûnawî, Fukûk, Téhéran, 1413h. n°5 Jandî (ed. Ashtiyânî), Mashhad, 1982 n°13 Qaysarî (ed. Ashtiyânî) Téhéran, 1375. n°18 Amôlî, Nass al-nusûs, (muqaddima) (ed. H. Corbin/O.Y), Paris.Téhéran, 1975. n°21 Sâ'în al-Dîn Turka (2 vols), Téhéran, 1420 h. n° 24 Jâmî, Naqd al-nusûs, Téhéran, 1977 (ed. Chittick) n° 57 Muhammad Pârsâ, Téhéran 1406h.</note>
+               <note resp="msAdditions"/>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Beirut edition edited by Abu ʿAlā ʿAfīfī (Beirut, nd) is based upon several mss. but did not use the Ṣādr al-dīn al-Qūnawī autograph (Evkaf Musezi 1933). A new critical edition using the Qūnawī autograph, plus a translation into Urdu, by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan). Ed. Abrār Aḥmad Shāhī. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb (with Abrār Aḥmad Shāhī) (Cairo 2016) based on mss. from the MIAS archive. A critical edition alongside Naqsh al-Fuṣūṣ, with complete references to Qurʾān and ḥadith by Dr Saiyad Nizamuddin al-Husayni (Cairo, date unknown). Critical edition by Mahmud Kiliç and Abdurrahim Alkiṣ (Istanbul 2016), fully vowelled based upon al-Kashānī’s commentary plus a facsmile of the oldest ms, Evkaf Muzesi 1933, written by Ṣadr al-dīn al-Qūnawi.</note>
+               <note type="translations">English Partial translation (12 chapters only) by Angela Culme-Seymour, based upon Burckhardt’s French translation: The Wisdom of the Prophets, Glos, 1975. Full translation by ʿAisha ʿAbd al-Rahman at-Tarjumana: The Seals of Wisdom, Norwich, 1980. Full translation by R W J Austin: The Bezels of Wisdom, New York, 1981. Full rendering alongside the commentary by ʿAbd Allah Bosnawī by Bulent Rauf: Fuṣūṣ al-ḥikam, Vols 1-4, Oxford, 1981-6: Second Edition, 1994. Full translation by Caner K Dagli: The Ringstones of Wisdom, Chicago, 2004. Full translation by Binyamin Abrahmov, Ibn al-ʿArabi’s Fusus al-hikam, London, 2015. French Partial translation (12 chapters only) by Titus Burckhardt: La Sagesse des Prophètes, Paris, 1974. Full translation by Charles-André Gilis: Le Livre des Chatons des Sagesse, Vols 1 &amp; 2, Paris, 1998. Full translation by Paul Ballanfat: Les Chatons des sagesses et les demeures des paroles (Combes, 2020) Italian Italian translation by Titus Burckhardt, La sapienza dei Profeti, Roma, 1987 (partial translation: only 12 chapters)</note>
+               <note type="translationsEur">German Full translation by Hans Kofler:Fuṣūṣ al-Ḥikam, Graz (Austria), 1970. Partial translation based upon Burkhardt: Die Weisheit der propheten, Zurich, 2001. Partial translation by Alma Geise: Ibn ʿArabī: Urwolke und Welt, Munich 2002. Spanish Full translation by Abderramán Mohamed Maanán: Los Engarces de la sabiduría, Madrid, 1994. Full translation by Andrés Guijarro: Los engarces de las sabidurías, Madrid, 2009. Italian Partial translation by Giorgio Jannaccone; Titus Burckhardt: La sapienza dei profeti , Rome, 1987. Serbo-Croat Full translation by Resid Hafizovic: Dragulji Poslanicke Mudrosti Fuṣūs al-Ḥikam, Zenica, 1995.</note>
+               <note type="studies"/>
+               <note type="additions" n="1">Traductions -Allemagne : Das Buch der Siegelringsteine der Weisheitssprüche par Hans Kofler, Graz, 1970. (MC)</note>
+               <note type="additions" n="2"/>
+               <note type="additions" n="3">The Wisdom of the Prophets, Titus Burckhardt, Angela Culme-Seymour. 12 chapters only. Beshara Publications, 1975</note>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

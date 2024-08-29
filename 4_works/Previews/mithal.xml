@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>K. al-Mathal | MIAS Catalogue</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <bibl xml:id="mithal">
+                <idno type="RG">571</idno>
+                <idno type="Alt_RG">1025</idno>
+                <idno type="RECORDID">0</idno>
+                <idno type="Normalized">mithal</idno>
+                <!-- Titles -->
+                <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Mithāl</title>
+                <title type="uniform" xml:lang="ara">كتاب المثال</title>
+                <title type="full" xml:lang="ara-Latn-x-lc">K. al-Mithāl al-raqamī li-fihris al-aʿmāl al-akbarī</title>
+                <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Mathal li-man saʾal</title>
+                <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Mithāl li-fihris al-aʿmāl</title>
+                <title type="translation" xml:lang="eng">The Book of Example</title>
+                <note type="titleNote">This title is completely made up for the sake of demonstration</note>
+                <!-- Textual Identifiers -->
+                <incipit type="hamdala" xml:lang="ara-Latn-x-lc">Al-ḥamdu lillāh al-ladhī ḍaraba al-amthāl</incipit>
+                <incipit type="hamdala" xml:lang="ara">الحمد لله الذي ضرب الأمثال</incipit>
+                <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Amma baʿd allaftu hādhā al-kitāb li-yakūna mithālan jāmiʿan li-fihris al-aʿmāl </incipit>
+                <incipit type="muqadimma" xml:lang="ara">أمّا بعد ألّفتُ هذا الكتاب ليكون مثالًا جامعًا لفهرس الأعمال</incipit>
+                <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+                <incipit type="khutba" xml:lang="ara">الحمد لله الذي ضرب لنا الأمثال في عالم الحس والمثال ليهتدي بها العقل والخيال وصلى الله على معلم النية وراء الأفعال ومبلغ العبرة في الأقوال محمد وعلى آله وسلم ما دامت أيام  وليال  
+                </incipit>
+                <explicit xml:lang="ara-Latn-x-lc">Wa-bi-hādhā yantahī Kitāb al-Mithāl bi-ḥamdi-llāh wa-tawfīqihi</explicit>
+                <explicit xml:lang="ara">وبهذا ينتهي كتاب المثال بحمد الله وتوفيقه</explicit>
+                <note type="textualIdentifiersNote">These textual identifiers are completely made up for the sake of demonstration</note>
+                <!-- Authorship and Editorial Roles -->
+                <author cert="high" key="IA">Abū Zayd al-Uksfūrdī</author>
+                <editor role="Falsifier" key="key">Ali Porteous</editor>
+                <editor role="Dedicatee" key="key">Stephen Hirtenstein</editor>
+                <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+                <note type="verification" subtype="A">Spurious</note>
+                <note type="authenticationType" subtype="H">NA</note>
+                <note type="authenticityNote">This is not an authentic work.</note>
+                <!-- Composition History -->
+                <date type="fmDate" calendar="Hijri-qamari">1440</date>
+                <date type="fmEarliestMS" calendar="Hijri-qamari">1446</date>
+                <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+                <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of
+                    Composition</date>
+                <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">1440</date>
+                <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">1446</date>
+                <note type="dateNote">This was actually composed on 24 Safar 1446 AH (29 August 2024)</note>
+                <placeName type="fmPlace">Oxford</placeName>
+                <note type="placeNote">Note on Place of Composition</note>
+                <note type="compositionNote">Composed to demonstrate some of the potential of the new extensible markup language.</note>
+                <!-- Contents -->
+                <noteGrp type="workDesc">
+                    <note type="description">An XML file created solely for the sake of demonstration.</note>
+                    <note type="structure">Written in such a way to ensure every field contains a value.</note>
+                    <note type="contentsNote">Could've been better.</note>
+                </noteGrp>
+                <!-- Stemmatics -->
+                <note type="stemmatics">No extant manuscripts - a purely digital creation.</note>
+                <!-- Related Works -->
+                <relatedItem type="Translation"><ref target="#work">The Book of Examples</ref></relatedItem>
+                <relatedItem type="Summary"><ref target="#work">Ikhtiṣār K. al-Mithāl</ref></relatedItem>
+                <relatedItem type="Comm."><ref target="#work">al-Ijāba ʿan kull suʾāl ḥawl K. al-Mithāl</ref></relatedItem>
+                <note type="relationsNote">Fortunately, none of these related works are extant.</note>
+                <!-- References to This Work in Other Works -->
+                <noteGrp type="references">
+                    <note type="ijaza" resp="Badawi" n="188">0.01</note>
+                    <note type="fihrist" resp="Awwad" n="177">10001</note>
+                    <note type="fut_mak" resp="OY">Vol. 128, Ch. 7</note>
+                    <note type="other">
+                        <ref target="#work">al-Ijāba</ref>Reference in other work(s)
+                    </note>
+                    <note type="ijaza" resp="MIAS">
+                        <ref target="#ijaza"/>Reference to work in the Ijāza </note>
+                    <note type="fihrist" resp="MIAS">
+                        <ref target="#fihrist"/> Reference to work in the Fihrist</note>
+                    <note type="fut_mak" resp="MIAS">
+                        <ref target="#fut_mak"/> References to work in Futūḥāt</note>
+                </noteGrp>
+                <!-- References in This Work to Other Works -->
+                <noteGrp type="mentions">
+                    <note type="mention">
+                        <ref target="#fus_hik">Fuṣūṣ</ref> Let's say the Book of Examples mentioned the Fuṣūṣ </note>
+                </noteGrp>
+                <note type="referencesNote">Ultimately it will be easier to enter the mentions of other works in a work on one page, and later script the mentions so they appear as cross-references on each of the pages of the mentioned works.</note>
+                <!-- Comments and Corrections -->
+                <noteGrp type="comments">
+                    <note resp="corrections">These are all additional fields in FM that have been imported for now to make sure no data is lost, and they may contain important info that hasn't yet been updated.</note>
+                    <note resp="additions"></note>
+                    <note resp="msAdditions"/>
+                    <note resp="AP">
+                        This is info that I will manually import from the website. My notes are generally regarding migration notes for the individual works. 
+                    </note>
+                    <note resp="JC">
+                        <p/>
+                        <p/>
+                    </note>
+                    <note resp="SH">
+                        <p/>
+                        <p/>
+                    </note>
+                    
+                </noteGrp>
+                <!-- Editions, Translations, and Relevant Publications -->
+                <noteGrp type="publications">
+                    <note type="editions">A critical edition is not in progress</note>
+                    <note type="translations">Nor is a translation</note>
+                    <note type="translationsEur">Nor a translation into another European language.</note>
+                    <note type="studies">Nor any studies.</note>
+                    <note type="additions" n="1"/>
+                    <note type="additions" n="2">Nothing to add.</note>
+                    <note type="additions" n="3"/>
+                </noteGrp>
+                <!-- Administrative Notes -->
+                <noteGrp type="admin">
+                    <note type="archive">N</note>
+                    <note type="library">N</note>
+                </noteGrp>
+                <textLang mainLang="ara">Arabic</textLang>
+                <!-- End -->
+            </bibl>
+        </body>
+    </text>
+</TEI>
+

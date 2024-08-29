@@ -142,7 +142,7 @@
             
             <xsl:comment> Related Works </xsl:comment>
             
-            <relatedItem type="type" target="#work_id"/>
+            <relatedItem type="relation"><ref target="#work"></ref></relatedItem>
             <note type="relationsNote">Note on Related Works</note>
             
             
@@ -156,7 +156,7 @@
                 </note>
                 <note type="fut_mak" resp="OY"><xsl:value-of select="normalize-space(fm:COL[17]/fm:DATA)"/>
                 </note>
-                <note type="other"><xsl:value-of select="normalize-space(fm:COL[18]/fm:DATA)"/>
+                <note type="other"><ref target="#work"><xsl:value-of select="normalize-space(fm:COL[18]/fm:DATA)"/></ref>Reference in other work(s)
                 </note>
                 <note type="ijaza" resp="MIAS">
                     <ref target="#ijaza"></ref>Reference to work in the Ijāza
@@ -167,9 +167,6 @@
                 <note type="fut_mak" resp="MIAS">
                     <ref target="#fut_mak"></ref>
                     References to work in Futūḥāt</note>
-                <note type="work">
-                    <ref target="#work"></ref>
-                    Referenes to work in other works</note>
             </noteGrp>
             
             <xsl:comment> References in This Work to Other Works </xsl:comment>
@@ -180,15 +177,17 @@
                 Reference to other work
                 </note>
             </noteGrp>
+            
+            <note type="referencesNote">Note on Cross-references</note>
                                     
             <xsl:comment> Comments and Corrections </xsl:comment>
             
-            <noteGrp type="scholarComments">
-                <note resp="corr."><xsl:value-of select="normalize-space(fm:COL[29]/fm:DATA)"/> 
+            <noteGrp type="comments">
+                <note resp="corrections"><xsl:value-of select="normalize-space(fm:COL[29]/fm:DATA)"/> 
                 </note>
-                <note resp="additions_0"><xsl:value-of select="normalize-space(fm:COL[25]/fm:DATA)"/> 
+                <note resp="additions"><xsl:value-of select="normalize-space(fm:COL[25]/fm:DATA)"/> 
                 </note>
-                <note resp="msAdd."><xsl:value-of select="normalize-space(fm:COL[47]/fm:DATA)"/> 
+                <note resp="msAdditions"><xsl:value-of select="normalize-space(fm:COL[47]/fm:DATA)"/> 
                 </note>
                 <note resp="JC">
                     <p> </p> 
@@ -197,22 +196,19 @@
                     <p> </p> 
                     <p> </p></note>
                 <note resp="AP">
-                    <p> </p> 
+                    <p><xsl:value-of select="normalize-space(fm:COL[24]/fm:DATA)"/></p> 
                     <p> </p></note>
             </noteGrp>
-            
-            <xsl:comment> Migration Notes </xsl:comment>
-            
-            <note type="migrationNote"><xsl:value-of select="normalize-space(fm:COL[24]/fm:DATA)"/></note> 
             
             <xsl:comment> Editions, Translations, and Relevant Publications </xsl:comment>
             <noteGrp type="publications"> 
                 <note type="editions"><xsl:value-of select="normalize-space(fm:COL[50]/fm:DATA)"/></note>
                 <note type="translations"><xsl:value-of select="normalize-space(fm:COL[62]/fm:DATA)"/></note>
                 <note type="translationsEur"><xsl:value-of select="normalize-space(fm:COL[63]/fm:DATA)"/></note>
-                <note type="additions_1"><xsl:value-of select="normalize-space(fm:COL[52]/fm:DATA)"/></note>
-                <note type="additions_2"><xsl:value-of select="normalize-space(fm:COL[39]/fm:DATA)"/></note>
-                <note type="additions_3"><xsl:value-of select="normalize-space(fm:COL[59]/fm:DATA)"/></note>                
+                <note type="studies"><xsl:value-of select="normalize-space(fm:COL[56]/fm:DATA)"/></note>
+                <note type="additions" n="1"><xsl:value-of select="normalize-space(fm:COL[52]/fm:DATA)"/></note>
+                <note type="additions" n="2"><xsl:value-of select="normalize-space(fm:COL[39]/fm:DATA)"/></note>
+                <note type="additions" n="3"><xsl:value-of select="normalize-space(fm:COL[59]/fm:DATA)"/></note>                
             </noteGrp>
             
             <xsl:comment> Administrative Notes </xsl:comment>
