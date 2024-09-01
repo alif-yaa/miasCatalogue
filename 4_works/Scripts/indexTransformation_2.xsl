@@ -47,6 +47,7 @@
             <idno type="Normalized"><xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/></idno>
             <ref>
                 <xsl:attribute name="target">
+                    <xsl:text>../</xsl:text>
                     <xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/>
                     <xsl:text>.xml#</xsl:text>
                     <xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/>

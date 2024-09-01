@@ -12,7 +12,7 @@
         <xsl:for-each select="//tei:bibl">
             <!-- Create a new document for each <bibl> -->
             <xsl:result-document 
-                href="../../4_works/{@xml:id}.xml" 
+                href="../../4_works/Works/{@xml:id}.xml" 
                 method="xml"
                 encoding="UTF-8">
                 

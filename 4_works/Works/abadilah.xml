@@ -17,14 +17,19 @@
       <body>
          <bibl xml:id="abadilah">
             <idno type="RG">2</idno>
-            <idno type="Alt_RG"></idno>
+            <idno type="Alt_RG"/>
             <idno type="RECORDID">33</idno>
-            <idno type="Normalized">abadilah</idno>
+            <idno type="keyword">abadilah</idno>
+            <idno type="normalized">abadilah</idno>
+            <idno type="alifba">عبادله</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-ʿAbādilah</title>
             <title type="uniform" xml:lang="ara">كتاب العبادله</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">Kitab Kalām al ʿAbādilah fi-l haqāʾiq al-Asmā: Kitab Jam‘ kalām al-ʿAbādila: Sarḥ al-ʿAbādila: Kitab alsinat al-ʿAdādila: Kitab al-ʿIbad</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. al-ʿAbādilah</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. Jam‘ kalām al-ʿabādila</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">Sarḥ al-ʿabādila</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. Alsinat al-ʿabādila</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. al-ʿIbād (?)</title>
             <title type="translation" xml:lang="eng">Book of the Servants of God</title>
             <note type="titleNote">Note on Title</note>
             <!-- Textual Identifiers -->
@@ -64,20 +69,20 @@
             <!-- Stemmatics -->
             <note type="stemmatics">OY lists 16 mss., at least seven of which can be considered historic. The best is Yusuf Aga 4859, a partial holograph with a samāʿ dated 641H. Different copies have different numbers of chapters: Ayasofia 4817 and Yusuf Aga 4859 have 117, Shehit Ali 2826 114, the Cairo printed edition (1969) 96. According to Pablo Beneito, who has made a detailed study of the text, 117 is the correct number.</note>
             <!-- Related Works -->
-            <relatedItem type="relation">
-               <ref target="#work"/>
+            <relatedItem type="adaptation">
+               <ref target="#fusus">Fusus</ref>
             </relatedItem>
             <note type="relationsNote">Note on Related Works</note>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
-               <note type="ijaza" resp="Badawi" n="188">188 (Badawi)</note>
+               <note type="ijaza" resp="Badawi" n="188">188</note>
                <note type="fihrist" resp="Awwad" n="177">177</note>
                <note type="fut_mak" resp="OY"/>
                <note type="other">
                   <ref target="#work"/>Reference in other work(s)
                 </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>"I composed this in a an hour in Ṭāʾif"
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
                 </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
@@ -99,14 +104,19 @@
                <note resp="corrections"/>
                <note resp="additions">Yusuf Aga 4859 Work stolen. Photocopy in MIAS Library (Ms/158) (S.H.) Mss. (SH) Koprulu 713, 45a-80b Dated 663H Ayasofya 4817 Dated 649H, possibly read before SQ - see Elmore, JMIAS XXIII for details Sheiht Ali 2826, 6b-61b Dated 721H in Cairo, copy of 2 original sama' - The listeners were: al-Qutb al-din M, son of …Shams al-din Isma'il Ibn Sawdakin, Sadr al-din Qunawi , al-Maqri and Abu Bakr b.M. b. Abu Bakr al-Balkhi. Dated 22 Dhu'l-Hijja 621H. We can assume that the reader was Ayyub b. Badr al-Maqri, who copied many works in 621H in Damascus. Chester Beatty 3643 Written in Malatya c.700H Yusuf Aga 4892 Dated 716H according to catalogue. Poor copy.</note>
                <note resp="msAdditions"/>
-               <note resp="JC">
-                  <p/>
-                  <p/>
-               </note>
-               <note resp="SH">
-                  <p/>
-                  <p/>
-               </note>
+               <note resp="JC">There is a ms from 649H in the Zahiriyya according to the al-Assad online catalogue (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms num 601 [م ف/م/601] Title: العبادلة. This manuscript also contains RG 689 (الشواهد) and RG 737 (تاج التراجم في إشارات العلم ولطائف الفهم) both dated to the same year 649H. Compare this with Ayasofia 4817 which is from the same year and contains the exact same three works in the same order.</note>
+               <note resp="JC">See our comment against RG 536 (Natāʾij al-adhkār) – http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments  – for details of Palestine, Khalidiyya 892 (old numbering) – an Akbarian collection with copies dated 656H-667H in which there is a copy of RG 2 (undated).
+                  Online catalogue entry: http://data.manumed.org/eng/ref/142791/Khalidiya_n°1047_-_old_ref:_5__892/ </note>
+               <note resp="MC">Add Edition fautive et lacunaire par ‘Abd al-Qâdir ‘Atâ’, Le Caire, 1969, établie à partir d’un ms. du Dâr al-kutub et d’un ms. de la bibliothèque d’al-Azhar dont les cotes ne sont pas précisées par l’éditeur.
+                  
+                  Les “serviteurs de Dieu” dont Ibn Arabî se présente dans l’introduction comme l’ “interprète” ne correspondent pas à une série de personnages historiques identifiables : chacun d’eux représente un aspect de la walâya, défini par sa double relation avec un Nom divin et avec le nom d’un prophète et c’est toujours le sceau de la sainteté (c’est-à-dire Ibn Arabî lui-même) qui, parce qu’il totalise en sa personne tous ces aspects successifs, s’exprime par la bouche de ces ‘Abâdila.
+                  
+                  Le ms. Aya Sofia 4817 et le ms. Shehit Alî Pasha 2826 comportent 117 chapitres correspondant à autant de ‘Abâdila. Shehit Alî Pasha est divisé en 6 parties, les 5 premières comportant chacune 10 ‘Abâdila et la 6ème 67 ‘Abâdila.
+                  
+                  L’Edition du Caire, dont la table des matières en fin de volume énumère 96 chapitres, en comporte en réalité 103. Les 14 chapitres manquants se situent à la fin de la 6ème partie du ms. Shehit ‘Alî Pasha.
+                  
+                  Le nombre 117 correspond à celui des akhlâq divins dont la saveur (dhawq) est réservée aux anbiyâ’ (Fut.,II, p.72-73, question 46). Ibn Arabî précise toutefois que les awliyâ’ y participent dans une certaine mesure grâce à des “notifications divines” (ta’rîfât) qui leur octroient “des saveurs et des breuvages” (adhwâq wa mashârib).</note>
+               <note resp="SH">Critical edition in progress by PB and Souad Hakim</note>
                <note resp="AP">
                   <p>Date: Not after 22nd of Dhū al-Ḥijja 626H (evidence = external)</p>
                   <p/>

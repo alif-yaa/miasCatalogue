@@ -12,7 +12,7 @@
         <!-- Iterate over each row in the XML file -->
         <xsl:for-each select="//fm:ROW">
             <!-- Generate the file path and file name -->
-            <xsl:value-of select="concat('../', normalize-space(fm:COL[7]/fm:DATA), '.xml')"/>
+            <xsl:value-of select="concat('../', normalize-space(fm:COL[66]/fm:DATA), '.xml')"/>
             <!-- Add a newline after each file path -->
             <xsl:text>&#10;</xsl:text>
         </xsl:for-each>

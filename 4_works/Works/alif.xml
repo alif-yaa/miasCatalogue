@@ -19,12 +19,15 @@
             <idno type="RG">26</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">123</idno>
-            <idno type="Normalized">alif</idno>
+            <idno type="keyword">alif</idno>
+            <idno type="normalized">alif</idno>
+            <idno type="alifba">الألف</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Alif wa-huwa kitāb al-aḥadiyya</title>
-            <title type="uniform" xml:lang="ara">كتاب الألف وهو كتاب الأحدية</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Alif</title>
+            <title type="uniform" xml:lang="ara">كتاب الألف</title>
             <title type="full" xml:lang="ara-Latn-x-lc">K. al-Alif wa huwa kitāb al-aḥadiyya</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Aḥadiyya</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Aḥadiyya</title>
             <title type="translation" xml:lang="eng"/>
             <note type="titleNote">Note on Title</note>
             <!-- Textual Identifiers -->
@@ -89,9 +92,9 @@
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref target="hu.xml">K. al-Hū</ref>He mentions K. al-Hū in the first half of the work, just before a line of poetry: <q xml:lang="ara">وقد ذكرنا الأنا والإضافة وما أشبه هذه الضمائر في كتاب الياء المعروف بكتاب الهو فينظر هناك</q>.</note>
+               <note type="mention">
+                  <ref target="#huruf">K. al-Ḥurūf</ref>He also mentions K. al-Hurūf (RG 250) in the final paragraph of this work: <q xml:lang="ara">وقد ذكرنا هذا كله في كتاب الحروف لنا مستوفى فلينظر هناك</q>.</note>
             </noteGrp>
             <note type="referencesNote">Note on Cross-references</note>
             <!-- Comments and Corrections -->
@@ -103,13 +106,51 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p>New ciritical Edition complete with the help of following manuscripts:
+                     
+                     1.      شهيد علي – 2831 [رمز: ش]
+                     2.      مـراد بخاري – 207 [رمز: م]
+                     3.      ولي الدين – 51 [رمز: و]
+                     4.      جار الله – 2111 [رمز: ج]
+                     5.      جامعة إسطنبول – 4408 [رمز: س]
+                     6.      ملي – 571 [رمز: ي]
+                     Abrar Ahmed Shahi 
+                     Ibn al-Arabi Foundation</p>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>
                <note resp="AP">
                   <p>Dating: The title K. al-Alif wa huwa k. al-ahadiyya is written on 19a, and underneath there is a note, which we believe is in the same hand, that translates as: Composed by Muhyî al-dîn ibn al-‘Arabî, who said (may God have mercy on him) “I composed it in Jerusalem (bayt al-muqaddas) in an hour in the daytime.” On 26a, at the end, a further note repeats this information and adds that the original was in Ibn ‘Arabî’s handwriting. Osman Yahia again concludes, on the basis of this second note, that the text was written in Jerusalem in 601,[10] but we could not find a date. The year 601 would be a reasonable conjecture, however, given the other notes in the collection. Title: Can be seen as two alternate titles or one full title... Mentions: &lt;note type=“mention”&gt; &lt;ref target="#huruf"&gt;IA refers to Kitāb al-Ḥurūf, which may be different from Madkhal fī ʿilm al-ḥurūf in the final paragraph of Kitāb al-Alif&lt;/ref&gt; &lt;p/&gt; &lt;quote xml:lang="ara"&gt;وقد ذكرنا هذا كله في كتاب الحروف لنا مستوفى فلينطر هناك&lt;/quote&gt; &lt;/note&gt; &lt;note type=“mention”&gt; &lt;ref target="#jalala"&gt;Kitāb al-Jalāla, also mentioned in the final paragraph&lt;/ref&gt; &lt;p/&gt; &lt;quote xml:lang="ara"&gt;تم كتاب الأحدية وهو كتاب الألف ويتلوه إن شاء الله كتاب الجلالة&lt;/quote&gt; &lt;/note&gt; Could this be related to the Fihris’s alphanumerical sequence?</p>
                   <p/>
+                  <p>Can't find the IA Foundation Edition</p>
                </note>
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
