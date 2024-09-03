@@ -19,7 +19,9 @@
             <idno type="RG">266</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">26</idno>
-            <idno type="Normalized">ifada</idno>
+            <idno type="keyword">ifada</idno>
+            <idno type="normalized">ifada</idno>
+            <idno type="alifba">الإفادة لمن أراد الإستفادة</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ifāda li-man arāda al-istifāda</title>
             <title type="uniform" xml:lang="ara">كتاب الإفادة لمن أراد الإستفادة</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

@@ -19,7 +19,9 @@
             <idno type="RG">485</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">333</idno>
-            <idno type="Normalized">mubashshirat</idno>
+            <idno type="keyword">mubashshirat</idno>
+            <idno type="normalized">mubash</idno>
+            <idno type="alifba">المبشرات</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Mubashshirāt</title>
             <title type="uniform" xml:lang="ara">رسالة المبشرات</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

@@ -19,7 +19,9 @@
             <idno type="RG">834</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">81</idno>
-            <idno type="Normalized">yaqin</idno>
+            <idno type="keyword">yaqin</idno>
+            <idno type="normalized">yaqin</idno>
+            <idno type="alifba">اليقين</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Yaqīn</title>
             <title type="uniform" xml:lang="ara">كتاب اليقين</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

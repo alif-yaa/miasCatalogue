@@ -1,0 +1,806 @@
+<html xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+                    body {
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    /* green background */
+                    .background-1 {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        min-width: 600px;
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #F6F8E7;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        min-width: 600px;
+                    }
+                    /* white background */
+                    .background-3 {
+                        background-color: white;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        min-width: 600px;
+                    }
+                    /* define row for boxes */
+                    .row-1 {
+                        display: flex;
+                        align-items: center;
+                        align-items: stretch;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
+                        flex: 1;
+                    }
+                    
+                    /* define row for headings */
+                    .row-2 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-items: stretch;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    .row-button {
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       margin-top: 20px;
+                       margin-bottom: 20px;
+                       min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    /* First column (aligned left) */
+                    .column-left {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-start; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    
+                    /* second column (aligned right) */
+                    .column-right {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-end; /* Align items to the right horizontally */
+                        margin-left: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    .column,
+                    .column-med,
+                    .column-small {
+                        flex: 1;
+                        display: flex;
+                    }
+                    .column {
+                        min-width: 100px;
+                    }
+                    .column-med {
+                        max-width: 150px;
+                    }
+                    .column-small {
+                        max-width: 70px;
+                    }
+                    .column-box,
+                    .column-box-small,
+                    .column-box-med,
+                    .column-box-italics,
+                    .column-box-med-italics {
+                    background-color: white;
+                    border: 1px solid #d8dfb0;
+                    padding: 5px;
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    line-height: 1.5;
+                    }
+                    .column-box-italics,
+                    .column-box-med-italics {
+                    font-style: italic;
+                    }
+                    .column-box-med,
+                    .column-box-med-italics {
+                    max-width: 150px;
+                    text-align: center; 
+                    }
+                    .column-box-small {
+                    max-width: 70px;
+                    text-align: center; 
+                    }
+                    /* white box with green border */
+                    .box-1,
+                    .box-1-italics,
+                    .box-1-arabic,
+                    .box-small {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                    }
+                    .box-1-italics {
+                        font-style: italic;
+                    }
+                    .box-1-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* small box */
+                    .box-small {
+                        max-width: 70px;
+                    }
+                    /*  box with green background */
+                    .box-note {
+                        background-color: #f6f6f6;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5
+                    }
+                    /* white box with purple border */
+                    .box-2 {
+                        background-color: white;
+                        border: 1px solid #C3AED1;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                    }
+                    /* main title-Latin */
+                    .h1-italic {
+                        font-size: 1.8em;
+                        color: #A62300;
+                        font-style: italic;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 20px;
+                        margin-bottom: 5px;
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    /* main title-Arabic */
+                    .h1-arabic {
+                        font-size: 1.8em;
+                        color: #A62300;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* headings */
+                    .h2,
+                    .h2-arabic {
+                        font-weight: bold;
+                        color: #0052a4;
+                        font-size: 1.2em;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        text-align: center;
+                    }
+                    .h2-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* subheadings */
+                    .h3,
+                    .h3-arabic {
+                        font-weight: bold;
+                        font-size: 1em;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        color: #0052a4;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    
+                    }
+                    .h3-arabic {
+                        text-align: right;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    #english-button, #arabic-button, #textual-identifiers-button, #textual-identifiers-button-arabic {
+                        background-color: transparent; /* Background matches your page style */
+                        border: none; /* No border */
+                        cursor: pointer;
+                        font-size: 1em; /* Matches .h3 */
+                        font-weight: bold; /* Matches .h3 */
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        color: #0052a4;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    #english-button, #textual-identifiers-button {
+                        font-family:
+                        'Comorant Garamond', serif;
+                        }
+                        #arabic-button, #textual-identifiers-button-arabic {
+                        text-align: right; /* Align Arabic text right */
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    .chevron {
+                    margin-left: 20px; /* Space between text and chevron */
+                    margin-right: 20px; /* Space between text and chevron */
+                    
+                    }
+                    /* subsubheadings to side of info-box */
+                    .h4,
+                    .h4-small {
+                        padding-right: 10px;
+                        min-width: 80px;
+                        text-align: right;
+                        vertical-align: middle;
+                        align-self: center;
+                    
+                    }
+                    .h4-arabic {
+                        padding-left: 8px;
+                        min-width: 65px;
+                        text-align: left;
+                        vertical-align: middle;
+                        align-self: center;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* smaller subheadings to side of info-box */
+                    .h4-small {
+                        font-size: 0.8em;
+                    }
+                    /* column headings */
+                    .h5,
+                    .h5-arabic {
+                    font-weight: bold;
+                    font-size: 1em;
+                    color: #0052a4;
+                    padding-left: 8px;
+                    }
+                    .h5 {
+                    text-align: left;
+                    }
+                    .h5-arabic {
+                    text-align: right;
+                    direction: rtl;
+                    font-family: 'Amiri', serif;
+                    }
+                    /* Custom link style */
+                    a {
+                        text-decoration: none;
+                        color: #0052a4; /* Your desired color */
+                    }
+                    /* Smaller text */
+                    .text-smaller {
+                        font-size: 0.8em;
+                    }</style>
+</head>
+<body>
+<div class="h1-italic">Maq&#7779;id al-asm&#257;&#702;</div>
+<div class="h1-arabic">&#1605;&#1602;&#1589;&#1583; &#1575;&#1604;&#1571;&#1587;&#1605;&#1575;&#1569;</div>
+<div class="background-1">
+<div class="row-2">
+<div class="h4">RG &#8470;</div>
+<div class="box-1">418</div>
+<div class="h4">Alt. RG &#8470;</div>
+<div class="box-1"></div>
+<div class="h4">xml:id</div>
+<div class="box-1">maqsid</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<div class="h2">Title</div>
+<div class="h2-arabic">&#1593;&#1606;&#1608;&#1575;&#1606;</div>
+</div>
+<div class="row-1">
+<div class="h4">Uniform</div>
+<div class="box-1-italics">Maq&#7779;id al-asm&#257;&#702;</div>
+<div class="box-1-arabic">&#1605;&#1602;&#1589;&#1583; &#1575;&#1604;&#1571;&#1587;&#1605;&#1575;&#1569;</div>
+<div class="h4-arabic">&#1605;&#1608;&#1581;&#1583;</div>
+</div>
+<div class="row-1">
+<div class="h4">Full</div>
+<div class="box-1-italics">Al-Maqsid al-asr&#257;r f&#299; ish&#257;r&#257;t f&#299; m&#257; waqa&#703;a fi al-Qur&#702;&#257;n bi lis&#257;n al-&#7717;aq&#299;qa wa al-shar&#299;&#703;a min al-kin&#257;y&#257;t</div>
+<div class="h4-arabic">&#1603;&#1575;&#1605;&#1604;</div>
+</div>
+<div class="row-1">
+<div class="h4">Variant</div>
+<div class="box-1-italics"></div>
+<div class="h4-arabic">&#1576;&#1583;&#1610;&#1604;</div>
+</div>
+<div class="row-1">
+<div class="h4">English</div>
+<div class="box-1">The highest calling through the allusion of names and pronouns manifested by the Qur&#8260;&#229;n in the language of the essential Reality and the law.</div>
+<div class="h4-arabic">&#1573;&#1606;&#1580;&#1604;&#1610;&#1586;&#1610;</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Title</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<button id="textual-identifiers-button" onclick="toggleTextualIdentifiers()" class="h3">
+                    Textual Identifiers <i class="fa fa-chevron-down chevron"></i></button><button id="textual-identifiers-button-arabic" onclick="toggleTextualIdentifiers()" class="h3-arabic">
+                    &#1605;&#1593;&#1585;&#1601;&#1575;&#1578; &#1606;&#1589;&#1610;&#1577; <i class="fa fa-chevron-down chevron"></i></button>
+</div>
+<div id="textual-identifiers-info" style="display:none;">
+<div class="row-1">
+<div class="h4">Incipit</div>
+<div class="box-1-italics">al-&#7717;amdu lill&#257;h wa-huwa nafsu al-&#7717;amd &#703;al&#257; m&#257; taqarrara f&#299; qalb</div>
+<div class="box-1-arabic">&#1581;&#1605;&#1583;&#1604;&#1607;</div>
+<div class="h4-arabic">&#1581;&#1605;&#1583;&#1604;&#1607;</div>
+</div>
+<div class="row-1">
+<div class="h4">Intro</div>
+<div class="box-1-italics">Muqadimma</div>
+<div class="box-1-arabic">&#1605;&#1602;&#1583;&#1605;&#1577;</div>
+<div class="h4-arabic">&#1605;&#1602;&#1583;&#1605;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Khu&#7789;ba</div>
+<div class="box-1-italics">Khu&#7789;ba</div>
+<div class="box-1-arabic">&#1575;&#1604;&#1582;&#1591;&#1576;&#1577; &#1576;&#1603;&#1575;&#1605;&#1604;&#1607;&#1575;</div>
+<div class="h4-arabic">&#1582;&#1591;&#1576;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Explicit</div>
+<div class="box-1-italics">Khi&#7789;&#257;m al-na&#7779;&#7779;</div>
+<div class="box-1-arabic">&#1582;&#1578;&#1575;&#1605; &#1575;&#1604;&#1606;&#1589;</div>
+<div class="h4-arabic">&#1582;&#1578;&#1575;&#1605;</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Textual Identifiers</div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<script>
+                function toggleTextualIdentifiers() {
+                var infoDiv = document.getElementById('textual-identifiers-info');
+                var englishButton = document.getElementById('textual-identifiers-button');
+                var arabicButton = document.getElementById('textual-identifiers-button-arabic');
+                var englishChevron = englishButton.querySelector('.chevron');
+                var arabicChevron = arabicButton.querySelector('.chevron');
+                
+                if (infoDiv.style.display === 'none') {
+                infoDiv.style.display = 'block';
+                englishButton.innerHTML = 'Textual Identifiers <i class="fa fa-chevron-up chevron"></i>';
+                arabicButton.innerHTML = '&#1605;&#1593;&#1585;&#1601;&#1575;&#1578; &#1606;&#1589;&#1610;&#1577; <i class="fa fa-chevron-up chevron"></i>';
+                } else {
+                infoDiv.style.display = 'none';
+                englishButton.innerHTML = 'Textual Identifiers <i class="fa fa-chevron-down chevron"></i>';
+                arabicButton.innerHTML = '&#1605;&#1593;&#1585;&#1601;&#1575;&#1578; &#1606;&#1589;&#1610;&#1577; <i class="fa fa-chevron-down chevron"></i>';
+                }
+                }
+            </script><div class="row-2">
+<div class="h3">Textual Identifiers</div>
+<div class="h3-arabic">&#1605;&#1593;&#1585;&#1601;&#1575;&#1578; &#1606;&#1589;&#1610;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Incipit</div>
+<div class="box-1-italics">al-&#7717;amdu lill&#257;h wa-huwa nafsu al-&#7717;amd &#703;al&#257; m&#257; taqarrara f&#299; qalb</div>
+<div class="box-1-arabic">&#1581;&#1605;&#1583;&#1604;&#1607;</div>
+<div class="h4-arabic">&#1581;&#1605;&#1583;&#1604;&#1607;</div>
+</div>
+<div class="row-1">
+<div class="h4">Intro</div>
+<div class="box-1-italics">Muqadimma</div>
+<div class="box-1-arabic">&#1605;&#1602;&#1583;&#1605;&#1577;</div>
+<div class="h4-arabic">&#1605;&#1602;&#1583;&#1605;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Khu&#7789;ba</div>
+<div class="box-1-italics">Khu&#7789;ba</div>
+<div class="box-1-arabic">&#1575;&#1604;&#1582;&#1591;&#1576;&#1577; &#1576;&#1603;&#1575;&#1605;&#1604;&#1607;&#1575;</div>
+<div class="h4-arabic">&#1582;&#1591;&#1576;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Explicit</div>
+<div class="box-1-italics">Khi&#7789;&#257;m al-na&#7779;&#7779;</div>
+<div class="box-1-arabic">&#1582;&#1578;&#1575;&#1605; &#1575;&#1604;&#1606;&#1589;</div>
+<div class="h4-arabic">&#1582;&#1578;&#1575;&#1605;</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Textual Identifiers</div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Authorship</div>
+<div class="h2-arabic">&#1589;&#1581;&#1577; &#1575;&#1604;&#1606;&#1587;&#1576;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">Author</div>
+<div class="box-1">Ibn al-&#703;Arab&#299;</div>
+<div class="h4-arabic">&#1605;&#1572;&#1604;&#1601;</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Verification</div>
+<div class="box-1">Verified A</div>
+<div class="h4-arabic">&#1583;&#1585;&#1580;&#1577; &#1575;&#1604;&#1589;&#1581;&#1577;</div>
+</div>
+<div class="column-right">
+<div class="h4">Authentication</div>
+<div class="box-1">Autograph</div>
+<div class="h4-arabic">&#1578;&#1608;&#1579;&#1610;&#1602;</div>
+</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Authenticity</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<div class="h3">Composition</div>
+<div class="h3-arabic">&#1578;&#1571;&#1604;&#1610;&#1601;</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Place</div>
+<div class="box-1"></div>
+<div class="h4-arabic">&#1605;&#1603;&#1575;&#1606;</div>
+</div>
+<div class="column-right">
+<div class="h4">Date</div>
+<div class="box-1"></div>
+<div class="h4-arabic">&#1578;&#1575;&#1585;&#1610;&#1582;</div>
+</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Earliest MS</div>
+<div class="box-1">621</div>
+<div class="h4-arabic">&#1571;&#1602;&#1583;&#1605; &#1588;&#1575;&#1607;&#1583;</div>
+</div>
+<div class="column-right">
+<div class="h4">TPQ-TAQ</div>
+<div class="box-1">Earliest&#8211;Latest</div>
+<div class="h4-arabic">&#1606;&#1591;&#1575;&#1602; &#1586;&#1605;&#1606;&#1610;</div>
+</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note"></div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<div class="h3">Other roles</div>
+<div class="h3-arabic">&#1571;&#1583;&#1608;&#1575;&#1585; &#1571;&#1582;&#1585;&#1609;</div>
+</div>
+<div class="row-2">
+<div class="h4">role</div>
+<div class="box-1">Other Roles</div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Contents</div>
+<div class="h2-arabic">&#1605;&#1590;&#1605;&#1608;&#1606;</div>
+</div>
+<div class="row-1">
+<div class="h4">Description</div>
+<div class="box-1">Short work on the inner meaning of Names and Attributes mentioned in the F&#257;ti&#7717;a.</div>
+<div class="h4-arabic">&#1608;&#1589;&#1601;</div>
+</div>
+<div class="row-1">
+<div class="h4">Structure</div>
+<div class="box-1">Structure of Work</div>
+<div class="h4-arabic">&#1578;&#1602;&#1587;&#1610;&#1605;</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Contents</div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Manuscripts</div>
+<div class="h2-arabic">&#1605;&#1582;&#1591;&#1608;&#1591;&#1575;&#1578;</div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">OY lists 24 mss., of which seven can be considered historic. The best is Shehit Ali 2813 (621H, written by Ayy&#363;b b. Badr in the presence of IA and verified).</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<button id="english-button" onclick="toggleManuscripts()" class="h3">
+                    Show Manuscripts <i class="fa fa-chevron-down chevron"></i></button><button id="arabic-button" onclick="toggleManuscripts()" class="h3-arabic">
+                    &#1593;&#1585;&#1590; &#1575;&#1604;&#1605;&#1582;&#1591;&#1608;&#1591;&#1575;&#1578; <i class="fa fa-chevron-down chevron"></i></button>
+</div>
+<div id="manuscript-info" style="display:none;">
+<div class="row-2">
+<div class="column-small"><div class="h5">Date</div></div>
+<div class="column-med"><div class="h5">Manuscript</div></div>
+<div class="column-small"></div>
+<div class="column-small"></div>
+<div class="column-med"><div class="h5">Title</div></div>
+<div class="column"><div class="h5">Summary</div></div>
+</div>
+<div class="row-2">
+<div class="column-small"><div class="column-box-small">621</div></div>
+<div class="column-med"><div class="column-box-med">Library</div></div>
+<div class="column-small"><div class="column-box-small">Code</div></div>
+<div class="column-small"><div class="column-box-small">Pag-es</div></div>
+<div class="column-med"><div class="column-box-med-italics">Maq&#7779;id al-asm&#257;&#702;</div></div>
+<div class="column"><div class="column-box text-smaller">One line summary. This entry is only an example!</div></div>
+</div>
+</div>
+<script>
+                function toggleManuscripts() {
+                var infoDiv = document.getElementById('manuscript-info');
+                var englishButton = document.getElementById('english-button');
+                var arabicButton = document.getElementById('arabic-button');
+                var englishChevron = englishButton.querySelector('.chevron');
+                var arabicChevron = arabicButton.querySelector('.chevron');
+                
+                if (infoDiv.style.display === 'none') {
+                infoDiv.style.display = 'block';
+                englishButton.innerHTML = 'Hide Manuscripts <i class="fa fa-chevron-up chevron"></i>';
+                arabicButton.innerHTML = '&#1575;&#1582;&#1601;&#1575;&#1569; &#1575;&#1604;&#1605;&#1582;&#1591;&#1608;&#1591;&#1575;&#1578; <i class="fa fa-chevron-up chevron"></i>';
+                } else {
+                infoDiv.style.display = 'none';
+                englishButton.innerHTML = 'Show Manuscripts <i class="fa fa-chevron-down chevron"></i>';
+                arabicButton.innerHTML = '&#1593;&#1585;&#1590; &#1575;&#1604;&#1605;&#1582;&#1591;&#1608;&#1591;&#1575;&#1578; <i class="fa fa-chevron-down chevron"></i>';
+                }
+                }
+            </script>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Related Works</div>
+<div class="h2-arabic">&#1605;&#1589;&#1606;&#1601;&#1575;&#1578; &#1584;&#1575;&#1578; &#1575;&#1604;&#1589;&#1604;&#1577;</div>
+</div>
+<div class="row-1">
+<div class="h4">relation</div>
+<div class="box-1-italics">
+               
+            </div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Related Works</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-2">
+<div class="h2">Cross-references</div>
+<div class="h2-arabic">&#1573;&#1581;&#1575;&#1604;&#1575;&#1578; &#1605;&#1586;&#1583;&#1608;&#1580;&#1577;</div>
+</div>
+<div class="row-2">
+<div class="h3">To this work</div>
+<div class="h3-arabic">&#1573;&#1604;&#1609; &#1607;&#1584;&#1575; &#1575;&#1604;&#1605;&#1589;&#1606;&#1601;</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Ij&#257;za</div>
+<div class="box-1"></div>
+<div class="h4-arabic"></div>
+</div>
+<div class="column-right">
+<div class="box-1">
+                  Reference to work in the Ij&#257;za
+                </div>
+<div class="h4-arabic">&#1575;&#1604;&#1573;&#1580;&#1575;&#1586;&#1577;</div>
+</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Fihrist</div>
+<div class="box-1"></div>
+<div class="h4-arabic"></div>
+</div>
+<div class="column-right">
+<div class="box-1">
+                  
+                    Reference to work in the Fihrist</div>
+<div class="h4-arabic">&#1575;&#1604;&#1601;&#1607;&#1585;&#1587;&#1578;</div>
+</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Fut&#363;&#7717;&#257;t</div>
+<div class="box-1">3, p. 150</div>
+<div class="h4-arabic"></div>
+</div>
+<div class="column-right">
+<div class="box-1">
+                  
+                    References to work in Fut&#363;&#7717;&#257;t</div>
+<div class="h4-arabic">&#1575;&#1604;&#1601;&#1578;&#1608;&#1581;&#1575;&#1578;</div>
+</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4">Other</div>
+<div class="box-1-italics"></div>
+<div class="h4-arabic"></div>
+</div>
+<div class="column-right">
+<div class="box-1">
+                  Reference in other work(s)
+                </div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<div class="row-2">
+<div class="h3">To other works</div>
+<div class="h3-arabic">&#1573;&#1604;&#1609; &#1605;&#1589;&#1606;&#1601;&#1575;&#1578; &#1571;&#1582;&#1585;&#1609;</div>
+</div>
+<div class="row-2">
+<div class="h4">Work</div>
+<div class="box-1">
+                  
+                Reference to other work
+                </div>
+<div class="h4-arabic"></div>
+</div>
+<div class="row-1">
+<div class="h4"></div>
+<div class="box-note">Note on Cross-references</div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Publications</div>
+<div class="h2-arabic">&#1605;&#1606;&#1588;&#1608;&#1585;&#1575;&#1578;</div>
+</div>
+<div class="row-1">
+<div class="h4">Editions</div>
+<div class="box-1">Critical edition by &#703;Abd al-&#703;Az&#299;z al-Man&#7779;&#363;b, based on mss. from the MIAS archive. Published by al-Qudus, Cairo, 2018. A critical edition has been prepared by Denis Gril, but it is not yet unpublished. Claude Addas writes: Cet ouvrage a &#233;t&#233; &#233;dit&#233; par Sa'&#238;d 'Abd al-Fatt&#226;h in Ras&#226;'il Ibn Arab&#238;, vol .1,Beyrouth, 2001,pp. 247-261 sur la base du ms. veliyuddin 1826. Egalement &#233;dit&#233; par \'Asim IBr&#226;h&#238;m al-Kiy&#226;l&#238;, Beyrouth, 2004, dans un volume intitul&#233; al-shajar&#226;t al-nu\'m&#226;niyya et contenant plusieurs trait&#233;s d\'I.A authentiques ou apocryphesz selon les cas.</div>
+<div class="h4-arabic">&#1591;&#1576;&#1593;&#1575;&#1578;</div>
+</div>
+<div class="row-1">
+<div class="h4">Translations</div>
+<div class="box-1"><br></div>
+<div class="h4-arabic">&#1578;&#1585;&#1575;&#1580;&#1605;</div>
+</div>
+<div class="row-1">
+<div class="h4">Studies</div>
+<div class="box-1"></div>
+<div class="h4-arabic">&#1571;&#1576;&#1581;&#1575;&#1579;</div>
+</div>
+<div class="row-1">
+<div class="h4">Additions</div>
+<div class="box-1">
+<br>There is a study by Denis Gril, and a critical edition in progress.<br><br>
+</div>
+<div class="h4-arabic">&#1573;&#1590;&#1575;&#1601;&#1575;&#1578;</div>
+</div>
+</div>
+<div class="background-3"></div>
+<div class="background-1">
+<div class="row-2">
+<div class="h2">Comments and Corrections</div>
+<div class="h2-arabic">&#1578;&#1593;&#1604;&#1610;&#1602; &#1608;&#1578;&#1583;&#1602;&#1610;&#1602;</div>
+</div>
+<div class="row-1">
+<div class="h4">corrections</div>
+<div class="box-note"></div>
+</div>
+<div class="row-1">
+<div class="h4">additions</div>
+<div class="box-note"></div>
+</div>
+<div class="row-1">
+<div class="h4">msAdditions</div>
+<div class="box-note"></div>
+</div>
+<div class="row-1">
+<div class="h4">JC</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">MC</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">AAS</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">Root</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">CA</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">SH</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">JC</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">AK</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">MM</div>
+<div class="box-note">
+                  
+                  
+               </div>
+</div>
+<div class="row-1">
+<div class="h4">AP</div>
+<div class="box-note">
+                  Alternate title: Al-madkhal il&#226; ma&#8217;rifa ma&#8217;&#226;khidh al-nazar f&#238; al-asm&#226;&#8217;
+                  
+               </div>
+</div>
+<div class="row-2">
+<div class="h2">MIAS Records</div>
+<div class="h2-arabic">&#1587;&#1580;&#1604;&#1575;&#1578; &#1605;&#1603;&#1578;&#1576;&#1610;&#1577;</div>
+</div>
+<div class="row-2">
+<div class="column-left">
+<div class="h4-small">In Archive</div>
+<div class="box-1 text-smaller">y</div>
+<div class="h4-small"></div>
+</div>
+<div class="column-right">
+<div class="h4-small">In Library</div>
+<div class="box-1 text-smaller"></div>
+<div class="h4-arabic"></div>
+</div>
+</div>
+</div>
+</body>
+</html>

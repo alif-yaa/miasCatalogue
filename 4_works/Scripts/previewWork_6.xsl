@@ -4,6 +4,8 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs" version="2.0">
     <xsl:output method="html" indent="yes"/>
 
+    <xsl:import href="biblPreview.xsl"/>
+
     <!-- Template to match the root and generate HTML structure -->
     <xsl:template match="/">
         <html>
@@ -84,14 +86,14 @@
                         vertical-align: middle;
                         align-self: center;
                     }
-                    .h4, 
+                    .h4,
                     .h4-italic {
                         padding-right: 10px;
                         min-width: 90px;
                         text-align: right;
                     }
                     .h4-italic {
-                    font-style: italic;
+                        font-style: italic;
                     }
                     .h4-arabic {
                         padding-left: 8px;
@@ -758,15 +760,15 @@
 
                 <div class="row">
                     <div class="h2">Cross-references</div>
-                    <div class="h2-arabic">إحالات مزدوجة</div>
+                    <div class="h2-arabic">إشارات</div>
                 </div>
 
                 <!-- To this work -->
                 <div class="row">
                     <div class="h3">To this work</div>
-                    <div class="h3-arabic">إلى هذا المصنف</div>
+                    <div class="h3-arabic">مذكور في</div>
                 </div>
-                
+
                 <div class="row">
                     <div class="column-left">
                         <div class="h4-italic">Ijāza</div>
@@ -786,8 +788,8 @@
                         <div class="h4-arabic">الإجازة</div>
                     </div>
                 </div>
-                
-                
+
+
 
                 <div class="row">
                     <div class="column-left">
@@ -855,7 +857,7 @@
 
                 <div class="row">
                     <div class="h3">To other works</div>
-                    <div class="h3-arabic">إلى مصنفات أخرى</div>
+                    <div class="h3-arabic">مذكور فيه</div>
                 </div>
 
                 <!-- Loop through all 'mention' notes in the 'mentions' noteGrp -->
@@ -971,11 +973,63 @@
             <div class="background">
 
                 <!-- Publications -->
+                <div class="row">
+                    <div class="h2">Publications</div>
+                    <div class="h2-arabic">منشورات</div>
+                </div>
+                <xsl:apply-templates select="//tei:note[@type = 'listBibl']"/>
+
+
+                <!-- Editions Section -->
+                <div>
+                    <div class="row">
+                        <div class="h2">Editions</div>
+                        <div class="h2-arabic">طبعات</div>
+                    </div>
+                    <div class="row-2">
+                        <div class="box-2">
+                            <xsl:apply-templates
+                                select="tei:note[@type = 'bibliography']/tei:listBibl[@type = 'editions']/tei:biblStruct"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Translations Section -->
+                <div>
+                    <div class="row">
+                        <div class="h2">Translations</div>
+                        <div class="h2-arabic">تراجم</div>
+                    </div>
+                    <div class="row-2">
+                        <div class="box-2">
+                            <xsl:apply-templates
+                                select="tei:note[@type = 'bibliography']/tei:listBibl[@type = 'translations']/tei:biblStruct"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Studies Section -->
+                <div>
+                    <div class="row">
+                        <div class="h2">Studies</div>
+                        <div class="h2-arabic">أبحاث</div>
+                    </div>
+                    <div class="row-2">
+                        <div class="box-2">
+                            <xsl:apply-templates
+                                select="tei:note[@type = 'bibliography']/tei:listBibl[@type = 'studies']/tei:biblStruct"
+                            />
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="h2">Publications</div>
                     <div class="h2-arabic">منشورات</div>
                 </div>
+
 
                 <div class="row">
                     <div class="h4">Editions</div>
@@ -1136,6 +1190,23 @@
         </p>
     </xsl:template>
 
+    <!-- Template for handling 'note' elements -->
+    <xsl:template match="tei:note[@type = 'listBibl']">
+        <xsl:apply-templates select="tei:listBibl[@type = 'all']"/>
+    </xsl:template>
+
+    <!-- Template for handling 'listBibl' elements -->
+    <xsl:template match="tei:listBibl[@type = 'all']">
+        <xsl:for-each select="tei:biblStruct">
+            <!-- Create a new box-2 division for each biblStruct -->
+            <div class="row-2">
+                <div class="box-2">
+                    <!-- Apply the bibliography formatting template from imported XSLT -->
+                    <xsl:apply-templates select="."/>
+                </div>
+            </div>
+        </xsl:for-each>
+    </xsl:template>
 
 
 </xsl:stylesheet>

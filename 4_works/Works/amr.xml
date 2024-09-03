@@ -25,15 +25,25 @@
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam</title>
             <title type="uniform" xml:lang="ara">كتاب الأمر المحكم</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min al-shurūṭ</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Amr al-muḥkam al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min al-shurūṭ</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc">K. Risāla al-Muḥkam al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min al-shurūṭ</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
+               ahl ṭarīq Allāh min al-shurūṭ</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
+               ahl ṭarīq Allāh min al-shurūṭ</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. Risāla al-Muḥkam al-marbūṭ fīmā yalzam
+               ahl ṭarīq Allāh min al-shurūṭ</title>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Ibn al-ʿArabī observes the following (Marconi 2023, 106): <q xml:lang="ara">وغَرْضي في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام المريد ولوازمه وما ينبغي أن يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى. ولهذا سمّيتها: "الأمر المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط". فإن الزمان مشحون بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه، ولا شيخ محقّق ينصحه ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛ فالمريد يدّعي الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس.
-                     </q>
+            <note type="titleNote">Ibn al-ʿArabī observes the following (Marconi 2023, 106): <q
+                  xml:lang="ara">وغَرْضي في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام
+                  المريد ولوازمه وما ينبغي أن يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى.
+                  ولهذا سمّيتها: "الأمر المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط".
+                  فإن الزمان مشحون بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه، ولا
+                  شيخ محقّق ينصحه ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛
+                  فالمريد يدّعي الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </q>
             </note>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā li-nabihi...</incipit>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā
+               wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā
+               li-nabihi...</incipit>
             <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
             <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
             <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
@@ -53,21 +63,32 @@
             <date type="fmDate" calendar="Hijri-qamari">602</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">724</date>
             <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of
+               Composition</date>
             <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
             <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
             <note type="dateNote">Note on Date of Composition</note>
             <placeName type="fmPlace">Damascus</placeName>
             <note type="placeNote">Note on Place of Composition</note>
-            <note type="compositionNote">In Damascus at the beginning of Jumada al-ūla 602H (see Vel.51/110b)</note>
+            <note type="compositionNote">In Damascus at the beginning of Jumada al-ūla 602H (see
+               Vel.51/110b)</note>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">The title translates as “The Firm Rule regarding the conditions necessary for people on God’s Path”. The aim of the work is to give advice to spiritual guides on the kind of language and teaching which should be offered to different types of students.</note>
+               <note type="description">The title translates as “The Firm Rule regarding the
+                  conditions necessary for people on God’s Path”. The aim of the work is to give
+                  advice to spiritual guides on the kind of language and teaching which should be
+                  offered to different types of students.</note>
                <note type="structure">Structure of Work</note>
                <note type="contentsNote">Note on Contents</note>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">A much copied work, verified by at least six historic mss, three of them definitely copied from originals. The best are Shehit Ali 1341, written around 724H in Damascus, copied from an original by IA and certified by him, and Ayasofya 4875 (probably dated 705H). OY believed the work was written in Konya in 602H on basis of a note in Veliyuddin 51 (110b), but further inspection of the note shows that the place of writing is Damascus. (See Jane Clark and Denis McAuley, Some Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp. 101-116.)</note>
+            <note type="stemmatics">A much copied work, verified by at least six historic mss, three
+               of them definitely copied from originals. The best are Shehit Ali 1341, written
+               around 724H in Damascus, copied from an original by IA and certified by him, and
+               Ayasofya 4875 (probably dated 705H). OY believed the work was written in Konya in
+               602H on basis of a note in Veliyuddin 51 (110b), but further inspection of the note
+               shows that the place of writing is Damascus. (See Jane Clark and Denis McAuley, Some
+               Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp. 101-116.)</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
@@ -79,32 +100,34 @@
                <note type="fihrist" resp="Awwad" n="51">51</note>
                <note type="fut_mak" resp="OY">Ch. 53</note>
                <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+                  <ref target="#work"/>Reference in other work(s) </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>Reference to work in the Ijāza </note>
                <note type="fihrist" resp="MIAS">
-                  <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
+                  <ref target="#fihrist"/> Reference to work in the Fihrist</note>
                <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <ref target="#fut_mak"/> References to work in Futūḥāt</note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
-                     <note type="mention">
-                        <ref target="Darajāt al-Tāʾibīn">(Marconi 2023, p.107)</ref>Ibn al-ʿArabi mentions <hi rend="italic">K. Darajāt al-Tāʾibīn</hi> by Abū Ismāʿīl al-Harawī (d. 481/1088):
-                        <q xml:lang="ara">ولقد خرّج الهَرَويّ رحِمَه لله في كتاب درجات التائبين له، وهو رِوَايتي عن الشريف جمال الدين يونس بن يحيى بن أبي الحَسَن مِن ذُرِّيّة العبّاس بن عبد المطَّلب، حدَّثني به قراءة مِنّي عليه بالحَرَم الشريف تُجاه الرُكْن اليمانيّ مِن الكعبة المعظّمة، سنة تسع وتسعين وخمسمائة.
-                        </q>
-                  </note>
+               <note type="mention">
+                  <ref target="Darajāt al-Tāʾibīn">(Marconi 2023, p.107)</ref>Ibn al-ʿArabi mentions
+                     <hi rend="italic">K. Darajāt al-Tāʾibīn</hi> by Abū Ismāʿīl al-Harawī (d.
+                  481/1088): <q xml:lang="ara">ولقد خرّج الهَرَويّ رحِمَه لله في كتاب درجات التائبين
+                     له، وهو رِوَايتي عن الشريف جمال الدين يونس بن يحيى بن أبي الحَسَن مِن ذُرِّيّة
+                     العبّاس بن عبد المطَّلب، حدَّثني به قراءة مِنّي عليه بالحَرَم الشريف تُجاه
+                     الرُكْن اليمانيّ مِن الكعبة المعظّمة، سنة تسع وتسعين وخمسمائة. </q>
+               </note>
             </noteGrp>
             <note type="referencesNote">Note on Cross-references</note>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
-               <note resp="additions">Haci Mahmud (ex-Yahya Ef) 2415, dated 1293H Ulu Cami 1590, 99b-110b, dated c. 1063H (based on other works in collection) Manisa 2964, 74a-90a, dated 1083H, Edirne (SH)</note>
-               <note resp="msAdditions">Carullah 986, 12e, 33b-34b, written by a disciple in lifetime of IA.</note>
+               <note resp="additions">Haci Mahmud (ex-Yahya Ef) 2415, dated 1293H Ulu Cami 1590,
+                  99b-110b, dated c. 1063H (based on other works in collection) Manisa 2964,
+                  74a-90a, dated 1083H, Edirne (SH)</note>
+               <note resp="msAdditions">Carullah 986, 12e, 33b-34b, written by a disciple in
+                  lifetime of IA.</note>
                <note resp="JC">
                   <p/>
                   <p/>
@@ -130,76 +153,287 @@
                   <p/>
                </note>
                <note resp="JC">
-                  <p>The online catalogue (http://ktp.isam.org.tr) dates to 739H the manuscript KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191. Turkish title: el-Emrü’l-Merbut fi Ma Yelzemu Ehle Tarikkı’llahi mine’ş-Şur
-                  </p>
-                  <p>For details of KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191 (739H) see [AP: dead link created validation issues]  (There is a copy of RG 612 Risale ila Fahreddin er-Razi in the same collection – and that is quite likely to date to the same year).
-                  </p>
-                  <p>A catalogue for the microfilms of the Escurial indicates that Escurial 732/5 (which is listed without a date by OY) is dated 749H (yet another historic manuscript for this work): http://bnm.bnrm.ma:86/pdf.aspx?IDc=1115 
-                     ADDENDUM: Escurial (Derenbourg) 732 dated 749H-750H is downloadable in microfilm format from https://mega.nz/folder/i9sABR7K#8Zcl0-1Dg8-MrkmbirkrIg/file/b90x0CCI
-                  </p>
-                  <p>There is a copy of of RG 28 in the Zahiriyya which is dated 741H  according to the al-Assad online catalogue (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms 1754/14 [م ف/م/1754ت14]. Title: الأمر المحكم المربوط مما يلزم أهل طريق الله من الشروط  In the same ms collection 1754 is a copy of Asrār al-khalwa (presume RG 33 and not RG 255) dated to the previous year, 740H.
-                  </p>
-                  <p>See our comment against RG 536 (Natāʾij al-adhkār) – http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments  – for details of Palestine, Khalidiyya 892 (old numbering) in which there is a copy of RG 28 dated 656H.
-                     
-                     Online catalogue entry: http://data.manumed.org/eng/ref/142788/Khalidiya_n°1044_-_old_ref:_1__892/</p>
-                  <p>There appears to be a very early copy of RG 28 K. al-Amr al-muḥkam – in National Library of Israel Ms. AP Ar. 149/5.  
-                     
-                     This is a very interesting sounding manuscript collection. All of the works are said in the catalogue to be dated Konya, 669H, which would place the copy of RG 28 among the two oldest. Here is an online catalogue link with interesting information relating to an owner who was a student of SQ: https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486545/NLI (the date and place make a relationship to Milli A571 copy of this work a possibility – Farghani, c. 668H)
-                     
-                     The first work (f.5b-72b) in the same ms collection is RG 639, Rūḥ al-quds , dated to the same year, 669H.https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486496/NLI
-                     
-                     And the 8th work is RG 480 Mishkāt al-anwār, dated to same year, 669H: https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486562/NLI (again, the date and place make a relationship to Veliyuddin 1686 copy of this work a possibility)
-                     
-                     Contents of the ms collection:
-                     
-                     Ms. AP Ar. 1491 as a whole (124 ff; dated 667H and 669H) = Majmūʿa fī al-taṣṣawūf https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003483984/NLI
-                     
-                     Ms. AP Ar. 1491/1 (f.5b-72b)  (RG 639 – see above)
-                     
-                     Ms. AP Ar. 1491/2 (f.79b) al-Muntahā fī nukat awlī al-nahī // al-Qushayrī https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486504/NLI
-                     
-                     Ms. AP Ar. 149/3 (f.80b-82b)  Mukātibāt bi-l-fārisiyya. https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486535/NLI
-                     
-                     Ms. AP Ar. 149/4 Waṣīyya ilā al-ikhwān fī al-dīn // Fakhr al-dīn Rāzī https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486539/NLI
-                     
-                     Ms. AP Ar. 149/5 (RG 28 – see above)
-                     
-                     Ms. AP Ar. 149/6 R. fī al-Sulūk – al-Wariqah al-akhīrah minhā faqṭ // al-Ḥammawiʾī  https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486554/NLI
-                     
-                     Ms. AP Ar. 149/7 (f.93a) Maḥāsin al-majālis // Ibn al-ʿArīf https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486556/NLI
-                     
-                     Ms. AP Ar. 149/8 (RG 480 – see above)
-                     
-                     Ms. AP Ar. 149/9 (f.118b) al-Khuṭab al-arbaʿīn al-marwiyya ʿan rusūl allāh (part of) // al-Mawṣilī – https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486566/NLI
-                     
-                     Ms. AP Ar. 149/10 Kitāb fī taṣawwūf (part of) https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486577/NLI (with much information)
-                     
-                  </p>
-                  
-                  
+                  <p>The online catalogue (http://ktp.isam.org.tr) dates to 739H the manuscript
+                     KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191. Turkish title: el-Emrü’l-Merbut fi Ma
+                     Yelzemu Ehle Tarikkı’llahi mine’ş-Şur </p>
+                  <p>For details of KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191 (739H) see [AP: dead
+                     link created validation issues] (There is a copy of RG 612 Risale ila Fahreddin
+                     er-Razi in the same collection – and that is quite likely to date to the same
+                     year). </p>
+                  <p>A catalogue for the microfilms of the Escurial indicates that Escurial 732/5
+                     (which is listed without a date by OY) is dated 749H (yet another historic
+                     manuscript for this work): http://bnm.bnrm.ma:86/pdf.aspx?IDc=1115 ADDENDUM:
+                     Escurial (Derenbourg) 732 dated 749H-750H is downloadable in microfilm format
+                     from https://mega.nz/folder/i9sABR7K#8Zcl0-1Dg8-MrkmbirkrIg/file/b90x0CCI </p>
+                  <p>There is a copy of of RG 28 in the Zahiriyya which is dated 741H according to
+                     the al-Assad online catalogue
+                     (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms 1754/14 [م
+                     ف/م/1754ت14]. Title: الأمر المحكم المربوط مما يلزم أهل طريق الله من الشروط In
+                     the same ms collection 1754 is a copy of Asrār al-khalwa (presume RG 33 and not
+                     RG 255) dated to the previous year, 740H. </p>
+                  <p>See our comment against RG 536 (Natāʾij al-adhkār) –
+                     http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments
+                     – for details of Palestine, Khalidiyya 892 (old numbering) in which there is a
+                     copy of RG 28 dated 656H. Online catalogue entry:
+                     http://data.manumed.org/eng/ref/142788/Khalidiya_n°1044_-_old_ref:_1__892/</p>
+                  <p>There appears to be a very early copy of RG 28 K. al-Amr al-muḥkam – in
+                     National Library of Israel Ms. AP Ar. 149/5. This is a very interesting
+                     sounding manuscript collection. All of the works are said in the catalogue to
+                     be dated Konya, 669H, which would place the copy of RG 28 among the two oldest.
+                     Here is an online catalogue link with interesting information relating to an
+                     owner who was a student of SQ:
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486545/NLI (the date and
+                     place make a relationship to Milli A571 copy of this work a possibility –
+                     Farghani, c. 668H) The first work (f.5b-72b) in the same ms collection is RG
+                     639, Rūḥ al-quds , dated to the same year,
+                     669H.https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486496/NLI And the 8th
+                     work is RG 480 Mishkāt al-anwār, dated to same year, 669H:
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486562/NLI (again, the date
+                     and place make a relationship to Veliyuddin 1686 copy of this work a
+                     possibility) Contents of the ms collection: Ms. AP Ar. 1491 as a whole (124 ff;
+                     dated 667H and 669H) = Majmūʿa fī al-taṣṣawūf
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003483984/NLI Ms. AP Ar. 1491/1
+                     (f.5b-72b) (RG 639 – see above) Ms. AP Ar. 1491/2 (f.79b) al-Muntahā fī nukat
+                     awlī al-nahī // al-Qushayrī
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486504/NLI Ms. AP Ar. 149/3
+                     (f.80b-82b) Mukātibāt bi-l-fārisiyya.
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486535/NLI Ms. AP Ar. 149/4
+                     Waṣīyya ilā al-ikhwān fī al-dīn // Fakhr al-dīn Rāzī
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486539/NLI Ms. AP Ar. 149/5
+                     (RG 28 – see above) Ms. AP Ar. 149/6 R. fī al-Sulūk – al-Wariqah al-akhīrah
+                     minhā faqṭ // al-Ḥammawiʾī
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486554/NLI Ms. AP Ar. 149/7
+                     (f.93a) Maḥāsin al-majālis // Ibn al-ʿArīf
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486556/NLI Ms. AP Ar. 149/8
+                     (RG 480 – see above) Ms. AP Ar. 149/9 (f.118b) al-Khuṭab al-arbaʿīn al-marwiyya
+                     ʿan rusūl allāh (part of) // al-Mawṣilī –
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486566/NLI Ms. AP Ar. 149/10
+                     Kitāb fī taṣawwūf (part of)
+                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486577/NLI (with much
+                     information) </p>
                </note>
                <note resp="AK">
                   <p/>
                   <p/>
                </note>
                <note resp="MM">
-                  <p>The Milli A571 manuscript does not include a copy of K. al-amr al-muḥkam. Only the incipit is similar but the text is made up by a collection of prayers, not attributable to Ibn ʿArabī
-                  </p>
+                  <p>The Milli A571 manuscript does not include a copy of K. al-amr al-muḥkam. Only
+                     the incipit is similar but the text is made up by a collection of prayers, not
+                     attributable to Ibn ʿArabī </p>
                   <p/>
                </note>
                <note resp="AP">
-                  <p>Clark and McAuley, 2006: At the end, on 110b, there is a note saying that the book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its author […] Osman Yahia asserts that the text was completed in Konya in 602, based (he says) on evidence within the text.[21] We can only assume that this refers to three lines from the bottom on 95b: wa-laqad haddathanî Awhad al-dîn Hâmid ibn Abî l-Fakhr al-Kirmânî bi-manzilî fî madînat Qûniya fî shahr Safar sanat 602 (“Awhad al-dîn Kirmânî related to me in my home in the city of Konya in Safar 602 …”). [nb this note may refer to the date the work was copied, rather than composed]</p>
+                  <p>Clark and McAuley, 2006: At the end, on 110b, there is a note saying that the
+                     book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its author
+                     […] Osman Yahia asserts that the text was completed in Konya in 602, based (he
+                     says) on evidence within the text.[21] We can only assume that this refers to
+                     three lines from the bottom on 95b: wa-laqad haddathanî Awhad al-dîn Hâmid ibn
+                     Abî l-Fakhr al-Kirmânî bi-manzilî fî madînat Qûniya fî shahr Safar sanat 602
+                     (“Awhad al-dîn Kirmânî related to me in my home in the city of Konya in Safar
+                     602 …”). [nb this note may refer to the date the work was copied, rather than
+                     composed]</p>
                   <p/>
                </note>
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
+            <note type="listBibl">
+               <listBibl type="all">
+                  <biblStruct type="book" xml:id="Ibn_al-ʿArabī2010"
+                     corresp="http://zotero.org/users/13471649/items/E9DQC2UM">
+                     <monogr>
+                        <title level="m">al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya;
+                           wa-yalīh al-Amr al-muḥkam al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min
+                           al-Shurūṭ; wa-yalīh Mishkāt al-ʿuqūl al-muqtabasa min nūr
+                           al-manqūl</title>
+                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                              al-ʿArabī</surname></author>
+                        <editor><forename>Aḥmad b. Farīd b.
+                              Aḥmad</forename><surname>al-Mazīdī</surname></editor>
+                        <imprint>
+                           <pubPlace>Bayrūt</pubPlace>
+                           <publisher>Dār al-Kutub al-ʿIlmīyah</publisher>
+                           <date>2010</date>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">ajwiba</note><note type="tag"
+                           >amr</note><note type="tag">edition</note></note>
+                  </biblStruct>
+                  <biblStruct type="journalArticle" xml:id="Marconi2023a"
+                     corresp="http://zotero.org/users/13471649/items/M65FSS66">
+                     <analytic>
+                        <title level="a">EDIZIONE DEL KITĀB AL-AMR AL-MUḤKAM AL-MARBŪṬ FĪ- MĀ YALZAM
+                           AHL ṬARĪQ ALLĀH MIN AL-ŠURŪṬ DI IBN ʻARABĪ</title>
+                        <idno type="DOI">10.6018/azufre.588951</idno>
+                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                              al-ʿArabī</surname></author>
+                     </analytic>
+                     <monogr>
+                        <title level="j">El Azufre Rojo</title>
+                        <idno type="ISSN">2341-1678, 2341-1368</idno>
+                        <editor><forename>Maurizio</forename><surname>Marconi</surname></editor>
+                        <imprint>
+                           <biblScope unit="volume">11</biblScope>
+                           <date>2023</date>
+                           <note type="accessed">2024-08-26T18:53:36Z</note>
+                           <note type="url">https://revistas.um.es/azufre/article/view/588951</note>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag"
+                        >edition</note></note>
+                  </biblStruct>
+                  <biblStruct type="book" xml:id="Asín_Palacios1931"
+                     corresp="http://zotero.org/users/13471649/items/EKTXPUDV">
+                     <monogr>
+                        <title level="m">El Islam cristianizado: estudio del "sufismo" a través de
+                           las obras de Abenarabi de Murcia</title>
+                        <title type="short">El Islam cristianizado</title>
+                        <author><forename>Miguel</forename><surname>Asín Palacios</surname></author>
+                        <respStmt>
+                           <resp>contributor</resp>
+                           <persName><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                                 al-ʿArabī</surname></persName>
+                        </respStmt>
+                        <edition>1. ed</edition>
+                        <imprint>
+                           <pubPlace>Madrid</pubPlace>
+                           <publisher>Editorial Plutarco</publisher>
+                           <date>1931</date>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
+                           type="tag">futuhat</note><note type="tag">nasaih</note><note type="tag"
+                           >spa</note><note type="tag">study</note><note type="tag"
+                           >tadbirat</note><note type="tag">translation</note></note>
+                  </biblStruct>
+                  <biblStruct type="journalArticle" xml:id="Marconi2023b"
+                     corresp="http://zotero.org/users/13471649/items/X74D6CI3">
+                     <analytic>
+                        <title level="a">IBN ʿARABĪ: IL LIBRO DELLA REGOLA STABILITA IN MODO
+                           INEQUIVOCABILE SULLE CONDIZIONI CHE SONO INDISPENSABILI PER LA GENTE
+                           DELLA VIA DI ALLAH</title>
+                        <idno type="DOI">10.6018/azufre.588821</idno>
+                        <title type="short">IBN ʿARABĪ</title>
+                        <author><forename>Maurizio</forename><surname>Marconi</surname></author>
+                     </analytic>
+                     <monogr>
+                        <title level="j">El Azufre Rojo</title>
+                        <idno type="ISSN">2341-1678, 2341-1368</idno>
+                        <imprint>
+                           <biblScope unit="volume">11</biblScope>
+                           <date>2023</date>
+                           <note type="accessed">2024-08-30T16:11:30Z</note>
+                           <note type="url">https://revistas.um.es/azufre/article/view/588821</note>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag"
+                        >study</note></note>
+                  </biblStruct>
+                  <biblStruct type="journalArticle" xml:id="Marconi2023c"
+                     corresp="http://zotero.org/users/13471649/items/EJBGXMVB">
+                     <analytic>
+                        <title level="a">ESEMPI DI PAGINE DEI MANOSCRITTI UTILIZZATI PER L'EDIZIONE
+                           DEL KITĀB AL-AMR AL-MUḤKAM AL-MARBŪṬ FĪ- MĀ YALZAM AHL ṬARĪQ ALLĀH MIN
+                           AL-ŠURŪṬ DI IBN ʻARABĪ</title>
+                        <idno type="DOI">10.6018/azufre.588831</idno>
+                        <author><forename>Maurizio</forename><surname>Marconi</surname></author>
+                     </analytic>
+                     <monogr>
+                        <title level="j">El Azufre Rojo</title>
+                        <idno type="ISSN">2341-1678, 2341-1368</idno>
+                        <imprint>
+                           <biblScope unit="volume">11</biblScope>
+                           <date>2023</date>
+                           <note type="accessed">2024-08-30T16:12:37Z</note>
+                           <note type="url">https://revistas.um.es/azufre/article/view/588831</note>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag"
+                        >study</note></note>
+                  </biblStruct>
+                  <biblStruct type="journalArticle" xml:id="Marconi2023d"
+                     corresp="http://zotero.org/users/13471649/items/XQUSBRRZ">
+                     <analytic>
+                        <title level="a">TRADUZIONE IL LIBRO DELLA REGOLA STABILITA IN MODO
+                           INEQUIVOCABILE SULLE CONDIZIONI CHE SONO INDISPENSABILI PER LA GENTE
+                           DELLA VIA DI ALLAH</title>
+                        <idno type="DOI">10.6018/azufre.588941</idno>
+                        <respStmt>
+                           <resp>translator</resp>
+                           <persName><forename>Maurizio</forename><surname>Marconi</surname></persName>
+                        </respStmt>
+                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                              al-ʿArabī</surname></author>
+                     </analytic>
+                     <monogr>
+                        <title level="j">El Azufre Rojo</title>
+                        <idno type="ISSN">2341-1678, 2341-1368</idno>
+                        <imprint>
+                           <biblScope unit="volume">11</biblScope>
+                           <date>2023</date>
+                           <note type="accessed">2024-08-30T16:12:52Z</note>
+                           <note type="url">https://revistas.um.es/azufre/article/view/588941</note>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag"
+                           >translation</note></note>
+                  </biblStruct>
+                  <biblStruct type="book" xml:id="Asín_Palacios1982"
+                     corresp="http://zotero.org/users/13471649/items/L48QZ844">
+                     <monogr>
+                        <title level="m">L'Islam christianisé: étude sur le soufisme à travers les
+                           oeuvres d'Ibn Arabî de Murcie</title>
+                        <title type="short">L'Islam christianisé</title>
+                        <idno type="ISBN">978-2-85707-079-5</idno>
+                        <author><forename>Miguel</forename><surname>Asín Palacios</surname></author>
+                        <respStmt>
+                           <resp>translator</resp>
+                           <persName><forename>Bernard</forename><surname>Dubant</surname></persName>
+                        </respStmt>
+                        <respStmt>
+                           <resp>contributor</resp>
+                           <persName><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                                 ʿArabī</surname></persName>
+                        </respStmt>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Trédaniel</publisher>
+                           <date>1982</date>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
+                           type="tag">study</note><note type="tag">translation</note></note>
+                  </biblStruct>
+                  <biblStruct type="book" xml:id="Ibn_al-ʿArabī2021"
+                     corresp="http://zotero.org/users/13471649/items/Q2TMVT6B">
+                     <monogr>
+                        <title level="m">Khams rasāʾil fi l-sulūk</title>
+                        <idno type="ISBN">978-977-6851-35-1</idno>
+                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
+                              al-ʿArabī</surname></author>
+                        <editor><forename>Ayman
+                           Ḥamdī</forename><surname>al-Akbarī</surname></editor>
+                        <editor><forename>ʿAlī</forename><surname>Jumʿa</surname></editor>
+                        <imprint>
+                           <pubPlace>al-Qāhira</pubPlace>
+                           <publisher>Muʾassasat Ibn al-ʿArabī li-l-Buḥūth wa-l-Nashr</publisher>
+                           <date>2021</date>
+                        </imprint>
+                     </monogr>
+                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
+                           type="tag">edition</note><note type="tag">khalwa</note><note type="tag"
+                           >kunh</note><note type="tag">nasaih</note></note>
+                  </biblStruct>
+               </listBibl>
+            </note>
             <noteGrp type="publications">
-               <note type="editions">Critical edition created by Maurizio Marconi, 2019. A copy available on request.</note>
+               <note type="editions">Critical edition created by Maurizio Marconi, 2019. A copy
+                  available on request.</note>
                <note type="translations"/>
                <note type="translationsEur"/>
                <note type="studies"/>
                <note type="additions" n="1"/>
-               <note type="additions" n="2">Translated by Palacios, according to Addas (Quest, 304). [AP: resolved- in Zotero]</note>
+               <note type="additions" n="2">Translated by Palacios, according to Addas (Quest, 304).
+                  [AP: resolved- in Zotero]</note>
                <note type="additions" n="3"/>
             </noteGrp>
             <!-- Administrative Notes -->

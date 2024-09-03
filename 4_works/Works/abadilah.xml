@@ -69,8 +69,8 @@
             <!-- Stemmatics -->
             <note type="stemmatics">OY lists 16 mss., at least seven of which can be considered historic. The best is Yusuf Aga 4859, a partial holograph with a samāʿ dated 641H. Different copies have different numbers of chapters: Ayasofia 4817 and Yusuf Aga 4859 have 117, Shehit Ali 2826 114, the Cairo printed edition (1969) 96. According to Pablo Beneito, who has made a detailed study of the text, 117 is the correct number.</note>
             <!-- Related Works -->
-            <relatedItem type="adaptation">
-               <ref target="#fusus">Fusus</ref>
+            <relatedItem type="relation">
+               <ref target="#work"></ref>
             </relatedItem>
             <note type="relationsNote">Note on Related Works</note>
             <!-- References to This Work in Other Works -->

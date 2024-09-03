@@ -19,7 +19,9 @@
             <idno type="RG">41.1</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">425</idno>
-            <idno type="Normalized">arwah</idno>
+            <idno type="keyword">arwah</idno>
+            <idno type="normalized">arwah</idno>
+            <idno type="alifba">الأرواح</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. [fī] al-Arwāḥ</title>
             <title type="uniform" xml:lang="ara">رسالة في الأرواح</title>
@@ -102,7 +104,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

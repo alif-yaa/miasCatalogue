@@ -19,7 +19,9 @@
             <idno type="RG">757</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">312</idno>
-            <idno type="Normalized">taiyya</idno>
+            <idno type="keyword">taiyya</idno>
+            <idno type="normalized">taiyya</idno>
+            <idno type="alifba">التائية</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">al-Tāʾiyya</title>
             <title type="uniform" xml:lang="ara">التائية</title>
@@ -102,7 +104,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

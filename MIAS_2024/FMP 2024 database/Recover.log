@@ -63,3 +63,12 @@
 2024-08-29 11:38:58.325 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Started consistency check of improperly closed file, total of 1102 block(s) to check
 2024-08-29 11:38:58.328 +0100	MIAS Lib Classn 2.0.fmp12	0	Reset maximum block sequence number to 396218
 2024-08-29 11:38:58.329 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Completed consistency check, checked 1102 block(s)
+2024-08-30 09:18:52.864 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Started consistency check of improperly closed file, total of 1102 block(s) to check
+2024-08-30 09:18:52.959 +0100	MIAS Lib Classn 2.0.fmp12	0	Reset maximum block sequence number to 396218
+2024-08-30 09:18:52.959 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Completed consistency check, checked 1102 block(s)
+2024-08-30 09:19:50.546 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Started consistency check of improperly closed file, total of 1102 block(s) to check
+2024-08-30 09:19:50.548 +0100	MIAS Lib Classn 2.0.fmp12	0	Reset maximum block sequence number to 397056
+2024-08-30 09:19:50.549 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Completed consistency check, checked 1102 block(s)
+2024-08-30 09:26:32.670 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Started consistency check of improperly closed file, total of 1102 block(s) to check
+2024-08-30 09:26:32.680 +0100	MIAS Lib Classn 2.0.fmp12	0	Reset maximum block sequence number to 397894
+2024-08-30 09:26:32.680 +0100	MIAS Lib Classn 2.0.fmp12	0	*** Completed consistency check, checked 1102 block(s)

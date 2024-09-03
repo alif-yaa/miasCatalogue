@@ -19,7 +19,9 @@
             <idno type="RG">511</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">58</idno>
-            <idno type="Normalized">muqni</idno>
+            <idno type="keyword">muqni</idno>
+            <idno type="normalized">muqni</idno>
+            <idno type="alifba">المقنع في إيضاح السهل الممتنع</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Muqniʿ fī īḍāḥ al-sahl al-mumtaniʿ</title>
             <title type="uniform" xml:lang="ara">كتاب المقنع في إيضاح السهل الممتنع</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

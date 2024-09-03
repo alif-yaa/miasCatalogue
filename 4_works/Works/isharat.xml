@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ishārāt al-Qurʾān fī ʿālam al-insān | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="isharat">
+            <idno type="RG">303</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">30</idno>
+            <idno type="keyword">isharat</idno>
+            <idno type="normalized">ish-qur</idno>
+            <idno type="alifba">إشارات القرآن في عالم الإنسان</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">Ishārāt al-Qurʾān fī ʿālam al-insān</title>
+            <title type="uniform" xml:lang="ara">إشارات القرآن في عالم الإنسان</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh mursil al-ʿawārif wa-munzil al-laṭāʾif</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">601</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">762</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Malatya</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote">In 601H for his friend al-Ḥabashī (see Vel.51/18b).</note>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Commentary upon the verses of the Qurʾān, conceived as a companion volume to al-Tanazzulāt al-Mawṣiliyya (RG 762). Written for IA’s companion, Badr al-Ḥabashī.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">OY cites 10 mss., verified by two historic mss., Veliyuddin 51 (c.762H, taken from original in the hand of IA dated 601H) and Yusuf Ağa 7838. According to OY, written 602H in Jerusalem on the basis of a note on Veliyuddin 51, but our investigation shows that he has confused the place of copying with the place of writing and in fact, no place is given. The date given is Ramadan 601H, when it is known that IA was in Malatya. (See Jane Clark and Denis McAuley Some Notes on the Manuscript Veliyyudin 51, JMIAS 40, 2006.)</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="56">56</note>
+               <note type="fihrist" resp="Awwad" n="54">54</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions"/>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p>Related work: tan_maw (762) - nature of relation? Jane anc McAuley’s article: “The Ishârât al-Qur’ân were completed at noon on Wednesday the 13th day of glorious Ramadân in 601. I wrote it out (nasakhtuhu) for my friend al-Mas’ûd ‘Abd Allâh Badr b. ‘Abd Allâh al-Habashî, the freed slave of Abû al-Ghanâîim b. Abî al-Futûh al-Harrân’…”</p>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical Edition: An unpublished version was produced in 1998 by Aimane Regragui of the University of Marmara, under the supervision of Mahmud Kiliç. (Available from the MIAS Library). A version in progress by Denis Gril.</note>
+               <note type="translations"/>
+               <note type="translationsEur"/>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2">Partial edition (MK student)c completed. Full edition in progress (PB).</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

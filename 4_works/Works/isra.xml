@@ -19,7 +19,9 @@
             <idno type="RG">313</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">91</idno>
-            <idno type="Normalized">isra</idno>
+            <idno type="keyword">isra</idno>
+            <idno type="normalized">isra</idno>
+            <idno type="alifba">الإسرا إلي المقام الأسرى</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Isrā ilā al-maqām al-asrā</title>
             <title type="uniform" xml:lang="ara">كتاب الإسرا إلي المقام الأسرى</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

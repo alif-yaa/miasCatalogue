@@ -19,7 +19,9 @@
             <idno type="RG">294</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">126</idno>
-            <idno type="Normalized">intisar</idno>
+            <idno type="keyword">intisar</idno>
+            <idno type="normalized">intisar</idno>
+            <idno type="alifba">الإنتصار</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Intiṣār</title>
             <title type="uniform" xml:lang="ara">رسالة الإنتصار</title>
@@ -102,7 +104,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

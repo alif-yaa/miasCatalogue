@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:fm="http://www.filemaker.com/fmpxmlresult"
+    exclude-result-prefixes="fm"
+    version="2.0">
+    
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+    <xsl:strip-space elements="*"/>
+    
+    <xsl:template match="/fm:FMPXMLRESULT">
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Works by Ibn al-ʿArabī (Verified and Probable)</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <p>Publication Information</p>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <p>Information about the source</p>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <listBibl>
+                        <xsl:apply-templates select="fm:RESULTSET/fm:ROW"/>
+                    </listBibl>
+                </body>
+            </text>
+        </TEI>
+    </xsl:template>
+    
+    <xsl:template match="fm:ROW">
+        <bibl xmlns="http://www.tei-c.org/ns/1.0">
+                        
+            <xsl:attribute name="xml:id">
+                <xsl:value-of select="normalize-space(fm:COL[66]/fm:DATA)"/>
+            </xsl:attribute>
+            
+            <idno type="RG"><xsl:value-of select="normalize-space(fm:COL[1]/fm:DATA)"/></idno>
+            <idno type="Alt_RG"><xsl:value-of select="normalize-space(fm:COL[2]/fm:DATA)"/></idno>
+            <idno type="RECORDID"><xsl:value-of select="normalize-space(fm:COL[3]/fm:DATA)"/></idno>
+            <idno type="keyword"><xsl:value-of select="normalize-space(fm:COL[66]/fm:DATA)"/></idno>
+            <idno type="normalized"><xsl:value-of select="normalize-space(fm:COL[7]/fm:DATA)"/></idno>
+            <idno type="alifba"><xsl:value-of select="normalize-space(fm:COL[64]/fm:DATA)"/></idno>
+            
+            <xsl:comment> Titles </xsl:comment>
+            
+            <title type="uniform" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[4]/fm:DATA)"/></title>
+            <title type="uniform" xml:lang="ara"><xsl:value-of select="normalize-space(fm:COL[5]/fm:DATA)"/></title>
+            <title type="full" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[21]/fm:DATA)"/></title>
+            <title type="variant" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[20]/fm:DATA)"/></title>
+            <title type="translation" xml:lang="eng"><xsl:value-of select="normalize-space(fm:COL[22]/fm:DATA)"/></title>
+            <note type="titleNote">Note on Title</note>
+            
+            <xsl:comment> Textual Identifiers </xsl:comment>
+            
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc"><xsl:value-of select="normalize-space(fm:COL[12]/fm:DATA)"/></incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            
+            
+            <xsl:comment> Authorship and Editorial Roles </xsl:comment>
+            
+            <xsl:choose>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified A')">
+                    <author cert="high" key="IA">Ibn al-ʿArabī</author>
+                    <editor role="role" key="key">Other Roles</editor>
+                    <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified B')">
+                    <author cert="medium" key="IA">Ibn al-ʿArabī</author>
+                    <editor role="role" key="key">Other Roles</editor>
+                    <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Probable IA')">
+                    <author cert="low" key="IA">Ibn al-ʿArabī</author>
+                    <editor role="role" key="key">Other Roles</editor>
+                    <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+                </xsl:when>
+            </xsl:choose>
+            
+            <xsl:choose>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified A')">
+                    <note type="verification" subtype="A">Verified A</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Verified B')">
+                    <note type="verification" subtype="B">Verified B</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[6]/fm:DATA), 'Probable IA')">
+                    <note type="verification" subtype="C">Probable IA</note>
+                </xsl:when>
+            </xsl:choose>
+            
+            <xsl:choose>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'H')"> 
+                    <note type="authenticationType" subtype="H">Holograph</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'A')"> 
+                    <note type="authenticationType" subtype="A">Autograph</note>
+                </xsl:when>
+                <xsl:when test="contains(normalize-space(fm:COL[23]/fm:DATA), 'C')"> 
+                    <note type="authentificationType" subtype="C">Copy</note>
+                </xsl:when>
+            </xsl:choose> 
+            <note type="authenticityNote">Note on Authenticity</note>
+            
+            
+            <xsl:comment> Composition History </xsl:comment>
+
+            <date type="fmDate" calendar="Hijri-qamari"><xsl:value-of select="normalize-space(fm:COL[9]/fm:DATA)"/></date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari"><xsl:value-of select="normalize-space(fm:COL[19]/fm:DATA)"/></date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+                        
+            <placeName type="fmPlace"><xsl:value-of select="normalize-space(fm:COL[11]/fm:DATA)"/></placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+                        
+            <note type="compositionNote"><xsl:value-of select="normalize-space(fm:COL[10]/fm:DATA)"/></note>
+            
+            
+            <xsl:comment> Contents </xsl:comment>
+            
+            <noteGrp type="workDesc">
+                <note type="description"><xsl:value-of select="normalize-space(fm:COL[13]/fm:DATA)"/></note>
+                <note type="structure">Structure of Work</note>
+                <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+                
+            <xsl:comment> Stemmatics </xsl:comment>    
+            <note type="stemmatics"><xsl:value-of select="normalize-space(fm:COL[14]/fm:DATA)"/></note>
+            
+            <xsl:comment> Related Works </xsl:comment>
+            
+            <relatedItem type="relation"><ref target="#work"></ref></relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            
+            
+            <xsl:comment> References to This Work in Other Works </xsl:comment>
+            
+            <noteGrp type="references">
+                <note type="ijaza" resp="Badawi" n="{normalize-space(fm:COL[16]/fm:DATA)}">
+                    <xsl:value-of select="normalize-space(fm:COL[16]/fm:DATA)"/>
+                </note>
+                <note type="fihrist" resp="Awwad" n="{normalize-space(fm:COL[15]/fm:DATA)}"><xsl:value-of select="normalize-space(fm:COL[15]/fm:DATA)"/>
+                </note>
+                <note type="fut_mak" resp="OY"><xsl:value-of select="normalize-space(fm:COL[17]/fm:DATA)"/>
+                </note>
+                <note type="other"><ref target="#work"><xsl:value-of select="normalize-space(fm:COL[18]/fm:DATA)"/></ref>Reference in other work(s)
+                </note>
+                <note type="ijaza" resp="MIAS">
+                    <ref target="#ijaza"></ref>Reference to work in the Ijāza
+                </note>
+                <note type="fihrist" resp="MIAS">
+                    <ref target="#fihrist"></ref>
+                    Reference to work in the Fihrist</note>
+                <note type="fut_mak" resp="MIAS">
+                    <ref target="#fut_mak"></ref>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            
+            <xsl:comment> References in This Work to Other Works </xsl:comment>
+            
+            <noteGrp type="mentions">
+                <note type="mention">
+                <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            
+            <note type="referencesNote">Note on Cross-references</note>
+                                    
+            <xsl:comment> Comments and Corrections </xsl:comment>
+            
+            <noteGrp type="comments">
+                <note resp="corrections"><xsl:value-of select="normalize-space(fm:COL[29]/fm:DATA)"/> 
+                </note>
+                <note resp="additions"><xsl:value-of select="normalize-space(fm:COL[25]/fm:DATA)"/> 
+                </note>
+                <note resp="msAdditions"><xsl:value-of select="normalize-space(fm:COL[47]/fm:DATA)"/> 
+                </note>
+                <note resp="JC"> <p> </p> <p> </p></note>
+                <note resp="MC"> <p> </p> <p> </p></note>
+                <note resp="AAS"><p> </p> <p> </p></note>
+                <note resp="Root"><p> </p> <p> </p></note>
+                <note resp="CA"><p> </p> <p> </p></note>
+                <note resp="SH"><p> </p> <p> </p></note>
+                <note resp="JC"><p> </p> <p> </p></note>
+                <note resp="AK"><p> </p> <p> </p></note>
+                <note resp="MM"><p> </p> <p> </p></note>
+                <note resp="AP">
+                    <p><xsl:value-of select="normalize-space(fm:COL[24]/fm:DATA)"/></p><p> </p></note>
+            </noteGrp>
+            
+            <xsl:comment> Editions, Translations, and Relevant Publications </xsl:comment>
+            <noteGrp type="publications"> 
+                <note type="editions"><xsl:value-of select="normalize-space(fm:COL[50]/fm:DATA)"/></note>
+                <note type="translations"><xsl:value-of select="normalize-space(fm:COL[62]/fm:DATA)"/></note>
+                <note type="translationsEur"><xsl:value-of select="normalize-space(fm:COL[63]/fm:DATA)"/></note>
+                <note type="studies"><xsl:value-of select="normalize-space(fm:COL[56]/fm:DATA)"/></note>
+                <note type="additions" n="1"><xsl:value-of select="normalize-space(fm:COL[52]/fm:DATA)"/></note>
+                <note type="additions" n="2"><xsl:value-of select="normalize-space(fm:COL[39]/fm:DATA)"/></note>
+                <note type="additions" n="3"><xsl:value-of select="normalize-space(fm:COL[59]/fm:DATA)"/></note>                
+            </noteGrp>
+            
+            <xsl:comment> Administrative Notes </xsl:comment>
+            <noteGrp type="admin">
+                <note type="archive"><xsl:value-of select="normalize-space(fm:COL[27]/fm:DATA)"/></note>
+                <note type="library"><xsl:value-of select="normalize-space(fm:COL[41]/fm:DATA)"/></note>
+            </noteGrp>
+                       
+            <textLang mainLang="ara">Arabic</textLang>
+            <xsl:comment> End </xsl:comment>
+        </bibl>
+        
+        
+    </xsl:template>
+</xsl:stylesheet>

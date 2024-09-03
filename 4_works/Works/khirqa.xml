@@ -19,7 +19,9 @@
             <idno type="RG">530</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">59</idno>
-            <idno type="Normalized">khirqa</idno>
+            <idno type="keyword">khirqa</idno>
+            <idno type="normalized">khirqa</idno>
+            <idno type="alifba">الخرقة</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Khirqa</title>
             <title type="uniform" xml:lang="ara">رسالة الخرقة</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

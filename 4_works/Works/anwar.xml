@@ -19,7 +19,9 @@
             <idno type="RG">33</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">103</idno>
-            <idno type="Normalized">anwar</idno>
+            <idno type="keyword">anwar</idno>
+            <idno type="normalized">anwar</idno>
+            <idno type="alifba">الأنوار</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Anwār (K. Asrār al-khalwa)</title>
             <title type="uniform" xml:lang="ara">رسالة الأنوار (كتاب أسرار الخلوة)</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

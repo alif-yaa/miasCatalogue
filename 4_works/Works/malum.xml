@@ -19,7 +19,9 @@
             <idno type="RG">402</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">377</idno>
-            <idno type="Normalized">malum</idno>
+            <idno type="keyword">malum</idno>
+            <idno type="normalized">malum</idno>
+            <idno type="alifba">المعلوم من عقائد علماء الرسوم</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</title>
             <title type="uniform" xml:lang="ara">رسالة المعلوم من عقائد علماء الرسوم</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

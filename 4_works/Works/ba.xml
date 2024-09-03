@@ -19,7 +19,9 @@
             <idno type="RG">71</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">6</idno>
-            <idno type="Normalized">ba</idno>
+            <idno type="keyword">ba</idno>
+            <idno type="normalized">ba</idno>
+            <idno type="alifba">الباء</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Bāʾ</title>
             <title type="uniform" xml:lang="ara">كتاب الباء</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

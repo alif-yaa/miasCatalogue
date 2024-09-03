@@ -19,7 +19,9 @@
             <idno type="RG">281</idno>
             <idno type="Alt_RG"/>
             <idno type="RECORDID">125</idno>
-            <idno type="Normalized">ilam</idno>
+            <idno type="keyword">ilam</idno>
+            <idno type="normalized">ilam</idno>
+            <idno type="alifba">الإعلام بإشارات أهل الإلهام</idno>
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Iʿlām bi-ishārāt ahl al-ilhām</title>
             <title type="uniform" xml:lang="ara">كتاب الإعلام بإشارات أهل الإلهام</title>
@@ -103,7 +105,35 @@
                   <p/>
                   <p/>
                </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
                <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
                   <p/>
                   <p/>
                </note>

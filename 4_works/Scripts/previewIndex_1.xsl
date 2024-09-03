@@ -127,7 +127,7 @@
                 <div class="box-1-italics">
                     <a>
                         <xsl:attribute name="href">
-                            <xsl:value-of select="concat(tei:idno[@type = 'Normalized'], '.html')"/>
+                            <xsl:value-of select="concat('../worksPreview/', tei:idno[@type = 'keyword'], '.html')"/>
                         </xsl:attribute>
                         <xsl:value-of select="tei:title[@xml:lang = 'ara-Latn-x-lc'][@type = 'uniform']"/>
                     </a>
@@ -137,7 +137,7 @@
                 <div class="box-1-arabic">
                     <a>
                         <xsl:attribute name="href">
-                            <xsl:value-of select="concat(tei:idno[@type = 'Normalized'], '.html')"/>
+                            <xsl:value-of select="concat(tei:idno[@type = 'keyword'], '.html')"/>
                         </xsl:attribute>
                         <xsl:value-of select="tei:title[@xml:lang = 'ara'][@type = 'uniform']"/>
                     </a>

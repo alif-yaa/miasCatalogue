@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="sira">
+            <idno type="RG">276</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">28</idno>
+            <idno type="keyword">sira</idno>
+            <idno type="normalized">ikh-sir</idno>
+            <idno type="alifba">إختصار السيرة النبوية المحمدية</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</title>
+            <title type="uniform" xml:lang="ara">إختصار السيرة النبوية المحمدية</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc">Ikhtißår al-siråh sayyidnå rasål Allåh</title>
+            <title type="translation" xml:lang="eng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh laqad jaʿat rusul rabbina bi-l-ḥaqq wa-l-ṣalāwāt ʿalā...</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="medium" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="B">Verified B</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">701</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace"/>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Work ascribed to IA on the life and qualities of the Prophet, including the palm-tree miracle in Seville. The text has been analysed by Pablo Beneito (JMIAS 30, 2001).</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">OY cites no surviving mss., but we have inspected an early mss. in Jerusalem (Khalidiyya 967, 701H, of which there is a microfilm copy in the Dār al-kutub, Cairo.) which carries a dedication to IA’s sons and his daughter Fāṭima. This makes it highly likely that it is an authentic work. The work is mentioned in both the lists which IA made of his own works, Fihris muʾallafāt al-shaykh al-akbar (RG142) and Ijāza li-l-malik al-Muẓaffar (RG 269) and internal evidence as presented by Pablo Beneito (see JMIAS 30, 2001) supports the verification. There is some confusion between this work and K. al-Shamāʾil al-nabī, for which OY lists three mss and assigned a separate RG number (669). But our research so far indicates that there is only one work with variant titles. We have therefore consolidated under RG 276 and categorised RG 669 as a duplicate.</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="198">198</note>
+               <note type="fihrist" resp="Awwad" n="190">190</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions"/>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions"/>
+               <note type="translations"/>
+               <note type="translationsEur"/>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2"/>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">Y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>
