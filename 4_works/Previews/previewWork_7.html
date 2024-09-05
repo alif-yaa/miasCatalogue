@@ -18,6 +18,21 @@
                         direction: rtl;
                         text-align: right;
                     }
+                    .margin-bottom-5 {
+                        margin-bottom: 5px;
+                    }
+                    .margin-bottom-10 {
+                        margin-bottom: 10px;
+                    }
+                    .margin-bottom-20 {
+                        margin-bottom: 20px;
+                    }
+                    .margin-right {
+                        margin-right: 5px;
+                    }
+                    .margin-left {
+                        margin-left: 5px;
+                    }
                     /* title */
                     .h1-italic,
                     .h1-arabic {
@@ -28,12 +43,9 @@
                     .h1-italic {
                         font-style: italic;
                         font-weight: bold;
-                        margin-top: 20px;
-                        margin-bottom: 5px;
                         font-family: 'Comorant Garamond', serif;
                     }
                     .h1-arabic {
-                        margin-bottom: 20px;
                         direction: rtl;
                         font-family: 'Amiri', serif;
                     }
@@ -43,8 +55,6 @@
                         font-weight: bold;
                         color: #0052a4;
                         font-size: 1.2em;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
                         margin-right: 5px;
                         margin-left: 5px;
                         text-align: center;
@@ -55,18 +65,22 @@
                     }
                     /* subheadings */
                     .h3,
-                    .h3-arabic {
+                    .h3-arabic,
+                    .h3-italic {
                         font-weight: bold;
                         font-size: 1em;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
                         color: #0052a4;
-                        margin-left: 10px;
-                        margin-right: 10px;
+                        margin-left: 5px;
+                        vertical-align: middle;
+                        align-self: center;
                     
+                    }
+                    .h3-italic {
+                        font-style: italic;
                     }
                     .h3-arabic {
                         text-align: right;
+                        margin-right: 5px;
                         direction: rtl;
                         font-family: 'Amiri', serif;
                     }
@@ -88,7 +102,7 @@
                     }
                     .h4-arabic {
                         padding-left: 8px;
-                        min-width: 75px;
+                        min-width: 90px;
                         text-align: left;
                         direction: rtl;
                         font-family: 'Amiri', serif;
@@ -97,11 +111,11 @@
                     .h5,
                     .h5-arabic,
                     .h5-italic {
+                    
                         vertical-align: middle;
                         align-self: center;
                         margin-left: 25px;
                         margin-right: 25px;
-                        margin-bottom: 10px;
                     }
                     .h5 {
                         text-align: left;
@@ -121,7 +135,10 @@
                         color: #0052a4; /* Your desired color */
                     }
                     p {
-                        margin: 0px; /* Set both top/bottom and left/right margins to 5px */
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        margin-top: 3px;
+                        margin-bottom: 3px;
                     }
                     /* Smaller text */
                     .text-smaller {
@@ -149,29 +166,47 @@
                         border-left: 2px solid #d8dfb0;
                         border-right: 2px solid #d8dfb0;
                         padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
                         min-width: 800px;
                         max-width: 800px;
                         margin: 0 auto;
-                        margin-bottom: 20px;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #E1DBE8;
+                        border-top: 2px solid #A896BA;
+                        border-bottom: 2px solid #A896BA;
+                        border-left: 2px solid #A896BA;
+                        border-right: 2px solid #A896BA;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
                         position: relative; /* Ensure the content stays within the backdrop */
                     }
                     .row,
-                    .row-2 {
+                    .row-2,
+                    .row-center {
                         display: flex;
                         align-items: center;
                         align-items: stretch;
                         min-width: 600px; /* Adjust this value as necessary */
                     }
-                    /* Standard row for subheadings and rows with field names */
+                    /* Standard row for subheadings */
                     .row {
                         justify-content: space-between;
-                        margin-bottom: 10px;
-                    
                     }
                     /* row-2 for rows without field names (ADJUST) */
                     .row-2 {
-                        margin-bottom: 0px;
-                    
+                    }
+                    .row-center {
+                        justify-content: center;
                     }
                     /* column (no margin) */
                     .column {
@@ -190,6 +225,15 @@
                         min-width: 0px;
                         flex: 1;
                     }
+                    /* column (aligned center) */
+                    .column-center {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: center; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
                     /* column (aligned right) */
                     .column-right {
                         display: flex;
@@ -202,7 +246,9 @@
                     /* white box with green border */
                     .box,
                     .box-italic,
-                    .box-arabic {
+                    .box-arabic,
+                    .box-ref,
+                    .box-number {
                         background-color: white;
                         border: 1px solid #d8dfb0;
                         padding: 5px;
@@ -227,6 +273,16 @@
                         margin-left: 5px;
                         margin-right: 5px;
                     }
+                    .box-ref {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        max-width: 280px;
+                        flex: 1;
+                    }
+                    .box-number {
+                        max-width: 250px;
+                    }
+                    
                     /*  boxes for rows with no field names */
                     .box-2,
                     .box-2-note,
@@ -234,8 +290,8 @@
                     .box-2-small-italic {
                         border: 1px solid #d8dfb0;
                         padding: 5px;
-                        margin-left: 20px;
-                        margin-right: 20px;
+                        margin-left: 5px;
+                        margin-right: 5px;
                         flex: 1;
                         line-height: 1.5
                     }
@@ -253,9 +309,6 @@
                     }
                     .box-2-note {
                         background-color: #F7F9EF;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                    
                     }
                     .box-no-margin {
                         background-color: white;
@@ -266,6 +319,16 @@
                         align-items: center;
                         line-height: 1.5;
                         height: 100%;
+                    }
+                    .box-purple {
+                        background-color: #F3F1F7;
+                        border: 1px solid #A896BA;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5
+                    
                     }
                     /* Styling for buttons*/
                     .chevron {
@@ -301,172 +364,187 @@
    </head>
    <body>
       <div class="backdrop">
-         <div class="h1-italic">K. al-ʿAbādilah</div>
-         <div class="h1-arabic">كتاب العبادله</div>
+         <div class="margin-bottom-20"></div>
+         <div class="h1-italic">K. al-Namūdhaj al-munīr</div>
+         <div class="margin-bottom-10"></div>
+         <div class="h1-arabic">كتاب النموذج المنير</div>
+         <div class="margin-bottom-20"></div>
          <div class="background">
             <div class="row">
+               <div class="h2">Title &amp; Identification</div>
+               <div class="h2-arabic">تسمية المصنف وتعريفه</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-center">
                <div class="h4">RG №</div>
-               <div class="box">2</div>
+               <div class="box-number">999</div>
+               <div class="box-number">1000a</div>
                <div class="h4">Alt. RG №</div>
-               <div class="box"></div>
+               <div class="box-number">1001</div>
                <div class="h4">xml:id</div>
-               <div class="box">abadilah</div>
+               <div class="box-number">namudhaj</div>
                <div class="h4-arabic"></div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h2">Title</div>
-               <div class="h2-arabic">عنوان</div>
+               <div class="h4">Uniform Title</div>
+               <div class="box-italic">K. al-Namūdhaj al-munīr</div>
+               <div class="h4-arabic">العنوان الموحد</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">Uniform</div>
-               <div class="box-italic">K. al-ʿAbādilah</div>
-               <div class="box-arabic">كتاب العبادله</div>
-               <div class="h4-arabic">موحد</div>
+               <div class="h4">Full Title</div>
+               <div class="box-italic">K. al-Namūdhaj al-munīr fī īḍāḥ al-barnāmaj al-ākhīr</div>
+               <div class="h4-arabic">العنوان الكامل</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">Full</div>
-               <div class="box-italic">K. al-ʿAbādilah</div>
-               <div class="h4-arabic">كامل</div>
-            </div>
-            <div class="row">
-               <div class="h4">Variant(s)</div>
+               <div class="h4">Variants</div>
                <div class="box-italic">
-                  <p>K. Jam‘ kalām al-ʿabādila</p>
-                  <p>Sarḥ al-ʿabādila</p>
-                  <p>K. Alsinat al-ʿabādila</p>
-                  <p>K. al-ʿIbād (?)</p>
+                  <p>R. al-Namūdhaj</p>
+                  <p>K. al-Namūdhaj al-munīr li-l-barnāmaj al-ākhīr</p>
                </div>
-               <div class="h4-arabic">بديل</div>
+               <div class="h4-arabic">عناوين بديلة</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">English</div>
-               <div class="box">Book of the Servants of God</div>
-               <div class="h4-arabic">إنجليزي</div>
+               <div class="h4">Translations</div>
+               <div class="box-italic">
+                  <p>The Luminous Examplar: Containtaining an Elucidation of the Latest Programme</p>
+               </div>
+               <div class="h4-arabic">عناوين مترجمة</div>
             </div>
-            <div class="row">
-               <div class="box-2-note">Note on Title</div>
-            </div>
-            <div class="row">
-               <div class="h3">Textual Identifiers</div>
-               <div class="h3-arabic">معرفات نصية</div>
-            </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
                <div class="h4">Incipit</div>
-               <div class="box-italic">al-ḥamdu lillāh ḥamd al-ḥamd</div>
-               <div class="box-arabic">حمدله</div>
-               <div class="h4-arabic">حمدله</div>
+               <div class="box-italic">Al-ḥamdu lillāh al-ladhī ḍaraba lanā al-amthāl...</div>
+               <div class="h4-arabic">الكلمة الافتتاحية</div>
             </div>
-            <div class="row">
-               <div class="h4">Intro</div>
-               <div class="box-italic">Muqadimma</div>
-               <div class="box-arabic">مقدمة</div>
-               <div class="h4-arabic">مقدمة</div>
-            </div>
-            <div class="row">
-               <div class="h4">Khuṭba</div>
-               <div class="box-italic">Khuṭba</div>
-               <div class="box-arabic">الخطبة بكاملها</div>
-               <div class="h4-arabic">خطبة</div>
-            </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
                <div class="h4">Explicit</div>
-               <div class="box-italic">Khiṭām al-naṣṣ</div>
-               <div class="box-arabic">ختام النص</div>
-               <div class="h4-arabic">ختام</div>
+               <div class="box-italic">Wa-bi-hādhā yantahī Kitāb al-Namūdhaj bi-ḥamdi-llāh wa-tawfīqihi</div>
+               <div class="h4-arabic">الكلمة النهائية</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="box-2-note">Note on Textual Identifiers</div>
+               <div class="box-2-note">This field is for discussion of the title of the work. This title, for example, has
+                  obviously been invented, but may later be used as a title for a handbook on using
+                  the updated MIAS Catalogue.</div>
             </div>
+            <div class="margin-bottom-10"></div>
          </div>
          <div class="background">
             <div class="row">
-               <div class="h2">Authorship</div>
-               <div class="h2-arabic">صحة النسبة</div>
+               <div class="h2">Authorship &amp; Authenticity</div>
+               <div class="h2-arabic">تأليف المصنف ونسبته</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="h4">Author</div>
-               <div class="box">Ibn al-ʿArabī</div>
-               <div class="h4-arabic">مؤلف</div>
+               <div class="box">Ali Porteous</div>
+               <div class="h4-arabic">المؤلف</div>
             </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Place</div>
+                  <div class="box">Oxford</div>
+                  <div class="h4-arabic">مكان الكتابة</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">Date</div>
+                  <div class="box">2 Rabiʻ I 1446 AH</div>
+                  <div class="h4-arabic">تاريخ الكتابة</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Earliest MS</div>
+                  <div class="box">1446</div>
+                  <div class="h4-arabic">الشاهد الأقدم</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">TPQ-TAQ</div>
+                  <div class="box">1446–1446 AH</div>
+                  <div class="h4-arabic">نطاق زمني</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note">This field is for discussion of the composition of the work: inception (e.g. vision,
+                  companion’s question/request, etc.), original composition (date/period, place, and
+                  context first written), rewritings and revisions (later recensions, rewritings, revisions).
+                  This entry, for example, was composed in the Taylorian Library in Oxford. The file
+                  was first created on 24 Safar 1446 AH (29 August 2024), and subsequently edited several
+                  times. As a digital file, it is a constant work in progress.</div>
+            </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="column-left">
                   <div class="h4">Verification</div>
-                  <div class="box">Verified A</div>
+                  <div class="box">For MIAS classification of IA's works</div>
                   <div class="h4-arabic">درجة الصحة</div>
                </div>
                <div class="column-right">
                   <div class="h4">Authentication</div>
-                  <div class="box">Holograph</div>
-                  <div class="h4-arabic">توثيق</div>
+                  <div class="box">e.g. Holograph, Autograph, Copy</div>
+                  <div class="h4-arabic">التوثيق</div>
                </div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="box-2-note">Note on Authenticity</div>
+               <div class="box-2-note">This field is for discussion about the authenticity of the work, especially useful
+                  in cases where there is no scholarly consensus or clear evidence, such as the "Probable
+                  IA" and "Unverified" categories. Also useful for exaplining the reason for spurious
+                  works or misattributions.</div>
             </div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h3">Composition</div>
-               <div class="h3-arabic">تأليف</div>
+               <div class="h3">Other Relations</div>
+               <div class="h3-arabic">نسب أخرى</div>
             </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">Place</div>
-                  <div class="box">Probably Damascus</div>
-                  <div class="h4-arabic">مكان</div>
-               </div>
-               <div class="column-right">
-                  <div class="h4">Date</div>
-                  <div class="box">&lt;626</div>
-                  <div class="h4-arabic">تاريخ</div>
-               </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="h4">Commentator</div>
+               <div class="box">Ali Porteous</div>
+               <div class="h4-arabic">شارح</div>
             </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">Earliest MS</div>
-                  <div class="box">&lt;638</div>
-                  <div class="h4-arabic">أقدم شاهد</div>
-               </div>
-               <div class="column-right">
-                  <div class="h4">TPQ-TAQ</div>
-                  <div class="box">Earliest–Latest</div>
-                  <div class="h4-arabic">نطاق زمني</div>
-               </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Addressee</div>
+               <div class="box">Stephen Hirtenstein</div>
+               <div class="h4-arabic">مرسل إليه</div>
             </div>
-            <div class="row">
-               <div class="box-2-note">Date or place of composition is not known. But it must be before 626H, as there is
-                  a samāʿ on Shehit Ali 2826 dated 22nd of Dhū al-Ḥijja 626H.</div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Licensee</div>
+               <div class="box">Julian Cook</div>
+               <div class="h4-arabic">مجاز إليه</div>
             </div>
-            <div class="row">
-               <div class="h3">Other roles</div>
-               <div class="h3-arabic">أدوار أخرى</div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Dedicatee</div>
+               <div class="box">Frank Youakim</div>
+               <div class="h4-arabic">مهدى إليه</div>
             </div>
-            <div class="row">
-               <div class="h4">role</div>
-               <div class="box">Other Roles</div>
-               <div class="h4-arabic">role</div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Misattrib.</div>
+               <div class="box">Ibn al-ʿArabī</div>
+               <div class="h4-arabic">منحول إليه</div>
             </div>
+            <div class="margin-bottom-5"></div>
          </div>
          <div class="background">
             <div class="row">
-               <div class="h2">Contents</div>
-               <div class="h2-arabic">مضمون</div>
+               <div class="h2">Description</div>
+               <div class="h2-arabic">الوصف</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h4">Description</div>
-               <div class="box">A treatise on the servants of God according to the different character traits (akhlāq)
-                  of the perfect human being (al-insān al-kāmil). Each servant (ʿabd Allāh) represents
-                  a spiritual modality symbolised by the association of a Divine Name and the name of
-                  a particular prophet or saint. The work is in two parts; the first consisting of 50
-                  ʿabādila divided into five sections, the second of 67. Pablo Beneito supports Michel
-                  Chodkiewicz in relating the first 114 to the 114 suras of the Qurʾān.</div>
-               <div class="h4-arabic">وصف</div>
-            </div>
-            <div class="row">
-               <div class="h4">Structure</div>
-               <div class="box">Structure of Work</div>
-               <div class="h4-arabic">تقسيم</div>
-            </div>
-            <div class="row">
-               <div class="box-2-note">Note on Contents</div>
+               <div class="box-2-note">An XML file created solely for the sake of demonstration.</div>
             </div>
          </div>
          <div class="background">
@@ -474,12 +552,9 @@
                <div class="h2">Manuscripts</div>
                <div class="h2-arabic">مخطوطات</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="box-2-note">OY lists 16 mss., at least seven of which can be considered historic. The best is
-                  Yusuf Aga 4859, a partial holograph with a samāʿ dated 641H. Different copies have
-                  different numbers of chapters: Ayasofia 4817 and Yusuf Aga 4859 have 117, Shehit Ali
-                  2826 114, the Cairo printed edition (1969) 96. According to Pablo Beneito, who has
-                  made a detailed study of the text, 117 is the correct number.</div>
+               <div class="box-2-note">No extant manuscripts - a purely digital creation.</div>
             </div>
             <div class="row"><button id="english-button" onclick="toggleManuscripts()" class="h3"> Show
                   Manuscripts <i class="fa fa-chevron-down chevron"></i></button><button id="arabic-button" onclick="toggleManuscripts()" class="h3-arabic"> عرض
@@ -503,7 +578,7 @@
                </div>
                <div class="row-2">
                   <div class="column">
-                     <div class="box-no-margin">&lt;638</div>
+                     <div class="box-no-margin">1446</div>
                   </div>
                   <div class="column">
                      <div class="box-no-margin">Library</div>
@@ -515,7 +590,7 @@
                      <div class="box-no-margin">Pag-es</div>
                   </div>
                   <div class="column">
-                     <div class="box-no-margin">K. al-ʿAbādilah</div>
+                     <div class="box-no-margin">K. al-Namūdhaj al-munīr</div>
                   </div>
                   <div class="column">
                      <div class="box-no-margin text-smaller">One line summary. This entry is
@@ -543,88 +618,115 @@
             </script></div>
          <div class="background">
             <div class="row">
-               <div class="h2">Cross-references</div>
-               <div class="h2-arabic">إشارات</div>
+               <div class="h2">References (to this work)</div>
+               <div class="h2-arabic">مذكور في</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h3">To this work</div>
-               <div class="h3-arabic">مذكور في</div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Ijāza</div>
-                  <div class="box">188</div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     Reference to work in the Ijāza
-                     </div>
-                  <div class="h4-arabic">الإجازة</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Fihrist</div>
-                  <div class="box">177</div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     
-                     Reference to work in the Fihrist</div>
-                  <div class="h4-arabic">الفهرست</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Futūḥāt</div>
-                  <div class="box"></div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     
-                     References to work in Futūḥāt</div>
-                  <div class="h4-arabic">الفتوحات</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">Other</div>
-                  <div class="box-italic"></div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     Reference in other work(s)
-                     </div>
-                  <div class="h4-arabic"></div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="h3">To other works</div>
-               <div class="h3-arabic">مذكور فيه</div>
+               <div class="h3-italic">al-Ijāza</div>
+               <div class="h3-arabic">الإجازة</div>
             </div>
             <div class="row-2">
-               <div class="column-left">
-                  <div class="box-2-small-italic">#work</div>
-               </div>
+               <div class="h4">Ref</div>
+               <div class="box">№  (Bakri 2020)</div>
+               <div class="box">№ 0.01 (Badawī 1955)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  Reference to work in the Ijāza </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Fihrist</div>
+               <div class="h3-arabic">الفهرست</div>
             </div>
             <div class="row-2">
-               <div class="box-2">
-                  
-                  Reference to other work
+               <div class="h4">Ref</div>
+               <div class="box-ref">№  (Bakri 2020)</div>
+               <div class="box-ref">№ 10001 (ʿAwwād 1954)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                   Reference to work in the Fihrist</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Futūḥāt</div>
+               <div class="h3-arabic">الفتوحات</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref"></div>
+               <div class="box-ref">Vol. 128, Ch. 7</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                   References to work in Futūḥāt</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other</div>
+               <div class="h3-arabic">مصنفات أخرى</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">al-Ijāba</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  Reference in other work(s)
                   </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h2">References (in this work)</div>
+               <div class="h2-arabic">مذكور فيه</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="h4">Work</div>
+               <div class="box-italic">#fus_hik</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">Fuṣūṣ</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4"></div>
+               <div class="box-2">
+                   Let's say the Book of Examples mentioned the Fuṣūṣ </div>
+               <div class="h4-arabic"></div>
             </div>
             <div class="row">
                <div class="column-right">
                   <div class="h4"></div>
-                  <div class="box-2-small">Work</div>
                </div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="box-2-note">Note on Cross-references</div>
+               <div class="box-2-note">Ultimately it will be easier to enter the mentions of other works in a work on one
+                  page, and later script the mentions so they appear as cross-references on each of
+                  the pages of the mentioned works.</div>
             </div>
          </div>
          <div class="background">
@@ -632,15 +734,27 @@
                <div class="h2">Related Works</div>
                <div class="h2-arabic">مصنفات ذات الصلة</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h4"></div>
-               <div class="box-italic">
-                  
-                  </div>
-               <div class="h4-arabic"></div>
+               <div class="h4">Translation</div>
+               <div class="box-italic">The Book of Examples</div>
+               <div class="h4-arabic">Translation</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="box-2-note">Note on Related Works</div>
+               <div class="h4">Summary</div>
+               <div class="box-italic">Ikhtiṣār K. al-Mithāl</div>
+               <div class="h4-arabic">Summary</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Comm.</div>
+               <div class="box-italic">al-Ijāba ʿan kull suʾāl ḥawl K. al-Mithāl</div>
+               <div class="h4-arabic">Comm.</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note">Fortunately, none of these related works are extant.</div>
             </div>
          </div>
          <div class="background">
@@ -648,159 +762,101 @@
                <div class="h2">Publications</div>
                <div class="h2-arabic">منشورات</div>
             </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Editions</div>
-                  <div class="h2-arabic">طبعات</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Translations</div>
-                  <div class="h2-arabic">تراجم</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Studies</div>
-                  <div class="h2-arabic">أبحاث</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h2">Publications</div>
-               <div class="h2-arabic">منشورات</div>
+               <div class="h3">Editions</div>
+               <div class="h3-arabic">طبعات</div>
             </div>
+            <div class="margin-bottom-10"></div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h4">Editions</div>
-               <div class="box">A critical edition is in progress by Pablo Beneito and Souad Hakim. A translation
-                  into Spanish is also in progress. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb, based
-                  on mss. from the MIAS archive. Published by al-Qudus, Cairo, 2018.</div>
-               <div class="h4-arabic">طبعات</div>
+               <div class="h3">Translations</div>
+               <div class="h3-arabic">تراجم</div>
             </div>
+            <div class="margin-bottom-10"></div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h4">Translations</div>
-               <div class="box"><br></div>
-               <div class="h4-arabic">تراجم</div>
+               <div class="h3">Studies</div>
+               <div class="h3-arabic">أبحاث</div>
             </div>
-            <div class="row">
-               <div class="h4">Studies</div>
-               <div class="box">‘Al-tāwīl fī K. al-ʿAbādila ‘ by Souad Hakīm (Arabic) in Symbolisme et Herméneutique
-                  dans la pensée de Ibn ‘Arabī , Damascus, 2007. ‘On the Spiritual typologies in Ibn
-                  'Arabi's Kitab al-Abadila’ by Pablo Beneito (English) given at the Ibn Arabi Symposium,
-                  "Boundless Human Potential", Worcester College, Oxford, May 2011. Podcast available
-                  from the MIAS web-site http://www.ibnarabisociety.org/podcasts/index.html.</div>
-               <div class="h4-arabic">أبحاث</div>
-            </div>
-            <div class="row">
-               <div class="h4">Additions</div>
-               <div class="box"><br>Beneito and Suad Hakim working on a critical edition.<br><br></div>
-               <div class="h4-arabic">إضافات</div>
-            </div>
+            <div class="margin-bottom-10"></div>
          </div>
          <div class="background">
-            <div class="row">
-               <div class="h2">Comments and Corrections</div>
-               <div class="h2-arabic">تعليق وتدقيق</div>
-            </div>
-            <div class="row">
-               <div class="h4">corrections</div>
-               <div class="box-2-note"></div>
-            </div>
-            <div class="row">
-               <div class="h4">additions</div>
-               <div class="box-2-note">Yusuf Aga 4859 Work stolen. Photocopy in MIAS Library (Ms/158) (S.H.) Mss. (SH) Koprulu
-                  713, 45a-80b Dated 663H Ayasofya 4817 Dated 649H, possibly read before SQ - see Elmore,
-                  JMIAS XXIII for details Sheiht Ali 2826, 6b-61b Dated 721H in Cairo, copy of 2 original
-                  sama' - The listeners were: al-Qutb al-din M, son of …Shams al-din Isma'il Ibn Sawdakin,
-                  Sadr al-din Qunawi , al-Maqri and Abu Bakr b.M. b. Abu Bakr al-Balkhi. Dated 22 Dhu'l-Hijja
-                  621H. We can assume that the reader was Ayyub b. Badr al-Maqri, who copied many works
-                  in 621H in Damascus. Chester Beatty 3643 Written in Malatya c.700H Yusuf Aga 4892
-                  Dated 716H according to catalogue. Poor copy.</div>
-            </div>
-            <div class="row">
-               <div class="h4">msAdditions</div>
-               <div class="box-2-note"></div>
-            </div>
-            <div class="row">
-               <div class="h4">JC</div>
-               <div class="box-2-note">There is a ms from 649H in the Zahiriyya according to the al-Assad online catalogue
-                  (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms num 601 [م ف/م/601]
-                  Title: العبادلة. This manuscript also contains RG 689 (الشواهد) and RG 737 (تاج التراجم
-                  في إشارات العلم ولطائف الفهم) both dated to the same year 649H. Compare this with
-                  Ayasofia 4817 which is from the same year and contains the exact same three works
-                  in the same order.</div>
-            </div>
-            <div class="row">
-               <div class="h4">JC</div>
-               <div class="box-2-note">See our comment against RG 536 (Natāʾij al-adhkār) – http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments
-                  – for details of Palestine, Khalidiyya 892 (old numbering) – an Akbarian collection
-                  with copies dated 656H-667H in which there is a copy of RG 2 (undated).
-                  Online catalogue entry: http://data.manumed.org/eng/ref/142791/Khalidiya_n°1047_-_old_ref:_5__892/
-                  </div>
-            </div>
-            <div class="row">
-               <div class="h4">MC</div>
-               <div class="box-2-note">Add Edition fautive et lacunaire par ‘Abd al-Qâdir ‘Atâ’, Le Caire, 1969, établie
-                  à partir d’un ms. du Dâr al-kutub et d’un ms. de la bibliothèque d’al-Azhar dont les
-                  cotes ne sont pas précisées par l’éditeur.
-                  
-                  Les “serviteurs de Dieu” dont Ibn Arabî se présente dans l’introduction comme l’ “interprète”
-                  ne correspondent pas à une série de personnages historiques identifiables : chacun
-                  d’eux représente un aspect de la walâya, défini par sa double relation avec un Nom
-                  divin et avec le nom d’un prophète et c’est toujours le sceau de la sainteté (c’est-à-dire
-                  Ibn Arabî lui-même) qui, parce qu’il totalise en sa personne tous ces aspects successifs,
-                  s’exprime par la bouche de ces ‘Abâdila.
-                  
-                  Le ms. Aya Sofia 4817 et le ms. Shehit Alî Pasha 2826 comportent 117 chapitres correspondant
-                  à autant de ‘Abâdila. Shehit Alî Pasha est divisé en 6 parties, les 5 premières comportant
-                  chacune 10 ‘Abâdila et la 6ème 67 ‘Abâdila.
-                  
-                  L’Edition du Caire, dont la table des matières en fin de volume énumère 96 chapitres,
-                  en comporte en réalité 103. Les 14 chapitres manquants se situent à la fin de la 6ème
-                  partie du ms. Shehit ‘Alî Pasha.
-                  
-                  Le nombre 117 correspond à celui des akhlâq divins dont la saveur (dhawq) est réservée
-                  aux anbiyâ’ (Fut.,II, p.72-73, question 46). Ibn Arabî précise toutefois que les awliyâ’
-                  y participent dans une certaine mesure grâce à des “notifications divines” (ta’rîfât)
-                  qui leur octroient “des saveurs et des breuvages” (adhwâq wa mashârib).</div>
-            </div>
-            <div class="row">
-               <div class="h4">SH</div>
-               <div class="box-2-note">Critical edition in progress by PB and Souad Hakim</div>
-            </div>
-            <div class="row">
-               <div class="h4">AP</div>
-               <div class="box-2-note">
-                  
-                  <p>Date: Not after 22nd of Dhū al-Ḥijja 626H (evidence = external)</p>
-                  
-                  <p></p>
-                  </div>
-            </div>
             <div class="row">
                <div class="h2">MIAS Records</div>
                <div class="h2-arabic">سجلات مكتبية</div>
             </div>
             <div class="row">
-               <div class="column-left">
+               <div class="column-center">
                   <div class="h4">In Archive</div>
-                  <div class="box text-smaller">y</div>
+                  <div class="box-number">N</div>
                   <div class="h4"></div>
-               </div>
-               <div class="column-right">
                   <div class="h4">In Library</div>
-                  <div class="box text-smaller">Y</div>
+                  <div class="box-number">N</div>
                   <div class="h4-arabic"></div>
                </div>
+            </div>
+         </div>
+         <div class="background-2">
+            <div class="row">
+               <div class="h2">Additions, Comments and Corrections</div>
+               <div class="h2-arabic">إضافات وتعليق وتدقيق</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Editions</div>
+               <div class="box-purple">A critical edition is not in progress</div>
+            </div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-purple">Nor is a translation<br>Nor a translation into another European language.</div>
+            </div>
+            <div class="row">
+               <div class="h4">Studies</div>
+               <div class="box-purple">Nor any studies.</div>
+            </div>
+            <div class="row">
+               <div class="h4">Additions</div>
+               <div class="box-purple"><br>Nothing to add.<br><br></div>
+            </div>
+            <div class="row">
+               <div class="h4">corrections</div>
+               <div class="box-purple">These are all additional fields in FM that have been imported for now to make sure
+                  no data is lost, and they may contain important info that hasn't yet been updated.</div>
+            </div>
+            <div class="row">
+               <div class="h4">additions</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">msAdditions</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">AP</div>
+               <div class="box-purple">
+                  This is info that I will manually import from the website. My notes are generally
+                  regarding migration notes for the individual works. 
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">JC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">SH</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
             </div>
          </div>
       </div>

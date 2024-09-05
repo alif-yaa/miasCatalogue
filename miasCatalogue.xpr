@@ -14,6 +14,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>4_works/Scripts/biblPreview.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>previewBibl</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>4_works/Works/amr.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -39,26 +59,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Untitled3</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>4_works/Scripts/biblPreview.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>previewBibl</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -194,26 +194,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>4_works/Works/abadilah.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>previewWork_6</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>4_works/Works/anqa.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -335,26 +315,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>4_works/Works/AllWorks/allWorks.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>previewIndividualWork_5</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>4_works/Works/Example/mithal.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -1942,7 +1902,7 @@
                                     <String>${currentFileURL}</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/7_exports/Zotero_Bibl/Works_Bibl.xml</String>
+                                    <String>${pdu}/4_works/Bibliography/bibliography.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>

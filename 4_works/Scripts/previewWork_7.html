@@ -18,6 +18,21 @@
                         direction: rtl;
                         text-align: right;
                     }
+                    .margin-bottom-5 {
+                        margin-bottom: 5px;
+                    }
+                    .margin-bottom-10 {
+                        margin-bottom: 10px;
+                    }
+                    .margin-bottom-20 {
+                        margin-bottom: 20px;
+                    }
+                    .margin-right {
+                        margin-right: 5px;
+                    }
+                    .margin-left {
+                        margin-left: 5px;
+                    }
                     /* title */
                     .h1-italic,
                     .h1-arabic {
@@ -28,12 +43,9 @@
                     .h1-italic {
                         font-style: italic;
                         font-weight: bold;
-                        margin-top: 20px;
-                        margin-bottom: 5px;
                         font-family: 'Comorant Garamond', serif;
                     }
                     .h1-arabic {
-                        margin-bottom: 20px;
                         direction: rtl;
                         font-family: 'Amiri', serif;
                     }
@@ -43,8 +55,6 @@
                         font-weight: bold;
                         color: #0052a4;
                         font-size: 1.2em;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
                         margin-right: 5px;
                         margin-left: 5px;
                         text-align: center;
@@ -55,18 +65,22 @@
                     }
                     /* subheadings */
                     .h3,
-                    .h3-arabic {
+                    .h3-arabic,
+                    .h3-italic {
                         font-weight: bold;
                         font-size: 1em;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
                         color: #0052a4;
-                        margin-left: 10px;
-                        margin-right: 10px;
+                        margin-left: 5px;
+                        vertical-align: middle;
+                        align-self: center;
                     
+                    }
+                    .h3-italic {
+                        font-style: italic;
                     }
                     .h3-arabic {
                         text-align: right;
+                        margin-right: 5px;
                         direction: rtl;
                         font-family: 'Amiri', serif;
                     }
@@ -88,7 +102,7 @@
                     }
                     .h4-arabic {
                         padding-left: 8px;
-                        min-width: 75px;
+                        min-width: 90px;
                         text-align: left;
                         direction: rtl;
                         font-family: 'Amiri', serif;
@@ -97,11 +111,11 @@
                     .h5,
                     .h5-arabic,
                     .h5-italic {
+                    
                         vertical-align: middle;
                         align-self: center;
                         margin-left: 25px;
                         margin-right: 25px;
-                        margin-bottom: 10px;
                     }
                     .h5 {
                         text-align: left;
@@ -121,7 +135,10 @@
                         color: #0052a4; /* Your desired color */
                     }
                     p {
-                        margin: 0px; /* Set both top/bottom and left/right margins to 5px */
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        margin-top: 3px;
+                        margin-bottom: 3px;
                     }
                     /* Smaller text */
                     .text-smaller {
@@ -149,29 +166,47 @@
                         border-left: 2px solid #d8dfb0;
                         border-right: 2px solid #d8dfb0;
                         padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
                         min-width: 800px;
                         max-width: 800px;
                         margin: 0 auto;
-                        margin-bottom: 20px;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #E1DBE8;
+                        border-top: 2px solid #A896BA;
+                        border-bottom: 2px solid #A896BA;
+                        border-left: 2px solid #A896BA;
+                        border-right: 2px solid #A896BA;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
                         position: relative; /* Ensure the content stays within the backdrop */
                     }
                     .row,
-                    .row-2 {
+                    .row-2,
+                    .row-center {
                         display: flex;
                         align-items: center;
                         align-items: stretch;
                         min-width: 600px; /* Adjust this value as necessary */
                     }
-                    /* Standard row for subheadings and rows with field names */
+                    /* Standard row for subheadings */
                     .row {
                         justify-content: space-between;
-                        margin-bottom: 10px;
-                    
                     }
                     /* row-2 for rows without field names (ADJUST) */
                     .row-2 {
-                        margin-bottom: 0px;
-                    
+                    }
+                    .row-center {
+                        justify-content: center;
                     }
                     /* column (no margin) */
                     .column {
@@ -190,6 +225,15 @@
                         min-width: 0px;
                         flex: 1;
                     }
+                    /* column (aligned center) */
+                    .column-center {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: center; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
                     /* column (aligned right) */
                     .column-right {
                         display: flex;
@@ -202,7 +246,9 @@
                     /* white box with green border */
                     .box,
                     .box-italic,
-                    .box-arabic {
+                    .box-arabic,
+                    .box-ref,
+                    .box-number {
                         background-color: white;
                         border: 1px solid #d8dfb0;
                         padding: 5px;
@@ -227,6 +273,16 @@
                         margin-left: 5px;
                         margin-right: 5px;
                     }
+                    .box-ref {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        max-width: 280px;
+                        flex: 1;
+                    }
+                    .box-number {
+                        max-width: 250px;
+                    }
+                    
                     /*  boxes for rows with no field names */
                     .box-2,
                     .box-2-note,
@@ -234,8 +290,8 @@
                     .box-2-small-italic {
                         border: 1px solid #d8dfb0;
                         padding: 5px;
-                        margin-left: 20px;
-                        margin-right: 20px;
+                        margin-left: 5px;
+                        margin-right: 5px;
                         flex: 1;
                         line-height: 1.5
                     }
@@ -253,9 +309,6 @@
                     }
                     .box-2-note {
                         background-color: #F7F9EF;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                    
                     }
                     .box-no-margin {
                         background-color: white;
@@ -266,6 +319,16 @@
                         align-items: center;
                         line-height: 1.5;
                         height: 100%;
+                    }
+                    .box-purple {
+                        background-color: #F3F1F7;
+                        border: 1px solid #A896BA;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5
+                    
                     }
                     /* Styling for buttons*/
                     .chevron {
@@ -301,50 +364,77 @@
    </head>
    <body>
       <div class="backdrop">
+         <div class="margin-bottom-20"></div>
          <div class="h1-italic">K. al-Amr al-muḥkam</div>
+         <div class="margin-bottom-10"></div>
          <div class="h1-arabic">كتاب الأمر المحكم</div>
+         <div class="margin-bottom-20"></div>
          <div class="background">
             <div class="row">
+               <div class="h2">Title &amp; Identification</div>
+               <div class="h2-arabic">تسمية المصنف وتعريفه</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-center">
                <div class="h4">RG №</div>
-               <div class="box">28</div>
+               <div class="box-number">28</div>
                <div class="h4">Alt. RG №</div>
-               <div class="box"></div>
+               <div class="box-number"></div>
                <div class="h4">xml:id</div>
-               <div class="box">amr</div>
+               <div class="box-number">amr</div>
                <div class="h4-arabic"></div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h2">Title</div>
-               <div class="h2-arabic">عنوان</div>
-            </div>
-            <div class="row">
-               <div class="h4">Uniform</div>
+               <div class="h4">Uniform Title</div>
                <div class="box-italic">K. al-Amr al-muḥkam</div>
-               <div class="box-arabic">كتاب الأمر المحكم</div>
-               <div class="h4-arabic">موحد</div>
+               <div class="h4-arabic">العنوان الموحد</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">Full</div>
+               <div class="h4">Full Title</div>
                <div class="box-italic">K. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
                   ahl ṭarīq Allāh min al-shurūṭ</div>
-               <div class="h4-arabic">كامل</div>
+               <div class="h4-arabic">العنوان الكامل</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">Variant(s)</div>
+               <div class="h4">Variants</div>
                <div class="box-italic">
                   <p>R. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
                      ahl ṭarīq Allāh min al-shurūṭ</p>
                   <p>K. Risāla al-Muḥkam al-marbūṭ fīmā yalzam
                      ahl ṭarīq Allāh min al-shurūṭ</p>
                </div>
-               <div class="h4-arabic">بديل</div>
+               <div class="h4-arabic">عناوين بديلة</div>
             </div>
+            <div class="margin-bottom-5"></div>
             <div class="row">
-               <div class="h4">English</div>
-               <div class="box">The Book of the Rule Clearly
-                  Established: Regarding the Conditions Essential for People on God's Path</div>
-               <div class="h4-arabic">إنجليزي</div>
+               <div class="h4">Translations</div>
+               <div class="box-italic">
+                  <p>The Book of the Rule Clearly
+                     Established: Regarding the Conditions Essential for People on God's Path</p>
+                  <p>Il libro della regola stabilita in modo
+                     inequivocabile sulle condizioni che sono indispensabili per la gente della via di
+                     Allah</p>
+               </div>
+               <div class="h4-arabic">عناوين مترجمة</div>
             </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Incipit</div>
+               <div class="box-italic">al-ḥamdu lillāh alladhī hadānā li-hadhā
+                  wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā
+                  li-nabihi...</div>
+               <div class="h4-arabic">الكلمة الافتتاحية</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Explicit</div>
+               <div class="box-italic">Explicit</div>
+               <div class="h4-arabic">الكلمة النهائية</div>
+            </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="box-2-note">Ibn al-ʿArabī observes the following: 
                   <p dir="rtl" class="arabic">وغَرْضي
@@ -356,50 +446,51 @@
                      الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </p>(Marconi 2023a, p.106)
                   </div>
             </div>
-            <div class="row">
-               <div class="h3">Textual Identifiers</div>
-               <div class="h3-arabic">معرفات نصية</div>
-            </div>
-            <div class="row">
-               <div class="h4">Incipit</div>
-               <div class="box-italic">al-ḥamdu lillāh alladhī hadānā li-hadhā
-                  wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā
-                  li-nabihi...</div>
-               <div class="box-arabic">حمدله</div>
-               <div class="h4-arabic">حمدله</div>
-            </div>
-            <div class="row">
-               <div class="h4">Intro</div>
-               <div class="box-italic">Muqadimma</div>
-               <div class="box-arabic">مقدمة</div>
-               <div class="h4-arabic">مقدمة</div>
-            </div>
-            <div class="row">
-               <div class="h4">Khuṭba</div>
-               <div class="box-italic">Khuṭba</div>
-               <div class="box-arabic">الخطبة بكاملها</div>
-               <div class="h4-arabic">خطبة</div>
-            </div>
-            <div class="row">
-               <div class="h4">Explicit</div>
-               <div class="box-italic">Explicit</div>
-               <div class="box-arabic">ختام النص</div>
-               <div class="h4-arabic">ختام</div>
-            </div>
-            <div class="row">
-               <div class="box-2-note">Note on Textual Identifiers</div>
-            </div>
+            <div class="margin-bottom-10"></div>
          </div>
          <div class="background">
             <div class="row">
-               <div class="h2">Authorship</div>
-               <div class="h2-arabic">صحة النسبة</div>
+               <div class="h2">Authorship &amp; Authenticity</div>
+               <div class="h2-arabic">تأليف المصنف ونسبته</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="h4">Author</div>
                <div class="box">Ibn al-ʿArabī</div>
-               <div class="h4-arabic">مؤلف</div>
+               <div class="h4-arabic">المؤلف</div>
             </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Place</div>
+                  <div class="box">Damascus</div>
+                  <div class="h4-arabic">مكان الكتابة</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">Date</div>
+                  <div class="box">602</div>
+                  <div class="h4-arabic">تاريخ الكتابة</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Earliest MS</div>
+                  <div class="box">724</div>
+                  <div class="h4-arabic">الشاهد الأقدم</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">TPQ-TAQ</div>
+                  <div class="box">–</div>
+                  <div class="h4-arabic">نطاق زمني</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note">In Damascus at the beginning of Jumada al-ūla 602H (see
+                  Vel.51/110b)</div>
+            </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="column-left">
                   <div class="h4">Verification</div>
@@ -409,74 +500,36 @@
                <div class="column-right">
                   <div class="h4">Authentication</div>
                   <div class="box">Copy</div>
-                  <div class="h4-arabic">توثيق</div>
+                  <div class="h4-arabic">التوثيق</div>
                </div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="box-2-note">Note on Authenticity</div>
             </div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h3">Composition</div>
-               <div class="h3-arabic">تأليف</div>
+               <div class="h3">Other Relations</div>
+               <div class="h3-arabic">نسب أخرى</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="column-left">
-                  <div class="h4">Place</div>
-                  <div class="box">Damascus</div>
-                  <div class="h4-arabic">مكان</div>
-               </div>
-               <div class="column-right">
-                  <div class="h4">Date</div>
-                  <div class="box">602</div>
-                  <div class="h4-arabic">تاريخ</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">Earliest MS</div>
-                  <div class="box">724</div>
-                  <div class="h4-arabic">أقدم شاهد</div>
-               </div>
-               <div class="column-right">
-                  <div class="h4">TPQ-TAQ</div>
-                  <div class="box">–</div>
-                  <div class="h4-arabic">نطاق زمني</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="box-2-note">In Damascus at the beginning of Jumada al-ūla 602H (see
-                  Vel.51/110b)</div>
-            </div>
-            <div class="row">
-               <div class="h3">Other roles</div>
-               <div class="h3-arabic">أدوار أخرى</div>
-            </div>
-            <div class="row">
-               <div class="h4">role</div>
+               <div class="h4"></div>
                <div class="box"></div>
-               <div class="h4-arabic">role</div>
+               <div class="h4-arabic"></div>
             </div>
          </div>
          <div class="background">
             <div class="row">
-               <div class="h2">Contents</div>
-               <div class="h2-arabic">مضمون</div>
+               <div class="h2">Description</div>
+               <div class="h2-arabic">الوصف</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h4">Description</div>
-               <div class="box">The title translates as “The Firm Rule regarding the
+               <div class="box-2-note">The title translates as “The Firm Rule regarding the
                   conditions necessary for people on God’s Path”. The aim of the work is to give
                   advice to spiritual guides on the kind of language and teaching which should be
                   offered to different types of students.</div>
-               <div class="h4-arabic">وصف</div>
-            </div>
-            <div class="row">
-               <div class="h4">Structure</div>
-               <div class="box">Structure of Work</div>
-               <div class="h4-arabic">تقسيم</div>
-            </div>
-            <div class="row">
-               <div class="box-2-note">Note on Contents</div>
             </div>
          </div>
          <div class="background">
@@ -484,6 +537,7 @@
                <div class="h2">Manuscripts</div>
                <div class="h2-arabic">مخطوطات</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="box-2-note">A much copied work, verified by at least six historic mss, three
                   of them definitely copied from originals. The best are Shehit Ali 1341, written
@@ -555,74 +609,103 @@
             </script></div>
          <div class="background">
             <div class="row">
-               <div class="h2">Cross-references</div>
-               <div class="h2-arabic">إشارات</div>
+               <div class="h2">References (to this work)</div>
+               <div class="h2-arabic">مذكور في</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h3">To this work</div>
-               <div class="h3-arabic">مذكور في</div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Ijāza</div>
-                  <div class="box">62</div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     63Kitāb Shurūṭ ahl al-ṭarīq</div>
-                  <div class="h4-arabic">الإجازة</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Fihrist</div>
-                  <div class="box">51</div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     62
-                     Kitāb al-Amr al-marbūṭ fī maʿrifat mā yahṭāj ilayhi ahl ṭarīq
-                     Allāh taʿālā min al-shurūṭ 
-                     </div>
-                  <div class="h4-arabic">الفهرست</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4-italic">Futūḥāt</div>
-                  <div class="box">Ch. 53</div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     References to work in Futūḥāt</div>
-                  <div class="h4-arabic">الفتوحات</div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">Other</div>
-                  <div class="box-italic"></div>
-                  <div class="h4-arabic"></div>
-               </div>
-               <div class="column-right">
-                  <div class="box">
-                     </div>
-                  <div class="h4-arabic"></div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="h3">To other works</div>
-               <div class="h3-arabic">مذكور فيه</div>
+               <div class="h3-italic">al-Ijāza</div>
+               <div class="h3-arabic">الإجازة</div>
             </div>
             <div class="row-2">
-               <div class="column-left">
-                  <div class="box-2-small-italic">Darajāt al-Tāʾibīn</div>
-               </div>
+               <div class="h4">Ref</div>
+               <div class="box">№ 63 (Bakri 2020)</div>
+               <div class="box">№ 62 (Badawī 1955)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  <span class="italic">Kitāb Shurūṭ ahl al-ṭarīq</span></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Fihrist</div>
+               <div class="h3-arabic">الفهرست</div>
             </div>
             <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">№ 62 (Bakri 2020)</div>
+               <div class="box-ref">№ 51 (ʿAwwād 1954)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  <span class="italic">Kitāb al-Amr al-marbūṭ fī maʿrifat mā yahṭāj ilayhi ahl ṭarīq
+                     Allāh taʿālā min al-shurūṭ </span>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Futūḥāt</div>
+               <div class="h3-arabic">الفتوحات</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref"></div>
+               <div class="box-ref">Ch. 53</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                   References to work in Futūḥāt</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other</div>
+               <div class="h3-arabic">مصنفات أخرى</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h2">References (in this work)</div>
+               <div class="h2-arabic">مذكور فيه</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="h4">Work</div>
+               <div class="box-italic">Darajāt al-Tāʾibīn</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">(Marconi 2023, p.107)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4"></div>
                <div class="box-2">
                   Ibn al-ʿArabi mentions
                   <span class="italic">K. Darajāt al-Tāʾibīn</span> by Abū Ismāʿīl al-Harawī (d.
@@ -632,13 +715,14 @@
                      العبّاس بن عبد المطَّلب، حدَّثني به قراءة مِنّي عليه بالحَرَم الشريف تُجاه
                      الرُكْن اليمانيّ مِن الكعبة المعظّمة، سنة تسع وتسعين وخمسمائة. </p>
                   </div>
+               <div class="h4-arabic"></div>
             </div>
             <div class="row">
                <div class="column-right">
                   <div class="h4"></div>
-                  <div class="box-2-small">(Marconi 2023, p.107)</div>
                </div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="box-2-note">Note on Cross-references</div>
             </div>
@@ -648,6 +732,7 @@
                <div class="h2">Related Works</div>
                <div class="h2-arabic">مصنفات ذات الصلة</div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="h4"></div>
                <div class="box-italic">
@@ -655,6 +740,7 @@
                   </div>
                <div class="h4-arabic"></div>
             </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
                <div class="box-2-note">Note on Related Works</div>
             </div>
@@ -664,83 +750,172 @@
                <div class="h2">Publications</div>
                <div class="h2-arabic">منشورات</div>
             </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Editions</div>
-                  <div class="h2-arabic">طبعات</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Translations</div>
-                  <div class="h2-arabic">تراجم</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
-            <div>
-               <div class="row">
-                  <div class="h2">Studies</div>
-                  <div class="h2-arabic">أبحاث</div>
-               </div>
-               <div class="row-2">
-                  <div class="box-2"></div>
-               </div>
-            </div>
+            <div class="margin-bottom-10"></div>
             <div class="row">
-               <div class="h2">Publications</div>
-               <div class="h2-arabic">منشورات</div>
+               <div class="h3">Editions</div>
+               <div class="h3-arabic">طبعات</div>
             </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘EDIZIONE DEL KITĀB AL-AMR AL-MUḤKAM AL-MARBŪṬ FĪ- MĀ YALZAM AHL ṬARĪQ ALLĀH MIN AL-ŠURŪṬ
+                     DI IBN ʻARABĪ’.  Edited by Maurizio Marconi. <i>El Azufre Rojo</i> 11 (2023).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Khams rasāʾil fi l-sulūk</i>.
+                     
+                      Edited by Ayman Ḥamdī al-Akbarī and ʿAlī Jumʿa.  al-Qāhira:
+                      Muʾassasat Ibn al-ʿArabī li-l-Buḥūth wa-l-Nashr, 2021.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya; wa-yalīh al-Amr al-muḥkam
+                        al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min al-Shurūṭ; wa-yalīh Mishkāt al-ʿuqūl al-muqtabasa
+                        min nūr al-manqūl</i>.
+                     
+                      Edited by Aḥmad b. Farīd b. Aḥmad al-Mazīdī.  Bayrūt:
+                      Dār al-Kutub al-ʿIlmīyah, 2010.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h4">Editions</div>
-               <div class="box">Critical edition created by Maurizio Marconi, 2019. A copy
-                  available on request.</div>
-               <div class="h4-arabic">طبعات</div>
+               <div class="h3">Translations</div>
+               <div class="h3-arabic">تراجم</div>
             </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>El Islam cristianizado: estudio del "sufismo" a través de las obras de Abenarabi de
+                        Murcia</i>.
+                     
+                      1. ed.
+                      Madrid:
+                      Editorial Plutarco, 1931.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>L'Islam christianisé: étude sur le soufisme à travers les oeuvres d'Ibn Arabî de Murcie</i>.
+                     
+                      Translated by Bernard Dubant.  Paris:
+                      Trédaniel, 1982.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Marconi, Maurizio, and Muḥyī al-Dīn Muḥammad b. ʿAlī Ibn al-ʿArabī.  ‘TRADUZIONE IL LIBRO DELLA REGOLA STABILITA IN MODO INEQUIVOCABILE SULLE CONDIZIONI
+                     CHE SONO INDISPENSABILI PER LA GENTE DELLA VIA DI ALLAH’.  Translated by Maurizio Marconi. <i>El Azufre Rojo</i> 11 (2023).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
             <div class="row">
-               <div class="h4">Translations</div>
-               <div class="box"><br></div>
-               <div class="h4-arabic">تراجم</div>
+               <div class="h3">Studies</div>
+               <div class="h3-arabic">أبحاث</div>
             </div>
-            <div class="row">
-               <div class="h4">Studies</div>
-               <div class="box"></div>
-               <div class="h4-arabic">أبحاث</div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>El Islam cristianizado: estudio del "sufismo" a través de las obras de Abenarabi de
+                        Murcia</i>.
+                     
+                      1. ed.
+                      Madrid:
+                      Editorial Plutarco, 1931.</div>
+               </div>
             </div>
-            <div class="row">
-               <div class="h4">Additions</div>
-               <div class="box"><br>Translated by Palacios, according to Addas (Quest, 304).
-                  [AP: resolved- in Zotero]<br><br></div>
-               <div class="h4-arabic">إضافات</div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>L'Islam christianisé: étude sur le soufisme à travers les oeuvres d'Ibn Arabî de Murcie</i>.
+                     
+                      Translated by Bernard Dubant.  Paris:
+                      Trédaniel, 1982.</div>
+               </div>
             </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Marconi, Maurizio.  ‘IBN ʿARABĪ: IL LIBRO DELLA REGOLA STABILITA IN MODO INEQUIVOCABILE SULLE CONDIZIONI
+                     CHE SONO INDISPENSABILI PER LA GENTE DELLA VIA DI ALLAH’. <i>El Azufre Rojo</i> 11 (2023).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Marconi, Maurizio.  ‘ESEMPI DI PAGINE DEI MANOSCRITTI UTILIZZATI PER L'EDIZIONE DEL KITĀB AL-AMR AL-MUḤKAM
+                     AL-MARBŪṬ FĪ- MĀ YALZAM AHL ṬARĪQ ALLĀH MIN AL-ŠURŪṬ DI IBN ʻARABĪ’. <i>El Azufre Rojo</i> 11 (2023).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
          </div>
          <div class="background">
             <div class="row">
-               <div class="h2">Comments and Corrections</div>
-               <div class="h2-arabic">تعليق وتدقيق</div>
+               <div class="h2">MIAS Records</div>
+               <div class="h2-arabic">سجلات مكتبية</div>
+            </div>
+            <div class="row">
+               <div class="column-center">
+                  <div class="h4">In Archive</div>
+                  <div class="box-number">y</div>
+                  <div class="h4"></div>
+                  <div class="h4">In Library</div>
+                  <div class="box-number">Y</div>
+                  <div class="h4-arabic"></div>
+               </div>
+            </div>
+         </div>
+         <div class="background-2">
+            <div class="row">
+               <div class="h2">Additions, Comments and Corrections</div>
+               <div class="h2-arabic">إضافات وتعليق وتدقيق</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Editions</div>
+               <div class="box-purple">Critical edition created by Maurizio Marconi, 2019. A copy
+                  available on request.</div>
+            </div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-purple"><br></div>
+            </div>
+            <div class="row">
+               <div class="h4">Studies</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">Additions</div>
+               <div class="box-purple"><br>Translated by Palacios, according to Addas (Quest, 304).
+                  [AP: resolved- in Zotero]<br><br></div>
             </div>
             <div class="row">
                <div class="h4">corrections</div>
-               <div class="box-2-note"></div>
+               <div class="box-purple"></div>
             </div>
             <div class="row">
                <div class="h4">additions</div>
-               <div class="box-2-note">Haci Mahmud (ex-Yahya Ef) 2415, dated 1293H Ulu Cami 1590,
+               <div class="box-purple">Haci Mahmud (ex-Yahya Ef) 2415, dated 1293H Ulu Cami 1590,
                   99b-110b, dated c. 1063H (based on other works in collection) Manisa 2964,
                   74a-90a, dated 1083H, Edirne (SH)</div>
             </div>
             <div class="row">
                <div class="h4">msAdditions</div>
-               <div class="box-2-note">Carullah 986, 12e, 33b-34b, written by a disciple in
+               <div class="box-purple">Carullah 986, 12e, 33b-34b, written by a disciple in
                   lifetime of IA.</div>
             </div>
             <div class="row">
                <div class="h4">JC</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -749,7 +924,7 @@
             </div>
             <div class="row">
                <div class="h4">MC</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -758,7 +933,7 @@
             </div>
             <div class="row">
                <div class="h4">AAS</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -767,7 +942,7 @@
             </div>
             <div class="row">
                <div class="h4">Root</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -776,7 +951,7 @@
             </div>
             <div class="row">
                <div class="h4">CA</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -785,7 +960,7 @@
             </div>
             <div class="row">
                <div class="h4">SH</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -794,7 +969,7 @@
             </div>
             <div class="row">
                <div class="h4">JC</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p>The online catalogue (http://ktp.isam.org.tr) dates to 739H the manuscript
                      KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191. Turkish title: el-Emrü’l-Merbut fi Ma
@@ -863,7 +1038,7 @@
             </div>
             <div class="row">
                <div class="h4">AK</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p></p>
                   
@@ -872,7 +1047,7 @@
             </div>
             <div class="row">
                <div class="h4">MM</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p>The Milli A571 manuscript does not include a copy of K. al-amr al-muḥkam. Only
                      the incipit is similar but the text is made up by a collection of prayers, not
@@ -883,7 +1058,7 @@
             </div>
             <div class="row">
                <div class="h4">AP</div>
-               <div class="box-2-note">
+               <div class="box-purple">
                   
                   <p>Clark and McAuley, 2006: At the end, on 110b, there is a note saying that the
                      book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its author
@@ -897,22 +1072,6 @@
                   
                   <p></p>
                   </div>
-            </div>
-            <div class="row">
-               <div class="h2">MIAS Records</div>
-               <div class="h2-arabic">سجلات مكتبية</div>
-            </div>
-            <div class="row">
-               <div class="column-left">
-                  <div class="h4">In Archive</div>
-                  <div class="box text-smaller">y</div>
-                  <div class="h4"></div>
-               </div>
-               <div class="column-right">
-                  <div class="h4">In Library</div>
-                  <div class="box text-smaller">Y</div>
-                  <div class="h4-arabic"></div>
-               </div>
             </div>
          </div>
       </div>

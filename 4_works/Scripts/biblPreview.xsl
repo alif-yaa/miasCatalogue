@@ -2,10 +2,10 @@
 <xsl:stylesheet version="1.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0">
-    
+        
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
-    <xsl:template match="/">
+        <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -16,12 +16,14 @@
                     <div class="bibliography">
                         <!-- Apply templates and sort alphabetically by author surname -->
                         <xsl:apply-templates select="//tei:biblStruct">
-                            <!-- Sort by surname of author in analytic section if it exists -->
-                            <xsl:sort select="normalize-space(tei:monogr/tei:editor/tei:surname)" order="ascending"/>
-                            <xsl:sort select="normalize-space(tei:analytic/tei:author/tei:surname)" order="ascending"/>
-                            <xsl:sort select="normalize-space(tei:monogr/tei:author/tei:surname)" order="ascending"/>
-                        </xsl:apply-templates>
+                            <xsl:sort select="concat(
+                                normalize-space(tei:monogr/tei:author/tei:surname[1]), 
+                                normalize-space(tei:analytic/tei:author/tei:surname[1]), 
+                                normalize-space(tei:monogr/tei:editor/tei:surname[1])
+                                )" order="ascending"/>
+                        </xsl:apply-templates>                        
                     </div>
+                    
                 </div>
             </body>
         </html>
@@ -65,9 +67,9 @@
             <!-- Editors with specific mode -->
             <xsl:apply-templates select="tei:monogr/tei:editor" mode="no-authors"/>
             <!-- Title -->
-            <xsl:text>‘</xsl:text>
+            <i>
             <xsl:value-of select="tei:monogr/tei:title[@level='m']"/>
-            <xsl:text>’. </xsl:text>
+            </i><xsl:text>. </xsl:text>
             <!-- Publisher and Date -->
             <xsl:value-of select="tei:monogr/tei:imprint/tei:publisher"/>
             <xsl:text>, </xsl:text>
@@ -82,13 +84,13 @@
             <!-- Authors -->
             <xsl:apply-templates select="tei:analytic/tei:author"/>
             <!-- Title -->
-            <xsl:text> ‘</xsl:text><xsl:value-of select="tei:analytic/tei:title[@level='a']"/><xsl:text>’. </xsl:text>
+            <xsl:text> ‘</xsl:text><xsl:value-of select="tei:analytic/tei:title[@level='a']"/><xsl:text>’. In </xsl:text>
+            <!-- Book title -->
+            <i><xsl:value-of select="tei:monogr/tei:title[@level='m']"/>. </i>
             <!-- Editor -->
             <xsl:apply-templates select="tei:monogr/tei:editor"/>
             <!-- Translator -->
             <xsl:apply-templates select="tei:monogr/tei:respStmt[tei:resp='translator']/tei:persName"/>
-            <!-- Journal title -->
-            <i><xsl:value-of select="tei:monogr/tei:title[@level='j']"/></i>
             <!-- Date -->
             <xsl:text> (</xsl:text>
             <xsl:value-of select="tei:monogr/tei:imprint/tei:date"/>
@@ -112,7 +114,7 @@
             <!-- Editor -->
             <xsl:apply-templates select="tei:monogr/tei:editor"/>
             <!-- Translator -->
-            <xsl:apply-templates select="tei:monogr/tei:respStmt[tei:resp='translator']/tei:persName"/>
+            <xsl:apply-templates select="tei:analytic/tei:respStmt[tei:resp='translator']/tei:persName"/>
             <!-- Journal title -->
             <i><xsl:value-of select="tei:monogr/tei:title[@level='j']"/></i>
             <!-- Volume -->

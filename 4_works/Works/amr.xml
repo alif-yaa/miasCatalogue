@@ -31,14 +31,19 @@
                ahl ṭarīq Allāh min al-shurūṭ</title>
             <title type="variant" xml:lang="ara-Latn-x-lc">K. Risāla al-Muḥkam al-marbūṭ fīmā yalzam
                ahl ṭarīq Allāh min al-shurūṭ</title>
-            <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Ibn al-ʿArabī observes the following (Marconi 2023, 106): <q
-                  xml:lang="ara">وغَرْضي في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام
-                  المريد ولوازمه وما ينبغي أن يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى.
-                  ولهذا سمّيتها: "الأمر المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط".
-                  فإن الزمان مشحون بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه، ولا
-                  شيخ محقّق ينصحه ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛
-                  فالمريد يدّعي الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </q>
+            <title type="translation" xml:lang="eng" resp="AP">The Book of the Rule Clearly
+               Established: Regarding the Conditions Essential for People on God's Path</title>
+            <title type="translation" xml:lang="ita">Il libro della regola stabilita in modo
+               inequivocabile sulle condizioni che sono indispensabili per la gente della via di
+               Allah</title>
+            <note type="titleNote">Ibn al-ʿArabī observes the following: <q xml:lang="ara">وغَرْضي
+                  في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام المريد ولوازمه وما ينبغي أن
+                  يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى. ولهذا سمّيتها: "الأمر
+                  المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط". فإن الزمان مشحون
+                  بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه، ولا شيخ محقّق ينصحه
+                  ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛ فالمريد يدّعي
+                  الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </q><ref
+                  target="bibliography.xml#Marconi2023a">(Marconi 2023a, p.106)</ref>
             </note>
             <!-- Textual Identifiers -->
             <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā
@@ -49,15 +54,15 @@
             <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
             <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
             <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara-Latn-x-lc">Explicit</explicit>
             <explicit xml:lang="ara">ختام النص</explicit>
             <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="role" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticationType" subtype="C">Copy</note>
             <note type="authenticityNote">Note on Authenticity</note>
             <!-- Composition History -->
             <date type="fmDate" calendar="Hijri-qamari">602</date>
@@ -65,8 +70,8 @@
             <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
             <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of
                Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari"/>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari"/>
             <note type="dateNote">Note on Date of Composition</note>
             <placeName type="fmPlace">Damascus</placeName>
             <note type="placeNote">Note on Place of Composition</note>
@@ -100,11 +105,14 @@
                <note type="fihrist" resp="Awwad" n="51">51</note>
                <note type="fut_mak" resp="OY">Ch. 53</note>
                <note type="other">
-                  <ref target="#work"/>Reference in other work(s) </note>
+                  <ref target="#work"/></note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza </note>
+                  <ref target="#ijaza">63</ref><q rend="italic">Kitāb Shurūṭ ahl al-ṭarīq</q></note>
                <note type="fihrist" resp="MIAS">
-                  <ref target="#fihrist"/> Reference to work in the Fihrist</note>
+                  <ref target="#fihrist">62</ref>
+                  <q rend="italic">Kitāb al-Amr al-marbūṭ fī maʿrifat mā yahṭāj ilayhi ahl ṭarīq
+                     Allāh taʿālā min al-shurūṭ </q>
+               </note>
                <note type="fut_mak" resp="MIAS">
                   <ref target="#fut_mak"/> References to work in Futūḥāt</note>
             </noteGrp>
@@ -235,196 +243,6 @@
                   <p/>
                </note>
             </noteGrp>
-            <!-- Editions, Translations, and Relevant Publications -->
-            <note type="listBibl">
-               <listBibl type="all">
-                  <biblStruct type="book" xml:id="Ibn_al-ʿArabī2010"
-                     corresp="http://zotero.org/users/13471649/items/E9DQC2UM">
-                     <monogr>
-                        <title level="m">al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya;
-                           wa-yalīh al-Amr al-muḥkam al-marbūṭ fīmā yalzam ahl ṭarīq Allāh min
-                           al-Shurūṭ; wa-yalīh Mishkāt al-ʿuqūl al-muqtabasa min nūr
-                           al-manqūl</title>
-                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                              al-ʿArabī</surname></author>
-                        <editor><forename>Aḥmad b. Farīd b.
-                              Aḥmad</forename><surname>al-Mazīdī</surname></editor>
-                        <imprint>
-                           <pubPlace>Bayrūt</pubPlace>
-                           <publisher>Dār al-Kutub al-ʿIlmīyah</publisher>
-                           <date>2010</date>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">ajwiba</note><note type="tag"
-                           >amr</note><note type="tag">edition</note></note>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="Marconi2023a"
-                     corresp="http://zotero.org/users/13471649/items/M65FSS66">
-                     <analytic>
-                        <title level="a">EDIZIONE DEL KITĀB AL-AMR AL-MUḤKAM AL-MARBŪṬ FĪ- MĀ YALZAM
-                           AHL ṬARĪQ ALLĀH MIN AL-ŠURŪṬ DI IBN ʻARABĪ</title>
-                        <idno type="DOI">10.6018/azufre.588951</idno>
-                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                              al-ʿArabī</surname></author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">El Azufre Rojo</title>
-                        <idno type="ISSN">2341-1678, 2341-1368</idno>
-                        <editor><forename>Maurizio</forename><surname>Marconi</surname></editor>
-                        <imprint>
-                           <biblScope unit="volume">11</biblScope>
-                           <date>2023</date>
-                           <note type="accessed">2024-08-26T18:53:36Z</note>
-                           <note type="url">https://revistas.um.es/azufre/article/view/588951</note>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag"
-                        >edition</note></note>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Asín_Palacios1931"
-                     corresp="http://zotero.org/users/13471649/items/EKTXPUDV">
-                     <monogr>
-                        <title level="m">El Islam cristianizado: estudio del "sufismo" a través de
-                           las obras de Abenarabi de Murcia</title>
-                        <title type="short">El Islam cristianizado</title>
-                        <author><forename>Miguel</forename><surname>Asín Palacios</surname></author>
-                        <respStmt>
-                           <resp>contributor</resp>
-                           <persName><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                                 al-ʿArabī</surname></persName>
-                        </respStmt>
-                        <edition>1. ed</edition>
-                        <imprint>
-                           <pubPlace>Madrid</pubPlace>
-                           <publisher>Editorial Plutarco</publisher>
-                           <date>1931</date>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
-                           type="tag">futuhat</note><note type="tag">nasaih</note><note type="tag"
-                           >spa</note><note type="tag">study</note><note type="tag"
-                           >tadbirat</note><note type="tag">translation</note></note>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="Marconi2023b"
-                     corresp="http://zotero.org/users/13471649/items/X74D6CI3">
-                     <analytic>
-                        <title level="a">IBN ʿARABĪ: IL LIBRO DELLA REGOLA STABILITA IN MODO
-                           INEQUIVOCABILE SULLE CONDIZIONI CHE SONO INDISPENSABILI PER LA GENTE
-                           DELLA VIA DI ALLAH</title>
-                        <idno type="DOI">10.6018/azufre.588821</idno>
-                        <title type="short">IBN ʿARABĪ</title>
-                        <author><forename>Maurizio</forename><surname>Marconi</surname></author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">El Azufre Rojo</title>
-                        <idno type="ISSN">2341-1678, 2341-1368</idno>
-                        <imprint>
-                           <biblScope unit="volume">11</biblScope>
-                           <date>2023</date>
-                           <note type="accessed">2024-08-30T16:11:30Z</note>
-                           <note type="url">https://revistas.um.es/azufre/article/view/588821</note>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag"
-                        >study</note></note>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="Marconi2023c"
-                     corresp="http://zotero.org/users/13471649/items/EJBGXMVB">
-                     <analytic>
-                        <title level="a">ESEMPI DI PAGINE DEI MANOSCRITTI UTILIZZATI PER L'EDIZIONE
-                           DEL KITĀB AL-AMR AL-MUḤKAM AL-MARBŪṬ FĪ- MĀ YALZAM AHL ṬARĪQ ALLĀH MIN
-                           AL-ŠURŪṬ DI IBN ʻARABĪ</title>
-                        <idno type="DOI">10.6018/azufre.588831</idno>
-                        <author><forename>Maurizio</forename><surname>Marconi</surname></author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">El Azufre Rojo</title>
-                        <idno type="ISSN">2341-1678, 2341-1368</idno>
-                        <imprint>
-                           <biblScope unit="volume">11</biblScope>
-                           <date>2023</date>
-                           <note type="accessed">2024-08-30T16:12:37Z</note>
-                           <note type="url">https://revistas.um.es/azufre/article/view/588831</note>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag"
-                        >study</note></note>
-                  </biblStruct>
-                  <biblStruct type="journalArticle" xml:id="Marconi2023d"
-                     corresp="http://zotero.org/users/13471649/items/XQUSBRRZ">
-                     <analytic>
-                        <title level="a">TRADUZIONE IL LIBRO DELLA REGOLA STABILITA IN MODO
-                           INEQUIVOCABILE SULLE CONDIZIONI CHE SONO INDISPENSABILI PER LA GENTE
-                           DELLA VIA DI ALLAH</title>
-                        <idno type="DOI">10.6018/azufre.588941</idno>
-                        <respStmt>
-                           <resp>translator</resp>
-                           <persName><forename>Maurizio</forename><surname>Marconi</surname></persName>
-                        </respStmt>
-                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                              al-ʿArabī</surname></author>
-                     </analytic>
-                     <monogr>
-                        <title level="j">El Azufre Rojo</title>
-                        <idno type="ISSN">2341-1678, 2341-1368</idno>
-                        <imprint>
-                           <biblScope unit="volume">11</biblScope>
-                           <date>2023</date>
-                           <note type="accessed">2024-08-30T16:12:52Z</note>
-                           <note type="url">https://revistas.um.es/azufre/article/view/588941</note>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag"
-                           >translation</note></note>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Asín_Palacios1982"
-                     corresp="http://zotero.org/users/13471649/items/L48QZ844">
-                     <monogr>
-                        <title level="m">L'Islam christianisé: étude sur le soufisme à travers les
-                           oeuvres d'Ibn Arabî de Murcie</title>
-                        <title type="short">L'Islam christianisé</title>
-                        <idno type="ISBN">978-2-85707-079-5</idno>
-                        <author><forename>Miguel</forename><surname>Asín Palacios</surname></author>
-                        <respStmt>
-                           <resp>translator</resp>
-                           <persName><forename>Bernard</forename><surname>Dubant</surname></persName>
-                        </respStmt>
-                        <respStmt>
-                           <resp>contributor</resp>
-                           <persName><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                                 ʿArabī</surname></persName>
-                        </respStmt>
-                        <imprint>
-                           <pubPlace>Paris</pubPlace>
-                           <publisher>Trédaniel</publisher>
-                           <date>1982</date>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
-                           type="tag">study</note><note type="tag">translation</note></note>
-                  </biblStruct>
-                  <biblStruct type="book" xml:id="Ibn_al-ʿArabī2021"
-                     corresp="http://zotero.org/users/13471649/items/Q2TMVT6B">
-                     <monogr>
-                        <title level="m">Khams rasāʾil fi l-sulūk</title>
-                        <idno type="ISBN">978-977-6851-35-1</idno>
-                        <author><forename>Muḥyī al-Dīn Muḥammad b. ʿAlī</forename><surname>Ibn
-                              al-ʿArabī</surname></author>
-                        <editor><forename>Ayman
-                           Ḥamdī</forename><surname>al-Akbarī</surname></editor>
-                        <editor><forename>ʿAlī</forename><surname>Jumʿa</surname></editor>
-                        <imprint>
-                           <pubPlace>al-Qāhira</pubPlace>
-                           <publisher>Muʾassasat Ibn al-ʿArabī li-l-Buḥūth wa-l-Nashr</publisher>
-                           <date>2021</date>
-                        </imprint>
-                     </monogr>
-                     <note type="tags"><note type="tag">amr</note><note type="tag">anwar</note><note
-                           type="tag">edition</note><note type="tag">khalwa</note><note type="tag"
-                           >kunh</note><note type="tag">nasaih</note></note>
-                  </biblStruct>
-               </listBibl>
-            </note>
             <noteGrp type="publications">
                <note type="editions">Critical edition created by Maurizio Marconi, 2019. A copy
                   available on request.</note>
