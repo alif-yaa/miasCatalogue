@@ -60,8 +60,8 @@
                     }
                     /* Custom link style */
                     a {
-                        text-decoration: none;
-                        color: #A62300; /* Your desired color */
+                    text-decoration: underline 0052a4;
+                        color: #0052a4; /* Your desired color */
                     }
                     /* Title boxes */
                     .box-1,
@@ -79,10 +79,8 @@
                     }
                     .box-1-italics {
                         font-style: italic;
-                        font-weight: bold;
                     }
                     .box-1-arabic {
-                    font-weight: bold;
                         direction: rtl;
                         font-family: 'Amiri', serif;
                     }
@@ -176,7 +174,7 @@
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('../worksPreview/', tei:idno[@type = 'keyword'], '.html')"
+                                select="concat('../Previews/individualWorks/', tei:idno[@type = 'keyword'], '.html')"
                             />
                         </xsl:attribute>
                         <xsl:value-of
@@ -189,7 +187,7 @@
                     <a>
                         <xsl:attribute name="href">
                             <xsl:value-of
-                                select="concat('../worksPreview/', tei:idno[@type = 'keyword'], '.html')"
+                                select="concat('../Previews/individualWorks/', tei:idno[@type = 'keyword'], '.html')"
                             />
                         </xsl:attribute>
                         <xsl:value-of

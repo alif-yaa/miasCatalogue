@@ -1,0 +1,1041 @@
+<!DOCTYPE HTML>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+                    /*Latin Script Font and ensure backdrop fills full screen*/
+                    body {
+                        font-family: 'Comorant Garamond', serif;
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    /*Arabic Script Font*/
+                    .arabic {
+                        font-family: 'Amiri', serif;
+                        direction: rtl;
+                        text-align: right;
+                    }
+                    .margin-bottom-5 {
+                        margin-bottom: 5px;
+                    }
+                    .margin-bottom-10 {
+                        margin-bottom: 10px;
+                    }
+                    .margin-bottom-20 {
+                        margin-bottom: 20px;
+                    }
+                    .margin-right {
+                        margin-right: 5px;
+                    }
+                    .margin-left {
+                        margin-left: 5px;
+                    }
+                    /* title */
+                    .h1-italic,
+                    .h1-arabic {
+                        font-size: 1.8em;
+                        color: #A62300;
+                        text-align: center;
+                    }
+                    .h1-italic {
+                        font-style: italic;
+                        font-weight: bold;
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    .h1-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* headings */
+                    .h2,
+                    .h2-arabic {
+                        font-weight: bold;
+                        color: #0052a4;
+                        font-size: 1.2em;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        text-align: center;
+                    }
+                    .h2-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* subheadings */
+                    .h3,
+                    .h3-arabic,
+                    .h3-italic {
+                        font-weight: bold;
+                        font-size: 1em;
+                        color: #0052a4;
+                        margin-left: 5px;
+                        vertical-align: middle;
+                        align-self: center;
+                    
+                    }
+                    .h3-italic {
+                        font-style: italic;
+                    }
+                    .h3-arabic {
+                        text-align: right;
+                        margin-right: 5px;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* field names to side of box */
+                    .h4,
+                    .h4-italic,
+                    .h4-arabic {
+                        vertical-align: middle;
+                        align-self: center;
+                    }
+                    .h4,
+                    .h4-italic {
+                        padding-right: 10px;
+                        min-width: 100px;
+                        text-align: right;
+                    }
+                    .h4-italic {
+                        font-style: italic;
+                    }
+                    .h4-arabic {
+                        padding-left: 8px;
+                        min-width: 90px;
+                        text-align: left;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* field names above box */
+                    .h5,
+                    .h5-arabic,
+                    .h5-italic {
+                    
+                        vertical-align: middle;
+                        align-self: center;
+                        margin-left: 25px;
+                        margin-right: 25px;
+                    }
+                    .h5 {
+                        text-align: left;
+                    }
+                    .h5-italic {
+                        text-align: left;
+                        font-style: italic;
+                    }
+                    .h5-arabic {
+                        text-align: right;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* Custom link style */
+                    a {
+                        text-decoration: none;
+                        color: #0052a4; /* Your desired color */
+                    }
+                    p {
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    }
+                    p + p {
+                    margin-top: 8px; /* This is the margin between paragraphs */
+                    }
+                    /* Smaller text */
+                    .text-smaller {
+                        font-size: 0.8em;
+                    }
+                    .bold {
+                        font-weight: bold;
+                    }
+                    .italic {
+                        font-style: italic;
+                    }
+                    /*backdrop*/
+                    .backdrop {
+                        background-color: #f1f3eb; /* Set the background color */
+                        padding: 20px; /* Add padding to create space around .background */
+                        position: relative;
+                        min-width: 100%;
+                        position: absolute;
+                    }
+                    /* green background */
+                    .background {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #E1DBE8;
+                        border-top: 2px solid #A896BA;
+                        border-bottom: 2px solid #A896BA;
+                        border-left: 2px solid #A896BA;
+                        border-right: 2px solid #A896BA;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    .row,
+                    .row-2,
+                    .row-center {
+                        display: flex;
+                        align-items: center;
+                        align-items: stretch;
+                        min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    /* Standard row for subheadings */
+                    .row {
+                        justify-content: space-between;
+                    }
+                    /* row-2 for rows without field names (ADJUST) */
+                    .row-2 {
+                    }
+                    .row-center {
+                        justify-content: center;
+                    }
+                    /* column (no margin) */
+                    .column {
+                        display: flex;
+                        align-items: stretch;
+                        align-items: center; /* Align items in the center vertically */
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned left) */
+                    .column-left {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-start; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned center) */
+                    .column-center {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: center; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned right) */
+                    .column-right {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-end; /* Align items to the right horizontally */
+                        margin-left: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* white box with green border */
+                    .box,
+                    .box-italic,
+                    .box-arabic,
+                    .box-ref,
+                    .box-number {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        align-items: center;
+                        line-height: 1.5;
+                    }
+                    .box {
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-italic {
+                        font-style: italic;
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-ref {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        max-width: 280px;
+                        flex: 1;
+                    }
+                    .box-number {
+                        max-width: 250px;
+                    }
+                    
+                    /*  boxes for rows with no field names */
+                    .box-2,
+                    .box-2-note,
+                    .box-2-small,
+                    .box-2-small-italic {
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.3;
+                    }
+                    .box-2,
+                    .box-2-small,
+                    .box-2-small-italic {
+                        background-color: white;
+                    }
+                    .box-2-small,
+                    .box-2-small-italic {
+                        max-width: 200px;
+                    }
+                    .box-2-small-italic {
+                        font-style: italic;
+                    }
+                    .box-2-note {
+                        background-color: #F7F9EF;
+                    }
+                    .box-no-margin {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                        height: 100%;
+                    }
+                    .box-purple {
+                        background-color: #F3F1F7;
+                        border: 1px solid #A896BA;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5;
+                    
+                    }
+                    /* Styling for buttons*/
+                    .chevron {
+                        margin-left: 20px; /* Space between text and chevron */
+                        margin-right: 20px; /* Space between text and chevron */
+                    }
+                    #english-button,
+                    #arabic-button,
+                    #textual-identifiers-button,
+                    #textual-identifiers-button-arabic {
+                        background-color: transparent; /* Background matches your page style */
+                        border: none; /* No border */
+                        cursor: pointer;
+                        font-size: 1em; /* Matches .h3 */
+                        font-weight: bold; /* Matches .h3 */
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        color: #0052a4;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    #english-button,
+                    #textual-identifiers-button {
+                        font-family: 
+                        'Comorant Garamond', serif;
+                    }
+                    #arabic-button,
+                    #textual-identifiers-button-arabic {
+                        text-align: right; /* Align Arabic text right */
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }</style>
+   </head>
+   <body>
+      <div class="backdrop">
+         <div class="margin-bottom-20"></div>
+         <div class="h1-italic">Fuṣūṣ al-ḥikam</div>
+         <div class="margin-bottom-10"></div>
+         <div class="h1-arabic">فصوص الحكم</div>
+         <div class="margin-bottom-20"></div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Title &amp; Identification</div>
+               <div class="h2-arabic">تسمية المصنف وتعريفه</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row-center">
+               <div class="h4">RG №</div>
+               <div class="box-number">150</div>
+               <div class="h4">Alt. RG №</div>
+               <div class="box-number"></div>
+               <div class="h4">xml:id</div>
+               <div class="box-number">fusus</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Uniform Title</div>
+               <div class="box-italic">Fuṣūṣ al-ḥikam</div>
+               <div class="h4-arabic">العنوان الموحد</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Full Title</div>
+               <div class="box-italic"></div>
+               <div class="h4-arabic">العنوان الكامل</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Variants</div>
+               <div class="box-italic">
+                  <p></p>
+               </div>
+               <div class="h4-arabic">عناوين بديلة</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-italic">
+                  <p>The Bezels of Wisdom, the Wisdom of the
+                     Prophets</p>
+               </div>
+               <div class="h4-arabic">عناوين مترجمة</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Incipit</div>
+               <div class="box-italic">al-ḥamdu lillāh munzil al-ḥikam ʿalā
+                  qulūb al-kilam</div>
+               <div class="h4-arabic">الكلمة الافتتاحية</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Explicit</div>
+               <div class="box-italic"></div>
+               <div class="h4-arabic">الكلمة النهائية</div>
+            </div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Authorship &amp; Authenticity</div>
+               <div class="h2-arabic">تأليف المصنف ونسبته</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Author</div>
+               <div class="box">Ibn al-ʿArabī</div>
+               <div class="h4-arabic">المؤلف</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Place</div>
+               <div class="box">
+                    
+                  
+                  
+                  </div>
+               <div class="box">Damascus</div>
+               <div class="h4-arabic">مكان الكتابة</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Date</div>
+               <div class="box"> CE</div>
+               <div class="box">627H</div>
+               <div class="h4-arabic">تاريخ الكتابة</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Earliest MS</div>
+                  <div class="box">630</div>
+                  <div class="h4-arabic">الشاهد الأقدم</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">TPQ-TAQ</div>
+                  <div class="box">– AH</div>
+                  <div class="h4-arabic">نطاق زمني</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Verification</div>
+                  <div class="box">Verified A</div>
+                  <div class="h4-arabic">درجة الصحة</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">Authentication</div>
+                  <div class="box">Autograph</div>
+                  <div class="h4-arabic">التوثيق</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other Relations</div>
+               <div class="h3-arabic">نسب أخرى</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row-2">
+               <div class="h4"></div>
+               <div class="box"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Description</div>
+               <div class="h2-arabic">الوصف</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note">The most famous and widely read of all Ibn ʿArabī’s
+                  works, containing the epitome of his teachings on the meaning of the perfect
+                  human being (al-insān al-kāmil). It takes the form of 27 chapters on the
+                  prophets from Adam to Muhammad, each associated with a knowledge; for example;
+                  the wisdom on divinity in the word of Adam: the wisdom of light in the word of
+                  Joseph. Ibn ʿArabī’s intention in the Fuṣūṣ is to draw out the interior,
+                  saintly wisdom of each prophet rather than the religious law which they
+                  brought.</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Manuscripts</div>
+               <div class="h2-arabic">مخطوطات</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note">A much copied and commented on work, verified by at least
+                  seven historic mss. The best is Evkaf Muzesi 1933, which is SQ’s riwāya. written
+                  in his hand in 630H, with two samāʿ in IA’s hand. Other early mss: Kastamonu Hk
+                  2024 (710H), Paris 1340 (726H), Corum Hk 3909 (728H), Konya Ak 308 (757H)</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row"><button id="english-button" onclick="toggleManuscripts()" class="h3"> Show
+                  Manuscripts <i class="fa fa-chevron-down chevron"></i></button><button id="arabic-button" onclick="toggleManuscripts()" class="h3-arabic"> عرض
+                  المخطوطات <i class="fa fa-chevron-down chevron"></i></button></div>
+            <div id="manuscript-info" style="display:none;">
+               <div class="row-2">
+                  <div class="column-left">
+                     <div class="h5">Note: once the manuscript data has been migrated, it will be linked to the relevant
+                        works in the new system.</div>
+                  </div>
+               </div>
+            </div><script>
+                function toggleManuscripts() {
+                var infoDiv = document.getElementById('manuscript-info');
+                var englishButton = document.getElementById('english-button');
+                var arabicButton = document.getElementById('arabic-button');
+                var englishChevron = englishButton.querySelector('.chevron');
+                var arabicChevron = arabicButton.querySelector('.chevron');
+                
+                if (infoDiv.style.display === 'none') {
+                infoDiv.style.display = 'block';
+                englishButton.innerHTML = 'Hide Manuscripts <i class="fa fa-chevron-up chevron"></i>';
+                arabicButton.innerHTML = 'اخفاء المخطوطات <i class="fa fa-chevron-up chevron"></i>';
+                } else {
+                infoDiv.style.display = 'none';
+                englishButton.innerHTML = 'Show Manuscripts <i class="fa fa-chevron-down chevron"></i>';
+                arabicButton.innerHTML = 'عرض المخطوطات <i class="fa fa-chevron-down chevron"></i>';w
+                }
+                }
+            </script></div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Related Works</div>
+               <div class="h2-arabic">مصنفات ذات الصلة</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box-italic">
+                  
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">References (to this work)</div>
+               <div class="h2-arabic">مذكور في</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h3-italic">al-Ijāza</div>
+               <div class="h3-arabic">الإجازة</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">№ 194 (Badawī 1955)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  <span class="italic"></span>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Fihrist</div>
+               <div class="h3-arabic">الفهرست</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">№ 187 (ʿAwwād 1954)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  <span class="italic"></span>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Futūḥāt</div>
+               <div class="h3-arabic">الفتوحات</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref (OY)</div>
+               <div class="box-ref"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  
+                  <p dir="rtl" class="arabic"></p>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other</div>
+               <div class="h3-arabic">مصنفات أخرى</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h2">References (in this work)</div>
+               <div class="h2-arabic">مذكور فيه</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Ref</div>
+               <div class="box-ref italic"></div>
+               <div class="box-ref"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  
+                  
+                  <p dir="rtl" class="arabic"></p>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Publications</div>
+               <div class="h2-arabic">منشورات</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h3">Editions</div>
+               <div class="h3-arabic">طبعات</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam</i>.
+                     
+                      al-Ṭabʻah al-ūlá., الطبعة الأولى..
+                      al-Qāhirah:
+                      Maktabat Miṣr, 2015.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam</i>.
+                     
+                      al-Ṭabʿah 2., الطبعة ٢..
+                      Bayrūt:
+                      Dār al-Kitāb al-ʿArabī, 1980.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam</i>.
+                     
+                      Edited by Mahmud Erol Kiliç and Abdurrahim Alkış.  İstanbul:
+                      Litera Yayıncılık, 2016.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam</i>.
+                     
+                      Edited by ʿAbd al-ʿAzīz Sulṭān al-Manṣūb and Abrār Aḥmad Shāhi.  al-Qāhirah:
+                      Shirkat al-Quds li-l-Nashr wa-l-Tawzīʿ, 2017.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Translations</div>
+               <div class="h3-arabic">تراجم</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The ringstones of wisdom: Fuṣūṣ al-ḥikam</i>.
+                     
+                      Translated by Caner K. Dagli.  S.l:
+                      Great Books of the Islamic World, 2004.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Le livre des chatons des sagesses</i>.
+                     
+                      Translated by Charles-André Gilis.  Beyrouth:
+                      Al-Bouraq, 1997.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Los engarces de la sabiduría</i>.
+                     
+                      Translated by Abderramán Mohamed Maanán.  Madrid:
+                      Hiperión, 1991.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fusûsu'l-hikem tercüme ve şerhi</i>.
+                     
+                      Translated by Ahmed Avni Konuk.  1ci baskı.
+                      İstanbul:
+                      Dergâh, 1987.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The Bezels of Wisdom</i>.
+                     
+                      Translated by R. W. J. Austin.  Mahwah, N.J:
+                      Paulist Press, 1980.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam: das Buch der Siegelringsteine der Weisheitssprüche</i>.
+                     
+                      Translated by Hans Kofler.  Graz:
+                      Akademische Druck- u. Verlagsanstalt, 1970.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>La sagesse des prophètes (Fuçuç al-hikam)</i>.
+                     
+                      Paris:
+                      A. Michel, 1974.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Studies</div>
+               <div class="h3-arabic">أبحاث</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fusûsu'l-hikem tercüme ve şerhi</i>.
+                     
+                      Translated by Ahmed Avni Konuk.  1ci baskı.
+                      İstanbul:
+                      Dergâh, 1987.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Fuṣūṣ al-ḥikam</i>.
+                     
+                      al-Ṭabʿah 2., الطبعة ٢..
+                      Bayrūt:
+                      Dār al-Kitāb al-ʿArabī, 1980.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">MIAS Records</div>
+               <div class="h2-arabic">سجلات مكتبية</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="column-center">
+                  <div class="h4">In Archive</div>
+                  <div class="box-number">y</div>
+                  <div class="h4"></div>
+                  <div class="h4">In Library</div>
+                  <div class="box-number">Y</div>
+                  <div class="h4-arabic"></div>
+               </div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+         </div>
+         <div class="background-2">
+            <div class="row">
+               <div class="h2">Additions, Comments and Corrections</div>
+               <div class="h2-arabic">إضافات وتعليق وتدقيق</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Editions</div>
+               <div class="box-purple">Beirut edition edited by Abu ʿAlā ʿAfīfī (Beirut, nd) is
+                  based upon several mss. but did not use the Ṣādr al-dīn al-Qūnawī autograph
+                  (Evkaf Musezi 1933). A new critical edition using the Qūnawī autograph, plus a
+                  translation into Urdu, by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan). Ed.
+                  Abrār Aḥmad Shāhī. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb (with Abrār
+                  Aḥmad Shāhī) (Cairo 2016) based on mss. from the MIAS archive. A critical
+                  edition alongside Naqsh al-Fuṣūṣ, with complete references to Qurʾān and ḥadith
+                  by Dr Saiyad Nizamuddin al-Husayni (Cairo, date unknown). Critical edition by
+                  Mahmud Kiliç and Abdurrahim Alkiṣ (Istanbul 2016), fully vowelled based upon
+                  al-Kashānī’s commentary plus a facsmile of the oldest ms, Evkaf Muzesi 1933,
+                  written by Ṣadr al-dīn al-Qūnawi.</div>
+            </div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-purple">English Partial translation (12 chapters only) by Angela
+                  Culme-Seymour, based upon Burckhardt’s French translation: The Wisdom of the
+                  Prophets, Glos, 1975. Full translation by ʿAisha ʿAbd al-Rahman at-Tarjumana:
+                  The Seals of Wisdom, Norwich, 1980. Full translation by R W J Austin: The
+                  Bezels of Wisdom, New York, 1981. Full rendering alongside the commentary by
+                  ʿAbd Allah Bosnawī by Bulent Rauf: Fuṣūṣ al-ḥikam, Vols 1-4, Oxford, 1981-6:
+                  Second Edition, 1994. Full translation by Caner K Dagli: The Ringstones of
+                  Wisdom, Chicago, 2004. Full translation by Binyamin Abrahmov, Ibn al-ʿArabi’s
+                  Fusus al-hikam, London, 2015. French Partial translation (12 chapters only) by
+                  Titus Burckhardt: La Sagesse des Prophètes, Paris, 1974. Full translation by
+                  Charles-André Gilis: Le Livre des Chatons des Sagesse, Vols 1 &amp; 2, Paris,
+                  1998. Full translation by Paul Ballanfat: Les Chatons des sagesses et les
+                  demeures des paroles (Combes, 2020) Italian Italian translation by Titus
+                  Burckhardt, La sapienza dei Profeti, Roma, 1987 (partial translation: only 12
+                  chapters)<br>German Full translation by Hans Kofler:Fuṣūṣ
+                  al-Ḥikam, Graz (Austria), 1970. Partial translation based upon Burkhardt: Die
+                  Weisheit der propheten, Zurich, 2001. Partial translation by Alma Geise: Ibn
+                  ʿArabī: Urwolke und Welt, Munich 2002. Spanish Full translation by Abderramán
+                  Mohamed Maanán: Los Engarces de la sabiduría, Madrid, 1994. Full translation by
+                  Andrés Guijarro: Los engarces de las sabidurías, Madrid, 2009. Italian
+                  Partial translation by Giorgio Jannaccone; Titus Burckhardt: La sapienza dei
+                  profeti , Rome, 1987. Serbo-Croat Full translation by Resid Hafizovic: Dragulji
+                  Poslanicke Mudrosti Fuṣūs al-Ḥikam, Zenica, 1995.</div>
+            </div>
+            <div class="row">
+               <div class="h4">Studies</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">Additions</div>
+               <div class="box-purple">Traductions -Allemagne : Das Buch der
+                  Siegelringsteine der Weisheitssprüche par Hans Kofler, Graz, 1970. (MC)<br><br>The Wisdom of the Prophets, Titus Burckhardt, Angela
+                  Culme-Seymour. 12 chapters only. Beshara Publications, 1975<br></div>
+            </div>
+            <div class="row">
+               <div class="h4">corrections</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">additions</div>
+               <div class="box-purple">Add. Cette rubrique, comme celle de RG. 135 (= Futûhât
+                  makkiyya) est l'une des plus importantes du Répertoire Général et sa mise à
+                  jour requiert la collaboration de tous les scholars travaillant sur Ibn Arabî.
+                  Je me borne pour l'instant à noter quelques addenda correspondant aux
+                  informations que j'ai sous la main. Traductions -Espagne : Los engarces de la
+                  sabiduria, par Abderramàn Mohamed Maanàn, Madrid, 1991. -Allemagne : Das Buch
+                  der Siegelringsteine der Weisheitssprüche par Hans Kofler, Graz, 1970.
+                  -Angleterre :The Seals of Wisdom par 'A'isha 'Abd al-Rahmân al-Tarjumana,
+                  Norwich, 1980. The Bezels of Wisdom, par R.W. J. Austin, London, 1980. -France
+                  : Les Chatons de la Sagesse, par Ch. A. Gilis, Beyrouth, 1997 Commentaires :
+                  plusieurs de ceux que mentionne O.Y. ont été depuis publiés. Une première
+                  investigation rapide me fournit la liste suivante : n°3 Qûnawî, Fukûk, Téhéran,
+                  1413h. n°5 Jandî (ed. Ashtiyânî), Mashhad, 1982 n°13 Qaysarî (ed. Ashtiyânî)
+                  Téhéran, 1375. n°18 Amôlî, Nass al-nusûs, (muqaddima) (ed. H. Corbin/O.Y),
+                  Paris.Téhéran, 1975. n°21 Sâ'în al-Dîn Turka (2 vols), Téhéran, 1420 h. n° 24
+                  Jâmî, Naqd al-nusûs, Téhéran, 1977 (ed. Chittick) n° 57 Muhammad Pârsâ, Téhéran
+                  1406h.</div>
+            </div>
+            <div class="row">
+               <div class="h4">msAdditions</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">JC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">MC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AAS</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">Root</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">CA</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">SH</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">JC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AK</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">MM</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AP</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

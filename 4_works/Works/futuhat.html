@@ -1,0 +1,1397 @@
+<!DOCTYPE HTML>
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+                    /*Latin Script Font and ensure backdrop fills full screen*/
+                    body {
+                        font-family: 'Comorant Garamond', serif;
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    /*Arabic Script Font*/
+                    .arabic {
+                        font-family: 'Amiri', serif;
+                        direction: rtl;
+                        text-align: right;
+                    }
+                    .margin-bottom-5 {
+                        margin-bottom: 5px;
+                    }
+                    .margin-bottom-10 {
+                        margin-bottom: 10px;
+                    }
+                    .margin-bottom-20 {
+                        margin-bottom: 20px;
+                    }
+                    .margin-right {
+                        margin-right: 5px;
+                    }
+                    .margin-left {
+                        margin-left: 5px;
+                    }
+                    /* title */
+                    .h1-italic,
+                    .h1-arabic {
+                        font-size: 1.8em;
+                        color: #A62300;
+                        text-align: center;
+                    }
+                    .h1-italic {
+                        font-style: italic;
+                        font-weight: bold;
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    .h1-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* headings */
+                    .h2,
+                    .h2-arabic {
+                        font-weight: bold;
+                        color: #0052a4;
+                        font-size: 1.2em;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        text-align: center;
+                    }
+                    .h2-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* subheadings */
+                    .h3,
+                    .h3-arabic,
+                    .h3-italic {
+                        font-weight: bold;
+                        font-size: 1em;
+                        color: #0052a4;
+                        margin-left: 5px;
+                        vertical-align: middle;
+                        align-self: center;
+                    
+                    }
+                    .h3-italic {
+                        font-style: italic;
+                    }
+                    .h3-arabic {
+                        text-align: right;
+                        margin-right: 5px;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* field names to side of box */
+                    .h4,
+                    .h4-italic,
+                    .h4-arabic {
+                        vertical-align: middle;
+                        align-self: center;
+                    }
+                    .h4,
+                    .h4-italic {
+                        padding-right: 10px;
+                        min-width: 100px;
+                        text-align: right;
+                    }
+                    .h4-italic {
+                        font-style: italic;
+                    }
+                    .h4-arabic {
+                        padding-left: 8px;
+                        min-width: 90px;
+                        text-align: left;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* field names above box */
+                    .h5,
+                    .h5-arabic,
+                    .h5-italic {
+                    
+                        vertical-align: middle;
+                        align-self: center;
+                        margin-left: 25px;
+                        margin-right: 25px;
+                    }
+                    .h5 {
+                        text-align: left;
+                    }
+                    .h5-italic {
+                        text-align: left;
+                        font-style: italic;
+                    }
+                    .h5-arabic {
+                        text-align: right;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* Custom link style */
+                    a {
+                        text-decoration: none;
+                        color: #0052a4; /* Your desired color */
+                    }
+                    p {
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    }
+                    p + p {
+                    margin-top: 8px; /* This is the margin between paragraphs */
+                    }
+                    /* Smaller text */
+                    .text-smaller {
+                        font-size: 0.8em;
+                    }
+                    .bold {
+                        font-weight: bold;
+                    }
+                    .italic {
+                        font-style: italic;
+                    }
+                    /*backdrop*/
+                    .backdrop {
+                        background-color: #f1f3eb; /* Set the background color */
+                        padding: 20px; /* Add padding to create space around .background */
+                        position: relative;
+                        min-width: 100%;
+                        position: absolute;
+                    }
+                    /* green background */
+                    .background {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    /* purple background */
+                    .background-2 {
+                        background-color: #E1DBE8;
+                        border-top: 2px solid #A896BA;
+                        border-bottom: 2px solid #A896BA;
+                        border-left: 2px solid #A896BA;
+                        border-right: 2px solid #A896BA;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    .row,
+                    .row-2,
+                    .row-center {
+                        display: flex;
+                        align-items: center;
+                        align-items: stretch;
+                        min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    /* Standard row for subheadings */
+                    .row {
+                        justify-content: space-between;
+                    }
+                    /* row-2 for rows without field names (ADJUST) */
+                    .row-2 {
+                    }
+                    .row-center {
+                        justify-content: center;
+                    }
+                    /* column (no margin) */
+                    .column {
+                        display: flex;
+                        align-items: stretch;
+                        align-items: center; /* Align items in the center vertically */
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned left) */
+                    .column-left {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-start; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned center) */
+                    .column-center {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: center; /* Align items to the left horizontally */
+                        margin-right: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* column (aligned right) */
+                    .column-right {
+                        display: flex;
+                        align-items: center; /* Align items in the center vertically */
+                        justify-content: flex-end; /* Align items to the right horizontally */
+                        margin-left: 10px;
+                        min-width: 0px;
+                        flex: 1;
+                    }
+                    /* white box with green border */
+                    .box,
+                    .box-italic,
+                    .box-arabic,
+                    .box-ref,
+                    .box-number {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        align-items: center;
+                        line-height: 1.5;
+                    }
+                    .box {
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-italic {
+                        font-style: italic;
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                        flex: 1;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .box-ref {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        max-width: 280px;
+                        flex: 1;
+                    }
+                    .box-number {
+                        max-width: 250px;
+                    }
+                    
+                    /*  boxes for rows with no field names */
+                    .box-2,
+                    .box-2-note,
+                    .box-2-small,
+                    .box-2-small-italic {
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.3;
+                    }
+                    .box-2,
+                    .box-2-small,
+                    .box-2-small-italic {
+                        background-color: white;
+                    }
+                    .box-2-small,
+                    .box-2-small-italic {
+                        max-width: 200px;
+                    }
+                    .box-2-small-italic {
+                        font-style: italic;
+                    }
+                    .box-2-note {
+                        background-color: #F7F9EF;
+                    }
+                    .box-no-margin {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                        height: 100%;
+                    }
+                    .box-purple {
+                        background-color: #F3F1F7;
+                        border: 1px solid #A896BA;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        line-height: 1.5;
+                    
+                    }
+                    /* Styling for buttons*/
+                    .chevron {
+                        margin-left: 20px; /* Space between text and chevron */
+                        margin-right: 20px; /* Space between text and chevron */
+                    }
+                    #english-button,
+                    #arabic-button,
+                    #textual-identifiers-button,
+                    #textual-identifiers-button-arabic {
+                        background-color: transparent; /* Background matches your page style */
+                        border: none; /* No border */
+                        cursor: pointer;
+                        font-size: 1em; /* Matches .h3 */
+                        font-weight: bold; /* Matches .h3 */
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        color: #0052a4;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    #english-button,
+                    #textual-identifiers-button {
+                        font-family: 
+                        'Comorant Garamond', serif;
+                    }
+                    #arabic-button,
+                    #textual-identifiers-button-arabic {
+                        text-align: right; /* Align Arabic text right */
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }</style>
+   </head>
+   <body>
+      <div class="backdrop">
+         <div class="margin-bottom-20"></div>
+         <div class="h1-italic">al-Futūḥāt al-Makkiyya</div>
+         <div class="margin-bottom-10"></div>
+         <div class="h1-arabic">الفتوحات المكية</div>
+         <div class="margin-bottom-20"></div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Title &amp; Identification</div>
+               <div class="h2-arabic">تسمية المصنف وتعريفه</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row-center">
+               <div class="h4">RG №</div>
+               <div class="box-number">135</div>
+               <div class="h4">Alt. RG №</div>
+               <div class="box-number"></div>
+               <div class="h4">xml:id</div>
+               <div class="box-number">futuhat</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Uniform Title</div>
+               <div class="box-italic">al-Futūḥāt al-Makkiyya</div>
+               <div class="h4-arabic">العنوان الموحد</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Full Title</div>
+               <div class="box-italic">Al-Futūḥāt al- Makkiya fī maʿrifat
+                  al-asrār al-mālikiyya wa-l-mulkiyya</div>
+               <div class="h4-arabic">العنوان الكامل</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Variants</div>
+               <div class="box-italic">
+                  <p></p>
+               </div>
+               <div class="h4-arabic">عناوين بديلة</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-italic">
+                  <p>Revelations of Mecca</p>
+               </div>
+               <div class="h4-arabic">عناوين مترجمة</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Incipit</div>
+               <div class="box-italic">al-ḥamdu lilāh alladhī awjad
+                  al-ashiyāʾ ʿan ʿadam wa-ʿadamahu wa-awqaf wajūdahā ʿalā tuwajjah kalimihi
+                  li-nataḥaqqaq bidhālik sir ḥudūthhā wa-qidamahā min qidamahi</div>
+               <div class="h4-arabic">الكلمة الافتتاحية</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4">Explicit</div>
+               <div class="box-italic"></div>
+               <div class="h4-arabic">الكلمة النهائية</div>
+            </div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Authorship &amp; Authenticity</div>
+               <div class="h2-arabic">تأليف المصنف ونسبته</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Author</div>
+               <div class="box">Ibn al-ʿArabī</div>
+               <div class="h4-arabic">المؤلف</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Place</div>
+               <div class="box">
+                    
+                  
+                  
+                  </div>
+               <div class="box">Damascus</div>
+               <div class="h4-arabic">مكان الكتابة</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Date</div>
+               <div class="box"> CE</div>
+               <div class="box">629/636</div>
+               <div class="h4-arabic">تاريخ الكتابة</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Earliest MS</div>
+                  <div class="box">636</div>
+                  <div class="h4-arabic">الشاهد الأقدم</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">TPQ-TAQ</div>
+                  <div class="box">– AH</div>
+                  <div class="h4-arabic">نطاق زمني</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="column-left">
+                  <div class="h4">Verification</div>
+                  <div class="box">Verified A</div>
+                  <div class="h4-arabic">درجة الصحة</div>
+               </div>
+               <div class="column-right">
+                  <div class="h4">Authentication</div>
+                  <div class="box">Holograph</div>
+                  <div class="h4-arabic">التوثيق</div>
+               </div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other Relations</div>
+               <div class="h3-arabic">نسب أخرى</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row-2">
+               <div class="h4"></div>
+               <div class="box"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Description</div>
+               <div class="h2-arabic">الوصف</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note">Ibn ʿArabī’s great summary of esoteric knowledge,
+                  consisting of 560 chapters and extending to nearly 10,000 pages in the
+                  holograph. It totalises all aspects of his work and all the esoteric knowledge
+                  of his era. The first recension, completed in Ṣafar 629H, exists only in
+                  copies, while the second, written between 632H and 636H, survives in IA’s own
+                  hand (see Evkaf Muzesi 1845+). There is still work to be done in distinguishing
+                  between the two recensions in the mss base, but considerable progress has been
+                  made by Julian Cook and Claude Addas in identifying “markers” which indicate
+                  the recension of any given ms. Their research indicates that many later mss.
+                  may be hybrids of the two recensions. For details of their work on the two
+                  recensions, see ancillary documents.</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Manuscripts</div>
+               <div class="h2-arabic">مخطوطات</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note">Verified by many mss. in both recensions. The best of the
+                  second recension is Evkaf Muzesi 1845+ in 37 volumes, which is the original in
+                  IA’s hand, written in 636H and carrying over 71 samāʿ.</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row"><button id="english-button" onclick="toggleManuscripts()" class="h3"> Show
+                  Manuscripts <i class="fa fa-chevron-down chevron"></i></button><button id="arabic-button" onclick="toggleManuscripts()" class="h3-arabic"> عرض
+                  المخطوطات <i class="fa fa-chevron-down chevron"></i></button></div>
+            <div id="manuscript-info" style="display:none;">
+               <div class="row-2">
+                  <div class="column-left">
+                     <div class="h5">Note: once the manuscript data has been migrated, it will be linked to the relevant
+                        works in the new system.</div>
+                  </div>
+               </div>
+            </div><script>
+                function toggleManuscripts() {
+                var infoDiv = document.getElementById('manuscript-info');
+                var englishButton = document.getElementById('english-button');
+                var arabicButton = document.getElementById('arabic-button');
+                var englishChevron = englishButton.querySelector('.chevron');
+                var arabicChevron = arabicButton.querySelector('.chevron');
+                
+                if (infoDiv.style.display === 'none') {
+                infoDiv.style.display = 'block';
+                englishButton.innerHTML = 'Hide Manuscripts <i class="fa fa-chevron-up chevron"></i>';
+                arabicButton.innerHTML = 'اخفاء المخطوطات <i class="fa fa-chevron-up chevron"></i>';
+                } else {
+                infoDiv.style.display = 'none';
+                englishButton.innerHTML = 'Show Manuscripts <i class="fa fa-chevron-down chevron"></i>';
+                arabicButton.innerHTML = 'عرض المخطوطات <i class="fa fa-chevron-down chevron"></i>';w
+                }
+                }
+            </script></div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Related Works</div>
+               <div class="h2-arabic">مصنفات ذات الصلة</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box-italic">
+                  
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">References (to this work)</div>
+               <div class="h2-arabic">مذكور في</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h3-italic">al-Ijāza</div>
+               <div class="h3-arabic">الإجازة</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">№ 50 (Badawī 1955)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  <span class="italic"></span>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Fihrist</div>
+               <div class="h3-arabic">الفهرست</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref">№ 50 (ʿAwwād 1954)</div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  <span class="italic"></span>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3-italic">al-Futūḥāt</div>
+               <div class="h3-arabic">الفتوحات</div>
+            </div>
+            <div class="row-2">
+               <div class="h4">Ref (OY)</div>
+               <div class="box-ref"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="h4">Ref</div>
+               <div class="box-ref"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  
+                  <p dir="rtl" class="arabic"></p>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Other</div>
+               <div class="h3-arabic">مصنفات أخرى</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h2">References (in this work)</div>
+               <div class="h2-arabic">مذكور فيه</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h4">Ref</div>
+               <div class="box-ref italic"></div>
+               <div class="box-ref"></div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row">
+               <div class="h4"></div>
+               <div class="box">
+                  
+                  
+                  
+                  <p dir="rtl" class="arabic"></p>
+                  </div>
+               <div class="h4-arabic"></div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">Publications</div>
+               <div class="h2-arabic">منشورات</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row">
+               <div class="h3">Editions</div>
+               <div class="h3-arabic">طبعات</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>al-Futūḥāt al-Makkīya</i>.
+                     
+                      [al-Qāhira]:
+                      Bulāq, 1857.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>al-Futūḥāt al-Makkīya</i>.
+                     
+                      [al-Qāhira]:
+                      Dār al-Kutub al-ʿArabiyya al-Kubrā, 1329.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>al-Futūḥāt al-Makkīyah</i>.
+                     
+                      Edited by ʿAbd al-ʿAzīz Sulṭān Ṭāhir Manṣūb.  al-Qahirah:
+                      al-Majlis al-A'la lil-Thaqafah, 2013.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī, and  . <i>al-Futūḥāt al-Makkīyah</i>.
+                     
+                      Edited by Aḥmad Shams al-Dīn and أحمد شمس الدين.  al-Ṭabʿah 1., الطبعة 1..
+                      Bayrūt:
+                      Dār al-Kutub al-ʿIlmīyah, 1999.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī, and  . <i>al-Futūḥāt al-Makkīyah</i>.
+                     
+                      Edited by ʿUthmān Ismāʿīl Yaḥyá.  al-Qāhirah:
+                      al-Hayʼah al-Miṣrīyah al-ʿĀmmah lil-Kitāb, 1972.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Translations</div>
+               <div class="h3-arabic">تراجم</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>El Islam cristianizado: estudio del "sufismo" a través de las obras de Abenarabi de
+                        Murcia</i>.
+                     
+                      1. ed.
+                      Madrid:
+                      Editorial Plutarco, 1931.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry"><i>Les illuminations de la Mecque = the Meccan illuminations = al-Futûhât al-Makkiyya</i>.
+                     
+                      Edited by William C. Chittick and Michel Chodkiewicz.  Paris:
+                      Sindbad, 1988.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C.. <i>The self-disclosure of God: principles of Ibn al-ʿArabī's cosmology</i>.
+                     
+                      Albany:
+                      State University of New York Press, 1998.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C.. <i>The Sufi path of knowledge: Ibn al-ʿArabi's metaphysics of imagination</i>.
+                     
+                      Albany:
+                      State University of New York Press, 1989.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Fontanesi, Placido.  ‘Sections of al-Fuṭūḥāt al-Makkiyya translated by Placido Fontanesi in Rivista di studi
+                     tradizionali’. <i></i> ().</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘ANNESSI: TESTI DELLE AL-FUTŪḤĀT AL-MAKKIYYA’.  Translated by Maurizio Marconi. <i>El Azufre Rojo</i> 7 (2020).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘IBN ʿARABĪ - CAPITOLO 2 DI AL-FUTŪḤĀT AL-MAKKIYYA: I GRADI DELLE LETTERE E DELLE VOCALI
+                     NEL MONDO’.  Translated by Maurizio Marconi. <i>El Azufre Rojo</i> 10 (2022).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Les trente-six attestations coraniques de l'unité</i>.
+                     
+                      Paris:
+                      Al-Bustane, 1994.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Ibn al-Arabi on the mysteries of the pilgrimage from the Futūḥāt al-Makkīyah (Meccan
+                        revelations)</i>.
+                     
+                      Translated by Aisha Abdurrahman Bewley.  Chicago?:
+                      Great Books of the Islamic World, 2009.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Ibn al-Arabi on the mysteries of purification and formal prayer from the Futūḥāt al-Makkīyah
+                        (Meccan revelations)</i>.
+                     
+                      Translated by Aisha Abdurrahman Bewley.  Chicago?:
+                      Great Books of the Islamic World, 200.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The openings revealed in Makkah</i>.
+                     
+                      Translated by Eric Winkel.  New York:
+                      Pir Press, 2020.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>La prière du jour du vendredi: extrait du chapitre 69 des Futūhāt</i>.
+                     
+                      Paris:
+                      Al-Bustane, 1994.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The alchemy of human happiness (Fī maʿrifat kīmiyāʾ al-saʿāda)</i>.
+                     
+                      Translated by Stephen Hirtenstein.  Oxford:
+                      Anqa Publishing, 2017.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Las iluminaciones de La Meca: textos escogidos</i>.
+                     
+                      Madrid:
+                      Siruela, 1996.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Le voyage spirituel: les illuminations de la Mecque, CCCLXVII</i>.
+                     
+                      Louvain-la-Neuve:
+                      Bruylant-Academia, 1995.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Traité de l'amour</i>.
+                     
+                      Paris:
+                      A. Michel, 1986.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Tratado del amor</i>.
+                     
+                      Translated by María Marrades.  Edicomunicación,, 1988.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘On the Inner Knowledge of Spirits Made of an Igneous Mixture: Chapter 9 of Futūḥāt
+                     al-Makkiyya’.  Translated by Gracia Lopez Anguita. <i>Journal of the Muhyiddin Ibn 'Arabi Society</i> 44 (2008): 1-24.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Les états des initiés au moment de leur mort (Chap. 176)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Nov.-Déc. ; n° 386 (1964): 252.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘La vénération des Maîtres spirituels (Chap. 181)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Juil.-Août et Sept.-Oct. ; n° 372-373 (1962): 165-166.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘La notion de hâl (Chap. 192)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Juil.-Août et Sept.-Oct. ; n° 372-373 (1962): 173.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘La notion de maqâm (Chap. 193)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Juil.-Août et Sept.-Oct. ; n° 372-373 (1962): 178.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘La notion de « Sharî’a » (La Loi ou Voie Générale) (Chap. 262)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Juil.-Août et Sept.-Oct. ; n° 396-397 (1966): 206.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘La notion de « Haqîqa » (La Vérité essentielle) (Chap. 263)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Juil.-Août et Sept.-Oct. ; n° 396-397 (1966): 212.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Oraisons métaphysiques – (Présentation et Oraisons de jour : Dimanche et Jeudi)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Sept. ; n° 278 (1949): 251.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Sur l’abandon de la Khalwa (Chap. 79)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Mars-Avr. et Mai-Juin ; n° 412-413 (1969): 87.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Sur la notion de Khalwa (Chap. 78)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Mars-Avr. et Mai-Juin; n° 412-413 (1969): 77.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Avant-Propos (Extraits)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Oct.-Nov.; n° 31 (1953): 302.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Sur la Science propre à Jésus (Chap. 20)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Mars-Avr.; n° 424-425 (1971): 62.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘Sur celui qui "revient" (vers les créatures) après être "parvenu" (à la Vérité suprême)
+                     et sur Celui qui le fait revenir. (Chap. 45)’.  Translated by Michel Vâlsan. <i>Études Traditionnelles</i> Avr.-Mai; n° 307 (1953): 125.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Ibn al-Arabi on the mysteries of fasting from the Futūḥāt al-Makkīyah (Meccan revelations)</i>.
+                     
+                      Edited by Laleh Bakhtiar.  Translated by Aisha Abdurrahman Bewley.  Chicago?:
+                      Great Books of the Islamic World, 2009.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Ibn Al-arabi on the Mysteries of Bearing Witness: To the Oneness of God and Messengership
+                        of Muhammad from the Futuhat Al-makkiyya</i>.
+                     
+                      Edited by Laleh Bakhtiar.  Translated by Aisha Bewley.  Kazi Pubns Inc, 2007.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The Meccan revelations</i>.
+                     
+                      Edited by Michel Chodkiewicz and William C. Chittick and James Winston Morris.  New York:
+                      Pir Press, 2002.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>Textes sur le jeûne</i>.
+                     
+                      Edited by Abd ar-Razzâq Yahya.  2e éd.
+                      Beyrouth [Paris]:
+                      Éd. Al-Bouraq, 1996.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Karjoo-Ravary, Ali, and Muḥyī al-Dīn Muḥammad b. ʿAlī Ibn al-ʿArabī.  ‘From the Remainder of Adam’s Clay: Chapter Eight of Ibn al-ʿArabī’s al-Futūḥāt al-Makkiyya’.  Translated by Ali Karjoo-Ravary. <i>Journal of Sufi studies</i> 10 (2021): 6–28.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h3">Studies</div>
+               <div class="h3-arabic">أبحاث</div>
+            </div>
+            <div class="margin-bottom-10"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Asín Palacios, Miguel. <i>El Islam cristianizado: estudio del "sufismo" a través de las obras de Abenarabi de
+                        Murcia</i>.
+                     
+                      1. ed.
+                      Madrid:
+                      Editorial Plutarco, 1931.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry"><i>Les illuminations de la Mecque = the Meccan illuminations = al-Futûhât al-Makkiyya</i>.
+                     
+                      Edited by William C. Chittick and Michel Chodkiewicz.  Paris:
+                      Sindbad, 1988.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C.. <i>The self-disclosure of God: principles of Ibn al-ʿArabī's cosmology</i>.
+                     
+                      Albany:
+                      State University of New York Press, 1998.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C..  ‘Iblīs and the Jinn in al-Futūhāt al-Makkiyya’. In <i>Classical Arabic Humanities in Their Own Terms. </i> (2008): 99–126.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C.. <i>Imaginal worlds: Ibn al-ʿArabī and the problem of religious diversity</i>.
+                     
+                      Albany:
+                      State University of New York Press, 1994.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Chittick, William C.. <i>The Sufi path of knowledge: Ibn al-ʿArabi's metaphysics of imagination</i>.
+                     
+                      Albany:
+                      State University of New York Press, 1989.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī.  ‘IBN ʿARABĪ - CAPITOLO 2 DI AL-FUTŪḤĀT AL-MAKKIYYA: I GRADI DELLE LETTERE E DELLE VOCALI
+                     NEL MONDO’.  Translated by Maurizio Marconi. <i>El Azufre Rojo</i> 10 (2022).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Ibn al-ʿArabī, Muḥyī al-Dīn Muḥammad b. ʿAlī. <i>The Meccan revelations</i>.
+                     
+                      Edited by Michel Chodkiewicz and William C. Chittick and James Winston Morris.  New York:
+                      Pir Press, 2002.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">Ibn 'Arabī='s metaphysics of love: A textual study of chapter 178 of al-Futūhāt al-MakkiyyaIbn 'Arabī='s metaphysics of love, and Hany Talaat Ahmed Ibrahim20142024-09-02T12:04:04Zhttps://www.proquest.com/docview/1627157462/abstract/?pq-origsite=primostudyfutuhat</div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Jurjānī, ʻAlī ibn Muḥammad. <i>Hādhā kitāb al-Taʻrīfāt / li-ʻAlī ibn Muḥammad al-Jurjānī. Wa-yalīhi Risālah fī bayān
+                        iṣṭalāḥāt raʼīs al-ṣūfīyah al-wāridah fī al-Futūḥāt al-Makkīyah.,هاذا كتاب التعريفات
+                        / لعلي بن محمد الجرجاني. ويليه رسالة في بيان اصطلاحات رئيس الصوفية الواردة في الفتوحات
+                        المكية</i>.
+                     
+                      Turkey:
+                     1883.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Karjoo-Ravary, Ali, and Muḥyī al-Dīn Muḥammad b. ʿAlī Ibn al-ʿArabī.  ‘From the Remainder of Adam’s Clay: Chapter Eight of Ibn al-ʿArabī’s al-Futūḥāt al-Makkiyya’.  Translated by Ali Karjoo-Ravary. <i>Journal of Sufi studies</i> 10 (2021): 6–28.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Karjoo-Ravary, Ali.  ‘Mapping the Unseen: Ibn al-ʿArabī's Maps in Chapter 371 of al-Futūḥāt al-Makkiyya’. <i>Journal of Sufi studies</i> 12 (2023): 1–64.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Keklik, Nihat. <i>İbn'ül-Arabi'nin eserleri ve kaynakları için misdak olarak el-Futûhât el-Mekkiyye:
+                        yan motifler</i>.
+                     
+                      İstanbul:
+                      Edebiyat Fakültesi Matbaası, 1974.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Marconi, Maurizio.  ‘ANNESSI’. <i>El Azufre Rojo</i> 10 (2022).</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+            <div class="row-2">
+               <div class="box-2">
+                  <div class="entry">Morris, James Winston. <i>The reflective heart: discovering spiritual intelligence in Ibn ʿArabī's Meccan illuminations</i>.
+                     
+                      Louisville, KY:
+                      Fons Vitae, 2005.</div>
+               </div>
+            </div>
+            <div class="margin-bottom-5"></div>
+         </div>
+         <div class="background">
+            <div class="row">
+               <div class="h2">MIAS Records</div>
+               <div class="h2-arabic">سجلات مكتبية</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="column-center">
+                  <div class="h4">In Archive</div>
+                  <div class="box-number">y</div>
+                  <div class="h4"></div>
+                  <div class="h4">In Library</div>
+                  <div class="box-number">Y</div>
+                  <div class="h4-arabic"></div>
+               </div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="box-2-note"></div>
+            </div>
+         </div>
+         <div class="background-2">
+            <div class="row">
+               <div class="h2">Additions, Comments and Corrections</div>
+               <div class="h2-arabic">إضافات وتعليق وتدقيق</div>
+            </div>
+            <div class="margin-bottom-20"></div>
+            <div class="row">
+               <div class="h4">Editions</div>
+               <div class="box-purple">Two critical editions exist. The first, edited by Osman
+                  Yahia (Cairo, 1970+) consists of 14 volumes and is incomplete. The second ,
+                  edited by ʿAbd al-ʿAzīz Sulṭān al-Manṣūb (Yemen, 2011) is in 12 volumes and is
+                  complete. It is largely based upon the Konya autograph – the manuscript of the
+                  second recension of the book written in 37 sections by Ibn ʿArabī himself – but
+                  also takes into account other texts. Critical edition of the poems on the
+                  letters in chapter 2 by Maurizio Marconi in Azufre Rojo vo. 7 (2020).</div>
+            </div>
+            <div class="row">
+               <div class="h4">Translations</div>
+               <div class="box-purple">There is as yet no complete translation of the Futūḥāt.
+                  Eric Winkel is working on one, and information on how to access his translation
+                  can be found on
+                  http://www.ibnarabisociety.org/infopdf/futuhat-winkel-announcement.pdf. and
+                  https://www.createspace.com/pub/simplesitesearch.search.do?sitesearch_query=Eric+A.+Winkel&amp;sitesearch_type=STORE.
+                  In addition, there are very many partial translations. The following list
+                  includes only a few of the more substantial ones. English Eric Winkel, The
+                  Openings Revealed at Mecca (New York, 2018– ) William Chittick The Sufi Path of
+                  Knowledge, New York, 1981. (Substantial sections of translation from many
+                  chapters) William Chittick, The Self-Disclosure of God, New York, 1998.
+                  (Substantial sections of translation from many chapters) James W Morris: ‘How
+                  to study the Futūḥāt; Ibn ʿArabī’s own advice’ in Muhyiddin Ibn ʿArabī
+                  (1165-1240), Oxford, 1993 (Introduction) William Chittick: ‘Two chapters from
+                  the Futūḥāt ’ in Muhyiddin Ibn ʿArabī (1165-1240), Oxford, 1993 (Chapters 317
+                  and 339) William Chittick: Imaginal Worlds, New York, 1994 (Chapter 66) Eric
+                  Winkel: Mysteries of Purity, Indiana, 1995 (Chapter 68) Michel Chodkiewicz,
+                  William Chittick, James W Morris, Denis Gril: The Meccan Revelations,Vols 1
+                  &amp; 2 New York, 2002, 2004 (Selections from 19 chapters, based upon the
+                  French edition of 1988) Aisha Bewley: The Mysteries of Bearing Witness,
+                  Chicago, 2002 (Selections from 1, 50, 67, 560) Gracia Lopez Anguita: ‘On the
+                  Inner Knowledge of Spirits Made of an Igneous Mixture: Chapter 9 of Futūḥāt
+                  al-Makkiyya’, JMIAS, 44, 2008 pp. 1-24 Aisha Bewley: Ibn ʿArabī on the
+                  Mysteries of the Purifying Alms, no place, 2009. ( Chaper 70) Aisha Bewley: Ibn
+                  ʿArabī on the Mysteries of the Pilgrimage, no place, 2009. (Chapter 72) Stephen
+                  Hirtenstein, The Alchemy of Human Happiness, Oxford 2017 (chapter 167) French
+                  Stephane Ruspoli:L’Alchimie du Bonheur Parfait, Paris, 1981. (Chapter 167)
+                  Charles-André Gilis: Le Coran et la fonction d’Hermès, Paris 1984 (Section 10
+                  of Chapter 198), republished in 1998 under the title: Les Trente-six
+                  Attestations Coraniques de l’Unité. Maurice Gloton: Traité de l’Amour, Paris,
+                  1986. (Chapter 178 on love) Michel Chodkiewicz, William Chittick, James W
+                  Morris, Denis Gril: Les Illuminations de la Mecque, Paris, 1988. (Selections
+                  from 19 chapters) Charles-André Gilis: Textes sur le Jeüne, Beirut, 1998.
+                  (Chapter 71) Charles-André Gilis: Le prière du jour du vendredi, Paris, 1994.
+                  (Chaper 69) Moreno Giannini: Le Voyage Spirituel, Louvain-la-Neuve, 1995.
+                  (Chapter 367) Michel Valsan: ‘al-Futūḥāt al-Makkiyyah: Chapter 172 on the
+                  Knowledge of the Station of Tawḥīd’, Science Sacrée, 7, 2005. pp. 46-58. (First
+                  part only). A Penot: Les Révelations de la Mecque, Paris, 2009. (Partial
+                  translations of Chapters 1-55 on cosmology) Maurice Gloton: De la mort à la
+                  résurrection : chapitres 61 à 65 des Ouvertures spirituelles mekkoises,
+                  Beirut 2009; Paris 2009. Italian ʿAbdul-Hadi Agueli, “El-Akbariya”, Il Convito,
+                  Cairo (Egypt), 1907, pp. 48-50 (Chapter 401) Massimo Jevolella, L’alchimia
+                  della felicità, Como, 1996 (Chapter 167) Placido Fontanesi “Prologo del libro”,
+                  Rivista di studi tradizionali, 1997, (Khutbah) Placido Fontanesi,
+                  “Introduzione”, Rivista di studi tradizionali, 1998, pp. 22-56 (First part of
+                  Introduction) Placido Fontanesi, “La conoscenza degli uomini dello sconcerto”,
+                  Rivista di studi tradizionali, 1980, pp. 71-85 (Chapter 50) Placido Fontanesi,
+                  “La conoscenza dei pensieri satanici che affiorano alla coscienza”, Rivista di
+                  studi tradizionali, 1983, pp. 17-32 (Chapter 55) Placido Fontanesi, “Il
+                  pentimento” Rivista di studi tradizionali, 2003, pp. 205-231 (Chapter 74)
+                  Placido Fontanesi, “Lo scrupolo ed i suoi segreti”, Rivista di studi
+                  tradizionali, 1986, pp. 142-153 (Chapter 91) Placido Fontanesi, “La conoscenza
+                  della stazione spirituale dell’abbandono dello scrupolo”, Rivista di studi
+                  tradizionali, 1986, pp. 154-158 (Chapter 92) Placido Fontanesi, “La conoscenza
+                  della povertà e dei suoi segreti”, Rivista di studi tradizionali, 1985, pp.
+                  11-22 (Chapter 162) Placido Fontanesi, “La conoscenza della volontà”, Rivista
+                  di studi tradizionali, 1986, pp. 82-97 (Chapter 226) Placido Fontanesi, “La
+                  conoscenza della nafs”, Rivista di studi tradizionali, 1984, pp. 7-16 (Chapter
+                  267) Maurizio Marconi, ‘Testi deel al-Futuhat al-Makkiyya’, Azufre Rojo 7
+                  (2020) Maurizio Marconi, ‘Capitolo 2 di al-Futuhat al-Makkiyya’ in Azufre Rojo
+                  vol. 10 (2022)<br>German Wolfgang Herrman: Abhandlung Ẓber die Liebe,
+                  Zurich, 2009 (Chapter 178).</div>
+            </div>
+            <div class="row">
+               <div class="h4">Studies</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">Additions</div>
+               <div class="box-purple">Add La mise à jour de cette rubrique du RG. demandera
+                  un certain temps et réclamera le concours de tous les spécialistes. Elle devra,
+                  en effet, non seulement signaler les éditions postérieures (à commencer par
+                  l'édition critique entreprise par O.Y. lui-même) mais aussi recenser, aussi
+                  exhaustivement que possible: 1) les traductions partielles en diverses langues
+                  2) les commentaires (par ex. ceux dont W. Chittick a signalé les mss. dans son
+                  article "Notes on Ibn Arabî's influence in the Subcontinent", in The Muslim
+                  World, vol. LXXXII, n° 3-4, 1992, pp. 218-241). (MC)<br><br><br></div>
+            </div>
+            <div class="row">
+               <div class="h4">corrections</div>
+               <div class="box-purple"></div>
+            </div>
+            <div class="row">
+               <div class="h4">additions</div>
+               <div class="box-purple">RG 135 Al -Fath al-makkî Add La mise à jour de cette
+                  rubrique du RG. demandera un certain temps et réclamera le concours de tous les
+                  spécialistes. Elle devra, en effet, non seulement signaler les éditions
+                  postérieures (à commencer par l'édition critique entreprise par O.Y. lui-même)
+                  mais aussi recenser, aussi exhaustivement que possible: 1) les traductions
+                  partielles en diverses langues 2) les commentaires (par ex. ceux dont W.
+                  Chittick a signalé les mss. dans son article "Notes on Ibn Arabî's influence in
+                  the Subcontinent", in The Muslim World, vol. LXXXII, n° 3-4, 1992, pp.
+                  218-241). Que tous ceux qui détiennent des informations propres à enrichir
+                  cette rubrique qui est évidemment l'une des plus importantes du R.G. veuillent
+                  bien les faire parvenir à Jane Clark.</div>
+            </div>
+            <div class="row">
+               <div class="h4">msAdditions</div>
+               <div class="box-purple">Later!</div>
+            </div>
+            <div class="row">
+               <div class="h4">JC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">MC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AAS</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">Root</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">CA</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">SH</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">JC</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AK</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">MM</div>
+               <div class="box-purple">
+                  
+                  <p></p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="h4">AP</div>
+               <div class="box-purple">
+                  
+                  <p>Dates Give two composition dates. Mention date of the vision as well in
+                     composition. Chapters/asfār At some stage we may wish to encode some of the
+                     chapters that correspond to earlier or other works...</p>
+                  
+                  <p></p>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

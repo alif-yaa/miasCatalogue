@@ -27,19 +27,16 @@
                <title type="uniform" xml:lang="ara">كتاب النموذج الأزهر</title>
                <title type="full" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar fī fahrasat
                   mūʾallafāt al-shaykh al-akbar</title>
-               <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Namūdhaj</title>
+               <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-raqamī</title>
                <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-raqamī fī fahrasat mūʾallafāt Ibn al-ʿArabī
                </title>
                <title type="translation" xml:lang="eng" resp="AP">The Luminous Examplar for
                   Cataloguing the Works of Ibn al-ʿArabī</title>
-               <title type="translation" xml:lang="eng" resp="AP"></title>
-               <note type="titleNote">Optional field for discussion of the title of the work. <p>Variants are optional, and should
-                  later be imported from MS Titles for the sake of completion. Some alternate
-                  titles, e.g. when mentioned in the Fihrist or Ijāza, may also be recorded here
-                  even if there is no MS witness bearing that title. Whenever IA gives a work an
-                  alphanumeric title, this should also be given. </p><p>Translated titles are optional, and
-                     could later be imported from published translations (with a responsibility
-                     tag).</p><p>Multiple RG numbers are possible to handle duplicates in OY.</p></note>
+               <title type="translation" xml:lang="ger" resp="AP">Das Musterbeispiel für die Katalogisierung der Werke von Ibn al-ʿArabī. </title>
+               
+               <note type="titleNote"><p> It is possible to provide multiple RG numbers in order to handle duplicates in OY. The Alt. RG system may need revision. The xml:id is the normalized form of the title, which is usually the first meaningful word without any diacritical marks. In cases of ambiguity the beginning of the next word is given following a dash, e.g. hizb-wiq and hizb-ahad. </p><p>Most of Ibn al-ʿArabī's titles, in keeping with the conventions of his time, have a rhyming bipartite structure. The uniform title should generally be the first part of the title, which is usually the case in the File Maker database. The full title should consist of both rhyming elements, preferably as given by Ibn al-ʿArabī in the text of the work itself.</p> <p>It is possible to provide multiple variant titles, most of which will be automatically imported from the variants found on the MSS, though others, e.g. unusual variants mentioned by Ibn al-ʿArabī in the Fihrist or Ijāza, may also be recorded here
+                  even if there is no MS witness bearing that particular title. Instances when IA gives a work an
+                  alphanumeric title should also be given here as a variant. It is also possible to give multiple translated titles (in multiple languages), as well as indicating the person responsible for that translation.</p><p>This green box is an additional field for discussion of the title of the work. Discursive content has generally been distinguished by the colouration of the box.  </p> </note> 
                <!-- Textual Identifiers -->
                <incipit type="hamdala" xml:lang="ara-Latn-x-lc">Al-ḥamdu lillāh al-ladhī ḍaraba lanā
                   al-amthāl...</incipit>
@@ -56,26 +53,25 @@
                <explicit xml:lang="ara-Latn-x-lc">Wa-bi-hādhā yantahī Kitāb al-Namūdhaj
                   bi-ḥamdi-llāh wa-tawfīqihi</explicit>
                <explicit xml:lang="ara">وبهذا ينتهي كتاب النموذج بحمد الله وتوفيقه</explicit>
-               <note type="textualIdentifiersNote">Optional field for discussion of incipits,
-                  explicits, and other textual identifiers. Also possible to add other textual identifiers (e.g., in Arabic script, or complete khuṭba) that are currently stored in the back end, but could be displayed at a later date. <p>Connected to this point, the architecture is in place to make the database fully bilingual, if this is something the Trustees would like to see down the line.</p></note>
+               <note type="textualIdentifiersNote">
+                  <p>Currently, the File Maker database only includes an incipit (usually the first part of the ḥamdala), but it may be useful to also include an explicit, especially as the first page or pages of a text often go missing. It is also possible to encode other incipits (e.g. complete khuṭba, first line after amma baʿd).</p>
+                  <p>The new database also allows for the same incipit to be encoded in both Arabic and transliteration. Connected to this point, the architecture is in place to make the database fully bilingual (or even multilingual), if this is something the Trustees would like to see in the future.</p>
+                  <p>This is an optional field for further discussion of incipits,
+                  explicits, and other textual identifiers. </p></note>
                <!-- Authorship and Editorial Roles -->
                <author cert="high" key="APor">Ali Porteous</author>
-               <author cert="high" key="key">Multiple authors can be added.</author>
-               <editor role="cwt" key="APor">Ali Porteous (if the work is a commentary, someone can be
-                  listed as both author and commentator)</editor>
-               <editor role="rcp" key="SHir">Stephen Hirtenstein (if the work is addressed to
-                  someone)</editor>
-               <editor role="dub" key="JCoo">Julian Cook (if the work is mistakenly attributed to someone)</editor>
-               <editor role="att" key="JCoo">Julian Cook (if the work is attributed to someone, and we cannot be sure it is a mistake)</editor>
-               <editor role="dte" key="FYou">Frank Youakim (if the work is dedicated to someone) </editor>
-               <editor role="code" key="key">As many roles can be added as needed. The roles are inputted according to the MARC Code List for Relators.
-               </editor>
+               <editor role="cwt" key="APor">Ali Porteous</editor>
+               <editor role="rcp" key="SHir">Stephen Hirtenstein </editor>
+               <editor role="dub" key="JCoo">Julian Cook</editor>
+               <editor role="dte" key="FYou">Frank Youakim </editor>
                <note type="verification" subtype="A">For MIAS classification</note>
                <note type="authenticationType">e.g. Holograph, Autograph, Copy</note>
-               <note type="authenticityNote">This field is for discussion about the authenticity of
+               <note type="authenticityNote"><p> The Verification and Authentication fields are only currently relevant for IA's works, but they could conceivably be adapted and extended at a later date (e.g. to include works of SQ).</p>
+                  <p>The Authentication field currently only contains one of three options: Holograph, Autograph, or Copy (copy from an autograph MS).</p>
+                  <p>This field is for discussion about the authenticity of
                   the work, especially useful in cases where there is no scholarly consensus or
                   clear evidence, such as the "Probable IA" and "Unverified" categories. Also useful
-                  for exaplining the reason for spurious works or misattributions being classified as such. <p> The Verification and Authentication fields are only currently relevant for IA's works, but they could conceivably be adapted and extended at a later date (e.g. to include works of SQ). </p></note>
+                  for explaining the reason for spurious works or misattributions being classified as such.</p> </note>
                <!-- Composition History -->
                <date when="2024-09-05" calendar="Hijri-qamari">2 Rabiʻ I 1446 AH</date>
                <date when="2024-09-05" calendar="Gregorian">5 September 2024 CE</date>
@@ -88,27 +84,28 @@
                </placeName>
                <note type="placeNote">Note on Place of Composition</note>
                <!-- EDIT: REMOVE. Provide info in compositionNote -->
-               <note type="compositionNote"><p>This field is for discussion of the composition of the
+               <note type="compositionNote"><p>It is possible in the new database to give multiple authors as well as multiple "editors" or other relations to the work (see below). Roles are inputted according to the MARC Code List for Relators, including: abr (abridger), ant (bibliographic antecedent), att (attribution), cwt (commentator), com (compiler), dub (dubious attribution) etc.   </p> <p>Three levels of place are possible in the new database: 1. location (e.g. 'in the house of the author' or 'by the Kaʿba'); 2. settlement (name of relevant city, town or village); and 3. region (e.g. Maghreb, Anatolia). Currently, the FM database tends only to record the settlement under 'place', though for many works it will be relatively easy to integrate a more granular approach, as this information is provided in discursive fields. </p>
+                  <p> In the new system dates can (and should) be entered in both Hijrī and Gregorian, and can be inputted to the level of year, month, and day in a machine-readable format, which will make querying the database for temporal data much easier. The new database also has fields for terminus post quem and terminus ante quem data, to allow for the encoding of approximate dating when the exact date is unknown. A lot of these data is provided in FileMaker though in a slightly ad hoc way, which will need to be normalized</p>
+                  <p>This field is for discursive information about the composition of the
                   work: inception (e.g. vision, companion’s question/request, etc.), original
                   composition (date/period, place, and context first written), rewritings and
-                  revisions (later recensions, rewritings, revisions).</p> <p>Three levels of location are possible in the new database: place (e.g. the house of the author or by the Kaʿba); settlement (for the name of cities, towns or villages); and regions (e.g. Maghrab). Currently, the FM database tends only to record the settlement, though for many works it will be relatively easy to integrate a more granular approach. </p>
-                  <p> Dates are given in hijrī and Gregorian, and can be inputted to the level of year, month, and day in a machine-readable format, which will make querying the database for temporal data much easier. The new database also has fields for for terminus post quem and terminus ante quem data, to allow for the encoding of approximate dating when the exact date is unknown. </p>
+                  revisions (later recensions, rewritings, revisions).</p> 
                </note>
                <!-- Contents -->
                <noteGrp type="workDesc">
-                  <note type="description">This field is for detailed discussion and description of
-                     the intellectual contents of the work, and currently contains the migrated data from FileMaker.</note>
-                  <note type="structure">Optional field for additional information on the structure
-                     of the work, especially chapters, sections, divisions, and conceptual structuring if
+                  <note type="description"><p>This field is for detailed discussion and description of
+                     the intellectual contents of the work, and currently contains the  description data migrated from FileMaker.</p></note>
+                  <note type="structure">This is an optional field for additional information specifically on the structure
+                     of the work, such as chapters, sections, divisions, and conceptual structuring if
                      relevant.</note>
-                  <note type="contentsNote">Optional field for additional information on the
+                  <note type="contentsNote">This is an optional field for more general additional information on the
                      intellectual contents and relevance of the work, including an improved summary
                      of contents, major themes, relevance to wider oeuvre, as well as the work's
                      immediate and later reception.</note>
                </noteGrp>
                <!-- Stemmatics -->
-               <note type="stemmatics">This field is for a detailed discussion of the manuscripts
-                  and stemmatics of the text, as well as the mss used for critical editions.</note>
+               <note type="stemmatics"><p>This field is for a detailed discussion of the manuscripts
+                  and stemmatics of the text, as well as the mss used for critical editions, and currently contains the "biblio. comments" data migrated from FileMaker.</p></note>
                <!-- Related Works -->
                <relatedItem type="sum">
                   <ref target="#work">Ikhtiṣār al-Namudhāj</ref>
@@ -116,50 +113,43 @@
                <relatedItem type="com">
                   <ref target="#work">K. Itqān al-barnāmaj fī sharḥ al-Namudhāj</ref>
                </relatedItem>
-               <note type="relationsNote">Optional field for elaborating on relations to other works, which could be especially useful for extracts of works that circulate indepedentally, or reworkings of similar material. </note>
+               <note type="relationsNote"><p>The usefulness of this section will become apparent once commentaries and extracts have also been migrated. I do not know of a standardised system or code list for relations between works so have devised my own, including: ext (extract), com (commentary), adp (adaptation), sum (summary), ant (antecedent). The reverse relationship is indicated by the same code with a dash: ext- (extract from), com- (commentary on), adp- (adaptation of), sum- (summary of), ant- (antecedent of).   </p><p>This is an optional field for elaborating on relations to other works, which could be especially useful for extracts of works that circulate independently, or reworkings of similar material.</p> </note>
                <!-- References to This Work in Other Works -->
                <noteGrp type="references">
                   <note type="ijaza" resp="Badawi" n="">1001</note>
                   <note type="fihrist" resp="Awwad" n="">1001</note>
                   <note type="futuhat" resp="OY">
-                     <ref>Vol. 99, Ch. 8</ref>Osman Yahya's <hi rend="italic">Futūḥāt</hi>
+                     <ref>Vol. 99, Ch. 8</ref><p>Osman Yahya's <hi rend="italic">Futūḥāt</hi>
                      references will need to be checked, as the database doesn't currently
                      distinguish between where OY indicates there is a mention of the given work,
-                     and where he merely says similar topics also treated in the <hi rend="italic">Futūḥāt</hi> (which is not the purposes of this field here).</note>
+                     and where he merely says similar topics also treated in the <hi rend="italic">Futūḥāt</hi> (which is not the purposes of this field here).</p> <p> This field is to provide the relevant quotation from the FM.</p></note>
                   <note type="other">
                      <ref type="work" target="#work">al-Namūdhaj al-thānī</ref>
-                     <ref type="locus">p.4</ref>References in other works. This is imported from
+                     <ref type="locus">p.4</ref>This field is for references to this entry in other works. This data is imported from
                      FileMaker. In the future it may be easier to record all the mentions within a
                      work, and then use scripted automations to display that data in the mentioned
-                     work. This means information only needs to be recorded twice. The Ijāza and
-                     Fihrist are obviously special cases. </note>
+                     work. This means cross-references only needs to be recorded once, but displayed under both relevant works. The Ijāza and
+                     Fihrist (and arguably Futūḥāt) are special cases, so have received slightly different treatment. </note>
                   <note type="other">
                      <ref type="work" target="#work">Title of work</ref>
                      <ref type="locus">Reference to edition and page number.</ref>Again multiple
                      entries are possible. </note>
                   <note type="ijaza" resp="MIAS">
-                     <ref target="#ijaza">999</ref>This work is refered to in the Ijāza as <q rend="italic">K. al-Numūdhaj</q>. <p> Not a real reference. For
-                        demonstration purposes only. References can also be given to Badawī's
-                        edition, since this data has already been entered in the database (via OY)
-                     </p>
+                     <ref target="#ijaza">999</ref><p>References to the Ijāza and Fihrist are currently to Badawī and ʿAwwād's editions from the 1950s (via OY). The new system keeps this data from FileMaker while also making it possible to add new references to Bakrī's more recent edition
+                     </p> <p>This field is for the relevant citation from the Ijāza.</p>
                   </note>
                   <note type="fihrist" resp="MIAS">
-                     <ref target="#fihrist">999</ref>This work is refered to in the Fihrist as <q rend="italic">K. al-Numūdhaj al-azhar</q>. <p> Not a real reference. For
-                        demonstration purposes only. References can also be given to ʿAwwād's
-                        edition, since this data has already been entered in the database (via OY)
-                     </p>
+                     <ref target="#fihrist">999</ref><p>This field is for the relevant citation from the Fihrist.</p>
                   </note>
                   <note type="futuhat" resp="MIAS">
                      <ref target="#futuhat">Vol.99, p.99 (Manṣūb)</ref>Multiple references to FM can
-                     be given if necessary.</note>
-                  <note type="futuhat" resp="MIAS">
-                     <ref target="#futuhat">Vol. 1001, p.1001</ref>Like this.</note>
+                     be given if necessary, as well as specifying the edition the reference is from.</note>
                </noteGrp>
                <!-- References in This Work to Other Works -->
                <noteGrp type="mentions">
                   <note type="mention">
-                     <ref type="work" target="#fusus">Fuṣūṣ al-ḥikam</ref>Edition and page
-                     number.<ref type="locus">p.5</ref> Let's say this works mentions the FH. </note>
+                     <ref type="work" target="#fusus">Title of mentioned work of work </ref><ref type="locus">Edition and page
+                        number.</ref> Let's say this works mentions the FH. </note>
                   <note type="mention">
                      <ref type="work" target="#work">Title of work</ref>
                      <ref type="locus"/>This "References" section is relevant for establishing a
