@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R. Rūḥ al-quds fī munāṣaḥat al-nafs | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="ruh">
+            <idno type="RG">639</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">65</idno>
+            <idno type="keyword">ruh</idno>
+            <idno type="normalized">ruh-qud</idno>
+            <idno type="alifba">روح القدس في مناصحة النفس</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">R. Rūḥ al-quds fī munāṣaḥat al-nafs</title>
+            <title type="uniform" xml:lang="ara">رسالة روح القدس في مناصحة النفس</title>
+            <title type="full" xml:lang="ara-Latn-x-lc"/>
+            <title type="variant" xml:lang="ara-Latn-x-lc">The Holy Spirit in the Counselling of the Soul</title>
+            <title type="translation" xml:lang="eng">The Holy Spirit in the Counselling of the Soul</title>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">min al-ʿabd al-ḍaʿīf al-nāṣiḥ al-shafīq al-maʾmūr bi-l-naṣḥ</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authenticationType" subtype="A">Autograph</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">600H</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">600</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Mecca</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Treatise originally addressed to Ibn ʿArabī’s friend in Tunis, al-Mahdawī, describing the way in which the soul is educated and advised by the Holy Spirit through the example of previous generations, present-day masters and by direct inspiration. The middle section, describing his early education with over 70 teachers in Spain and North Africa, was translated by R W J Austin in the 1970s and published as Sufis of Andalusia (London, 1971); it has subsequently become one of the best known texts by IA in modern times.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A much copied work, verified by three historic mss. The best is undoubtedly University A79 which is in the hand of SQ’s father and is the riwāya (transmission) of al-Ḥabashī, dated 600H, with at least nine samāʿs in IA’s lifetime.</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n=""/>
+               <note type="fihrist" resp="Awwad" n="52">52</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions">Universite 79a, 1-103, autograph, sema</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p/>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Critical Edition, alongside an Urdu translation, published by The Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2012). Ed. Abrār Aḥmad Shāhī.</note>
+               <note type="translations">There is no complete translation of this work. The following cover only four of its five parts. Partial English translation (middle section) by R W J Austin: Sufis of Andalusia, London, 1971; reprinted Hawick, 2001. Partial English translation (first and last sections) by Roger Boase and Farid Sahnoun: ‘Excerpts from the Epistle on the Spirit of Holiness’ in Muhyiddin Ibn ʿArabī (1165-1240), Ed. Stephen Hirtenstein and Michael Tiernan, Oxford, 1993. Partial French translation by R W J Austin; Gérard Lecomte: Les Soufis d'Andalousie : (Rûh al-quds et ad-Durrat al-fâkhirah), Paris 1979; 1988.</note>
+               <note type="translationsEur">Partial Spanish translations by Miguel Asín Palacios: Vidas de Santones Andaluces, Madrid, 1935. Partial Spanish translation of Part 3 by Miguel Asín Palacios: Risalat al-Quds, Madrid 1939. Partial Spanish translation by R W J Austin, David García Valverde: Los Sufis de Andalucia, Malaga, 1990. Partial German translation by Alma Geise: Ibn ʿArabī: Urwolke und Welt, Munich 2002.</note>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2">The stories are translated by R W J Austin as Sufis of Andalusia. The Ghurab edition is not a critical edition.</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

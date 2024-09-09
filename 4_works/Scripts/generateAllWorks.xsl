@@ -43,7 +43,7 @@
                         <xsl:copy-of select="document('../Works/azal.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/azama.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/ba.xml')//tei:bibl"/>
-                        <xsl:copy-of select="document('../Works/dana.xml')//tei:bibl"/>
+                        <xsl:copy-of select="document('../Works/fana.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/dhakhair.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/diwan.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/fihrist.xml')//tei:bibl"/>
@@ -133,6 +133,8 @@
                         <xsl:copy-of select="document('../Works/wasiyya-kayf.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/waz.xml')//tei:bibl"/>
                         <xsl:copy-of select="document('../Works/yaqin.xml')//tei:bibl"/>
+                        <!-- Include examplar -->
+                        <xsl:copy-of select="document('../Works/namudhaj.xml')//tei:bibl"/>
                     </listBibl>
                 </body>
             </text>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>K. al-Namūdhaj al-azhar | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="namudhaj">
+            <idno type="RG">999</idno>
+            <idno type="RG">1000a</idno>
+            <idno type="Alt_RG">1001</idno>
+            <idno type="RECORDID">0</idno>
+            <idno type="keyword">namudhaj</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar</title>
+            <title type="uniform" xml:lang="ara">كتاب النموذج الأزهر</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar fī fahrasat
+                  mūʾallafāt al-shaykh al-akbar</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Namūdhaj</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-raqamī fī fahrasat mūʾallafāt Ibn al-ʿArabī
+               </title>
+            <title type="translation" xml:lang="eng" resp="AP">The Luminous Examplar for
+                  Cataloguing the Works of Ibn al-ʿArabī</title>
+            <title type="translation" xml:lang="eng" resp="AP"/>
+            <note type="titleNote">Optional field for discussion of the title of the work. <p>Variants are optional, and should
+                  later be imported from MS Titles for the sake of completion. Some alternate
+                  titles, e.g. when mentioned in the Fihrist or Ijāza, may also be recorded here
+                  even if there is no MS witness bearing that title. Whenever IA gives a work an
+                  alphanumeric title, this should also be given. </p>
+               <p>Translated titles are optional, and
+                     could later be imported from published translations (with a responsibility
+                     tag).</p>
+               <p>Multiple RG numbers are possible to handle duplicates in OY.</p>
+            </note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">Al-ḥamdu lillāh al-ladhī ḍaraba lanā
+                  al-amthāl...</incipit>
+            <incipit type="hamdala" xml:lang="ara">الحمد لله الذي ضرب لنا الأمثال</incipit>
+            <!-- Arabic Script Optional -->
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Amma baʿd allaftu hādhā al-kitāb
+                  li-yakūna namūdhajan jāmiʿan li-fihrist al-aʿmāl... </incipit>
+            <!-- Optional - for the incipit after the amma baʿd -->
+            <incipit type="muqadimma" xml:lang="ara">أمّا بعد ألّفتُ هذا الكتاب ليكون نموذجاً
+                  جامعًا لفهرست الأعمال</incipit>
+            <!-- Optional -->
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc">Wa-bi-hādhā yantahī Kitāb al-Namūdhaj
+                  bi-ḥamdi-llāh wa-tawfīqihi</explicit>
+            <explicit xml:lang="ara">وبهذا ينتهي كتاب النموذج بحمد الله وتوفيقه</explicit>
+            <note type="textualIdentifiersNote">Optional field for discussion of incipits,
+                  explicits, and other textual identifiers. Also possible to add other textual identifiers (e.g., in Arabic script, or complete khuṭba) that are currently stored in the back end, but could be displayed at a later date. <p>Connected to this point, the architecture is in place to make the database fully bilingual, if this is something the Trustees would like to see down the line.</p>
+            </note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="APor">Ali Porteous</author>
+            <author cert="high" key="key">Multiple authors can be added.</author>
+            <editor role="cwt" key="APor">Ali Porteous (if the work is a commentary, someone can be
+                  listed as both author and commentator)</editor>
+            <editor role="rcp" key="SHir">Stephen Hirtenstein (if the work is addressed to
+                  someone)</editor>
+            <editor role="dub" key="JCoo">Julian Cook (if the work is mistakenly attributed to someone)</editor>
+            <editor role="att" key="JCoo">Julian Cook (if the work is attributed to someone, and we cannot be sure it is a mistake)</editor>
+            <editor role="dte" key="FYou">Frank Youakim (if the work is dedicated to someone) </editor>
+            <editor role="code" key="key">As many roles can be added as needed. The roles are inputted according to the MARC Code List for Relators.
+               </editor>
+            <note type="verification" subtype="A">For MIAS classification</note>
+            <note type="authenticationType">e.g. Holograph, Autograph, Copy</note>
+            <note type="authenticityNote">This field is for discussion about the authenticity of
+                  the work, especially useful in cases where there is no scholarly consensus or
+                  clear evidence, such as the "Probable IA" and "Unverified" categories. Also useful
+                  for exaplining the reason for spurious works or misattributions being classified as such. <p> The Verification and Authentication fields are only currently relevant for IA's works, but they could conceivably be adapted and extended at a later date (e.g. to include works of SQ). </p>
+            </note>
+            <!-- Composition History -->
+            <date when="2024-09-05" calendar="Hijri-qamari">2 Rabiʻ I 1446 AH</date>
+            <date when="2024-09-05" calendar="Gregorian">5 September 2024 CE</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">1446</date>
+            <date type="TPQ" notBefore="2024" calendar="Hijri-qamari">1446</date>
+            <date type="TAQ" notAfter="2024" calendar="Hijri-qamari">1446 AH</date>
+            <placeName key="key">The Taylorian Library
+                  <settlement>Oxford</settlement>
+               <region>UK</region>
+            </placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <!-- EDIT: REMOVE. Provide info in compositionNote -->
+            <note type="compositionNote">
+               <p>This field is for discussion of the composition of the
+                  work: inception (e.g. vision, companion’s question/request, etc.), original
+                  composition (date/period, place, and context first written), rewritings and
+                  revisions (later recensions, rewritings, revisions).</p>
+               <p>Three levels of location are possible in the new database: place (e.g. the house of the author or by the Kaʿba); settlement (for the name of cities, towns or villages); and regions (e.g. Maghrab). Currently, the FM database tends only to record the settlement, though for many works it will be relatively easy to integrate a more granular approach. </p>
+               <p> Dates are given in hijrī and Gregorian, and can be inputted to the level of year, month, and day in a machine-readable format, which will make querying the database for temporal data much easier. The new database also has fields for for terminus post quem and terminus ante quem data, to allow for the encoding of approximate dating when the exact date is unknown. </p>
+            </note>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">This field is for detailed discussion and description of
+                     the intellectual contents of the work, and currently contains the migrated data from FileMaker.</note>
+               <note type="structure">Optional field for additional information on the structure
+                     of the work, especially chapters, sections, divisions, and conceptual structuring if
+                     relevant.</note>
+               <note type="contentsNote">Optional field for additional information on the
+                     intellectual contents and relevance of the work, including an improved summary
+                     of contents, major themes, relevance to wider oeuvre, as well as the work's
+                     immediate and later reception.</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">This field is for a detailed discussion of the manuscripts
+                  and stemmatics of the text, as well as the mss used for critical editions.</note>
+            <!-- Related Works -->
+            <relatedItem type="sum">
+               <ref target="#work">Ikhtiṣār al-Namudhāj</ref>
+            </relatedItem>
+            <relatedItem type="com">
+               <ref target="#work">K. Itqān al-barnāmaj fī sharḥ al-Namudhāj</ref>
+            </relatedItem>
+            <note type="relationsNote">Optional field for elaborating on relations to other works, which could be especially useful for extracts of works that circulate indepedentally, or reworkings of similar material. </note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="">1001</note>
+               <note type="fihrist" resp="Awwad" n="">1001</note>
+               <note type="futuhat" resp="OY">
+                  <ref>Vol. 99, Ch. 8</ref>Osman Yahya's <hi rend="italic">Futūḥāt</hi>
+                     references will need to be checked, as the database doesn't currently
+                     distinguish between where OY indicates there is a mention of the given work,
+                     and where he merely says similar topics also treated in the <hi rend="italic">Futūḥāt</hi> (which is not the purposes of this field here).</note>
+               <note type="other">
+                  <ref type="work" target="#work">al-Namūdhaj al-thānī</ref>
+                  <ref type="locus">p.4</ref>References in other works. This is imported from
+                     FileMaker. In the future it may be easier to record all the mentions within a
+                     work, and then use scripted automations to display that data in the mentioned
+                     work. This means information only needs to be recorded twice. The Ijāza and
+                     Fihrist are obviously special cases. </note>
+               <note type="other">
+                  <ref type="work" target="#work">Title of work</ref>
+                  <ref type="locus">Reference to edition and page number.</ref>Again multiple
+                     entries are possible. </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza">999</ref>This work is refered to in the Ijāza as <q rend="italic">K. al-Numūdhaj</q>. <p> Not a real reference. For
+                        demonstration purposes only. References can also be given to Badawī's
+                        edition, since this data has already been entered in the database (via OY)
+                     </p>
+               </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist">999</ref>This work is refered to in the Fihrist as <q rend="italic">K. al-Numūdhaj al-azhar</q>. <p> Not a real reference. For
+                        demonstration purposes only. References can also be given to ʿAwwād's
+                        edition, since this data has already been entered in the database (via OY)
+                     </p>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat">Vol.99, p.99 (Manṣūb)</ref>Multiple references to FM can
+                     be given if necessary.</note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat">Vol. 1001, p.1001</ref>Like this.</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref type="work" target="#fusus">Fuṣūṣ al-ḥikam</ref>Edition and page
+                     number.<ref type="locus">p.5</ref> Let's say this works mentions the FH. </note>
+               <note type="mention">
+                  <ref type="work" target="#work">Title of work</ref>
+                  <ref type="locus"/>This "References" section is relevant for establishing a
+                     chronology of IA's works, as well as providing additional information about
+                     what he says about his own works.</note>
+            </noteGrp>
+            <note type="referencesNote">Optional field for discussion of cross-references within
+                  IA's oeuvre.</note>
+            <!-- Additional Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">The following seven fields were generally used inconsistently in
+                     FM, and it is not clear whether the data they contain has always been integrated into the main database. They may still contain
+                     relevant information, so have been imported pending their resolution.</note>
+               <note type="translations"/>
+               <note type="translationsEur"/>
+               <note type="studies"/>
+               <note type="additions" n="1"/>
+               <note type="additions" n="2"/>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections"/>
+               <note resp="additions"/>
+               <note resp="msAdditions"/>
+               <note resp="JC">
+                  <p>The following fields are to hold scholars' comments from the
+                        website. Most of these will hopefully be resolved and integrated, but others can remain
+                        here (even if not displayed) so the information is not lost.</p>
+                  <p/>
+               </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p>These are Ali's notes either to self or to others that are relevant to a
+                        particular work, or the migration process. Will be resolved and deleted</p>
+               </note>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+               <note type="adminNote">Additional administrative notes relevant to individual works can be added here</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>

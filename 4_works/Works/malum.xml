@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm | MIAS Catalogue</title>
+            <title>R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ
+                  al-rusūm | MIAS Catalogue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,79 +24,97 @@
             <idno type="normalized">malum</idno>
             <idno type="alifba">المعلوم من عقائد علماء الرسوم</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ
+                  al-rusūm</title>
             <title type="uniform" xml:lang="ara">رسالة المعلوم من عقائد علماء الرسوم</title>
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">ajtamaʿa arbaʿat nafar min al-ʿulamā fī qubbat Arīn</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">ajtamaʿa arbaʿat nafar min al-ʿulamā
+                  fī qubbat Arīn</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticationType" subtype="C">Copy</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">602</date>
+            <date when="1203" calendar="Hijri-qamari">602</date>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">762</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace">Damascus</placeName>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement>Damascus</settlement>
+               <region/>
+            </placeName>
             <note type="compositionNote">Damascus on 3 Jumādā 602H (Vel.51/114a)</note>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">Treatise on four kinds of knowers (ʿulamāʾ) at the Well of Arīn (axis mundi): those of the west (maghrib), those of the east (mashriq), those of the north (shimāl) and those of the south (yamīn), and their kinds of knowledge. See also FM 1:38-41.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">Treatise on four kinds of knowers (ʿulamāʾ) at the Well
+                     of Arīn (axis mundi): those of the west (maghrib), those of the east (mashriq),
+                     those of the north (shimāl) and those of the south (yamīn), and their kinds of
+                     knowledge. See also FM 1:38-41.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">OY cites seven mss. Verified by one historic ms.,Veliyuddin 51 (762H, copied from an original composed in Damascus in 602H). Milli 2988 is the same text, but the other two mss. we have consulted are different texts. Confused with RG 34 and others. Further work needed. Further mss identified by JC: Tunis, Dar al-Kutub al-Wataniya 641, and Escurial ms 417 / 4 (f. 117-131?)</note>
+            <note type="stemmatics">OY cites seven mss. Verified by one historic ms.,Veliyuddin
+                  51 (762H, copied from an original composed in Damascus in 602H). Milli 2988 is the
+                  same text, but the other two mss. we have consulted are different texts. Confused
+                  with RG 34 and others. Further work needed. Further mss identified by JC: Tunis,
+                  Dar al-Kutub al-Wataniya 641, and Escurial ms 417 / 4 (f. 117-131?)</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n="66">66</note>
                <note type="fihrist" resp="Awwad" n="62">62</note>
-               <note type="fut_mak" resp="OY">1, 38-41</note>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref>1, 38-41</ref>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -138,7 +157,8 @@
                   <p/>
                </note>
                <note resp="AP">
-                  <p>Jane and Denis (vel.51): At the end, on 114a, there is a note saying that it was composed in Damascus on 3rd Jumâdâ al-ûlâ of the year 602</p>
+                  <p>Jane and Denis (vel.51): At the end, on 114a, there is a note saying that it
+                        was composed in Damascus on 3rd Jumâdâ al-ûlâ of the year 602</p>
                   <p/>
                </note>
             </noteGrp>
@@ -156,6 +176,7 @@
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

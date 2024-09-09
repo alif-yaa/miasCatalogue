@@ -28,77 +28,99 @@
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">samʿatu sayyidī Muhyī al-Dīn yaqūl wa-kunā fī khalwa</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">samʿatu sayyidī Muhyī al-Dīn yaqūl
+                  wa-kunā fī khalwa</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="medium" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="B">Verified B</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari"/>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace"/>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement/>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">A record of the discussions on various topics which Ibn Sawdakīn (d. 646) had with his master Ibn ʿArabī. The content includes that of K. al-Wasāʾil by Ibn Sawdakīn (RG 436), which is really an extract of this longer work.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">A record of the discussions on various topics which Ibn
+                     Sawdakīn (d. 646) had with his master Ibn ʿArabī. The content includes that of
+                     K. al-Wasāʾil by Ibn Sawdakīn (RG 436), which is really an extract of this
+                     longer work.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">OY states that there are no extant mss of this work, but three copies have now been found: the earliest is Zahiriyya 16632, which is in the hand of al-Farghānī, probably dateable to 660s. There are also much later less reliable copies in the Budeiri library, 142, and in the Dar al-Kutub, Cairo, Taymur 147. Further mss identified by JC: Damascus al-Assad (http://www.alassad-library.gov.sy/Search_makhtotat2013.php): 16627/2 which follows IA’s ʿAqīda, dated 955.</note>
+            <note type="stemmatics">OY states that there are no extant mss of this work, but
+                  three copies have now been found: the earliest is Zahiriyya 16632, which is in the
+                  hand of al-Farghānī, probably dateable to 660s. There are also much later less
+                  reliable copies in the Budeiri library, 142, and in the Dar al-Kutub, Cairo,
+                  Taymur 147. Further mss identified by JC: Damascus al-Assad
+                  (http://www.alassad-library.gov.sy/Search_makhtotat2013.php): 16627/2 which
+                  follows IA’s ʿAqīda, dated 955.</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n=""/>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
-               <note resp="additions">Corr La brève notice d'O.Y. est ambigüe. Ce titre, comme le confirme Sha'rânî (Al-yawâqit wa l-jawâhir, Le Caire, 1369h., II, p. 182) est celui d'un recueil dans lequel Ibn Sawdakîn a rassemblé des propos d'Ibn Arabî.</note>
+               <note resp="additions">Corr La brève notice d'O.Y. est ambigüe. Ce titre, comme le
+                     confirme Sha'rânî (Al-yawâqit wa l-jawâhir, Le Caire, 1369h., II, p. 182) est
+                     celui d'un recueil dans lequel Ibn Sawdakîn a rassemblé des propos d'Ibn
+                     Arabî.</note>
                <note resp="msAdditions"/>
                <note resp="JC">
                   <p/>
@@ -137,7 +159,10 @@
                   <p/>
                </note>
                <note resp="AP">
-                  <p>People: Ibn Sawdakīn - compiler and author (?) &lt;persName role="com" key="person_0000"&gt;Ibn Sawdakīn&lt;/persName&gt; &lt;author cert="high" key="person_0000"&gt;Ibn Sawdakīn&lt;/author&gt; Related item: K. al-Wasāʾil by Ibn Sawdakīn (RG 436) is an extract of K. Lawāqiḥ al-asrār (368.1)</p>
+                  <p>People: Ibn Sawdakīn - compiler and author (?) &lt;persName role="com"
+                        key="person_0000"&gt;Ibn Sawdakīn&lt;/persName&gt; &lt;author cert="high"
+                        key="person_0000"&gt;Ibn Sawdakīn&lt;/author&gt; Related item: K. al-Wasāʾil
+                        by Ibn Sawdakīn (RG 436) is an extract of K. Lawāqiḥ al-asrār (368.1)</p>
                   <p/>
                </note>
             </noteGrp>
@@ -155,6 +180,7 @@
             <noteGrp type="admin">
                <note type="archive">Y</note>
                <note type="library"/>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

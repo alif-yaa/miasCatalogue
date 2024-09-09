@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm | MIAS Catalogue</title>
+            <title>K. al-Jawāb al-mustaqīm ʿammā saʾal
+                  ʿanhu al-Tirmidhī al-Ḥakīm | MIAS Catalogue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,84 +24,106 @@
             <idno type="normalized">jaw-mus</idno>
             <idno type="alifba">الجواب المستقيم عما سأل عنه الترمذي الحكيم</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm</title>
-            <title type="uniform" xml:lang="ara">كتاب الجواب المستقيم عما سأل عنه الترمذي الحكيم</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Jawāb al-mustaqim ʿanmā saʾala ʿanhu al-Tirmidhī al-ḥakīm</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Jawāb al-mustaqīm ʿammā saʾal
+                  ʿanhu al-Tirmidhī al-Ḥakīm</title>
+            <title type="uniform" xml:lang="ara">كتاب الجواب المستقيم عما سأل عنه الترمذي
+                  الحكيم</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. al-Jawāb al-mustaqim ʿanmā saʾala
+                  ʿanhu al-Tirmidhī al-ḥakīm</title>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">saʾalt ayuhā al-akh al-waliyy al-ḥamīm an ashraḥ laka al-masāʾil al-rūhāniyya</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">saʾalt ayuhā al-akh al-waliyy
+                  al-ḥamīm an ashraḥ laka al-masāʾil al-rūhāniyya</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
             <note type="authenticationType" subtype="H">Holograph</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">603</date>
+            <date when="1203" calendar="Hijri-qamari">603</date>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">617?</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace"/>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement/>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">A response to various questions about mystical and esoteric matters posed by al-Tirmidhī (d. 285/898) in his famous work, Khatm al-awliyāʾ (Seal of the Saints). It consists of 55 questions and answers. A similar section is included in FM 2:39-139, but according to Michel Chodkiewicz it is not identical to this work.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">A response to various questions about mystical and
+                     esoteric matters posed by al-Tirmidhī (d. 285/898) in his famous work, Khatm
+                     al-awliyāʾ (Seal of the Saints). It consists of 55 questions and answers. A
+                     similar section is included in FM 2:39-139, but according to Michel Chodkiewicz
+                     it is not identical to this work.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">OY lists 11 mss., the best being Veliyuddin 1759, which is a holograph, undated but necessarily before 638H. OY dates the composition as 603H based on a note on Beyazit 3750 (253b), but we could not find any indication of this; it looks as if there has been confusion with another work in the same collection.</note>
+            <note type="stemmatics">OY lists 11 mss., the best being Veliyuddin 1759, which is a
+                  holograph, undated but necessarily before 638H. OY dates the composition as 603H
+                  based on a note on Beyazit 3750 (253b), but we could not find any indication of
+                  this; it looks as if there has been confusion with another work in the same
+                  collection.</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n=""/>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
                <note resp="additions"/>
-               <note resp="msAdditions">veliyuddin 1759, 62-78b, autograph, but the beginning is missing</note>
+               <note resp="msAdditions">veliyuddin 1759, 62-78b, autograph, but the beginning is
+                     missing</note>
                <note resp="JC">
                   <p/>
                   <p/>
@@ -148,7 +171,22 @@
                <note type="translations"/>
                <note type="translationsEur"/>
                <note type="studies"/>
-               <note type="additions" n="1">Add A titre d'informations complémentaires je signale que le fameux questionnaire de Tirmidhî a suscité d'autres réponses: -Qurrat-al-'ayn fî l-jawâb 'an al-as'ila al-muwadda'a fî khabi'at al-kawn; (inédit sauf erreur); ouvrage du shaykh Ahmad al-'Ayyâshî Sukayraj al-Ansârî, shaykh tijânî mort en 1944. -Al-jawâb al-shafî 'alâ as'ilat al-Hakîm al-Tirmidhî, (Le Caire, 1987) dont l'auteur, Muhammad 'Alî Salâma identifie le khatm muhammadî avec le shaykh égyptien Abû l-'Azâ'im, mort en 1938. Je n'ai pu lire le premier de ces deux ouvrages; le second est d'une décevante platitude. Corr Contrairement à ce qu'indiquait O. Y. cet ouvrage n'est pas "inclus dans les Futûhât ", ainsi que l'a d'ailleurs montré O.Y. lui-même par la suite dans son édition du Khatm al-awliyâ' de Tirmidhî, Beyrouth 1965. Il publie en effet en notes (pp. 142 à 326) les réponses au questionnaire de Tirmidhî qui figurent dans le Jawâb mustaqîm et celles, beaucoup plus longues et très différentes dans leur contenu, qui se trouvent dans le chapitre 73 des Futûhât. Les deux textes ont le même objet mais ne peuvent en aucune façon être considérés comme identiques. (MC)</note>
+               <note type="additions" n="1">Add A titre d'informations complémentaires je signale
+                     que le fameux questionnaire de Tirmidhî a suscité d'autres réponses:
+                     -Qurrat-al-'ayn fî l-jawâb 'an al-as'ila al-muwadda'a fî khabi'at al-kawn;
+                     (inédit sauf erreur); ouvrage du shaykh Ahmad al-'Ayyâshî Sukayraj al-Ansârî,
+                     shaykh tijânî mort en 1944. -Al-jawâb al-shafî 'alâ as'ilat al-Hakîm
+                     al-Tirmidhî, (Le Caire, 1987) dont l'auteur, Muhammad 'Alî Salâma identifie le
+                     khatm muhammadî avec le shaykh égyptien Abû l-'Azâ'im, mort en 1938. Je n'ai pu
+                     lire le premier de ces deux ouvrages; le second est d'une décevante platitude.
+                     Corr Contrairement à ce qu'indiquait O. Y. cet ouvrage n'est pas "inclus dans
+                     les Futûhât ", ainsi que l'a d'ailleurs montré O.Y. lui-même par la suite dans
+                     son édition du Khatm al-awliyâ' de Tirmidhî, Beyrouth 1965. Il publie en effet
+                     en notes (pp. 142 à 326) les réponses au questionnaire de Tirmidhî qui figurent
+                     dans le Jawâb mustaqîm et celles, beaucoup plus longues et très différentes
+                     dans leur contenu, qui se trouvent dans le chapitre 73 des Futûhât. Les deux
+                     textes ont le même objet mais ne peuvent en aucune façon être considérés comme
+                     identiques. (MC)</note>
                <note type="additions" n="2"/>
                <note type="additions" n="3"/>
             </noteGrp>
@@ -156,6 +194,7 @@
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">n</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

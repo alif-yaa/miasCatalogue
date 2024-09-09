@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb | MIAS Catalogue</title>
+            <title>Faṣl mufīd fī tafsīr Fātiḥat
+                  al-Kitāb | MIAS Catalogue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,79 +24,97 @@
             <idno type="normalized">taf-fat</idno>
             <idno type="alifba">تفسير فاتحة الكتاب</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">Faṣl mufīd fī tafsīr Fātiḥat
+                  al-Kitāb</title>
             <title type="uniform" xml:lang="ara">فصل مفيد في تفسير فاتحة الكتاب</title>
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
             <incipit type="hamdala" xml:lang="ara-Latn-x-lc">summayt fātiḥat al-kitāb…</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticationType" subtype="C">Copy</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">630</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace"/>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement/>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">Extract from an exegesis on the Fātiḥa, why it is called the opening, etc. The original source is not known, but our researches show that it is a precious copy of a text also found on 1a of Evkaf Muzesi 1933, the copy of Fuṣūṣ al-ḥikam in SQ’s handwriting, which is now not fully readable.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">Extract from an exegesis on the Fātiḥa, why it is called
+                     the opening, etc. The original source is not known, but our researches show
+                     that it is a precious copy of a text also found on 1a of Evkaf Muzesi 1933, the
+                     copy of Fuṣūṣ al-ḥikam in SQ’s handwriting, which is now not fully
+                     readable.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">There is only one ms. listed in OY (he also erroneously classifies it under RG 684). We have found another ms., Halet 809, which is identical (NB: OY also lists this as RG 731). The Shehit Ali text mentions “our shaykh Abū Madyan saying that he never saw a thing except that there was the letter bāʾ over it”, which makes this a bona fide ms.</note>
+            <note type="stemmatics">There is only one ms. listed in OY (he also erroneously
+                  classifies it under RG 684). We have found another ms., Halet 809, which is
+                  identical (NB: OY also lists this as RG 731). The Shehit Ali text mentions “our
+                  shaykh Abū Madyan saying that he never saw a thing except that there was the
+                  letter bāʾ over it”, which makes this a bona fide ms.</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n=""/>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -156,6 +175,7 @@
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library"/>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

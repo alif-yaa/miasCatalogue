@@ -4,1245 +4,1264 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <style>
                     body {
-                    font-family: 'Comorant Garamond', serif;
+                        font-family: 'Comorant Garamond', serif;
+                    }
+                    /*backdrop*/
+                    .backdrop {
+                        background-color: #f1f3eb; /* Set the background color */
+                        padding: 20px; /* Add padding to create space around .background */
+                        position: relative;
+                        min-width: 100%;
+                        position: absolute;
                     }
                     /* green background */
-                    .background-1 {
-                    background-color: #e8efc0;
-                    border: 2px solid #d8dfb0;
-                    padding: 10px;
-                    min-width: 600px;
+                    .background {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
                     }
                     /* Row styling */
                     .row-2 {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin-bottom: 10px;
-                    min-width: 600px; /* Adjust this value as necessary */
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
                     }
                     .column {
-                    flex: 1;
-                    padding: 5px;
-                    margin: 0 10px;
+                        flex: 1;
+                        padding: 5px;
+                        margin: 0 10px;
                     }
                     .column-small {
-                    flex: 1;
-                    padding: 5px;
-                    margin: 0 10px;
-                    max-width: 50px;
+                        flex: 1;
+                        padding: 5px;
+                        margin: 0 10px;
+                        max-width: 60px;
                     }
                     /* Custom link style */
                     a {
-                    text-decoration: none;
-                    color: #0052a4; /* Your desired color */
+                        text-decoration: none;
+                        color: #0052a4; /* Your desired color */
                     }
                     /* Title boxes */
                     .box-1,
                     .box-1-italics,
                     .box-1-arabic {
-                    background-color: white;
-                    border: 1px solid #d8dfb0;
-                    padding: 5px;
-                    margin-left: 5px;
-                    margin-right: 5px;
-                    flex: 1;
-                    display: flex;
-                    align-items: center;
-                    line-height: 1.5;
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
                     }
                     .box-1-italics {
-                    font-style: italic;
+                        font-style: italic;
+                        font-weight: bold;
                     }
                     .box-1-arabic {
-                    direction: rtl;
-                    font-family: 'Amiri', serif;
+                    font-weight: bold;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
                     }
                     /* small box */
                     .box-small {
-                    background-color: white;
-                    border: 1px solid #d8dfb0;
-                    padding: 5px;
-                    margin-left: 5px;
-                    margin-right: 5px;
-                    flex: 1;
-                    display: flex;
-                    align-items: center;
-                    line-height: 1.5;
-                    max-width: 50px;
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                        max-width: 50px;
                     }
                     /* headings */
-                    .h4 {
-                    font-weight: bold;
-                    color: #0052a4;
-                    font-size: 1em;
-                    text-align: center;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
+                    .h4,
+                    .h4-arabic{
+                        font-weight: bold;
+                        color: black;
+                        font-size: 1em;
+                        text-align: center;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
                     }
                     .h4-arabic {
-                    text-align: center;
-                    direction: rtl;
-                    font-family: 'Amiri', serif;
-                    color: #0052a4;
-                    }
-                </style>
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }</style>
    </head>
    <body>
-      <div class="background-1">
-         <div class="row-2">
-            <div class="column-small">
-               <div class="h4">RG №</div>
-            </div>
-            <div class="column">
-               <div class="h4">Title</div>
-            </div>
-            <div class="column">
-               <div class="h4-arabic">عنوان</div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">2</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/abadilah.html">K. al-ʿAbādilah</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="abadilah.html">كتاب العبادله</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">9</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ajwiba.html">K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ajwiba.html">كتاب الأجوبة العربية في شرح النصائح الوسفية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">26</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/alif.html">K. al-Alif wa-huwa kitāb al-aḥadiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="alif.html">كتاب الألف وهو كتاب الأحدية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">28</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/amr.html">K. al-Amr al-muḥkam</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="amr.html">كتاب الأمر المحكم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">30</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/anqa.html">K. ʿAnqāʾ mughrib</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="anqa.html">كتاب عنقاء مغرب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">33</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/anwar.html">R. al-Anwār (K. Asrār al-khalwa)</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="anwar.html">رسالة الأنوار (كتاب أسرار الخلوة)</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">35</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/aqtab.html">K. al-Aqṭāb</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="aqtab.html">كتاب الأقطاب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">41.1</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/arwah.html">R. [fī] al-Arwāḥ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="arwah.html">رسالة في الأرواح</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">47</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/asrar.html">Asrār ḥurūf al-muʿjam</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="asrar.html">أسرار الحروف المعجم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">64</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/awrad.html">K. Awrād al-usbūʿ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="awrad.html">كتاب الأوراد الأسبوعية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">67</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ayyam.html">K. Ayyām al-shaʾn</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ayyam.html">كتاب أيام الشأن</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">68</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/azal.html">K. al-Azal</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="azal.html">كتاب الأزل</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">70</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/azama.html">K. al-ʿAẓama</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="azama.html">كتاب العظمة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">71</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ba.html">K. al-Bāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ba.html">كتاب الباء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">125</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/dana.html">K. al-Fanāʾ fī al-mushāhada</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="dana.html">كتاب الفناء في المشاهدة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">116</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/dhakhair.html">K. al-Dhakhāʾir wa-l-aʿlāq</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="dhakhair.html">كتاب الذخائر والأعلاق</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">102</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/diwan.html">al-Dīwān al-kabīr</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="diwan.html">الديوان الكبير</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">142</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/fihrist.html">Fihris muʾallafāt al-shaykh al-akbar</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="fihrist.html">فهرس مؤلفات الشيخ الأكبر</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">150</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/fusus.html">Fuṣūṣ al-ḥikam</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="fusus.html">فصوص الحكم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">135</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/futuhat.html">al-Futūḥāt al-Makkiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="futuhat.html">الفتوحات المكية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">219</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/haqq.html">K. al-Ḥaqq</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="haqq.html">كتاب الحق</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">237</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/hilya.html">Ḥilyat al-abdāl</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="hilya.html">حلية الأبدال</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">238</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/hizb-ahad.html">Ḥizb al-aḥadiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="hizb-ahad.html">حزب الأحدية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">244</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/hizb-wiq.html">Ḥizb al-wiqāya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="hizb-wiq.html">حزب الوقاية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">205</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/hu.html">K. al-Hū</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="hu.html">كتاب الهو</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">247</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/hujub.html">K. al-Ḥujub</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="hujub.html">كتاب الحجب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">266</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ifada.html">K. al-Ifāda li-man arāda al-istifāda</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ifada.html">كتاب الإفادة لمن أراد الإستفادة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">268</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ijaz.html">Ijāz al-bayān fī tarjama ʿan al-Qurʾān</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ijaz.html">إجاز البيان في ترجمة عن القرآن</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">271</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ijaza-akb.html">Ijāzat al-shaykh al-akbar</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ijaza-akb.html">إجازة الشيخ الأكبر</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">269</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ijaza-muz.html">Ijāza li-l-malik al-Muẓaffar</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ijaza-muz.html">إجازة للملك المظفر</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">281</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ilam.html">K. al-Iʿlām bi-ishārāt ahl al-ilhām</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ilam.html">كتاب الإعلام بإشارات أهل الإلهام</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">293</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/insan.html">K. al-Insān al-kullī</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="insan.html">كتاب الإنسان الكلي</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">289</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/insha.html">K. Inshāʾ al-dawāʾir</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="insha.html">كتاب إنشاء الدوائر</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">294</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/intisar.html">R. al-Intiṣār</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="intisar.html">رسالة الإنتصار</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">307</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/isfar.html">K. al-Isfār ʿan natāʾij al-asfār</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="isfar.html">كتاب الإسفار عن نتائج الأسفار</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">303</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/isharat.html">Ishārāt al-Qurʾān fī ʿālam al-insān</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="isharat.html">إشارات القرآن في عالم الإنسان</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">313</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/isra.html">K. al-Isrā ilā al-maqām al-asrā</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="isra.html">كتاب الإسرا إلي المقام الأسرى</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">315</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/istilahat.html">al-Iṣṭilāḥāt al-Ṣūfiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="istilahat.html">الإصطلاحات الصوفية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">317</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ittihad.html">R. al-Ittiḥād al-kawnī</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ittihad.html">رسالة الإتحاد الكوني</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">168</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jalal.html">K. al-Jalāl wa-l-jamāl</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jalal.html">كتاب الجلال والجمال</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">169</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jalala.html">K. al-Jalāla</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jalala.html">كتاب الجلالة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">178</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jawab-dur.html">Jawāb ʿan masʾalat al-durra al-bayḍāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jawab-dur.html">جواب عن مسألة الدرة البيضاء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">177</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jawab-mus.html">K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jawab-mus.html">كتاب الجواب المستقيم عما سأل عنه الترمذي الحكيم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">179</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jawab-sab.html">Jawāb ʿan masʾalat al-sabaja al-sawdāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jawab-sab.html">جواب عن مسألة السبجة السوداء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">182</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jawab-sawd.html">Jawāb suʾāl Ibn Sawdakīn</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jawab-sawd.html">جواب سؤال ابن سودكين</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">180</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/jawab-zum.html">Jawāb ʿan masʾalat al-zumurruda al-khaḍrāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="jawab-zum.html">جواب عن مسألة الزمردة الخضراء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">338</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/kashf.html">K. Kashf al-maʿnā</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="kashf.html">كتاب كشف المعنى</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">347.1</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/kawkab.html">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="kawkab.html">الكوكب الدري في مناقب ذي النون المصري</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">255</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/khalwah.html">K. al-Khalwa</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="khalwah.html">كتاب الخلوة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">530</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/khirqa.html">R. al-Khirqa</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="khirqa.html">رسالة الخرقة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">352</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/kunh.html">K. Kunh mā lā budda lil-murīd minhu</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="kunh.html">كتاب كنه ما لا بد للمريد منه</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">354</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/kutub.html">R. al-Kutub</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="kutub.html">رسالة الكتب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">368.1</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/lawaqih.html">K. Lawāqiḥ al-asrār</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="lawaqih.html">كتاب لواقح الأسرار</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">384</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/madkhal-hur.html">Madkhal fī ʿilm al-ḥurūf</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="madkhal-hur.html">مدخل في علم الحروف</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">386</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mafatih.html">K. Mafātiḥ al-ghuyūb</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mafatih.html">كتاب مفاتح الغيوب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">392</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mahajja.html">K. al-Maḥajja al-bayḍāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mahajja.html">كتاب المحجة البيضاء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">402</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/malum.html">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="malum.html">رسالة المعلوم من عقائد علماء الرسوم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">412</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/manzil.html">K. Manzil al-manāzil</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="manzil.html">كتاب منزل المنازل</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">414</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/maqam.html">K. Maqām al-qurba</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="maqam.html">كتاب مقام القربة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">418</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/maqsid.html">Maqṣid al-asmāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="maqsid.html">مقصد الأسماء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">423</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/maratib.html">K. Marātib ʿulūm al-wahb</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="maratib.html">كتاب مراتب علوم الوهب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">428</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/marifa-layl.html">R. fī Maʿrifat laylat al-qadr</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="marifa-layl.html">رسالة في معرفة ليلة القدر</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">433</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/marifa-ula.html">K. al-Maʿrifa</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="marifa-ula.html">كتاب المعرفة الأولى</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">432</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mashahid.html">K. Mashāhid al-asrār al-qudsiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mashahid.html">كتاب مشاهد الأسرار القدسية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">443</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mawaqi.html">Mawāqiʿ al-nujūm</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mawaqi.html">مواقع النجوم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">448</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mawiza.html">al-Mawʿiẓa al-ḥasana</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mawiza.html">الموعظة الحسنة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">462</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mim.html">K. al-Mīm</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mim.html">كتاب الميم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">480</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mishka.html">K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mishka.html">كتاب مشكاة الأنوار فيما روي عن الله</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">484</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/muashsharat.html">K. al-Muʿashsharāt</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="muashsharat.html">كتاب المعشرات</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">485</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mubashshirat.html">R. al-Mubashshirāt</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mubashshirat.html">رسالة المبشرات</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">493</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/muhadarat.html">Muḥāḍarat al-abrār</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="muhadarat.html">محاضرة الأبرار</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">496</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/mukhtasar-dur.html">K. Mukhtaṣar al-Durra al-fākhira</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="mukhtasar-dur.html">كتاب مختصر الدرة الفاخرة</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">511</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/muqni.html">K. al-Muqniʿ fī īḍāḥ al-sahl al-mumtaniʿ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="muqni.html">كتاب المقنع في إيضاح السهل الممتنع</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">517</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/muwashshahat.html">Al-Muwashshaḥāt al-ilāhiyya wa-l-azjāl</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="muwashshahat.html">الموشحات الإلهية والأزجال</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">528</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/naqsh.html">Naqsh al-Fuṣūṣ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="naqsh.html">نقش الفصوص</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">532</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/nasaih.html">K. al-Naṣāʾiḥ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="nasaih.html">كتاب النصائح</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">536</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/nataij.html">K. Natāʾij al-adhkār</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="nataij.html">كتاب نتائج الأذكار</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">(847)</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/nawadir.html">Juzʾ yashtamilu ʿalā al-nawādir al-mulṭaqatah min lafẓ al-Shaykh</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="nawadir.html">جزئ يشتمل علي النوادر الملطقتة من لفظ الشيخ</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">548</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/nuqaba.html">K. al-Nuqabāʾ</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="nuqaba.html">كتاب النقباء</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">551</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/nuskha.html">Nuskhat al-ḥaqq</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="nuskha.html">نسخة الحق</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">565</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/qasam.html">K. al-Qasam al-ilāhī bi al-ism al-rabbānī</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="qasam.html">كتاب القسم الإلهي بالإسم الرباني</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">585</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/qutb.html">K. al-Quṭb wa-l-imāmayn</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="qutb.html">كتاب القطب والإمامين</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">611</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/risala-ghaz.html">R. al-Shaykh al-ʿArabī ilā Abī ʿAlī al-Ghazzāl</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="risala-ghaz.html">رسالة الشيخ العربي إلي أبي علي الغزال</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">612</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/risala-raz.html">R. al-Shaykh ilā al-imām al-Rāzī</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="risala-raz.html">رسالة الشيخ إلي الإمام الرازي</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">639</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/ruh.html">R. Rūḥ al-quds fī munāṣaḥat al-nafs</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="ruh.html">رسالة روح القدس في مناصحة النفس</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">681</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/sharh-khal.html">Sharḥ Khalʿ al-naʿlayn</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="sharh-khal.html">شرح خلع النعلين</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">689</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/shawahid.html">K. Shawāhid al-ḥaqq fī al-qalb</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="shawahid.html">كتاب شواهد الحق في القلب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">276</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/sira.html">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="sira.html">إختصار السيرة النبوية المحمدية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">716</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tadbirat.html">K. al-Tadbīrāt al-ilāhiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tadbirat.html">كتاب التدبيرات الإلهية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">132</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tafsir-fat.html">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tafsir-fat.html">فصل مفيد في تفسير فاتحة الكتاب</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">188.1</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tafsir-kal.html">al-Juzʾ al-awwal min tafsīr kalām Allāh taʿālā</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tafsir-kal.html">الجزء الأول من تفسير كلام الله تعالى</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">757</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/taiyya.html">al-Tāʾiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="taiyya.html">التائية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">736</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/taj-ras.html">K. Tāj al-rasāʾil</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="taj-ras.html">كتاب تاج الرسائل</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">737</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/taj-tar.html">K. Tāj al-tarājim</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="taj-tar.html">كتاب تاج التراجم</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">738</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tajalliyat.html">K. al-Tajalliyāt</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tajalliyat.html">كتاب التجليات</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">748</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/takhmis.html">Takhmīs qaṣīdat Abī Madyan</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="takhmis.html">تخميس قصيدة أبي مدين</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">762</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tanazzulat.html">K. al-Tanazzulāt al-Mawṣiliyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tanazzulat.html">كتاب التنزلات الموصلية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">766</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/taqsim.html">Taqsīm al-nuʿūt al-ilāhiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="taqsim.html">تقسيم النعوت الإلهية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">767</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/tarjuman.html">Tarjumān al-ashwāq</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="tarjuman.html">ترجمان الأشواق</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">802</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/uqla.html">ʿUqlat al-mustawfiz</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="uqla.html">عقلة المستوفز</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">820</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/wasiyya.html">K. al-Waṣiyya</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="wasiyya.html">كتاب الوصية</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">821</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/wasiyya-kayf.html">Waṣiyya fī kayfiyyat ḥuṣūl al-maʿrifa al-quṣwā</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="wasiyya-kayf.html">وصية في كيفية حصول المعرفة القصوى</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">826</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/waz.html">R. fī al-Waʿẓ li-baʿḍ aḥbābihi</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="waz.html">رسالة في الوعظ لبعض أحبابه</a></div>
-            </div>
-         </div>
-         <div class="row-2">
-            <div class="column-small">
-               <div class="box-small">834</div>
-            </div>
-            <div class="column">
-               <div class="box-1-italics"><a href="../worksPreview/yaqin.html">K. al-Yaqīn</a></div>
-            </div>
-            <div class="column">
-               <div class="box-1-arabic"><a href="yaqin.html">كتاب اليقين</a></div>
+      <div class="backdrop">
+         <div class="background">
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="h4">RG №</div>
+               </div>
+               <div class="column">
+                  <div class="h4">Title</div>
+               </div>
+               <div class="column">
+                  <div class="h4-arabic">العنوان</div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">2</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/abadilah.html">K. al-ʿAbādilah</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/abadilah.html">كتاب العبادله</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">9</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ajwiba.html">K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ajwiba.html">كتاب الأجوبة العربية في شرح النصائح الوسفية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">26</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/alif.html">K. al-Alif wa-huwa kitāb al-aḥadiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/alif.html">كتاب الألف وهو كتاب الأحدية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">28</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/amr.html">K. al-Amr al-muḥkam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/amr.html">كتاب الأمر المحكم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">30</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/anqa.html">K. ʿAnqāʾ mughrib</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/anqa.html">كتاب عنقاء مغرب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">33</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/anwar.html">R. al-Anwār (K. Asrār al-khalwa)</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/anwar.html">رسالة الأنوار (كتاب أسرار الخلوة)</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">35</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/aqtab.html">K. al-Aqṭāb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/aqtab.html">كتاب الأقطاب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">41.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/arwah.html">R. [fī] al-Arwāḥ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/arwah.html">رسالة في الأرواح</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">47</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/asrar.html">Asrār ḥurūf al-muʿjam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/asrar.html">أسرار الحروف المعجم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">64</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/awrad.html">K. Awrād al-usbūʿ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/awrad.html">كتاب الأوراد الأسبوعية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">67</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ayyam.html">K. Ayyām al-shaʾn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ayyam.html">كتاب أيام الشأن</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">68</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/azal.html">K. al-Azal</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/azal.html">كتاب الأزل</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">70</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/azama.html">K. al-ʿAẓama</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/azama.html">كتاب العظمة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">71</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ba.html">K. al-Bāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ba.html">كتاب الباء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">125</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/dana.html">K. al-Fanāʾ fī al-mushāhada</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/dana.html">كتاب الفناء في المشاهدة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">116</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/dhakhair.html">K. al-Dhakhāʾir wa-l-aʿlāq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/dhakhair.html">كتاب الذخائر والأعلاق</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">102</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/diwan.html">al-Dīwān al-kabīr</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/diwan.html">الديوان الكبير</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">142</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/fihrist.html">Fihris muʾallafāt al-shaykh al-akbar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/fihrist.html">فهرس مؤلفات الشيخ الأكبر</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">150</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/fusus.html">Fuṣūṣ al-ḥikam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/fusus.html">فصوص الحكم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">135</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/futuhat.html">al-Futūḥāt al-Makkiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/futuhat.html">الفتوحات المكية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">219</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/haqq.html">K. al-Ḥaqq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/haqq.html">كتاب الحق</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">237</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hilya.html">Ḥilyat al-abdāl</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hilya.html">حلية الأبدال</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">238</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hizb-ahad.html">Ḥizb al-aḥadiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hizb-ahad.html">حزب الأحدية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">244</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hizb-wiq.html">Ḥizb al-wiqāya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hizb-wiq.html">حزب الوقاية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">205</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hu.html">K. al-Hū</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hu.html">كتاب الهو</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">247</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hujub.html">K. al-Ḥujub</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hujub.html">كتاب الحجب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">266</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ifada.html">K. al-Ifāda li-man arāda al-istifāda</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ifada.html">كتاب الإفادة لمن أراد الإستفادة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">268</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaz.html">Ijāz al-bayān fī tarjama ʿan al-Qurʾān</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaz.html">إجاز البيان في ترجمة عن القرآن</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">271</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaza-akb.html">Ijāzat al-shaykh al-akbar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaza-akb.html">إجازة الشيخ الأكبر</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">269</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaza-muz.html">Ijāza li-l-malik al-Muẓaffar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaza-muz.html">إجازة للملك المظفر</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">281</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ilam.html">K. al-Iʿlām bi-ishārāt ahl al-ilhām</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ilam.html">كتاب الإعلام بإشارات أهل الإلهام</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">293</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/insan.html">K. al-Insān al-kullī</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/insan.html">كتاب الإنسان الكلي</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">289</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/insha.html">K. Inshāʾ al-dawāʾir</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/insha.html">كتاب إنشاء الدوائر</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">294</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/intisar.html">R. al-Intiṣār</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/intisar.html">رسالة الإنتصار</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">307</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isfar.html">K. al-Isfār ʿan natāʾij al-asfār</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isfar.html">كتاب الإسفار عن نتائج الأسفار</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">303</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isharat.html">Ishārāt al-Qurʾān fī ʿālam al-insān</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isharat.html">إشارات القرآن في عالم الإنسان</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">313</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isra.html">K. al-Isrā ilā al-maqām al-asrā</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isra.html">كتاب الإسرا إلي المقام الأسرى</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">315</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/istilahat.html">al-Iṣṭilāḥāt al-Ṣūfiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/istilahat.html">الإصطلاحات الصوفية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">317</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ittihad.html">R. al-Ittiḥād al-kawnī</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ittihad.html">رسالة الإتحاد الكوني</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">168</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jalal.html">K. al-Jalāl wa-l-jamāl</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jalal.html">كتاب الجلال والجمال</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">169</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jalala.html">K. al-Jalāla</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jalala.html">كتاب الجلالة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">178</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-dur.html">Jawāb ʿan masʾalat al-durra al-bayḍāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-dur.html">جواب عن مسألة الدرة البيضاء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">177</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-mus.html">K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-mus.html">كتاب الجواب المستقيم عما سأل عنه الترمذي الحكيم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">179</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-sab.html">Jawāb ʿan masʾalat al-sabaja al-sawdāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-sab.html">جواب عن مسألة السبجة السوداء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">182</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-sawd.html">Jawāb suʾāl Ibn Sawdakīn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-sawd.html">جواب سؤال ابن سودكين</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">180</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-zum.html">Jawāb ʿan masʾalat al-zumurruda al-khaḍrāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-zum.html">جواب عن مسألة الزمردة الخضراء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">338</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kashf.html">K. Kashf al-maʿnā</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kashf.html">كتاب كشف المعنى</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">347.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kawkab.html">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kawkab.html">الكوكب الدري في مناقب ذي النون المصري</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">255</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/khalwah.html">K. al-Khalwa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/khalwah.html">كتاب الخلوة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">530</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/khirqa.html">R. al-Khirqa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/khirqa.html">رسالة الخرقة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">352</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kunh.html">K. Kunh mā lā budda lil-murīd minhu</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kunh.html">كتاب كنه ما لا بد للمريد منه</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">354</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kutub.html">R. al-Kutub</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kutub.html">رسالة الكتب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">368.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/lawaqih.html">K. Lawāqiḥ al-asrār</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/lawaqih.html">كتاب لواقح الأسرار</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">384</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/madkhal-hur.html">Madkhal fī ʿilm al-ḥurūf</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/madkhal-hur.html">مدخل في علم الحروف</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">386</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mafatih.html">K. Mafātiḥ al-ghuyūb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mafatih.html">كتاب مفاتح الغيوب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">392</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mahajja.html">K. al-Maḥajja al-bayḍāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mahajja.html">كتاب المحجة البيضاء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">402</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/malum.html">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/malum.html">رسالة المعلوم من عقائد علماء الرسوم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">412</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/manzil.html">K. Manzil al-manāzil</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/manzil.html">كتاب منزل المنازل</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">414</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maqam.html">K. Maqām al-qurba</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maqam.html">كتاب مقام القربة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">418</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maqsid.html">Maqṣid al-asmāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maqsid.html">مقصد الأسماء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">423</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maratib.html">K. Marātib ʿulūm al-wahb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maratib.html">كتاب مراتب علوم الوهب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">428</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/marifa-layl.html">R. fī Maʿrifat laylat al-qadr</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/marifa-layl.html">رسالة في معرفة ليلة القدر</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">433</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/marifa-ula.html">K. al-Maʿrifa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/marifa-ula.html">كتاب المعرفة الأولى</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">432</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mashahid.html">K. Mashāhid al-asrār al-qudsiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mashahid.html">كتاب مشاهد الأسرار القدسية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">443</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mawaqi.html">Mawāqiʿ al-nujūm</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mawaqi.html">مواقع النجوم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">448</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mawiza.html">al-Mawʿiẓa al-ḥasana</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mawiza.html">الموعظة الحسنة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">462</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mim.html">K. al-Mīm</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mim.html">كتاب الميم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">480</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mishka.html">K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mishka.html">كتاب مشكاة الأنوار فيما روي عن الله</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">484</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muashsharat.html">K. al-Muʿashsharāt</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muashsharat.html">كتاب المعشرات</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">485</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mubashshirat.html">R. al-Mubashshirāt</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mubashshirat.html">رسالة المبشرات</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">493</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muhadarat.html">Muḥāḍarat al-abrār</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muhadarat.html">محاضرة الأبرار</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">496</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mukhtasar-dur.html">K. Mukhtaṣar al-Durra al-fākhira</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mukhtasar-dur.html">كتاب مختصر الدرة الفاخرة</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">511</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muqni.html">K. al-Muqniʿ fī īḍāḥ al-sahl al-mumtaniʿ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muqni.html">كتاب المقنع في إيضاح السهل الممتنع</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">517</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muwashshahat.html">Al-Muwashshaḥāt al-ilāhiyya wa-l-azjāl</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muwashshahat.html">الموشحات الإلهية والأزجال</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">528</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/naqsh.html">Naqsh al-Fuṣūṣ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/naqsh.html">نقش الفصوص</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">532</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nasaih.html">K. al-Naṣāʾiḥ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nasaih.html">كتاب النصائح</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">536</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nataij.html">K. Natāʾij al-adhkār</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nataij.html">كتاب نتائج الأذكار</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">(847)</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nawadir.html">Juzʾ yashtamilu ʿalā al-nawādir al-mulṭaqatah min lafẓ al-Shaykh</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nawadir.html">جزئ يشتمل علي النوادر الملطقتة من لفظ الشيخ</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">548</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nuqaba.html">K. al-Nuqabāʾ</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nuqaba.html">كتاب النقباء</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">551</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nuskha.html">Nuskhat al-ḥaqq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nuskha.html">نسخة الحق</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">565</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/qasam.html">K. al-Qasam al-ilāhī bi al-ism al-rabbānī</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/qasam.html">كتاب القسم الإلهي بالإسم الرباني</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">585</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/qutb.html">K. al-Quṭb wa-l-imāmayn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/qutb.html">كتاب القطب والإمامين</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">611</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/risala-ghaz.html">R. al-Shaykh al-ʿArabī ilā Abī ʿAlī al-Ghazzāl</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/risala-ghaz.html">رسالة الشيخ العربي إلي أبي علي الغزال</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">612</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/risala-raz.html">R. al-Shaykh ilā al-imām al-Rāzī</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/risala-raz.html">رسالة الشيخ إلي الإمام الرازي</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">639</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ruh.html">R. Rūḥ al-quds fī munāṣaḥat al-nafs</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ruh.html">رسالة روح القدس في مناصحة النفس</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">681</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/sharh-khal.html">Sharḥ Khalʿ al-naʿlayn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/sharh-khal.html">شرح خلع النعلين</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">689</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/shawahid.html">K. Shawāhid al-ḥaqq fī al-qalb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/shawahid.html">كتاب شواهد الحق في القلب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">276</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/sira.html">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/sira.html">إختصار السيرة النبوية المحمدية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">716</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tadbirat.html">K. al-Tadbīrāt al-ilāhiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tadbirat.html">كتاب التدبيرات الإلهية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">132</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tafsir-fat.html">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tafsir-fat.html">فصل مفيد في تفسير فاتحة الكتاب</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">188.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tafsir-kal.html">al-Juzʾ al-awwal min tafsīr kalām Allāh taʿālā</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tafsir-kal.html">الجزء الأول من تفسير كلام الله تعالى</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">757</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taiyya.html">al-Tāʾiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taiyya.html">التائية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">736</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taj-ras.html">K. Tāj al-rasāʾil</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taj-ras.html">كتاب تاج الرسائل</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">737</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taj-tar.html">K. Tāj al-tarājim</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taj-tar.html">كتاب تاج التراجم</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">738</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tajalliyat.html">K. al-Tajalliyāt</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tajalliyat.html">كتاب التجليات</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">748</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/takhmis.html">Takhmīs qaṣīdat Abī Madyan</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/takhmis.html">تخميس قصيدة أبي مدين</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">762</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tanazzulat.html">K. al-Tanazzulāt al-Mawṣiliyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tanazzulat.html">كتاب التنزلات الموصلية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">766</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taqsim.html">Taqsīm al-nuʿūt al-ilāhiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taqsim.html">تقسيم النعوت الإلهية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">767</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tarjuman.html">Tarjumān al-ashwāq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tarjuman.html">ترجمان الأشواق</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">802</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/uqla.html">ʿUqlat al-mustawfiz</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/uqla.html">عقلة المستوفز</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">820</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/wasiyya.html">K. al-Waṣiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/wasiyya.html">كتاب الوصية</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">821</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/wasiyya-kayf.html">Waṣiyya fī kayfiyyat ḥuṣūl al-maʿrifa al-quṣwā</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/wasiyya-kayf.html">وصية في كيفية حصول المعرفة القصوى</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">826</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/waz.html">R. fī al-Waʿẓ li-baʿḍ aḥbābihi</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/waz.html">رسالة في الوعظ لبعض أحبابه</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">834</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/yaqin.html">K. al-Yaqīn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/yaqin.html">كتاب اليقين</a></div>
+               </div>
             </div>
          </div>
       </div>

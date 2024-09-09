@@ -25,76 +25,102 @@
             <!-- Titles -->
             <title type="uniform" xml:lang="ara-Latn-x-lc">Muḥāḍarat al-abrār</title>
             <title type="uniform" xml:lang="ara">محاضرة الأبرار</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">Muḥāḍarat al-abrār wa musāmarāt al-akhyār</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">Muḥāḍarat al-abrār wa musāmarāt
+                  al-akhyār</title>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
-            <title type="translation" xml:lang="eng">The lectures of the godly and the conversations of the good</title>
-            <note type="titleNote">Note on Title</note>
+            <title type="translation" xml:lang="eng">The lectures of the godly and the
+                  conversations of the good</title>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-hamdu lillāh alladhī aṭlaʿa shams al-fawāʾid fī muḥāḍarat al-abrār</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-hamdu lillāh alladhī aṭlaʿa shams
+                  al-fawāʾid fī muḥāḍarat al-abrār</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="medium" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="B">Verified B</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">933</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace"/>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement/>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">Using the same format as Sulamī’s book Maqāmāt al-awliyāʾ, a book of adab, with many stories from al-Andalus and people that IA knew.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">Using the same format as Sulamī’s book Maqāmāt
+                     al-awliyāʾ, a book of adab, with many stories from al-Andalus and people that
+                     IA knew.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">A much copied work, of which there are no historic mss, although Ahmad III A2415 is dated 712H. Brocklemann, according to OY, thinks it is apocryphal and should be attributed to Dhahabī (d.748) (see OY p. 397). But there is textual evidence that it is by IA: Claude Addas, in her biography of IA Quest for the Red Sulphur (Cambridge, 1993), refers to several passages where incidents are described which correspond to information in other verified texts; eg. pp. 211, 223, 227. Also, a work of this title is mentioned in both the lists which IA made of his own works, Fihris muʾallafāt al-shaykh al-akbar (RG142) and Ijāza li-l-malik al-Muẓaffar (RG 269). Michel Chodkiewicz relates that some years ago he saw an autograph copy, written in Malatya, which is in private ownership in Tunisia, but we have not yet been able to obtain a copy of this. Other mss identified: Ragib Pasha 1204 (944H); Veliyuddin 2573 ff. 1-275 (945H); Düğümlü Baba 392 (950H)</note>
+            <note type="stemmatics">A much copied work, of which there are no historic mss,
+                  although Ahmad III A2415 is dated 712H. Brocklemann, according to OY, thinks it is
+                  apocryphal and should be attributed to Dhahabī (d.748) (see OY p. 397). But there
+                  is textual evidence that it is by IA: Claude Addas, in her biography of IA Quest
+                  for the Red Sulphur (Cambridge, 1993), refers to several passages where incidents
+                  are described which correspond to information in other verified texts; eg. pp.
+                  211, 223, 227. Also, a work of this title is mentioned in both the lists which IA
+                  made of his own works, Fihris muʾallafāt al-shaykh al-akbar (RG142) and Ijāza
+                  li-l-malik al-Muẓaffar (RG 269). Michel Chodkiewicz relates that some years ago he
+                  saw an autograph copy, written in Malatya, which is in private ownership in
+                  Tunisia, but we have not yet been able to obtain a copy of this. Other mss
+                  identified: Ragib Pasha 1204 (944H); Veliyuddin 2573 ff. 1-275 (945H); Düğümlü
+                  Baba 392 (950H)</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n="186">186</note>
                <note type="fihrist" resp="Awwad" n="174">174</note>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -143,7 +169,8 @@
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
             <noteGrp type="publications">
-               <note type="editions">Critical edition in progress with a student of Jaume Flacquer, University of Barcelona.</note>
+               <note type="editions">Critical edition in progress with a student of Jaume
+                     Flacquer, University of Barcelona.</note>
                <note type="translations"/>
                <note type="translationsEur"/>
                <note type="studies"/>
@@ -155,6 +182,7 @@
             <noteGrp type="admin">
                <note type="archive">Y</note>
                <note type="library">Y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

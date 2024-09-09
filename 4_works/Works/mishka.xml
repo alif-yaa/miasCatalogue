@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh | MIAS Catalogue</title>
+            <title>K. Mishkāt al-anwār fīmā ruwiya ʿan
+                  Allāh | MIAS Catalogue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,79 +24,97 @@
             <idno type="normalized">mish-an</idno>
             <idno type="alifba">مشكاة الأنوار فيما روي عن الله</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mishkāt al-anwār fīmā ruwiya ʿan
+                  Allāh</title>
             <title type="uniform" xml:lang="ara">كتاب مشكاة الأنوار فيما روي عن الله</title>
-            <title type="full" xml:lang="ara-Latn-x-lc">K. Mishkāt al-anwār fī mā ruyiya ʿan Allāh min akhbār</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">K. Mishkāt al-anwār fī mā ruyiya ʿan
+                  Allāh min akhbār</title>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh rabbi al-ʿālamīn wa-l-ʿāqibatihi lil-muttaqīn, wa-lā ḥawla…</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh rabbi al-ʿālamīn
+                  wa-l-ʿāqibatihi lil-muttaqīn, wa-lā ḥawla…</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticationType" subtype="C">Copy</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">599H</date>
+            <date when="1203" calendar="Hijri-qamari">599H</date>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">678</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace">Mecca</placeName>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement>Mecca</settlement>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">A collection of 101 ḥadīth made by IA. It consists of three parts; the first with 40 ḥadīth, the second with 40, and the third with 21. See Divine Sayings (Oxford, 2004) for edited text and translation.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">A collection of 101 ḥadīth made by IA. It consists of
+                     three parts; the first with 40 ḥadīth, the second with 40, and the third with
+                     21. See Divine Sayings (Oxford, 2004) for edited text and translation.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">OY lists 19 mss., of which at least nine can be considered historic, although there are no autographs. The best is Beyazit 817 (in the hand of al-Farghānī, pre-662H), Manisa 2989 (678H, copied from original) and Veliyuddin 1686 (c.667H, copied by a disciple of SQ’s.) The three parts are sometimes separated in the collections.</note>
+            <note type="stemmatics">OY lists 19 mss., of which at least nine can be considered
+                  historic, although there are no autographs. The best is Beyazit 817 (in the hand
+                  of al-Farghānī, pre-662H), Manisa 2989 (678H, copied from original) and Veliyuddin
+                  1686 (c.667H, copied by a disciple of SQ’s.) The three parts are sometimes
+                  separated in the collections.</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n="30">30</note>
                <note type="fihrist" resp="Awwad" n="30">30</note>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -144,18 +163,28 @@
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
             <noteGrp type="publications">
-               <note type="editions">Critical Edition established by Hirtenstein and Notcutt and printed alongside their English translation Divine Sayings (Oxford, 2004). This Arabic text is also reproduced in the Urdu translation by Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2013). Ed. Abrar Aḥmad Shāhī.</note>
-               <note type="translations">English translation by Lex Hixon and Fariha al-Jerrahi: 101 Diamonds, New York, 2002. English translation by Stephen Hirtenstein and Martin Notcutt: Divine Sayings, Oxford, 2004. French translation by Muhammad Valsan: La Niche des Lumieres, Paris, 1993.</note>
-               <note type="translationsEur">Spanish translation by Ferran Grau Ribes: El tabernáculo de las luces : mishkat al anwar. 101 dichos del Profeta, Madrid, 1998.</note>
+               <note type="editions">Critical Edition established by Hirtenstein and Notcutt and
+                     printed alongside their English translation Divine Sayings (Oxford, 2004). This
+                     Arabic text is also reproduced in the Urdu translation by Ibn ʿArabī Foundation
+                     (Rawalpindi, Pakistan, 2013). Ed. Abrar Aḥmad Shāhī.</note>
+               <note type="translations">English translation by Lex Hixon and Fariha al-Jerrahi:
+                     101 Diamonds, New York, 2002. English translation by Stephen Hirtenstein and
+                     Martin Notcutt: Divine Sayings, Oxford, 2004. French translation by Muhammad
+                     Valsan: La Niche des Lumieres, Paris, 1993.</note>
+               <note type="translationsEur">Spanish translation by Ferran Grau Ribes: El
+                     tabernáculo de las luces : mishkat al anwar. 101 dichos del Profeta, Madrid,
+                     1998.</note>
                <note type="studies"/>
                <note type="additions" n="1"/>
-               <note type="additions" n="2">English translation, Divine Sayings, published by Anqa Publishing.</note>
+               <note type="additions" n="2">English translation, Divine Sayings, published by
+                     Anqa Publishing.</note>
                <note type="additions" n="3"/>
             </noteGrp>
             <!-- Administrative Notes -->
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">Y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

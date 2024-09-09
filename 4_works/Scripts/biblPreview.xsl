@@ -30,7 +30,7 @@
     </xsl:template>
     
     <!-- Template for book entries -->
-    <xsl:template match="tei:biblStruct[@type='book']">
+    <xsl:template match="tei:biblStruct[@type='book']" priority="10">
         <div class="entry">
             <!-- Authors -->
             <xsl:apply-templates select="tei:monogr/tei:author"/>
@@ -79,7 +79,7 @@
     </xsl:template>
     
     <!-- Template for book sections -->
-    <xsl:template match="tei:biblStruct[@type='bookSection']">
+    <xsl:template match="tei:biblStruct[@type='bookSection']" priority="8">
         <div class="entry">
             <!-- Authors -->
             <xsl:apply-templates select="tei:analytic/tei:author"/>
@@ -105,7 +105,7 @@
     </xsl:template>
     
     <!-- Template for journal articles -->
-    <xsl:template match="tei:biblStruct[@type='journalArticle']">
+    <xsl:template match="tei:biblStruct[@type='journalArticle']" priority="9">
         <div class="entry">
             <!-- Authors -->
             <xsl:apply-templates select="tei:analytic/tei:author"/>

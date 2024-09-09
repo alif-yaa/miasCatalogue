@@ -28,78 +28,101 @@
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh wa-kafā wa-salām ʿalā ʿibādihi alladhīna aṣṭafā wa-ʿalayka ayyuhā al-ḥamīm…</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh wa-kafā wa-salām
+                  ʿalā ʿibādihi alladhīna aṣṭafā wa-ʿalayka ayyuhā al-ḥamīm…</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticationType" subtype="C">Copy</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">615H</date>
+            <date when="1203" calendar="Hijri-qamari">615H</date>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">637</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace">Malatya</placeName>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement>Malatya</settlement>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">Treatise consisting of succinct definitions of 199 commonly used technical Sufi terms. There are three different versions of the text (see below). The first part is based on Qushayrī’s definitions in his Risāla.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">Treatise consisting of succinct definitions of 199
+                     commonly used technical Sufi terms. There are three different versions of the
+                     text (see below). The first part is based on Qushayrī’s definitions in his
+                     Risāla.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">A much copied work, verified by at least seven historic mss. However, there are three verifiable versions of the original text: version A in Damascus (begins with waqt), without introduction, copied by Ayyūb b. Badr (see Manisa 1183, c. 650H), version B in Konya in a different order (begins with hājis), with an introduction, which was written in Malatya in 615H (see Milli 571, 668H), and version C which was included in the FM (II 128–34; Chapter 173, the response to al-Tirmidhī’s question 153), and consists of version B in reverse order with added questions linking each term.</note>
+            <note type="stemmatics">A much copied work, verified by at least seven historic mss.
+                  However, there are three verifiable versions of the original text: version A in
+                  Damascus (begins with waqt), without introduction, copied by Ayyūb b. Badr (see
+                  Manisa 1183, c. 650H), version B in Konya in a different order (begins with
+                  hājis), with an introduction, which was written in Malatya in 615H (see Milli 571,
+                  668H), and version C which was included in the FM (II 128–34; Chapter 173, the
+                  response to al-Tirmidhī’s question 153), and consists of version B in reverse
+                  order with added questions linking each term.</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n=""/>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
-               <note resp="additions">Add -Edition, Le Caire, 1357h. -Ed. Le Caire, s.d., par 'Abd al-Rahmân Hasan Mahmûd. -Ed. Beyrouth, 1990 par Bassâm 'Abd al-Wahhâb al-Jabbî -Traduction anglaise par R. Terri Harris, JMIAS, 1984, III, p. 27-54.</note>
+               <note resp="additions">Add -Edition, Le Caire, 1357h. -Ed. Le Caire, s.d., par
+                     'Abd al-Rahmân Hasan Mahmûd. -Ed. Beyrouth, 1990 par Bassâm 'Abd al-Wahhâb
+                     al-Jabbî -Traduction anglaise par R. Terri Harris, JMIAS, 1984, III, p.
+                     27-54.</note>
                <note resp="msAdditions"/>
                <note resp="JC">
                   <p/>
@@ -138,17 +161,28 @@
                   <p/>
                </note>
                <note resp="AP">
-                  <p>Related work (IA): fut_mak (ch. 173, Tirmidhi’s question 153) Related (non-IA) work: Qushayri</p>
+                  <p>Related work (IA): fut_mak (ch. 173, Tirmidhi’s question 153) Related
+                        (non-IA) work: Qushayri</p>
                   <p/>
                </note>
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
             <noteGrp type="publications">
-               <note type="editions">Critical edition, plus a translation into Urdu by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2008). Ed. Abrār Aḥmad Shāhī. Critical edition by ʿAbd al-ʿAzīz al-Manṣūb, based on mss. from the MIAS archive. Published by al-Qudus, Cairo, 2018. Critical Edition in progress by Stephen Hirtenstein.</note>
-               <note type="translations">English translation by Rabia Terri-Harris:’Sufi Terminology: Ibn ʿArabī’s Al-iṣṭilāh al-ṣūfiyyah’ in JMIAS 3, 1984, pp. 27-54.</note>
-               <note type="translationsEur">Spanish translation by Mohammed Amrani &amp; Alfonso González: Guía Espiritual, Murcia, 1990.</note>
+               <note type="editions">Critical edition, plus a translation into Urdu by the Ibn
+                     ʿArabī Foundation (Rawalpindi, Pakistan, 2008). Ed. Abrār Aḥmad Shāhī. Critical
+                     edition by ʿAbd al-ʿAzīz al-Manṣūb, based on mss. from the MIAS archive.
+                     Published by al-Qudus, Cairo, 2018. Critical Edition in progress by Stephen
+                     Hirtenstein.</note>
+               <note type="translations">English translation by Rabia Terri-Harris:’Sufi
+                     Terminology: Ibn ʿArabī’s Al-iṣṭilāh al-ṣūfiyyah’ in JMIAS 3, 1984, pp.
+                     27-54.</note>
+               <note type="translationsEur">Spanish translation by Mohammed Amrani &amp; Alfonso
+                     González: Guía Espiritual, Murcia, 1990.</note>
                <note type="studies"/>
-               <note type="additions" n="1">Add -Edition, Le Caire, 1357h. -Ed. Le Caire, s.d., par 'Abd al-Rahmân Hasan Mahmûd. -Ed. Beyrouth, 1990 par Bassâm 'Abd al-Wahhâb al-Jabbî -Traduction anglaise par R. Terri Harris, JMIAS, 1984, III, p. 27-54. (MC)</note>
+               <note type="additions" n="1">Add -Edition, Le Caire, 1357h. -Ed. Le Caire, s.d.,
+                     par 'Abd al-Rahmân Hasan Mahmûd. -Ed. Beyrouth, 1990 par Bassâm 'Abd al-Wahhâb
+                     al-Jabbî -Traduction anglaise par R. Terri Harris, JMIAS, 1984, III, p. 27-54.
+                     (MC)</note>
                <note type="additions" n="2">Edition in progress (SH)</note>
                <note type="additions" n="3"/>
             </noteGrp>
@@ -156,6 +190,7 @@
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">Y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

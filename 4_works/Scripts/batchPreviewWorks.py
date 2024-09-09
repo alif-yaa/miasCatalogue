@@ -3,7 +3,7 @@ from lxml import etree
 
 # Define paths
 xml_dir = '/Users/Ali/Desktop/miasCatalogue/4_works/Works'  # Directory containing XML files
-xslt_file = '/Users/Ali/Desktop/miasCatalogue/4_works/Scripts/previewIndividualWork_5.xsl'  # Path to your XSLT file
+xslt_file = '/Users/Ali/Desktop/miasCatalogue/4_works/Scripts/previewWork_7.xsl'  # Path to your XSLT file
 output_dir = '/Users/Ali/Desktop/miasCatalogue/4_works/Previews/worksPreview'  # Directory to save the output HTML files
 
 # Load the XSLT file

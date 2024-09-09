@@ -26,116 +26,122 @@
             <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam</title>
             <title type="uniform" xml:lang="ara">كتاب الأمر المحكم</title>
             <title type="full" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
-               ahl ṭarīq Allāh min al-shurūṭ</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Amr al-muḥkam al-marbūṭ fīmā yalzam
-               ahl ṭarīq Allāh min al-shurūṭ</title>
-            <title type="variant" xml:lang="ara-Latn-x-lc">K. Risāla al-Muḥkam al-marbūṭ fīmā yalzam
-               ahl ṭarīq Allāh min al-shurūṭ</title>
+                  ahl ṭarīq Allāh min al-shurūṭ</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">R. al-Amr al-muḥkam al-marbūṭ fīmā
+                  yalzam ahl ṭarīq Allāh min al-shurūṭ</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc">K. Risāla al-Muḥkam al-marbūṭ fīmā
+                  yalzam ahl ṭarīq Allāh min al-shurūṭ</title>
             <title type="translation" xml:lang="eng" resp="AP">The Book of the Rule Clearly
-               Established: Regarding the Conditions Essential for People on God's Path</title>
+                  Established: Regarding the Conditions Essential for People on God's Path</title>
             <title type="translation" xml:lang="ita">Il libro della regola stabilita in modo
-               inequivocabile sulle condizioni che sono indispensabili per la gente della via di
-               Allah</title>
-            <note type="titleNote">Ibn al-ʿArabī observes the following: <q xml:lang="ara">وغَرْضي
-                  في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام المريد ولوازمه وما ينبغي أن
-                  يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى. ولهذا سمّيتها: "الأمر
-                  المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط". فإن الزمان مشحون
-                  بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه، ولا شيخ محقّق ينصحه
-                  ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛ فالمريد يدّعي
-                  الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </q><ref
-                  target="bibliography.xml#Marconi2023a">(Marconi 2023a, p.106)</ref>
+                  inequivocabile sulle condizioni che sono indispensabili per la gente della via di
+                  Allah</title>
+            <note type="titleNote">Ibn al-ʿArabī observes the following: <q xml:lang="ara">وغَرْضي في هذه العجالة أن نبيّن مقام الشَيْخوخة ولوازمها ومقام المريد ولوازمه
+                     وما ينبغي أن يتعامل به أهلُ طريق الله ويعاملوا به طريق الله تعالى. ولهذا
+                     سمّيتها: "الأمر المُحْكَم المربوط فيما يلزم أهلَ طريق الله تعالى من الشروط".
+                     فإن الزمان مشحون بالدعاوى الكاذبة العريضة، فلا مريد صادق ثابت القدم في سلوكه،
+                     ولا شيخ محقّق ينصحه ويخرجه من رعونته نفسه وإعجابه برأيه ويعرّب له عن طريق الحق؛
+                     فالمريد يدّعي الشَيْخوخة والرئاسة، وهذا كله تخليط وتلبيس. </q>
+               <ref target="bibliography.xml#Marconi2023a">(Marconi 2023a, p.106)</ref>
             </note>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā li-hadhā
-               wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā
-               li-nabihi...</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hadānā
+                  li-hadhā wa-mā kunā li-nahtadī lawlā an hadānā Allāh lamma qāl Allāh taʿalā
+                  li-nabihi...</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
             <explicit xml:lang="ara-Latn-x-lc">Explicit</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
             <editor role="role" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
             <note type="authenticationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">602</date>
+            <date when="1205-12-14" calendar="Hijri-qamari">1 Jumāda I, 602 AH</date>
+            <date when="1205-12-14" calendar="Gregorian">14 Decemeber, 1205 CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">724</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of
-               Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari"/>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari"/>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace">Damascus</placeName>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1205" type="TPQ" calendar="Hijri-qamari">602</date>
+            <date notAfter="1205" type="TAQ" calendar="Hijri-qamari">602</date>
+            <placeName key="key">
+               <location/>
+               <settlement>Damascus</settlement>
+               <region/>
+            </placeName>
             <note type="compositionNote">In Damascus at the beginning of Jumada al-ūla 602H (see
-               Vel.51/110b)</note>
+                  Vel.51/110b)</note>
             <!-- Contents -->
             <noteGrp type="workDesc">
                <note type="description">The title translates as “The Firm Rule regarding the
-                  conditions necessary for people on God’s Path”. The aim of the work is to give
-                  advice to spiritual guides on the kind of language and teaching which should be
-                  offered to different types of students.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+                     conditions necessary for people on God’s Path”. The aim of the work is to give
+                     advice to spiritual guides on the kind of language and teaching which should be
+                     offered to different types of students.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">A much copied work, verified by at least six historic mss, three
-               of them definitely copied from originals. The best are Shehit Ali 1341, written
-               around 724H in Damascus, copied from an original by IA and certified by him, and
-               Ayasofya 4875 (probably dated 705H). OY believed the work was written in Konya in
-               602H on basis of a note in Veliyuddin 51 (110b), but further inspection of the note
-               shows that the place of writing is Damascus. (See Jane Clark and Denis McAuley, Some
-               Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp. 101-116.)</note>
+            <note type="stemmatics">A much copied work, verified by at least six historic mss,
+                  three of them definitely copied from originals. The best are Shehit Ali 1341,
+                  written around 724H in Damascus, copied from an original by IA and certified by
+                  him, and Ayasofya 4875 (probably dated 705H). OY believed the work was written in
+                  Konya in 602H on basis of a note in Veliyuddin 51 (110b), but further inspection
+                  of the note shows that the place of writing is Damascus. (See Jane Clark and Denis
+                  McAuley, Some Notes on the Manuscript Veliyuddin 51, JMIAS, 40 (2006), pp.
+                  101-116.)</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n="62">62</note>
                <note type="fihrist" resp="Awwad" n="51">51</note>
-               <note type="fut_mak" resp="OY">Ch. 53</note>
-               <note type="other">
-                  <ref target="#work"/></note>
-               <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza">63</ref><q rend="italic">Kitāb Shurūṭ ahl al-ṭarīq</q></note>
-               <note type="fihrist" resp="MIAS">
-                  <ref target="#fihrist">62</ref>
-                  <q rend="italic">Kitāb al-Amr al-marbūṭ fī maʿrifat mā yahṭāj ilayhi ahl ṭarīq
-                     Allāh taʿālā min al-shurūṭ </q>
+               <note type="futuhat" resp="OY">
+                  <ref>Ch. 53</ref>
                </note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/> References to work in Futūḥāt</note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>
+                     <ref type="locus"/>
+                  </ref>
+               </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="Darajāt al-Tāʾibīn">(Marconi 2023, p.107)</ref>Ibn al-ʿArabi mentions
-                     <hi rend="italic">K. Darajāt al-Tāʾibīn</hi> by Abū Ismāʿīl al-Harawī (d.
-                  481/1088): <q xml:lang="ara">ولقد خرّج الهَرَويّ رحِمَه لله في كتاب درجات التائبين
-                     له، وهو رِوَايتي عن الشريف جمال الدين يونس بن يحيى بن أبي الحَسَن مِن ذُرِّيّة
-                     العبّاس بن عبد المطَّلب، حدَّثني به قراءة مِنّي عليه بالحَرَم الشريف تُجاه
-                     الرُكْن اليمانيّ مِن الكعبة المعظّمة، سنة تسع وتسعين وخمسمائة. </q>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
                </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
                <note resp="additions">Haci Mahmud (ex-Yahya Ef) 2415, dated 1293H Ulu Cami 1590,
-                  99b-110b, dated c. 1063H (based on other works in collection) Manisa 2964,
-                  74a-90a, dated 1083H, Edirne (SH)</note>
+                     99b-110b, dated c. 1063H (based on other works in collection) Manisa 2964,
+                     74a-90a, dated 1083H, Edirne (SH)</note>
                <note resp="msAdditions">Carullah 986, 12e, 33b-34b, written by a disciple in
-                  lifetime of IA.</note>
+                     lifetime of IA.</note>
                <note resp="JC">
                   <p/>
                   <p/>
@@ -162,102 +168,104 @@
                </note>
                <note resp="JC">
                   <p>The online catalogue (http://ktp.isam.org.tr) dates to 739H the manuscript
-                     KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191. Turkish title: el-Emrü’l-Merbut fi Ma
-                     Yelzemu Ehle Tarikkı’llahi mine’ş-Şur </p>
+                        KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191. Turkish title: el-Emrü’l-Merbut fi
+                        Ma Yelzemu Ehle Tarikkı’llahi mine’ş-Şur </p>
                   <p>For details of KÖPRÜLÜ Fazıl Ahmed Pş. 1603 ff.134-191 (739H) see [AP: dead
-                     link created validation issues] (There is a copy of RG 612 Risale ila Fahreddin
-                     er-Razi in the same collection – and that is quite likely to date to the same
-                     year). </p>
+                        link created validation issues] (There is a copy of RG 612 Risale ila
+                        Fahreddin er-Razi in the same collection – and that is quite likely to date
+                        to the same year). </p>
                   <p>A catalogue for the microfilms of the Escurial indicates that Escurial 732/5
-                     (which is listed without a date by OY) is dated 749H (yet another historic
-                     manuscript for this work): http://bnm.bnrm.ma:86/pdf.aspx?IDc=1115 ADDENDUM:
-                     Escurial (Derenbourg) 732 dated 749H-750H is downloadable in microfilm format
-                     from https://mega.nz/folder/i9sABR7K#8Zcl0-1Dg8-MrkmbirkrIg/file/b90x0CCI </p>
-                  <p>There is a copy of of RG 28 in the Zahiriyya which is dated 741H according to
-                     the al-Assad online catalogue
-                     (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms 1754/14 [م
-                     ف/م/1754ت14]. Title: الأمر المحكم المربوط مما يلزم أهل طريق الله من الشروط In
-                     the same ms collection 1754 is a copy of Asrār al-khalwa (presume RG 33 and not
-                     RG 255) dated to the previous year, 740H. </p>
+                        (which is listed without a date by OY) is dated 749H (yet another historic
+                        manuscript for this work): http://bnm.bnrm.ma:86/pdf.aspx?IDc=1115 ADDENDUM:
+                        Escurial (Derenbourg) 732 dated 749H-750H is downloadable in microfilm
+                        format from
+                        https://mega.nz/folder/i9sABR7K#8Zcl0-1Dg8-MrkmbirkrIg/file/b90x0CCI </p>
+                  <p>There is a copy of of RG 28 in the Zahiriyya which is dated 741H according
+                        to the al-Assad online catalogue
+                        (http://www.alassad-library.gov.sy/Search_makhtotat2013.php). Ms 1754/14 [م
+                        ف/م/1754ت14]. Title: الأمر المحكم المربوط مما يلزم أهل طريق الله من الشروط
+                        In the same ms collection 1754 is a copy of Asrār al-khalwa (presume RG 33
+                        and not RG 255) dated to the previous year, 740H. </p>
                   <p>See our comment against RG 536 (Natāʾij al-adhkār) –
-                     http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments
-                     – for details of Palestine, Khalidiyya 892 (old numbering) in which there is a
-                     copy of RG 28 dated 656H. Online catalogue entry:
-                     http://data.manumed.org/eng/ref/142788/Khalidiya_n°1044_-_old_ref:_1__892/</p>
+                        http://archive.ibnarabisociety.org/wordpress_mias_archive/index.php/mias-archive/mias_lib_classn/rg-536-k-nata%ca%beij-al-adhkar-1_480/#comments
+                        – for details of Palestine, Khalidiyya 892 (old numbering) in which there is
+                        a copy of RG 28 dated 656H. Online catalogue entry:
+                        http://data.manumed.org/eng/ref/142788/Khalidiya_n°1044_-_old_ref:_1__892/</p>
                   <p>There appears to be a very early copy of RG 28 K. al-Amr al-muḥkam – in
-                     National Library of Israel Ms. AP Ar. 149/5. This is a very interesting
-                     sounding manuscript collection. All of the works are said in the catalogue to
-                     be dated Konya, 669H, which would place the copy of RG 28 among the two oldest.
-                     Here is an online catalogue link with interesting information relating to an
-                     owner who was a student of SQ:
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486545/NLI (the date and
-                     place make a relationship to Milli A571 copy of this work a possibility –
-                     Farghani, c. 668H) The first work (f.5b-72b) in the same ms collection is RG
-                     639, Rūḥ al-quds , dated to the same year,
-                     669H.https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486496/NLI And the 8th
-                     work is RG 480 Mishkāt al-anwār, dated to same year, 669H:
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486562/NLI (again, the date
-                     and place make a relationship to Veliyuddin 1686 copy of this work a
-                     possibility) Contents of the ms collection: Ms. AP Ar. 1491 as a whole (124 ff;
-                     dated 667H and 669H) = Majmūʿa fī al-taṣṣawūf
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003483984/NLI Ms. AP Ar. 1491/1
-                     (f.5b-72b) (RG 639 – see above) Ms. AP Ar. 1491/2 (f.79b) al-Muntahā fī nukat
-                     awlī al-nahī // al-Qushayrī
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486504/NLI Ms. AP Ar. 149/3
-                     (f.80b-82b) Mukātibāt bi-l-fārisiyya.
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486535/NLI Ms. AP Ar. 149/4
-                     Waṣīyya ilā al-ikhwān fī al-dīn // Fakhr al-dīn Rāzī
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486539/NLI Ms. AP Ar. 149/5
-                     (RG 28 – see above) Ms. AP Ar. 149/6 R. fī al-Sulūk – al-Wariqah al-akhīrah
-                     minhā faqṭ // al-Ḥammawiʾī
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486554/NLI Ms. AP Ar. 149/7
-                     (f.93a) Maḥāsin al-majālis // Ibn al-ʿArīf
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486556/NLI Ms. AP Ar. 149/8
-                     (RG 480 – see above) Ms. AP Ar. 149/9 (f.118b) al-Khuṭab al-arbaʿīn al-marwiyya
-                     ʿan rusūl allāh (part of) // al-Mawṣilī –
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486566/NLI Ms. AP Ar. 149/10
-                     Kitāb fī taṣawwūf (part of)
-                     https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486577/NLI (with much
-                     information) </p>
+                        National Library of Israel Ms. AP Ar. 149/5. This is a very interesting
+                        sounding manuscript collection. All of the works are said in the catalogue
+                        to be dated Konya, 669H, which would place the copy of RG 28 among the two
+                        oldest. Here is an online catalogue link with interesting information
+                        relating to an owner who was a student of SQ:
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486545/NLI (the date and
+                        place make a relationship to Milli A571 copy of this work a possibility –
+                        Farghani, c. 668H) The first work (f.5b-72b) in the same ms collection is RG
+                        639, Rūḥ al-quds , dated to the same year,
+                        669H.https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486496/NLI And the
+                        8th work is RG 480 Mishkāt al-anwār, dated to same year, 669H:
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486562/NLI (again, the
+                        date and place make a relationship to Veliyuddin 1686 copy of this work a
+                        possibility) Contents of the ms collection: Ms. AP Ar. 1491 as a whole (124
+                        ff; dated 667H and 669H) = Majmūʿa fī al-taṣṣawūf
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003483984/NLI Ms. AP Ar.
+                        1491/1 (f.5b-72b) (RG 639 – see above) Ms. AP Ar. 1491/2 (f.79b) al-Muntahā
+                        fī nukat awlī al-nahī // al-Qushayrī
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486504/NLI Ms. AP Ar.
+                        149/3 (f.80b-82b) Mukātibāt bi-l-fārisiyya.
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486535/NLI Ms. AP Ar.
+                        149/4 Waṣīyya ilā al-ikhwān fī al-dīn // Fakhr al-dīn Rāzī
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486539/NLI Ms. AP Ar.
+                        149/5 (RG 28 – see above) Ms. AP Ar. 149/6 R. fī al-Sulūk – al-Wariqah
+                        al-akhīrah minhā faqṭ // al-Ḥammawiʾī
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486554/NLI Ms. AP Ar.
+                        149/7 (f.93a) Maḥāsin al-majālis // Ibn al-ʿArīf
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486556/NLI Ms. AP Ar.
+                        149/8 (RG 480 – see above) Ms. AP Ar. 149/9 (f.118b) al-Khuṭab al-arbaʿīn
+                        al-marwiyya ʿan rusūl allāh (part of) // al-Mawṣilī –
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486566/NLI Ms. AP Ar.
+                        149/10 Kitāb fī taṣawwūf (part of)
+                        https://beta.nli.org.il/en/manuscripts/NNL_ALEPH003486577/NLI (with much
+                        information) </p>
                </note>
                <note resp="AK">
                   <p/>
                   <p/>
                </note>
                <note resp="MM">
-                  <p>The Milli A571 manuscript does not include a copy of K. al-amr al-muḥkam. Only
-                     the incipit is similar but the text is made up by a collection of prayers, not
-                     attributable to Ibn ʿArabī </p>
+                  <p>The Milli A571 manuscript does not include a copy of K. al-amr al-muḥkam.
+                        Only the incipit is similar but the text is made up by a collection of
+                        prayers, not attributable to Ibn ʿArabī </p>
                   <p/>
                </note>
                <note resp="AP">
-                  <p>Clark and McAuley, 2006: At the end, on 110b, there is a note saying that the
-                     book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its author
-                     […] Osman Yahia asserts that the text was completed in Konya in 602, based (he
-                     says) on evidence within the text.[21] We can only assume that this refers to
-                     three lines from the bottom on 95b: wa-laqad haddathanî Awhad al-dîn Hâmid ibn
-                     Abî l-Fakhr al-Kirmânî bi-manzilî fî madînat Qûniya fî shahr Safar sanat 602
-                     (“Awhad al-dîn Kirmânî related to me in my home in the city of Konya in Safar
-                     602 …”). [nb this note may refer to the date the work was copied, rather than
-                     composed]</p>
+                  <p>Clark and McAuley, 2006: At the end, on 110b, there is a note saying that
+                        the book was completed in Damascus in Jumâdâ al-ûlâ 602 by the hand of its
+                        author […] Osman Yahia asserts that the text was completed in Konya in 602,
+                        based (he says) on evidence within the text.[21] We can only assume that
+                        this refers to three lines from the bottom on 95b: wa-laqad haddathanî Awhad
+                        al-dîn Hâmid ibn Abî l-Fakhr al-Kirmânî bi-manzilî fî madînat Qûniya fî
+                        shahr Safar sanat 602 (“Awhad al-dîn Kirmânî related to me in my home in the
+                        city of Konya in Safar 602 …”). [nb this note may refer to the date the work
+                        was copied, rather than composed]</p>
                   <p/>
                </note>
             </noteGrp>
             <noteGrp type="publications">
                <note type="editions">Critical edition created by Maurizio Marconi, 2019. A copy
-                  available on request.</note>
+                     available on request.</note>
                <note type="translations"/>
                <note type="translationsEur"/>
                <note type="studies"/>
                <note type="additions" n="1"/>
-               <note type="additions" n="2">Translated by Palacios, according to Addas (Quest, 304).
-                  [AP: resolved- in Zotero]</note>
+               <note type="additions" n="2">Translated by Palacios, according to Addas (Quest,
+                     304). [AP: resolved- in Zotero]</note>
                <note type="additions" n="3"/>
             </noteGrp>
             <!-- Administrative Notes -->
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">Y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

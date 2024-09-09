@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī | MIAS Catalogue</title>
+            <title>al-Kawkab al-durrī fī manāqib Dhī
+                  al-Nūn al-Miṣrī | MIAS Catalogue</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -23,78 +24,96 @@
             <idno type="normalized">kaw-dur</idno>
             <idno type="alifba">الكوكب الدري في مناقب ذي النون المصري</idno>
             <!-- Titles -->
-            <title type="uniform" xml:lang="ara-Latn-x-lc">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</title>
+            <title type="uniform" xml:lang="ara-Latn-x-lc">al-Kawkab al-durrī fī manāqib Dhī
+                  al-Nūn al-Miṣrī</title>
             <title type="uniform" xml:lang="ara">الكوكب الدري في مناقب ذي النون المصري</title>
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hayyama qulūb al-ʿārifīn fī awdiyat maḥabbatihi</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu lillāh alladhī hayyama
+                  qulūb al-ʿārifīn fī awdiyat maḥabbatihi</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="medium" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="B">Verified B</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Hijri-qamari"/>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">712</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace"/>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement/>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">Stories of Dhū al-Nūn (d. 180/796), the famous early Egyptian Sufi master, recorded by IA from various companions. Written after the death of Yūnus b. Yaḥyā (d. 608H), who is referred to as no longer alive, and perhaps composed in Cairo where Dhū al-Nūn is buried.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">Stories of Dhū al-Nūn (d. 180/796), the famous early
+                     Egyptian Sufi master, recorded by IA from various companions. Written after the
+                     death of Yūnus b. Yaḥyā (d. 608H), who is referred to as no longer alive, and
+                     perhaps composed in Cairo where Dhū al-Nūn is buried.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">Not listed in OY, and only one ms. in the Topkapi library is extant. Its acceptance as a verified text by IA comes from the internal evidence of the people cited in the text (Stephen Hirtenstein). There are two printed Arabic editions; one by ʿAbd al-Fattāh in Rasāʾil (Vol 3) and one by Ibrahīm al-Kayyālī (Beirut 2005).</note>
+            <note type="stemmatics">Not listed in OY, and only one ms. in the Topkapi library is
+                  extant. Its acceptance as a verified text by IA comes from the internal evidence
+                  of the people cited in the text (Stephen Hirtenstein). There are two printed
+                  Arabic editions; one by ʿAbd al-Fattāh in Rasāʾil (Vol 3) and one by Ibrahīm
+                  al-Kayyālī (Beirut 2005).</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n=""/>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -143,9 +162,12 @@
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
             <noteGrp type="publications">
-               <note type="editions">Muhammad Rustom working on a new Arabic edition and an English translation (August 2018)</note>
-               <note type="translations">French translation by Roger Deladrière: La vie merveilleuse de Dhū-l-Nūn l-Egyptien, Paris, 1988.</note>
-               <note type="translationsEur">Spanish translation by Francisco García Albaladejo: La maravillosa vida de Dū-l-Nūn, el egipcio, Murcia, 1991.</note>
+               <note type="editions">Muhammad Rustom working on a new Arabic edition and an
+                     English translation (August 2018)</note>
+               <note type="translations">French translation by Roger Deladrière: La vie
+                     merveilleuse de Dhū-l-Nūn l-Egyptien, Paris, 1988.</note>
+               <note type="translationsEur">Spanish translation by Francisco García Albaladejo:
+                     La maravillosa vida de Dū-l-Nūn, el egipcio, Murcia, 1991.</note>
                <note type="studies"/>
                <note type="additions" n="1"/>
                <note type="additions" n="2"/>
@@ -155,6 +177,7 @@
             <noteGrp type="admin">
                <note type="archive">Y</note>
                <note type="library"/>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

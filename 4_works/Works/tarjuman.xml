@@ -28,74 +28,100 @@
             <title type="full" xml:lang="ara-Latn-x-lc"/>
             <title type="variant" xml:lang="ara-Latn-x-lc"/>
             <title type="translation" xml:lang="eng"/>
-            <note type="titleNote">Note on Title</note>
+            <note type="titleNote"/>
             <!-- Textual Identifiers -->
-            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">Al-ḥamdu lillāh al-ḥusn al-faʿʿāl al-jamīl alladhī yuhibb al-jamāl… layta shiʿrī hal darū ayyā qalbin malakū</incipit>
-            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
-            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
-            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
-            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
-            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
-            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
-            <explicit xml:lang="ara">ختام النص</explicit>
-            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">Al-ḥamdu lillāh al-ḥusn al-faʿʿāl
+                  al-jamīl alladhī yuhibb al-jamāl… layta shiʿrī hal darū ayyā qalbin
+                  malakū</incipit>
+            <incipit type="hamdala" xml:lang="ara"/>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="muqadimma" xml:lang="ara"/>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc"/>
+            <incipit type="khutba" xml:lang="ara"/>
+            <explicit xml:lang="ara-Latn-x-lc"/>
+            <explicit xml:lang="ara"/>
+            <note type="textualIdentifiersNote"/>
             <!-- Authorship and Editorial Roles -->
             <author cert="high" key="IA">Ibn al-ʿArabī</author>
-            <editor role="role" key="key">Other Roles</editor>
+            <editor role="code" key="key"/>
             <persName role="att" key="IA">Ibn al-ʿArabī</persName>
             <note type="verification" subtype="A">Verified A</note>
-            <note type="authentificationType" subtype="C">Copy</note>
-            <note type="authenticityNote">Note on Authenticity</note>
+            <note type="authenticationType" subtype="C">Copy</note>
+            <note type="authenticityNote"/>
             <!-- Composition History -->
-            <date type="fmDate" calendar="Hijri-qamari">611</date>
+            <date when="1203" calendar="Hijri-qamari">611</date>
+            <date when="1203" calendar="Gregorian"> CE</date>
             <date type="fmEarliestMS" calendar="Hijri-qamari">&lt;800</date>
-            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
-            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
-            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
-            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
-            <note type="dateNote">Note on Date of Composition</note>
-            <placeName type="fmPlace">Mecca</placeName>
-            <note type="placeNote">Note on Place of Composition</note>
+            <date notBefore="1185" type="TPQ" calendar="Hijri-qamari"/>
+            <date notAfter="1240" type="TAQ" calendar="Hijri-qamari"> AH</date>
+            <placeName key="key">
+               <location/>
+               <settlement>Mecca</settlement>
+               <region/>
+            </placeName>
             <note type="compositionNote"/>
             <!-- Contents -->
             <noteGrp type="workDesc">
-               <note type="description">61 mystical love poems to the Divine Beauty, in the qaṣīda form of pre-Islamic poetry. According to Pablo Beneito (Qurrat al-ʿAyn, 2020), the original collection was 60 odes, to which were added first one then two poems in the preface. It was composed in 611H in Mecca, although the inspiration came in 604H in the meeting with Qurrat al-ʿAyn.</note>
-               <note type="structure">Structure of Work</note>
-               <note type="contentsNote">Note on Contents</note>
+               <note type="description">61 mystical love poems to the Divine Beauty, in the
+                     qaṣīda form of pre-Islamic poetry. According to Pablo Beneito (Qurrat al-ʿAyn,
+                     2020), the original collection was 60 odes, to which were added first one then
+                     two poems in the preface. It was composed in 611H in Mecca, although the
+                     inspiration came in 604H in the meeting with Qurrat al-ʿAyn.</note>
+               <note type="structure"/>
+               <note type="contentsNote"/>
             </noteGrp>
             <!-- Stemmatics -->
-            <note type="stemmatics">A much copied work, both on its own and with the commentary (RG116). There are no definitive historic mss. to verify the text in its own right, but there are several for the commentary, which includes the text of the poems. The best copies are therefore contained within mss. of Dhakhāʾir . The best stand-alone mss. are Manisa 6596 (undated, taken from SQ’s copy), and Ragib Pasha 1453 (although very late, probably also taken from SQ’s copy). There is an issue with the preface on this work. There are two basic variants; some mss carry the same preface as the commentary, Dhakhāʾir al-alāq (RG 116. Others have a longer version which begin with a khutba and IA’s account of meeting the young girl, Niẓam, who inspired the poems in Mecca. The situation is complex, with several other variants appearing in some mss (see Jane Clark Mystical Perception and Beauty: Ibn ʿArabī’s Preface to Tarjumān al-Ashwāq in JMIAS 55, 2013).</note>
+            <note type="stemmatics">A much copied work, both on its own and with the commentary
+                  (RG116). There are no definitive historic mss. to verify the text in its own
+                  right, but there are several for the commentary, which includes the text of the
+                  poems. The best copies are therefore contained within mss. of Dhakhāʾir . The best
+                  stand-alone mss. are Manisa 6596 (undated, taken from SQ’s copy), and Ragib Pasha
+                  1453 (although very late, probably also taken from SQ’s copy). There is an issue
+                  with the preface on this work. There are two basic variants; some mss carry the
+                  same preface as the commentary, Dhakhāʾir al-alāq (RG 116. Others have a longer
+                  version which begin with a khutba and IA’s account of meeting the young girl,
+                  Niẓam, who inspired the poems in Mecca. The situation is complex, with several
+                  other variants appearing in some mss (see Jane Clark Mystical Perception and
+                  Beauty: Ibn ʿArabī’s Preface to Tarjumān al-Ashwāq in JMIAS 55, 2013).</note>
             <!-- Related Works -->
             <relatedItem type="relation">
                <ref target="#work"/>
             </relatedItem>
-            <note type="relationsNote">Note on Related Works</note>
+            <note type="relationsNote"/>
             <!-- References to This Work in Other Works -->
             <noteGrp type="references">
                <note type="ijaza" resp="Badawi" n=""/>
                <note type="fihrist" resp="Awwad" n="176">176</note>
-               <note type="fut_mak" resp="OY"/>
-               <note type="other">
-                  <ref target="#work"/>Reference in other work(s)
-                </note>
+               <note type="futuhat" resp="OY">
+                  <ref/>
+               </note>
+               <note>
+                  <ref type="work" target="#work">
+                     <ref target="#work"/>Reference in other work(s) <ref type="locus"/>
+                  </ref>
+               </note>
                <note type="ijaza" resp="MIAS">
-                  <ref target="#ijaza"/>Reference to work in the Ijāza
-                </note>
+                  <ref target="#ijaza"/>
+                  <q rend="italic"/>
+               </note>
                <note type="fihrist" resp="MIAS">
                   <ref target="#fihrist"/>
-                    Reference to work in the Fihrist</note>
-               <note type="fut_mak" resp="MIAS">
-                  <ref target="#fut_mak"/>
-                    References to work in Futūḥāt</note>
+                  <q rend="italic"/>
+               </note>
+               <note type="futuhat" resp="MIAS">
+                  <ref target="#futuhat"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
             <!-- References in This Work to Other Works -->
             <noteGrp type="mentions">
                <note type="mention">
-                  <ref target="#work">Work</ref>
-                Reference to other work
-                </note>
+                  <ref type="work" target="#work"/>
+                  <ref type="locus"/>
+                  <q xml:lang="ara"/>
+               </note>
             </noteGrp>
-            <note type="referencesNote">Note on Cross-references</note>
+            <note type="referencesNote"/>
             <!-- Comments and Corrections -->
             <noteGrp type="comments">
                <note resp="corrections"/>
@@ -144,9 +170,23 @@
             </noteGrp>
             <!-- Editions, Translations, and Relevant Publications -->
             <noteGrp type="publications">
-               <note type="editions">Critical Edition published by R A Nicholson and published alongside his English translation The Tarjumān al-ashwāq (London, 1911). However, the manuscripts he used were all late and had no special provenance.</note>
-               <note type="translations">Full English translation of the poems, but not the commentary, by R A Nicholson: The Tarjumān al-ashwāq, London, 1911. Full English translation by Michael Sells: The Translator of Desires, Princeton, 2021. Partial English translation by Michael Sells: Stations of Desire, Jerusalem, 2000. Translation of the Preface by Jane Clark available on http://www.ibnarabisociety.org/articlespdf/preface-tarjuman-al-ashwaq.pdf French translation of poems and commentary by Maurice Gloton, L’interprète des désirs, Paris, 1996. Partial French translation by Mahmoud Sami-Ali: Le chant de l'ardent désir, Arles 2006. Italian translation by Roberto Rossi Testa, L’interprete delle passioni, Milano, 2008</note>
-               <note type="translationsEur">Spanish translation by Carlos Varona Narvión: El intérprete de los deseos, Murcia, 2002. Partial German translation by Alma Geise: Ibn ʿArabī: Urwolke und Welt, Munich 2002.</note>
+               <note type="editions">Critical Edition published by R A Nicholson and published
+                     alongside his English translation The Tarjumān al-ashwāq (London, 1911).
+                     However, the manuscripts he used were all late and had no special
+                     provenance.</note>
+               <note type="translations">Full English translation of the poems, but not the
+                     commentary, by R A Nicholson: The Tarjumān al-ashwāq, London, 1911. Full
+                     English translation by Michael Sells: The Translator of Desires, Princeton,
+                     2021. Partial English translation by Michael Sells: Stations of Desire,
+                     Jerusalem, 2000. Translation of the Preface by Jane Clark available on
+                     http://www.ibnarabisociety.org/articlespdf/preface-tarjuman-al-ashwaq.pdf
+                     French translation of poems and commentary by Maurice Gloton, L’interprète des
+                     désirs, Paris, 1996. Partial French translation by Mahmoud Sami-Ali: Le chant
+                     de l'ardent désir, Arles 2006. Italian translation by Roberto Rossi Testa,
+                     L’interprete delle passioni, Milano, 2008</note>
+               <note type="translationsEur">Spanish translation by Carlos Varona Narvión: El
+                     intérprete de los deseos, Murcia, 2002. Partial German translation by Alma
+                     Geise: Ibn ʿArabī: Urwolke und Welt, Munich 2002.</note>
                <note type="studies"/>
                <note type="additions" n="1"/>
                <note type="additions" n="2"/>
@@ -156,6 +196,7 @@
             <noteGrp type="admin">
                <note type="archive">y</note>
                <note type="library">Y</note>
+               <note type="adminNote"/>
             </noteGrp>
             <textLang mainLang="ara">Arabic</textLang>
             <!-- End -->

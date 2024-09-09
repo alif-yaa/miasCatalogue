@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Index of Verified and Probable Works</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl>
+               <idno type="RG">2</idno> <!-- imported from <idno type="RG"> -->
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-ʿAbādilah</title> <!-- imported from <title type="uniform" xml:lang="ara-Latn-x-lc"> -->
+               <title type="uniform" xml:lang="ara">كتاب العبادله</title> <!-- imported from <title type="uniform" xml:lang="ara"> -->
+               <idno type="keyword">abadilah</idno><!-- imported from <idno type="keyword"> -->
+               <ref target="../abadilah.xml"/><!-- simply the key word proceeded by ../ and folowed by .xml -->
+            </bibl>
+            <bibl xml:id="ajwiba">
+               <idno type="RG">9</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ajwiba al-ʿArabiyya fī sharḥ al-naṣāʾiḥ al-Yūsufiyya</title>
+               <title type="uniform" xml:lang="ara">كتاب الأجوبة العربية في شرح النصائح الوسفية</title>
+               <idno type="keyword">ajwiba</idno>
+               <ref target="../ajwiba.xml#ajwiba"/>
+            </bibl>
+            <bibl xml:id="alif">
+               <idno type="RG">26</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Alif wa-huwa kitāb al-aḥadiyya</title>
+               <title type="uniform" xml:lang="ara">كتاب الألف وهو كتاب الأحدية</title>
+               <idno type="keyword">alif</idno>
+               <ref target="../alif.xml#alif"/>
+            </bibl>
+            <bibl xml:id="amr">
+               <idno type="RG">28</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Amr al-muḥkam</title>
+               <title type="uniform" xml:lang="ara">كتاب الأمر المحكم</title>
+               <idno type="keyword">amr</idno>
+               <ref target="../amr.xml#amr"/>
+            </bibl>
+            <bibl xml:id="anqa">
+               <idno type="RG">30</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. ʿAnqāʾ mughrib</title>
+               <title type="uniform" xml:lang="ara">كتاب عنقاء مغرب</title>
+               <idno type="keyword">anqa</idno>
+               <ref target="../anqa.xml#anqa"/>
+            </bibl>
+            <bibl xml:id="anwar">
+               <idno type="RG">33</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Anwār (K. Asrār al-khalwa)</title>
+               <title type="uniform" xml:lang="ara">رسالة الأنوار (كتاب أسرار الخلوة)</title>
+               <idno type="keyword">anwar</idno>
+               <ref target="../anwar.xml#anwar"/>
+            </bibl>
+            <bibl xml:id="aqtab">
+               <idno type="RG">35</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Aqṭāb</title>
+               <title type="uniform" xml:lang="ara">كتاب الأقطاب</title>
+               <idno type="keyword">aqtab</idno>
+               <ref target="../aqtab.xml#aqtab"/>
+            </bibl>
+            <bibl xml:id="arwah">
+               <idno type="RG">41.1</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. [fī] al-Arwāḥ</title>
+               <title type="uniform" xml:lang="ara">رسالة في الأرواح</title>
+               <idno type="keyword">arwah</idno>
+               <ref target="../arwah.xml#arwah"/>
+            </bibl>
+            <bibl xml:id="asrar">
+               <idno type="RG">47</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Asrār ḥurūf al-muʿjam</title>
+               <title type="uniform" xml:lang="ara">أسرار الحروف المعجم</title>
+               <idno type="keyword">asrar</idno>
+               <ref target="../asrar.xml#asrar"/>
+            </bibl>
+            <bibl xml:id="awrad">
+               <idno type="RG">64</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Awrād al-usbūʿ</title>
+               <title type="uniform" xml:lang="ara">كتاب الأوراد الأسبوعية</title>
+               <idno type="keyword">awrad</idno>
+               <ref target="../awrad.xml#awrad"/>
+            </bibl>
+            <bibl xml:id="ayyam">
+               <idno type="RG">67</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Ayyām al-shaʾn</title>
+               <title type="uniform" xml:lang="ara">كتاب أيام الشأن</title>
+               <idno type="keyword">ayyam</idno>
+               <ref target="../ayyam.xml#ayyam"/>
+            </bibl>
+            <bibl xml:id="azal">
+               <idno type="RG">68</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Azal</title>
+               <title type="uniform" xml:lang="ara">كتاب الأزل</title>
+               <idno type="keyword">azal</idno>
+               <ref target="../azal.xml#azal"/>
+            </bibl>
+            <bibl xml:id="azama">
+               <idno type="RG">70</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-ʿAẓama</title>
+               <title type="uniform" xml:lang="ara">كتاب العظمة</title>
+               <idno type="keyword">azama</idno>
+               <ref target="../azama.xml#azama"/>
+            </bibl>
+            <bibl xml:id="ba">
+               <idno type="RG">71</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Bāʾ</title>
+               <title type="uniform" xml:lang="ara">كتاب الباء</title>
+               <idno type="keyword">ba</idno>
+               <ref target="../ba.xml#ba"/>
+            </bibl>
+            <bibl xml:id="fana">
+               <idno type="RG">125</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Fanāʾ fī al-mushāhada</title>
+               <title type="uniform" xml:lang="ara">كتاب الفناء في المشاهدة</title>
+               <idno type="keyword">dana</idno>
+               <ref target="../dana.xml#fana"/>
+            </bibl>
+            <bibl xml:id="dhakhair">
+               <idno type="RG">116</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Dhakhāʾir wa-l-aʿlāq</title>
+               <title type="uniform" xml:lang="ara">كتاب الذخائر والأعلاق</title>
+               <idno type="keyword">dhakhair</idno>
+               <ref target="../dhakhair.xml#dhakhair"/>
+            </bibl>
+            <bibl xml:id="diwan">
+               <idno type="RG">102</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Dīwān al-kabīr</title>
+               <title type="uniform" xml:lang="ara">الديوان الكبير</title>
+               <idno type="keyword">diwan</idno>
+               <ref target="../diwan.xml#diwan"/>
+            </bibl>
+            <bibl xml:id="fihrist">
+               <idno type="RG">142</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Fihris muʾallafāt al-shaykh al-akbar</title>
+               <title type="uniform" xml:lang="ara">فهرس مؤلفات الشيخ الأكبر</title>
+               <idno type="keyword">fihrist</idno>
+               <ref target="../fihrist.xml#fihrist"/>
+            </bibl>
+            <bibl xml:id="fusus">
+               <idno type="RG">150</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Fuṣūṣ al-ḥikam</title>
+               <title type="uniform" xml:lang="ara">فصوص الحكم</title>
+               <idno type="keyword">fusus</idno>
+               <ref target="../fusus.xml#fusus"/>
+            </bibl>
+            <bibl xml:id="futuhat">
+               <idno type="RG">135</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Futūḥāt al-Makkiyya</title>
+               <title type="uniform" xml:lang="ara">الفتوحات المكية</title>
+               <idno type="keyword">futuhat</idno>
+               <ref target="../futuhat.xml#futuhat"/>
+            </bibl>
+            <bibl xml:id="haqq">
+               <idno type="RG">219</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ḥaqq</title>
+               <title type="uniform" xml:lang="ara">كتاب الحق</title>
+               <idno type="keyword">haqq</idno>
+               <ref target="../haqq.xml#haqq"/>
+            </bibl>
+            <bibl xml:id="hilya">
+               <idno type="RG">237</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ḥilyat al-abdāl</title>
+               <title type="uniform" xml:lang="ara">حلية الأبدال</title>
+               <idno type="keyword">hilya</idno>
+               <ref target="../hilya.xml#hilya"/>
+            </bibl>
+            <bibl xml:id="hizb-ahad">
+               <idno type="RG">238</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ḥizb al-aḥadiyya</title>
+               <title type="uniform" xml:lang="ara">حزب الأحدية</title>
+               <idno type="keyword">hizb-ahad</idno>
+               <ref target="../hizb-ahad.xml#hizb-ahad"/>
+            </bibl>
+            <bibl xml:id="hizb-wiq">
+               <idno type="RG">244</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ḥizb al-wiqāya</title>
+               <title type="uniform" xml:lang="ara">حزب الوقاية</title>
+               <idno type="keyword">hizb-wiq</idno>
+               <ref target="../hizb-wiq.xml#hizb-wiq"/>
+            </bibl>
+            <bibl xml:id="hu">
+               <idno type="RG">205</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Hū</title>
+               <title type="uniform" xml:lang="ara">كتاب الهو</title>
+               <idno type="keyword">hu</idno>
+               <ref target="../hu.xml#hu"/>
+            </bibl>
+            <bibl xml:id="hujub">
+               <idno type="RG">247</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ḥujub</title>
+               <title type="uniform" xml:lang="ara">كتاب الحجب</title>
+               <idno type="keyword">hujub</idno>
+               <ref target="../hujub.xml#hujub"/>
+            </bibl>
+            <bibl xml:id="ifada">
+               <idno type="RG">266</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Ifāda li-man arāda al-istifāda</title>
+               <title type="uniform" xml:lang="ara">كتاب الإفادة لمن أراد الإستفادة</title>
+               <idno type="keyword">ifada</idno>
+               <ref target="../ifada.xml#ifada"/>
+            </bibl>
+            <bibl xml:id="ijaz">
+               <idno type="RG">268</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ijāz al-bayān fī tarjama ʿan al-Qurʾān</title>
+               <title type="uniform" xml:lang="ara">إجاز البيان في ترجمة عن القرآن</title>
+               <idno type="keyword">ijaz</idno>
+               <ref target="../ijaz.xml#ijaz"/>
+            </bibl>
+            <bibl xml:id="ijaza-akb">
+               <idno type="RG">271</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ijāzat al-shaykh al-akbar</title>
+               <title type="uniform" xml:lang="ara">إجازة الشيخ الأكبر</title>
+               <idno type="keyword">ijaza-akb</idno>
+               <ref target="../ijaza-akb.xml#ijaza-akb"/>
+            </bibl>
+            <bibl xml:id="ijaza-muz">
+               <idno type="RG">269</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ijāza li-l-malik al-Muẓaffar</title>
+               <title type="uniform" xml:lang="ara">إجازة للملك المظفر</title>
+               <idno type="keyword">ijaza-muz</idno>
+               <ref target="../ijaza-muz.xml#ijaza-muz"/>
+            </bibl>
+            <bibl xml:id="ilam">
+               <idno type="RG">281</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Iʿlām bi-ishārāt ahl al-ilhām</title>
+               <title type="uniform" xml:lang="ara">كتاب الإعلام بإشارات أهل الإلهام</title>
+               <idno type="keyword">ilam</idno>
+               <ref target="../ilam.xml#ilam"/>
+            </bibl>
+            <bibl xml:id="insan">
+               <idno type="RG">293</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Insān al-kullī</title>
+               <title type="uniform" xml:lang="ara">كتاب الإنسان الكلي</title>
+               <idno type="keyword">insan</idno>
+               <ref target="../insan.xml#insan"/>
+            </bibl>
+            <bibl xml:id="insha">
+               <idno type="RG">289</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Inshāʾ al-dawāʾir</title>
+               <title type="uniform" xml:lang="ara">كتاب إنشاء الدوائر</title>
+               <idno type="keyword">insha</idno>
+               <ref target="../insha.xml#insha"/>
+            </bibl>
+            <bibl xml:id="intisar">
+               <idno type="RG">294</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Intiṣār</title>
+               <title type="uniform" xml:lang="ara">رسالة الإنتصار</title>
+               <idno type="keyword">intisar</idno>
+               <ref target="../intisar.xml#intisar"/>
+            </bibl>
+            <bibl xml:id="isfar">
+               <idno type="RG">307</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Isfār ʿan natāʾij al-asfār</title>
+               <title type="uniform" xml:lang="ara">كتاب الإسفار عن نتائج الأسفار</title>
+               <idno type="keyword">isfar</idno>
+               <ref target="../isfar.xml#isfar"/>
+            </bibl>
+            <bibl xml:id="isharat">
+               <idno type="RG">303</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ishārāt al-Qurʾān fī ʿālam al-insān</title>
+               <title type="uniform" xml:lang="ara">إشارات القرآن في عالم الإنسان</title>
+               <idno type="keyword">isharat</idno>
+               <ref target="../isharat.xml#isharat"/>
+            </bibl>
+            <bibl xml:id="isra">
+               <idno type="RG">313</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Isrā ilā al-maqām al-asrā</title>
+               <title type="uniform" xml:lang="ara">كتاب الإسرا إلي المقام الأسرى</title>
+               <idno type="keyword">isra</idno>
+               <ref target="../isra.xml#isra"/>
+            </bibl>
+            <bibl xml:id="istilahat">
+               <idno type="RG">315</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Iṣṭilāḥāt al-Ṣūfiyya</title>
+               <title type="uniform" xml:lang="ara">الإصطلاحات الصوفية</title>
+               <idno type="keyword">istilahat</idno>
+               <ref target="../istilahat.xml#istilahat"/>
+            </bibl>
+            <bibl xml:id="ittihad">
+               <idno type="RG">317</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Ittiḥād al-kawnī</title>
+               <title type="uniform" xml:lang="ara">رسالة الإتحاد الكوني</title>
+               <idno type="keyword">ittihad</idno>
+               <ref target="../ittihad.xml#ittihad"/>
+            </bibl>
+            <bibl xml:id="jalal">
+               <idno type="RG">168</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Jalāl wa-l-jamāl</title>
+               <title type="uniform" xml:lang="ara">كتاب الجلال والجمال</title>
+               <idno type="keyword">jalal</idno>
+               <ref target="../jalal.xml#jalal"/>
+            </bibl>
+            <bibl xml:id="jalala">
+               <idno type="RG">169</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Jalāla</title>
+               <title type="uniform" xml:lang="ara">كتاب الجلالة</title>
+               <idno type="keyword">jalala</idno>
+               <ref target="../jalala.xml#jalala"/>
+            </bibl>
+            <bibl xml:id="jawab-dur">
+               <idno type="RG">178</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Jawāb ʿan masʾalat al-durra al-bayḍāʾ</title>
+               <title type="uniform" xml:lang="ara">جواب عن مسألة الدرة البيضاء</title>
+               <idno type="keyword">jawab-dur</idno>
+               <ref target="../jawab-dur.xml#jawab-dur"/>
+            </bibl>
+            <bibl xml:id="jawab-mus">
+               <idno type="RG">177</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Jawāb al-mustaqīm ʿammā saʾal ʿanhu al-Tirmidhī al-Ḥakīm</title>
+               <title type="uniform" xml:lang="ara">كتاب الجواب المستقيم عما سأل عنه الترمذي الحكيم</title>
+               <idno type="keyword">jawab-mus</idno>
+               <ref target="../jawab-mus.xml#jawab-mus"/>
+            </bibl>
+            <bibl xml:id="jawab-sab">
+               <idno type="RG">179</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Jawāb ʿan masʾalat al-sabaja al-sawdāʾ</title>
+               <title type="uniform" xml:lang="ara">جواب عن مسألة السبجة السوداء</title>
+               <idno type="keyword">jawab-sab</idno>
+               <ref target="../jawab-sab.xml#jawab-sab"/>
+            </bibl>
+            <bibl xml:id="jawab-sawd">
+               <idno type="RG">182</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Jawāb suʾāl Ibn Sawdakīn</title>
+               <title type="uniform" xml:lang="ara">جواب سؤال ابن سودكين</title>
+               <idno type="keyword">jawab-sawd</idno>
+               <ref target="../jawab-sawd.xml#jawab-sawd"/>
+            </bibl>
+            <bibl xml:id="jawab-zum">
+               <idno type="RG">180</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Jawāb ʿan masʾalat al-zumurruda al-khaḍrāʾ</title>
+               <title type="uniform" xml:lang="ara">جواب عن مسألة الزمردة الخضراء</title>
+               <idno type="keyword">jawab-zum</idno>
+               <ref target="../jawab-zum.xml#jawab-zum"/>
+            </bibl>
+            <bibl xml:id="kashf">
+               <idno type="RG">338</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Kashf al-maʿnā</title>
+               <title type="uniform" xml:lang="ara">كتاب كشف المعنى</title>
+               <idno type="keyword">kashf</idno>
+               <ref target="../kashf.xml#kashf"/>
+            </bibl>
+            <bibl xml:id="kawkab">
+               <idno type="RG">347.1</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Kawkab al-durrī fī manāqib Dhī al-Nūn al-Miṣrī</title>
+               <title type="uniform" xml:lang="ara">الكوكب الدري في مناقب ذي النون المصري</title>
+               <idno type="keyword">kawkab</idno>
+               <ref target="../kawkab.xml#kawkab"/>
+            </bibl>
+            <bibl xml:id="khalwah">
+               <idno type="RG">255</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Khalwa</title>
+               <title type="uniform" xml:lang="ara">كتاب الخلوة</title>
+               <idno type="keyword">khalwah</idno>
+               <ref target="../khalwah.xml#khalwah"/>
+            </bibl>
+            <bibl xml:id="khirqa">
+               <idno type="RG">530</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Khirqa</title>
+               <title type="uniform" xml:lang="ara">رسالة الخرقة</title>
+               <idno type="keyword">khirqa</idno>
+               <ref target="../khirqa.xml#khirqa"/>
+            </bibl>
+            <bibl xml:id="kunh">
+               <idno type="RG">352</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Kunh mā lā budda lil-murīd minhu</title>
+               <title type="uniform" xml:lang="ara">كتاب كنه ما لا بد للمريد منه</title>
+               <idno type="keyword">kunh</idno>
+               <ref target="../kunh.xml#kunh"/>
+            </bibl>
+            <bibl xml:id="kutub">
+               <idno type="RG">354</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Kutub</title>
+               <title type="uniform" xml:lang="ara">رسالة الكتب</title>
+               <idno type="keyword">kutub</idno>
+               <ref target="../kutub.xml#kutub"/>
+            </bibl>
+            <bibl xml:id="lawaqih">
+               <idno type="RG">368.1</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Lawāqiḥ al-asrār</title>
+               <title type="uniform" xml:lang="ara">كتاب لواقح الأسرار</title>
+               <idno type="keyword">lawaqih</idno>
+               <ref target="../lawaqih.xml#lawaqih"/>
+            </bibl>
+            <bibl xml:id="madkhal-hur">
+               <idno type="RG">384</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Madkhal fī ʿilm al-ḥurūf</title>
+               <title type="uniform" xml:lang="ara">مدخل في علم الحروف</title>
+               <idno type="keyword">madkhal-hur</idno>
+               <ref target="../madkhal-hur.xml#madkhal-hur"/>
+            </bibl>
+            <bibl xml:id="mafatih">
+               <idno type="RG">386</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mafātiḥ al-ghuyūb</title>
+               <title type="uniform" xml:lang="ara">كتاب مفاتح الغيوب</title>
+               <idno type="keyword">mafatih</idno>
+               <ref target="../mafatih.xml#mafatih"/>
+            </bibl>
+            <bibl xml:id="mahajja">
+               <idno type="RG">392</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Maḥajja al-bayḍāʾ</title>
+               <title type="uniform" xml:lang="ara">كتاب المحجة البيضاء</title>
+               <idno type="keyword">mahajja</idno>
+               <ref target="../mahajja.xml#mahajja"/>
+            </bibl>
+            <bibl xml:id="malum">
+               <idno type="RG">402</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Maʿlūm min ʿaqāʾid ʿulamāʾ al-rusūm</title>
+               <title type="uniform" xml:lang="ara">رسالة المعلوم من عقائد علماء الرسوم</title>
+               <idno type="keyword">malum</idno>
+               <ref target="../malum.xml#malum"/>
+            </bibl>
+            <bibl xml:id="manzil">
+               <idno type="RG">412</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Manzil al-manāzil</title>
+               <title type="uniform" xml:lang="ara">كتاب منزل المنازل</title>
+               <idno type="keyword">manzil</idno>
+               <ref target="../manzil.xml#manzil"/>
+            </bibl>
+            <bibl xml:id="maqam">
+               <idno type="RG">414</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Maqām al-qurba</title>
+               <title type="uniform" xml:lang="ara">كتاب مقام القربة</title>
+               <idno type="keyword">maqam</idno>
+               <ref target="../maqam.xml#maqam"/>
+            </bibl>
+            <bibl xml:id="maqsid">
+               <idno type="RG">418</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Maqṣid al-asmāʾ</title>
+               <title type="uniform" xml:lang="ara">مقصد الأسماء</title>
+               <idno type="keyword">maqsid</idno>
+               <ref target="../maqsid.xml#maqsid"/>
+            </bibl>
+            <bibl xml:id="maratib">
+               <idno type="RG">423</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Marātib ʿulūm al-wahb</title>
+               <title type="uniform" xml:lang="ara">كتاب مراتب علوم الوهب</title>
+               <idno type="keyword">maratib</idno>
+               <ref target="../maratib.xml#maratib"/>
+            </bibl>
+            <bibl xml:id="marifa-layl">
+               <idno type="RG">428</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. fī Maʿrifat laylat al-qadr</title>
+               <title type="uniform" xml:lang="ara">رسالة في معرفة ليلة القدر</title>
+               <idno type="keyword">marifa-layl</idno>
+               <ref target="../marifa-layl.xml#marifa-layl"/>
+            </bibl>
+            <bibl xml:id="marifa-ula">
+               <idno type="RG">433</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Maʿrifa</title>
+               <title type="uniform" xml:lang="ara">كتاب المعرفة الأولى</title>
+               <idno type="keyword">marifa-ula</idno>
+               <ref target="../marifa-ula.xml#marifa-ula"/>
+            </bibl>
+            <bibl xml:id="mashahid">
+               <idno type="RG">432</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mashāhid al-asrār al-qudsiyya</title>
+               <title type="uniform" xml:lang="ara">كتاب مشاهد الأسرار القدسية</title>
+               <idno type="keyword">mashahid</idno>
+               <ref target="../mashahid.xml#mashahid"/>
+            </bibl>
+            <bibl xml:id="mawaqi">
+               <idno type="RG">443</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Mawāqiʿ al-nujūm</title>
+               <title type="uniform" xml:lang="ara">مواقع النجوم</title>
+               <idno type="keyword">mawaqi</idno>
+               <ref target="../mawaqi.xml#mawaqi"/>
+            </bibl>
+            <bibl xml:id="mawiza">
+               <idno type="RG">448</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Mawʿiẓa al-ḥasana</title>
+               <title type="uniform" xml:lang="ara">الموعظة الحسنة</title>
+               <idno type="keyword">mawiza</idno>
+               <ref target="../mawiza.xml#mawiza"/>
+            </bibl>
+            <bibl xml:id="mim">
+               <idno type="RG">462</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Mīm</title>
+               <title type="uniform" xml:lang="ara">كتاب الميم</title>
+               <idno type="keyword">mim</idno>
+               <ref target="../mim.xml#mim"/>
+            </bibl>
+            <bibl xml:id="mishka">
+               <idno type="RG">480</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mishkāt al-anwār fīmā ruwiya ʿan Allāh</title>
+               <title type="uniform" xml:lang="ara">كتاب مشكاة الأنوار فيما روي عن الله</title>
+               <idno type="keyword">mishka</idno>
+               <ref target="../mishka.xml#mishka"/>
+            </bibl>
+            <bibl xml:id="muashsharat">
+               <idno type="RG">484</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Muʿashsharāt</title>
+               <title type="uniform" xml:lang="ara">كتاب المعشرات</title>
+               <idno type="keyword">muashsharat</idno>
+               <ref target="../muashsharat.xml#muashsharat"/>
+            </bibl>
+            <bibl xml:id="mubashshirat">
+               <idno type="RG">485</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Mubashshirāt</title>
+               <title type="uniform" xml:lang="ara">رسالة المبشرات</title>
+               <idno type="keyword">mubashshirat</idno>
+               <ref target="../mubashshirat.xml#mubashshirat"/>
+            </bibl>
+            <bibl xml:id="muhadarat">
+               <idno type="RG">493</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Muḥāḍarat al-abrār</title>
+               <title type="uniform" xml:lang="ara">محاضرة الأبرار</title>
+               <idno type="keyword">muhadarat</idno>
+               <ref target="../muhadarat.xml#muhadarat"/>
+            </bibl>
+            <bibl xml:id="mukhtasar-dur">
+               <idno type="RG">496</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Mukhtaṣar al-Durra al-fākhira</title>
+               <title type="uniform" xml:lang="ara">كتاب مختصر الدرة الفاخرة</title>
+               <idno type="keyword">mukhtasar-dur</idno>
+               <ref target="../mukhtasar-dur.xml#mukhtasar-dur"/>
+            </bibl>
+            <bibl xml:id="muqni">
+               <idno type="RG">511</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Muqniʿ fī īḍāḥ al-sahl al-mumtaniʿ</title>
+               <title type="uniform" xml:lang="ara">كتاب المقنع في إيضاح السهل الممتنع</title>
+               <idno type="keyword">muqni</idno>
+               <ref target="../muqni.xml#muqni"/>
+            </bibl>
+            <bibl xml:id="muwashshahat">
+               <idno type="RG">517</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Al-Muwashshaḥāt al-ilāhiyya wa-l-azjāl</title>
+               <title type="uniform" xml:lang="ara">الموشحات الإلهية والأزجال</title>
+               <idno type="keyword">muwashshahat</idno>
+               <ref target="../muwashshahat.xml#muwashshahat"/>
+            </bibl>
+            <bibl xml:id="naqsh">
+               <idno type="RG">528</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Naqsh al-Fuṣūṣ</title>
+               <title type="uniform" xml:lang="ara">نقش الفصوص</title>
+               <idno type="keyword">naqsh</idno>
+               <ref target="../naqsh.xml#naqsh"/>
+            </bibl>
+            <bibl xml:id="nasaih">
+               <idno type="RG">532</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Naṣāʾiḥ</title>
+               <title type="uniform" xml:lang="ara">كتاب النصائح</title>
+               <idno type="keyword">nasaih</idno>
+               <ref target="../nasaih.xml#nasaih"/>
+            </bibl>
+            <bibl xml:id="nataij">
+               <idno type="RG">536</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Natāʾij al-adhkār</title>
+               <title type="uniform" xml:lang="ara">كتاب نتائج الأذكار</title>
+               <idno type="keyword">nataij</idno>
+               <ref target="../nataij.xml#nataij"/>
+            </bibl>
+            <bibl xml:id="nawadir">
+               <idno type="RG">(847)</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Juzʾ yashtamilu ʿalā al-nawādir al-mulṭaqatah min lafẓ al-Shaykh</title>
+               <title type="uniform" xml:lang="ara">جزئ يشتمل علي النوادر الملطقتة من لفظ الشيخ</title>
+               <idno type="keyword">nawadir</idno>
+               <ref target="../nawadir.xml#nawadir"/>
+            </bibl>
+            <bibl xml:id="nuqaba">
+               <idno type="RG">548</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Nuqabāʾ</title>
+               <title type="uniform" xml:lang="ara">كتاب النقباء</title>
+               <idno type="keyword">nuqaba</idno>
+               <ref target="../nuqaba.xml#nuqaba"/>
+            </bibl>
+            <bibl xml:id="nuskha">
+               <idno type="RG">551</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Nuskhat al-ḥaqq</title>
+               <title type="uniform" xml:lang="ara">نسخة الحق</title>
+               <idno type="keyword">nuskha</idno>
+               <ref target="../nuskha.xml#nuskha"/>
+            </bibl>
+            <bibl xml:id="qasam">
+               <idno type="RG">565</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Qasam al-ilāhī bi al-ism al-rabbānī</title>
+               <title type="uniform" xml:lang="ara">كتاب القسم الإلهي بالإسم الرباني</title>
+               <idno type="keyword">qasam</idno>
+               <ref target="../qasam.xml#qasam"/>
+            </bibl>
+            <bibl xml:id="qutb">
+               <idno type="RG">585</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Quṭb wa-l-imāmayn</title>
+               <title type="uniform" xml:lang="ara">كتاب القطب والإمامين</title>
+               <idno type="keyword">qutb</idno>
+               <ref target="../qutb.xml#qutb"/>
+            </bibl>
+            <bibl xml:id="risala-ghaz">
+               <idno type="RG">611</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Shaykh al-ʿArabī ilā Abī ʿAlī al-Ghazzāl</title>
+               <title type="uniform" xml:lang="ara">رسالة الشيخ العربي إلي أبي علي الغزال</title>
+               <idno type="keyword">risala-ghaz</idno>
+               <ref target="../risala-ghaz.xml#risala-ghaz"/>
+            </bibl>
+            <bibl xml:id="risala-raz">
+               <idno type="RG">612</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Shaykh ilā al-imām al-Rāzī</title>
+               <title type="uniform" xml:lang="ara">رسالة الشيخ إلي الإمام الرازي</title>
+               <idno type="keyword">risala-raz</idno>
+               <ref target="../risala-raz.xml#risala-raz"/>
+            </bibl>
+            <bibl xml:id="ruh">
+               <idno type="RG">639</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. Rūḥ al-quds fī munāṣaḥat al-nafs</title>
+               <title type="uniform" xml:lang="ara">رسالة روح القدس في مناصحة النفس</title>
+               <idno type="keyword">ruh</idno>
+               <ref target="../ruh.xml#ruh"/>
+            </bibl>
+            <bibl xml:id="sharh-khal">
+               <idno type="RG">681</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Sharḥ Khalʿ al-naʿlayn</title>
+               <title type="uniform" xml:lang="ara">شرح خلع النعلين</title>
+               <idno type="keyword">sharh-khal</idno>
+               <ref target="../sharh-khal.xml#sharh-khal"/>
+            </bibl>
+            <bibl xml:id="shawahid">
+               <idno type="RG">689</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Shawāhid al-ḥaqq fī al-qalb</title>
+               <title type="uniform" xml:lang="ara">كتاب شواهد الحق في القلب</title>
+               <idno type="keyword">shawahid</idno>
+               <ref target="../shawahid.xml#shawahid"/>
+            </bibl>
+            <bibl xml:id="sira">
+               <idno type="RG">276</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Ikhtiṣār al-sīra al-nabawiyya al-Muḥammadiyya</title>
+               <title type="uniform" xml:lang="ara">إختصار السيرة النبوية المحمدية</title>
+               <idno type="keyword">sira</idno>
+               <ref target="../sira.xml#sira"/>
+            </bibl>
+            <bibl xml:id="tadbirat">
+               <idno type="RG">716</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Tadbīrāt al-ilāhiyya</title>
+               <title type="uniform" xml:lang="ara">كتاب التدبيرات الإلهية</title>
+               <idno type="keyword">tadbirat</idno>
+               <ref target="../tadbirat.xml#tadbirat"/>
+            </bibl>
+            <bibl xml:id="tafsir-fat">
+               <idno type="RG">132</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Faṣl mufīd fī tafsīr Fātiḥat al-Kitāb</title>
+               <title type="uniform" xml:lang="ara">فصل مفيد في تفسير فاتحة الكتاب</title>
+               <idno type="keyword">tafsir-fat</idno>
+               <ref target="../tafsir-fat.xml#tafsir-fat"/>
+            </bibl>
+            <bibl xml:id="tafsir-kal">
+               <idno type="RG">188.1</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Juzʾ al-awwal min tafsīr kalām Allāh taʿālā</title>
+               <title type="uniform" xml:lang="ara">الجزء الأول من تفسير كلام الله تعالى</title>
+               <idno type="keyword">tafsir-kal</idno>
+               <ref target="../tafsir-kal.xml#tafsir-kal"/>
+            </bibl>
+            <bibl xml:id="taiyya">
+               <idno type="RG">757</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">al-Tāʾiyya</title>
+               <title type="uniform" xml:lang="ara">التائية</title>
+               <idno type="keyword">taiyya</idno>
+               <ref target="../taiyya.xml#taiyya"/>
+            </bibl>
+            <bibl xml:id="taj-ras">
+               <idno type="RG">736</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Tāj al-rasāʾil</title>
+               <title type="uniform" xml:lang="ara">كتاب تاج الرسائل</title>
+               <idno type="keyword">taj-ras</idno>
+               <ref target="../taj-ras.xml#taj-ras"/>
+            </bibl>
+            <bibl xml:id="taj-tar">
+               <idno type="RG">737</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. Tāj al-tarājim</title>
+               <title type="uniform" xml:lang="ara">كتاب تاج التراجم</title>
+               <idno type="keyword">taj-tar</idno>
+               <ref target="../taj-tar.xml#taj-tar"/>
+            </bibl>
+            <bibl xml:id="tajalliyat">
+               <idno type="RG">738</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Tajalliyāt</title>
+               <title type="uniform" xml:lang="ara">كتاب التجليات</title>
+               <idno type="keyword">tajalliyat</idno>
+               <ref target="../tajalliyat.xml#tajalliyat"/>
+            </bibl>
+            <bibl xml:id="takhmis">
+               <idno type="RG">748</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Takhmīs qaṣīdat Abī Madyan</title>
+               <title type="uniform" xml:lang="ara">تخميس قصيدة أبي مدين</title>
+               <idno type="keyword">takhmis</idno>
+               <ref target="../takhmis.xml#takhmis"/>
+            </bibl>
+            <bibl xml:id="tanazzulat">
+               <idno type="RG">762</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Tanazzulāt al-Mawṣiliyya</title>
+               <title type="uniform" xml:lang="ara">كتاب التنزلات الموصلية</title>
+               <idno type="keyword">tanazzulat</idno>
+               <ref target="../tanazzulat.xml#tanazzulat"/>
+            </bibl>
+            <bibl xml:id="taqsim">
+               <idno type="RG">766</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Taqsīm al-nuʿūt al-ilāhiyya</title>
+               <title type="uniform" xml:lang="ara">تقسيم النعوت الإلهية</title>
+               <idno type="keyword">taqsim</idno>
+               <ref target="../taqsim.xml#taqsim"/>
+            </bibl>
+            <bibl xml:id="tarjuman">
+               <idno type="RG">767</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Tarjumān al-ashwāq</title>
+               <title type="uniform" xml:lang="ara">ترجمان الأشواق</title>
+               <idno type="keyword">tarjuman</idno>
+               <ref target="../tarjuman.xml#tarjuman"/>
+            </bibl>
+            <bibl xml:id="uqla">
+               <idno type="RG">802</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">ʿUqlat al-mustawfiz</title>
+               <title type="uniform" xml:lang="ara">عقلة المستوفز</title>
+               <idno type="keyword">uqla</idno>
+               <ref target="../uqla.xml#uqla"/>
+            </bibl>
+            <bibl xml:id="wasiyya">
+               <idno type="RG">820</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Waṣiyya</title>
+               <title type="uniform" xml:lang="ara">كتاب الوصية</title>
+               <idno type="keyword">wasiyya</idno>
+               <ref target="../wasiyya.xml#wasiyya"/>
+            </bibl>
+            <bibl xml:id="wasiyya-kayf">
+               <idno type="RG">821</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">Waṣiyya fī kayfiyyat ḥuṣūl al-maʿrifa al-quṣwā</title>
+               <title type="uniform" xml:lang="ara">وصية في كيفية حصول المعرفة القصوى</title>
+               <idno type="keyword">wasiyya-kayf</idno>
+               <ref target="../wasiyya-kayf.xml#wasiyya-kayf"/>
+            </bibl>
+            <bibl xml:id="waz">
+               <idno type="RG">826</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">R. fī al-Waʿẓ li-baʿḍ aḥbābihi</title>
+               <title type="uniform" xml:lang="ara">رسالة في الوعظ لبعض أحبابه</title>
+               <idno type="keyword">waz</idno>
+               <ref target="../waz.xml#waz"/>
+            </bibl>
+            <bibl xml:id="yaqin">
+               <idno type="RG">834</idno>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Yaqīn</title>
+               <title type="uniform" xml:lang="ara">كتاب اليقين</title>
+               <idno type="keyword">yaqin</idno>
+               <ref target="../yaqin.xml#yaqin"/>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

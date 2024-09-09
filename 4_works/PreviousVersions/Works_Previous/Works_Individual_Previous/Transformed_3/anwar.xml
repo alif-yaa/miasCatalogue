@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>R. al-Anwār (K. Asrār al-khalwa) | MIAS Catalogue</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <bibl xml:id="anwar">
+            <idno type="RG">33</idno>
+            <idno type="Alt_RG"/>
+            <idno type="RECORDID">103</idno>
+            <idno type="keyword">anwar</idno>
+            <idno type="normalized">anwar</idno>
+            <idno type="alifba">الأنوار</idno>
+            <!-- Titles -->
+            <title type="uniform" xml:lang="ara-Latn-x-lc">R. al-Anwār (K. Asrār al-khalwa)</title>
+            <title type="uniform" xml:lang="ara">رسالة الأنوار (كتاب أسرار الخلوة)</title>
+            <title type="full" xml:lang="ara-Latn-x-lc">R. al-Anwār fi mā yumnaḥ ṣāhib al-khalwa min al-asrār</title>
+            <title type="variant" xml:lang="ara-Latn-x-lc"/>
+            <title type="translation" xml:lang="eng"/>
+            <note type="titleNote">Note on Title</note>
+            <!-- Textual Identifiers -->
+            <incipit type="hamdala" xml:lang="ara-Latn-x-lc">al-ḥamdu li wāhib al-ʿaql wa-mubdiʿhi</incipit>
+            <incipit type="hamdala" xml:lang="ara">حمدله</incipit>
+            <incipit type="muqadimma" xml:lang="ara-Latn-x-lc">Muqadimma</incipit>
+            <incipit type="muqadimma" xml:lang="ara">مقدمة</incipit>
+            <incipit type="khutba" xml:lang="ara-Latn-x-lc">Khuṭba</incipit>
+            <incipit type="khutba" xml:lang="ara">الخطبة بكاملها</incipit>
+            <explicit xml:lang="ara-Latn-x-lc">Khiṭām al-naṣṣ</explicit>
+            <explicit xml:lang="ara">ختام النص</explicit>
+            <note type="textualIdentifiersNote">Note on Textual Identifiers</note>
+            <!-- Authorship and Editorial Roles -->
+            <author cert="high" key="IA">Ibn al-ʿArabī</author>
+            <editor role="role" key="key">Other Roles</editor>
+            <persName role="att" key="IA">Ibn al-ʿArabī</persName>
+            <note type="verification" subtype="A">Verified A</note>
+            <note type="authentificationType" subtype="C">Copy</note>
+            <note type="authenticityNote">Note on Authenticity</note>
+            <!-- Composition History -->
+            <date type="fmDate" calendar="Hijri-qamari">602</date>
+            <date type="fmEarliestMS" calendar="Hijri-qamari">651</date>
+            <date when="1111" cert="high" calendar="Hijri-qamari">Date of Composition</date>
+            <date from="1111" to="1111" cert="medium" calendar="Hijri-qamari">Period of Composition</date>
+            <date type="TPQ" notBefore="1111" cert="low" calendar="Hijri-qamari">Earliest</date>
+            <date type="TAQ" notAfter="1111" cert="low" calendar="Hijri-qamari">Latest</date>
+            <note type="dateNote">Note on Date of Composition</note>
+            <placeName type="fmPlace">Konya</placeName>
+            <note type="placeNote">Note on Place of Composition</note>
+            <note type="compositionNote"/>
+            <!-- Contents -->
+            <noteGrp type="workDesc">
+               <note type="description">Written in answer to a request from a friend and companion that he should explain the journey of ascension to the ‘lord of power’ and the return to the creatures. It describes the spiritual quest in terms of a non-stop ascension through the various levels of existence and knowledge leading to the level of human perfection.</note>
+               <note type="structure">Structure of Work</note>
+               <note type="contentsNote">Note on Contents</note>
+            </noteGrp>
+            <!-- Stemmatics -->
+            <note type="stemmatics">A very commonly copied work in the early collections, verified by at least four historic mss. The best is probably Yusuf Aga 7838, which is from the SQ’s library, with a samāʿ dated 651H in Aleppo in SQ’s hand. Often confused with another treatise on retreat, K. al-Khalwa (RG255) (as OY has done with Yusuf Aga 7838 copy). Other mss listed: Dar al-Kutub: dated 602H in collection 23 maj. (http://www.manuscripts.idsc.gov.eg/Manuscript/Manuscript_OPAC/Availability.aspx?ID=5323&amp;ResID=1) and dated 600H is in collection 31 maj. (http://www.manuscripts.idsc.gov.eg/Manuscript/Manuscript_OPAC/Availability.aspx?ID=5544&amp;ResID=8) - dating almost certainly drawn from dates in text not the date of composition.</note>
+            <!-- Related Works -->
+            <relatedItem type="relation">
+               <ref target="#work"/>
+            </relatedItem>
+            <note type="relationsNote">Note on Related Works</note>
+            <!-- References to This Work in Other Works -->
+            <noteGrp type="references">
+               <note type="ijaza" resp="Badawi" n="63">63</note>
+               <note type="fihrist" resp="Awwad" n="60">60</note>
+               <note type="fut_mak" resp="OY"/>
+               <note type="other">
+                  <ref target="#work"/>Reference in other work(s)
+                </note>
+               <note type="ijaza" resp="MIAS">
+                  <ref target="#ijaza"/>Reference to work in the Ijāza
+                </note>
+               <note type="fihrist" resp="MIAS">
+                  <ref target="#fihrist"/>
+                    Reference to work in the Fihrist</note>
+               <note type="fut_mak" resp="MIAS">
+                  <ref target="#fut_mak"/>
+                    References to work in Futūḥāt</note>
+            </noteGrp>
+            <!-- References in This Work to Other Works -->
+            <noteGrp type="mentions">
+               <note type="mention">
+                  <ref target="#work">Work</ref>
+                Reference to other work
+                </note>
+            </noteGrp>
+            <note type="referencesNote">Note on Cross-references</note>
+            <!-- Comments and Corrections -->
+            <noteGrp type="comments">
+               <note resp="corrections">The commentary attributed to Abd al-Karîm Jîlî is most probably not by him; on the subject, see the thesis of R. Atlagh, Contribution à l’étude de la pensée mystique d’Ibn Arabî et son école à travers l’œuvre de Abd al-Karî Jîlî, submitted at l’E.P.H.E., Paris, Décembre 2000.</note>
+               <note resp="additions">Publications Cairo 1986 Cairo n.d. Tehran, 1416H (in Raså⁄il Ibn ¡Arab∆) Beirut 1997 (in Raså¡il Ibn ¡Arab∆). Trans lations Into Spanish (abridged) by Asin Palacios, El Islam cristianizado, Madrid, 1931, pp. 433- 449. Into English by Terri Harris, Journey to the Lord of Power, New York, 1981. Corr. Le commentaire attribué à Abd al-Karîm Jîlî n'est certainement pas de lui ; voir à ce sujet le thèse de R. Atlagh, Contribution à l'étude de la pensée mystique d'Ibn Arabî et son école à travers l'˛uvre de Abd al-Karî Jîlî, soutenue à l'E.P.H.E., Paris, Décembre 2000. (MC) title: R. al-Anwar Veliyuddin 1686, 21b-26b According to OY read before SQ in 667. No actual date on the copy, but later in book same scribe notes that he copied the Mahasin al-majalis of Abu'l-'Abbas Ibn al-'Arif in Sha'ban 667H, bi-manzili mawlana wa-shaykhina wa-imamina wa-quda'ina ila-llah subhanahu. Probable that this is SQ but no definitive evidence. He also copied work by Sa'd al-din Hamuya, referring to him as deceased and as sayyidina, and then quoting comment by SQ on the work. Milli Yz A 571, 189b-196a Dated 668H in Konya Ayasofya 2063 Dated 703H in Damascus, copied from an original in the hand of IA Shehit Ali 1341, 70a-75b Dated 724H in Damascus, but no evidence of having been copied from an original (as OY suggests) Carulla 986 OY says this ms was written during lifetime of IA, but there is no evidence to suggest anything like this - the format and style on the contrary suggest a later date. Carulla 2111 Dated 915H in Damascus, no evidence of having been copied from an original (as OY suggests) Shehit Ali 2717, 26b-32b Dated 977H in Mecca, complete Hudayi 517 Dated 999H in Hudayi's hand Manisa 2964, 61-67a Dated 1083H in Edirne title: K. Asrar al-khalwa Yusuf Aga 7838, 44a-53b, (classified by OY as RG 255) dated 651H, checked with original, from SQ's library Sama on 44a in SQ’s hand: This treatise was read in the house of M. Ibn Sawdakin on 1st Ramadan 651H by Muhamad b. Ishaq. b. Muhammad (=SQ) Marginal corrections throughout. 53b in SQ’s hand: checked and corrected against the shaykh’s own copy. Manisa 2989, 121a-132b, n.d. From SH</note>
+               <note resp="msAdditions">Veliyuddin 1826, 5-11b, eao, carries a sema⁄ dated 621H</note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AAS">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="Root">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="CA">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="SH">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="JC">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AK">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="MM">
+                  <p/>
+                  <p/>
+               </note>
+               <note resp="AP">
+                  <p>Alternate title: K. Asrār al-khalwa</p>
+                  <p/>
+               </note>
+            </noteGrp>
+            <!-- Editions, Translations, and Relevant Publications -->
+            <noteGrp type="publications">
+               <note type="editions">Radtke and O’Kane’s translation in New Critical Essays: On the Present State and Future Tasks of the Study of Sufism (Utrecht 2005) is a critical edition in transliteration Critical edition, plus a translation into Urdu by the Ibn ʿArabī Foundation (Rawalpindi, Pakistan, 2008). Ed. Abrār Aḥmad Shāhī, but not yet published. Critical edition by Dr Moreno Giannina completed but not yet published (2018)</note>
+               <note type="translations">English translation by Rabia Terri-Harris Journey to the Lord of Power, New York, 1981 English, French and German translation by Bernd Radtke and John O’Kane: New Critical Essays: On the Present State and Future Tasks of the Study of Sufism, Utrecht, 2005 French translation by Othman Laiba and Roger Maridort: ‘Les Étapes Divines dans la voie du perfectionnment du règne human’ in Etudes Traditionelles, 1949, pp. 76-90. Italian translation by Angelo Iacovella, L’epistola dei settanta veli, Roma, 1997</note>
+               <note type="translationsEur">Spanish translation by Pedro Aguado Saiz: Viaje al Senor del Poder, Malaga, 1986. German translation by Franz Langmayr: Reise zum Herrn der Macht, Zurich, 2007</note>
+               <note type="studies"/>
+               <note type="additions" n="1">Publications Cairo 1986 Cairo n.d. Tehran, 1416H (in Raså⁄il Ibn ¡Arab∆) Beirut 1997 (in Raså¡il Ibn ¡Arab∆). The commentary attributed to Abd al-Karîm Jîlî is most probably not by him; on the subject, see the thesis of R. Atlagh, Contribution à l’étude de la pensée mystique d’Ibn Arabî et son école à travers l’œuvre de Abd al-Karî Jîlî, submitted at l’E.P.H.E., Paris, Décembre 2000. (MC)</note>
+               <note type="additions" n="2">Edited B. Radtke and trans O’Kane.</note>
+               <note type="additions" n="3"/>
+            </noteGrp>
+            <!-- Administrative Notes -->
+            <noteGrp type="admin">
+               <note type="archive">y</note>
+               <note type="library">Y</note>
+            </noteGrp>
+            <textLang mainLang="ara">Arabic</textLang>
+            <!-- End -->
+         </bibl>
+      </body>
+   </text>
+</TEI>
