@@ -1,0 +1,1335 @@
+<html xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <style>
+                    body {
+                        font-family: 'Comorant Garamond', serif;
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                        width: 100%;
+                    }
+                    /*backdrop*/
+                    .backdrop {
+                        background-color: #f1f3eb; /* Set the background color */
+                        padding: 20px; /* Add padding to create space around .background */
+                        position: relative;
+                        min-width: 100%;
+                        position: absolute;
+                    }
+                    /* green background */
+                    .background {
+                        background-color: #e8efc0;
+                        border-top: 2px solid #d8dfb0;
+                        border-bottom: 2px solid #d8dfb0;
+                        border-left: 2px solid #d8dfb0;
+                        border-right: 2px solid #d8dfb0;
+                        padding: 10px;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        min-width: 800px;
+                        max-width: 800px;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        position: relative; /* Ensure the content stays within the backdrop */
+                    }
+                    /* Row styling */
+                    .row-2 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 10px;
+                        min-width: 600px; /* Adjust this value as necessary */
+                    }
+                    .column {
+                        flex: 1;
+                        padding: 5px;
+                        margin: 0 10px;
+                    }
+                    .column-small {
+                        flex: 1;
+                        padding: 5px;
+                        margin: 0 10px;
+                        max-width: 60px;
+                    }
+                    /* Custom link style */
+                    a {
+                        text-decoration: none;
+                        color: #A62300; /* Your desired color */
+                    }
+                    /* Title boxes */
+                    .box-1,
+                    .box-1-italics,
+                    .box-1-arabic {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                    }
+                    .box-1-italics {
+                        font-style: italic;
+                        font-weight: bold;
+                    }
+                    .box-1-arabic {
+                    font-weight: bold;
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }
+                    /* small box */
+                    .box-small {
+                        background-color: white;
+                        border: 1px solid #d8dfb0;
+                        padding: 5px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        line-height: 1.5;
+                        max-width: 50px;
+                    }
+                    /* title */
+                    .h1-italic,
+                    .h1-arabic,
+                    .h1 {
+                    font-size: 1.8em;
+                    color: #7B1E00;
+                    text-align: center;
+                    }
+                    .h1-italic,
+                    .h1 {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                    font-family: 'Comorant Garamond', serif;
+                    }
+                    .h1-arabic {
+                    direction: rtl;
+                    font-family: 'Amiri', serif;
+                    }
+                    /* headings */
+                    .h4,
+                    .h4-arabic{
+                        font-weight: bold;
+                        color: black;
+                        font-size: 1em;
+                        text-align: center;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .h4-arabic {
+                        direction: rtl;
+                        font-family: 'Amiri', serif;
+                    }</style></head>
+   <body>
+      <div class="backdrop">
+         <div class="background">
+            <div class="h1">Index of Verified Works (DRAFT)
+               
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="h4">RG &#8470;</div>
+               </div>
+               <div class="column">
+                  <div class="h4">Title</div>
+               </div>
+               <div class="column">
+                  <div class="h4-arabic">&#1575;&#1604;&#1593;&#1606;&#1608;&#1575;&#1606;</div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">999</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/namudhaj.html">K. al-Nam&#363;dhaj al-azhar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/namudhaj.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1606;&#1605;&#1608;&#1584;&#1580; &#1575;&#1604;&#1571;&#1586;&#1607;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">2</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/abadilah.html">K. al-&#703;Ab&#257;dilah</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/abadilah.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1593;&#1576;&#1575;&#1583;&#1604;&#1607;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">9</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ajwiba.html">al-Ajwiba al-&#703;Arabiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ajwiba.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1580;&#1608;&#1576;&#1577; &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">26</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/alif.html">K. al-Alif</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/alif.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1604;&#1601;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">28</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/amr.html">K. al-Amr al-mu&#7717;kam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/amr.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1605;&#1585; &#1575;&#1604;&#1605;&#1581;&#1603;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">30</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/anqa.html">K. &#703;Anq&#257;&#702; mughrib</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/anqa.html">&#1603;&#1578;&#1575;&#1576; &#1593;&#1606;&#1602;&#1575;&#1569; &#1605;&#1594;&#1585;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">33</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/anwar.html">R. al-Anw&#257;r (K. Asr&#257;r
+                                          al-khalwa)</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/anwar.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1571;&#1606;&#1608;&#1575;&#1585; (&#1603;&#1578;&#1575;&#1576; &#1571;&#1587;&#1585;&#1575;&#1585; &#1575;&#1604;&#1582;&#1604;&#1608;&#1577;)</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">35</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/aqtab.html">K. al-Aq&#7789;&#257;b</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/aqtab.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1602;&#1591;&#1575;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">41.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/arwah.html">R. [f&#299;] al-Arw&#257;&#7717;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/arwah.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1601;&#1610; &#1575;&#1604;&#1571;&#1585;&#1608;&#1575;&#1581;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">47</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/asrar.html">Asr&#257;r &#7717;ur&#363;f al-mu&#703;jam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/asrar.html">&#1571;&#1587;&#1585;&#1575;&#1585; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">64</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/awrad.html">K. Awr&#257;d al-usb&#363;&#703;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/awrad.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1608;&#1585;&#1575;&#1583; &#1575;&#1604;&#1571;&#1587;&#1576;&#1608;&#1593;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">67</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ayyam.html">K. Ayy&#257;m al-sha&#702;n</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ayyam.html">&#1603;&#1578;&#1575;&#1576; &#1571;&#1610;&#1575;&#1605; &#1575;&#1604;&#1588;&#1571;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">68</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/azal.html">K. al-Azal</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/azal.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1571;&#1586;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">70</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/azama.html">K. al-&#703;A&#7827;ama</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/azama.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1593;&#1592;&#1605;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">71</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ba.html">K. al-B&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ba.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1576;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">125</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/fana.html">K. al-Fan&#257;&#702; f&#299; al-mush&#257;hada</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/fana.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1601;&#1606;&#1575;&#1569; &#1601;&#1610; &#1575;&#1604;&#1605;&#1588;&#1575;&#1607;&#1583;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">116</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/dhakhair.html">K. al-Dhakh&#257;&#702;ir wa-l-a&#703;l&#257;q</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/dhakhair.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1584;&#1582;&#1575;&#1574;&#1585; &#1608;&#1575;&#1604;&#1571;&#1593;&#1604;&#1575;&#1602;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">102</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/diwan.html">al-D&#299;w&#257;n al-kab&#299;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/diwan.html">&#1575;&#1604;&#1583;&#1610;&#1608;&#1575;&#1606; &#1575;&#1604;&#1603;&#1576;&#1610;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">142</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/fihrist.html">Fihris mu&#702;allaf&#257;t al-shaykh
+                                          al-akbar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/fihrist.html">&#1601;&#1607;&#1585;&#1587; &#1605;&#1572;&#1604;&#1601;&#1575;&#1578; &#1575;&#1604;&#1588;&#1610;&#1582; &#1575;&#1604;&#1571;&#1603;&#1576;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">150</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/fusus.html">Fu&#7779;&#363;&#7779; al-&#7717;ikam</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/fusus.html">&#1601;&#1589;&#1608;&#1589; &#1575;&#1604;&#1581;&#1603;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">135</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/futuhat.html">al-Fut&#363;&#7717;&#257;t al-Makkiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/futuhat.html">&#1575;&#1604;&#1601;&#1578;&#1608;&#1581;&#1575;&#1578; &#1575;&#1604;&#1605;&#1603;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">219</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/haqq.html">K. al-&#7716;aqq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/haqq.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1581;&#1602;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">237</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hilya.html">&#7716;ilyat al-abd&#257;l</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hilya.html">&#1581;&#1604;&#1610;&#1577; &#1575;&#1604;&#1571;&#1576;&#1583;&#1575;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">238</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hizb-ahad.html">&#7716;izb al-a&#7717;adiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hizb-ahad.html">&#1581;&#1586;&#1576; &#1575;&#1604;&#1571;&#1581;&#1583;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">244</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hizb-wiq.html">&#7716;izb al-wiq&#257;ya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hizb-wiq.html">&#1581;&#1586;&#1576; &#1575;&#1604;&#1608;&#1602;&#1575;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">205</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hu.html">K. al-H&#363;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hu.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1607;&#1608;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">247</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/hujub.html">K. al-&#7716;ujub</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/hujub.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1581;&#1580;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">266</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ifada.html">K. al-If&#257;da li-man ar&#257;da
+                                          al-istif&#257;da</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ifada.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1573;&#1601;&#1575;&#1583;&#1577; &#1604;&#1605;&#1606; &#1571;&#1585;&#1575;&#1583; &#1575;&#1604;&#1573;&#1587;&#1578;&#1601;&#1575;&#1583;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">268</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaz.html">Ij&#257;z al-bay&#257;n f&#299; tarjama &#703;an
+                                          al-Qur&#702;&#257;n</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaz.html">&#1573;&#1580;&#1575;&#1586; &#1575;&#1604;&#1576;&#1610;&#1575;&#1606; &#1601;&#1610; &#1578;&#1585;&#1580;&#1605;&#1577; &#1593;&#1606; &#1575;&#1604;&#1602;&#1585;&#1570;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">271</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaza-akb.html">Ij&#257;zat al-shaykh al-akbar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaza-akb.html">&#1573;&#1580;&#1575;&#1586;&#1577; &#1575;&#1604;&#1588;&#1610;&#1582; &#1575;&#1604;&#1571;&#1603;&#1576;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">269</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ijaza-muz.html">Ij&#257;za li-l-malik al-Mu&#7827;affar</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ijaza-muz.html">&#1573;&#1580;&#1575;&#1586;&#1577; &#1604;&#1604;&#1605;&#1604;&#1603; &#1575;&#1604;&#1605;&#1592;&#1601;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">281</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ilam.html">K. al-I&#703;l&#257;m bi-ish&#257;r&#257;t ahl
+                                          al-ilh&#257;m</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ilam.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1573;&#1593;&#1604;&#1575;&#1605; &#1576;&#1573;&#1588;&#1575;&#1585;&#1575;&#1578; &#1571;&#1607;&#1604; &#1575;&#1604;&#1573;&#1604;&#1607;&#1575;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">293</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/insan.html">K. al-Ins&#257;n al-kull&#299;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/insan.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1573;&#1606;&#1587;&#1575;&#1606; &#1575;&#1604;&#1603;&#1604;&#1610;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">289</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/insha.html">K. Insh&#257;&#702; al-daw&#257;&#702;ir</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/insha.html">&#1603;&#1578;&#1575;&#1576; &#1573;&#1606;&#1588;&#1575;&#1569; &#1575;&#1604;&#1583;&#1608;&#1575;&#1574;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">294</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/intisar.html">R. al-Inti&#7779;&#257;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/intisar.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1573;&#1606;&#1578;&#1589;&#1575;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">307</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isfar.html">K. al-Isf&#257;r &#703;an nat&#257;&#702;ij
+                                          al-asf&#257;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isfar.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1573;&#1587;&#1601;&#1575;&#1585; &#1593;&#1606; &#1606;&#1578;&#1575;&#1574;&#1580; &#1575;&#1604;&#1571;&#1587;&#1601;&#1575;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">303</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isharat.html">Ish&#257;r&#257;t al-Qur&#702;&#257;n f&#299; &#703;&#257;lam
+                                          al-ins&#257;n</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isharat.html">&#1573;&#1588;&#1575;&#1585;&#1575;&#1578; &#1575;&#1604;&#1602;&#1585;&#1570;&#1606; &#1601;&#1610; &#1593;&#1575;&#1604;&#1605; &#1575;&#1604;&#1573;&#1606;&#1587;&#1575;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">313</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/isra.html">K. al-Isr&#257; il&#257; al-maq&#257;m
+                                          al-asr&#257;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/isra.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1573;&#1587;&#1585;&#1575; &#1573;&#1604;&#1610; &#1575;&#1604;&#1605;&#1602;&#1575;&#1605; &#1575;&#1604;&#1571;&#1587;&#1585;&#1609;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">315</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/istilahat.html">al-I&#7779;&#7789;il&#257;&#7717;&#257;t al-&#7778;&#363;fiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/istilahat.html">&#1575;&#1604;&#1573;&#1589;&#1591;&#1604;&#1575;&#1581;&#1575;&#1578; &#1575;&#1604;&#1589;&#1608;&#1601;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">317</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ittihad.html">R. al-Itti&#7717;&#257;d al-kawn&#299;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ittihad.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1573;&#1578;&#1581;&#1575;&#1583; &#1575;&#1604;&#1603;&#1608;&#1606;&#1610;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">168</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jalal.html">K. al-Jal&#257;l wa-l-jam&#257;l</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jalal.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1580;&#1604;&#1575;&#1604; &#1608;&#1575;&#1604;&#1580;&#1605;&#1575;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">169</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jalala.html">K. al-Jal&#257;la</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jalala.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1580;&#1604;&#1575;&#1604;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">178</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-dur.html">Jaw&#257;b &#703;an mas&#702;alat al-durra
+                                          al-bay&#7693;&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-dur.html">&#1580;&#1608;&#1575;&#1576; &#1593;&#1606; &#1605;&#1587;&#1571;&#1604;&#1577; &#1575;&#1604;&#1583;&#1585;&#1577; &#1575;&#1604;&#1576;&#1610;&#1590;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">177</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-mus.html">K. al-Jaw&#257;b al-mustaq&#299;m &#703;amm&#257; sa&#702;al
+                                          &#703;anhu al-Tirmidh&#299; al-&#7716;ak&#299;m</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-mus.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1580;&#1608;&#1575;&#1576; &#1575;&#1604;&#1605;&#1587;&#1578;&#1602;&#1610;&#1605; &#1593;&#1605;&#1575; &#1587;&#1571;&#1604; &#1593;&#1606;&#1607; &#1575;&#1604;&#1578;&#1585;&#1605;&#1584;&#1610;
+                                          &#1575;&#1604;&#1581;&#1603;&#1610;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">179</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-sab.html">Jaw&#257;b &#703;an mas&#702;alat al-sabaja
+                                          al-sawd&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-sab.html">&#1580;&#1608;&#1575;&#1576; &#1593;&#1606; &#1605;&#1587;&#1571;&#1604;&#1577; &#1575;&#1604;&#1587;&#1576;&#1580;&#1577; &#1575;&#1604;&#1587;&#1608;&#1583;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">182</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-sawd.html">Jaw&#257;b su&#702;&#257;l Ibn Sawdak&#299;n</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-sawd.html">&#1580;&#1608;&#1575;&#1576; &#1587;&#1572;&#1575;&#1604; &#1575;&#1576;&#1606; &#1587;&#1608;&#1583;&#1603;&#1610;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">180</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/jawab-zum.html">Jaw&#257;b &#703;an mas&#702;alat al-zumurruda
+                                          al-kha&#7693;r&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/jawab-zum.html">&#1580;&#1608;&#1575;&#1576; &#1593;&#1606; &#1605;&#1587;&#1571;&#1604;&#1577; &#1575;&#1604;&#1586;&#1605;&#1585;&#1583;&#1577; &#1575;&#1604;&#1582;&#1590;&#1585;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">338</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kashf.html">K. Kashf al-ma&#703;n&#257;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kashf.html">&#1603;&#1578;&#1575;&#1576; &#1603;&#1588;&#1601; &#1575;&#1604;&#1605;&#1593;&#1606;&#1609;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">347.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kawkab.html">al-Kawkab al-durr&#299; f&#299; man&#257;qib Dh&#299;
+                                          al-N&#363;n al-Mi&#7779;r&#299;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kawkab.html">&#1575;&#1604;&#1603;&#1608;&#1603;&#1576; &#1575;&#1604;&#1583;&#1585;&#1610; &#1601;&#1610; &#1605;&#1606;&#1575;&#1602;&#1576; &#1584;&#1610; &#1575;&#1604;&#1606;&#1608;&#1606; &#1575;&#1604;&#1605;&#1589;&#1585;&#1610;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">255</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/khalwah.html">K. al-Khalwa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/khalwah.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1582;&#1604;&#1608;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">530</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/khirqa.html">R. al-Khirqa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/khirqa.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1582;&#1585;&#1602;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">352</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kunh.html">K. Kunh m&#257; l&#257; budda lil-mur&#299;d
+                                          minhu</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kunh.html">&#1603;&#1578;&#1575;&#1576; &#1603;&#1606;&#1607; &#1605;&#1575; &#1604;&#1575; &#1576;&#1583; &#1604;&#1604;&#1605;&#1585;&#1610;&#1583; &#1605;&#1606;&#1607;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">354</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/kutub.html">R. al-Kutub</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/kutub.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1603;&#1578;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">368.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/lawaqih.html">K. Law&#257;qi&#7717; al-asr&#257;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/lawaqih.html">&#1603;&#1578;&#1575;&#1576; &#1604;&#1608;&#1575;&#1602;&#1581; &#1575;&#1604;&#1571;&#1587;&#1585;&#1575;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">384</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/madkhal-hur.html">Madkhal f&#299; &#703;ilm al-&#7717;ur&#363;f</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/madkhal-hur.html">&#1605;&#1583;&#1582;&#1604; &#1601;&#1610; &#1593;&#1604;&#1605; &#1575;&#1604;&#1581;&#1585;&#1608;&#1601;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">386</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mafatih.html">K. Maf&#257;ti&#7717; al-ghuy&#363;b</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mafatih.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1601;&#1575;&#1578;&#1581; &#1575;&#1604;&#1594;&#1610;&#1608;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">392</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mahajja.html">K. al-Ma&#7717;ajja al-bay&#7693;&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mahajja.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1605;&#1581;&#1580;&#1577; &#1575;&#1604;&#1576;&#1610;&#1590;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">402</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/malum.html">R. al-Ma&#703;l&#363;m min &#703;aq&#257;&#702;id &#703;ulam&#257;&#702;
+                                          al-rus&#363;m</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/malum.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1605;&#1593;&#1604;&#1608;&#1605; &#1605;&#1606; &#1593;&#1602;&#1575;&#1574;&#1583; &#1593;&#1604;&#1605;&#1575;&#1569; &#1575;&#1604;&#1585;&#1587;&#1608;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">412</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/manzil.html">K. Manzil al-man&#257;zil</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/manzil.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1606;&#1586;&#1604; &#1575;&#1604;&#1605;&#1606;&#1575;&#1586;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">414</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maqam.html">K. Maq&#257;m al-qurba</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maqam.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1602;&#1575;&#1605; &#1575;&#1604;&#1602;&#1585;&#1576;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">418</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maqsid.html">Maq&#7779;id al-asm&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maqsid.html">&#1605;&#1602;&#1589;&#1583; &#1575;&#1604;&#1571;&#1587;&#1605;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">423</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/maratib.html">K. Mar&#257;tib &#703;ul&#363;m al-wahb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/maratib.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1585;&#1575;&#1578;&#1576; &#1593;&#1604;&#1608;&#1605; &#1575;&#1604;&#1608;&#1607;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">428</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/marifa-layl.html">R. f&#299; Ma&#703;rifat laylat al-qadr</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/marifa-layl.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1601;&#1610; &#1605;&#1593;&#1585;&#1601;&#1577; &#1604;&#1610;&#1604;&#1577; &#1575;&#1604;&#1602;&#1583;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">433</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/marifa-ula.html">K. al-Ma&#703;rifa</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/marifa-ula.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1605;&#1593;&#1585;&#1601;&#1577; &#1575;&#1604;&#1571;&#1608;&#1604;&#1609;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">432</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mashahid.html">K. Mash&#257;hid al-asr&#257;r
+                                          al-qudsiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mashahid.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1588;&#1575;&#1607;&#1583; &#1575;&#1604;&#1571;&#1587;&#1585;&#1575;&#1585; &#1575;&#1604;&#1602;&#1583;&#1587;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">443</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mawaqi.html">Maw&#257;qi&#703; al-nuj&#363;m</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mawaqi.html">&#1605;&#1608;&#1575;&#1602;&#1593; &#1575;&#1604;&#1606;&#1580;&#1608;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">448</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mawiza.html">al-Maw&#703;i&#7827;a al-&#7717;asana</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mawiza.html">&#1575;&#1604;&#1605;&#1608;&#1593;&#1592;&#1577; &#1575;&#1604;&#1581;&#1587;&#1606;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">462</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mim.html">K. al-M&#299;m</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mim.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1605;&#1610;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">480</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mishka.html">K. Mishk&#257;t al-anw&#257;r f&#299;m&#257; ruwiya &#703;an
+                                          All&#257;h</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mishka.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1588;&#1603;&#1575;&#1577; &#1575;&#1604;&#1571;&#1606;&#1608;&#1575;&#1585; &#1601;&#1610;&#1605;&#1575; &#1585;&#1608;&#1610; &#1593;&#1606; &#1575;&#1604;&#1604;&#1607;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">484</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muashsharat.html">K. al-Mu&#703;ashshar&#257;t</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muashsharat.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1605;&#1593;&#1588;&#1585;&#1575;&#1578;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">485</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mubashshirat.html">R. al-Mubashshir&#257;t</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mubashshirat.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1588;&#1585;&#1575;&#1578;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">493</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muhadarat.html">Mu&#7717;&#257;&#7693;arat al-abr&#257;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muhadarat.html">&#1605;&#1581;&#1575;&#1590;&#1585;&#1577; &#1575;&#1604;&#1571;&#1576;&#1585;&#1575;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">496</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/mukhtasar-dur.html">K. Mukhta&#7779;ar al-Durra
+                                          al-f&#257;khira</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/mukhtasar-dur.html">&#1603;&#1578;&#1575;&#1576; &#1605;&#1582;&#1578;&#1589;&#1585; &#1575;&#1604;&#1583;&#1585;&#1577; &#1575;&#1604;&#1601;&#1575;&#1582;&#1585;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">511</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muqni.html">K. al-Muqni&#703; f&#299; &#299;&#7693;&#257;&#7717; al-sahl
+                                          al-mumtani&#703;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muqni.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1605;&#1602;&#1606;&#1593; &#1601;&#1610; &#1573;&#1610;&#1590;&#1575;&#1581; &#1575;&#1604;&#1587;&#1607;&#1604; &#1575;&#1604;&#1605;&#1605;&#1578;&#1606;&#1593;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">517</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/muwashshahat.html">Al-Muwashsha&#7717;&#257;t al-il&#257;hiyya
+                                          wa-l-azj&#257;l</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/muwashshahat.html">&#1575;&#1604;&#1605;&#1608;&#1588;&#1581;&#1575;&#1578; &#1575;&#1604;&#1573;&#1604;&#1607;&#1610;&#1577; &#1608;&#1575;&#1604;&#1571;&#1586;&#1580;&#1575;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">528</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/naqsh.html">Naqsh al-Fu&#7779;&#363;&#7779;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/naqsh.html">&#1606;&#1602;&#1588; &#1575;&#1604;&#1601;&#1589;&#1608;&#1589;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">532</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nasaih.html">K. al-Na&#7779;&#257;&#702;i&#7717;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nasaih.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1606;&#1589;&#1575;&#1574;&#1581;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">536</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nataij.html">K. Nat&#257;&#702;ij al-adhk&#257;r</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nataij.html">&#1603;&#1578;&#1575;&#1576; &#1606;&#1578;&#1575;&#1574;&#1580; &#1575;&#1604;&#1571;&#1584;&#1603;&#1575;&#1585;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">(847)</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nawadir.html">Juz&#702; yashtamilu &#703;al&#257; al-naw&#257;dir
+                                          al-mul&#7789;aqatah min laf&#7827; al-Shaykh</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nawadir.html">&#1580;&#1586;&#1574; &#1610;&#1588;&#1578;&#1605;&#1604; &#1593;&#1604;&#1610; &#1575;&#1604;&#1606;&#1608;&#1575;&#1583;&#1585; &#1575;&#1604;&#1605;&#1604;&#1591;&#1602;&#1578;&#1577; &#1605;&#1606; &#1604;&#1601;&#1592;
+                                          &#1575;&#1604;&#1588;&#1610;&#1582;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">548</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nuqaba.html">K. al-Nuqab&#257;&#702;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nuqaba.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1606;&#1602;&#1576;&#1575;&#1569;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">551</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/nuskha.html">Nuskhat al-&#7717;aqq</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/nuskha.html">&#1606;&#1587;&#1582;&#1577; &#1575;&#1604;&#1581;&#1602;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">565</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/qasam.html">K. al-Qasam al-il&#257;h&#299; bi al-ism
+                                          al-rabb&#257;n&#299;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/qasam.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1602;&#1587;&#1605; &#1575;&#1604;&#1573;&#1604;&#1607;&#1610; &#1576;&#1575;&#1604;&#1573;&#1587;&#1605; &#1575;&#1604;&#1585;&#1576;&#1575;&#1606;&#1610;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">585</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/qutb.html">K. al-Qu&#7789;b wa-l-im&#257;mayn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/qutb.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1602;&#1591;&#1576; &#1608;&#1575;&#1604;&#1573;&#1605;&#1575;&#1605;&#1610;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">611</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/risala-ghaz.html">R. al-Shaykh al-&#703;Arab&#299; il&#257; Ab&#299; &#703;Al&#299;
+                                          al-Ghazz&#257;l</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/risala-ghaz.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1588;&#1610;&#1582; &#1575;&#1604;&#1593;&#1585;&#1576;&#1610; &#1573;&#1604;&#1610; &#1571;&#1576;&#1610; &#1593;&#1604;&#1610; &#1575;&#1604;&#1594;&#1586;&#1575;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">612</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/risala-raz.html">R. al-Shaykh il&#257; al-im&#257;m
+                                          al-R&#257;z&#299;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/risala-raz.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1575;&#1604;&#1588;&#1610;&#1582; &#1573;&#1604;&#1610; &#1575;&#1604;&#1573;&#1605;&#1575;&#1605; &#1575;&#1604;&#1585;&#1575;&#1586;&#1610;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">639</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/ruh.html">R. R&#363;&#7717; al-quds f&#299; mun&#257;&#7779;a&#7717;at
+                                          al-nafs</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/ruh.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1585;&#1608;&#1581; &#1575;&#1604;&#1602;&#1583;&#1587; &#1601;&#1610; &#1605;&#1606;&#1575;&#1589;&#1581;&#1577; &#1575;&#1604;&#1606;&#1601;&#1587;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">681</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/sharh-khal.html">Shar&#7717; Khal&#703; al-na&#703;layn</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/sharh-khal.html">&#1588;&#1585;&#1581; &#1582;&#1604;&#1593; &#1575;&#1604;&#1606;&#1593;&#1604;&#1610;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">689</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/shawahid.html">K. Shaw&#257;hid al-&#7717;aqq f&#299; al-qalb</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/shawahid.html">&#1603;&#1578;&#1575;&#1576; &#1588;&#1608;&#1575;&#1607;&#1583; &#1575;&#1604;&#1581;&#1602; &#1601;&#1610; &#1575;&#1604;&#1602;&#1604;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">276</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/sira.html">Ikhti&#7779;&#257;r al-s&#299;ra al-nabawiyya
+                                          al-Mu&#7717;ammadiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/sira.html">&#1573;&#1582;&#1578;&#1589;&#1575;&#1585; &#1575;&#1604;&#1587;&#1610;&#1585;&#1577; &#1575;&#1604;&#1606;&#1576;&#1608;&#1610;&#1577; &#1575;&#1604;&#1605;&#1581;&#1605;&#1583;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">716</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tadbirat.html">K. al-Tadb&#299;r&#257;t al-il&#257;hiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tadbirat.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1578;&#1583;&#1576;&#1610;&#1585;&#1575;&#1578; &#1575;&#1604;&#1573;&#1604;&#1607;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">132</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tafsir-fat.html">Fa&#7779;l muf&#299;d f&#299; tafs&#299;r F&#257;ti&#7717;at
+                                          al-Kit&#257;b</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tafsir-fat.html">&#1601;&#1589;&#1604; &#1605;&#1601;&#1610;&#1583; &#1601;&#1610; &#1578;&#1601;&#1587;&#1610;&#1585; &#1601;&#1575;&#1578;&#1581;&#1577; &#1575;&#1604;&#1603;&#1578;&#1575;&#1576;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">188.1</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tafsir-kal.html">al-Juz&#702; al-awwal min tafs&#299;r kal&#257;m
+                                          All&#257;h ta&#703;&#257;l&#257;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tafsir-kal.html">&#1575;&#1604;&#1580;&#1586;&#1569; &#1575;&#1604;&#1571;&#1608;&#1604; &#1605;&#1606; &#1578;&#1601;&#1587;&#1610;&#1585; &#1603;&#1604;&#1575;&#1605; &#1575;&#1604;&#1604;&#1607; &#1578;&#1593;&#1575;&#1604;&#1609;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">757</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taiyya.html">al-T&#257;&#702;iyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taiyya.html">&#1575;&#1604;&#1578;&#1575;&#1574;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">736</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taj-ras.html">K. T&#257;j al-ras&#257;&#702;il</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taj-ras.html">&#1603;&#1578;&#1575;&#1576; &#1578;&#1575;&#1580; &#1575;&#1604;&#1585;&#1587;&#1575;&#1574;&#1604;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">737</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taj-tar.html">K. T&#257;j al-tar&#257;jim</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taj-tar.html">&#1603;&#1578;&#1575;&#1576; &#1578;&#1575;&#1580; &#1575;&#1604;&#1578;&#1585;&#1575;&#1580;&#1605;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">738</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tajalliyat.html">K. al-Tajalliy&#257;t</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tajalliyat.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1578;&#1580;&#1604;&#1610;&#1575;&#1578;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">748</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/takhmis.html">Takhm&#299;s qa&#7779;&#299;dat Ab&#299; Madyan</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/takhmis.html">&#1578;&#1582;&#1605;&#1610;&#1587; &#1602;&#1589;&#1610;&#1583;&#1577; &#1571;&#1576;&#1610; &#1605;&#1583;&#1610;&#1606;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">762</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tanazzulat.html">K. al-Tanazzul&#257;t al-Maw&#7779;iliyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tanazzulat.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1578;&#1606;&#1586;&#1604;&#1575;&#1578; &#1575;&#1604;&#1605;&#1608;&#1589;&#1604;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">766</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/taqsim.html">Taqs&#299;m al-nu&#703;&#363;t al-il&#257;hiyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/taqsim.html">&#1578;&#1602;&#1587;&#1610;&#1605; &#1575;&#1604;&#1606;&#1593;&#1608;&#1578; &#1575;&#1604;&#1573;&#1604;&#1607;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">767</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/tarjuman.html">Tarjum&#257;n al-ashw&#257;q</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/tarjuman.html">&#1578;&#1585;&#1580;&#1605;&#1575;&#1606; &#1575;&#1604;&#1571;&#1588;&#1608;&#1575;&#1602;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">802</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/uqla.html">&#703;Uqlat al-mustawfiz</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/uqla.html">&#1593;&#1602;&#1604;&#1577; &#1575;&#1604;&#1605;&#1587;&#1578;&#1608;&#1601;&#1586;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">820</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/wasiyya.html">K. al-Wa&#7779;iyya</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/wasiyya.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1608;&#1589;&#1610;&#1577;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">821</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/wasiyya-kayf.html">Wa&#7779;iyya f&#299; kayfiyyat &#7717;u&#7779;&#363;l al-ma&#703;rifa
+                                          al-qu&#7779;w&#257;</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/wasiyya-kayf.html">&#1608;&#1589;&#1610;&#1577; &#1601;&#1610; &#1603;&#1610;&#1601;&#1610;&#1577; &#1581;&#1589;&#1608;&#1604; &#1575;&#1604;&#1605;&#1593;&#1585;&#1601;&#1577; &#1575;&#1604;&#1602;&#1589;&#1608;&#1609;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">826</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/waz.html">R. f&#299; al-Wa&#703;&#7827; li-ba&#703;&#7693; a&#7717;b&#257;bihi</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/waz.html">&#1585;&#1587;&#1575;&#1604;&#1577; &#1601;&#1610; &#1575;&#1604;&#1608;&#1593;&#1592; &#1604;&#1576;&#1593;&#1590; &#1571;&#1581;&#1576;&#1575;&#1576;&#1607;</a></div>
+               </div>
+            </div>
+            <div class="row-2">
+               <div class="column-small">
+                  <div class="box-small">834</div>
+               </div>
+               <div class="column">
+                  <div class="box-1-italics"><a href="../worksPreview/yaqin.html">K. al-Yaq&#299;n</a></div>
+               </div>
+               <div class="column">
+                  <div class="box-1-arabic"><a href="../worksPreview/yaqin.html">&#1603;&#1578;&#1575;&#1576; &#1575;&#1604;&#1610;&#1602;&#1610;&#1606;</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
