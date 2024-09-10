@@ -23,7 +23,7 @@
                <idno type="RECORDID">0</idno>
                <idno type="keyword">namudhaj</idno>
                <!-- Titles -->
-               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar</title>
+               <title type="uniform" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar (EXAMPLE ONLY)</title>
                <title type="uniform" xml:lang="ara">كتاب النموذج الأزهر</title>
                <title type="full" xml:lang="ara-Latn-x-lc">K. al-Namūdhaj al-azhar fī fahrasat
                   mūʾallafāt al-shaykh al-akbar</title>
@@ -149,7 +149,7 @@
                <noteGrp type="mentions">
                   <note type="mention">
                      <ref type="work" target="#fusus">Title of mentioned work of work </ref><ref type="locus">Edition and page
-                        number.</ref> Let's say this works mentions the FH. </note>
+                        number.</ref> This field . </note>
                   <note type="mention">
                      <ref type="work" target="#work">Title of work</ref>
                      <ref type="locus"/>This "References" section is relevant for establishing a
